@@ -1,0 +1,124 @@
+In file included from [01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../../../../asw/dataclasses/CDTCHandler/include/public/cdtchandler.h:9[m[K,
+                 from [01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/emu_gss_v1.h:15[m[K,
+                 from [01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/emu_tc_programming_st20.cc:29[m[K:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../../../../asw/dataclasses/CDTCHandler/include/public/../../../../../service_libraries/pus_services/pus_tc_handler/include/public/pus_tc_handler.h:75:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+   75 | [01;31m[Kerror_code_t[m[K tc_handler_build_from_descriptor(tc_handler_t *ptc_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../../../../asw/dataclasses/CDTCHandler/include/public/../../../../../service_libraries/pus_services/pus_tc_handler/include/public/pus_tc_handler.h:116:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  116 | [01;31m[Kerror_code_t[m[K tc_handler_start_up_execution(tc_handler_t *ptc_handler);
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../../../../asw/dataclasses/CDTCHandler/include/public/../../../../../service_libraries/pus_services/pus_tc_handler/include/public/pus_tc_handler.h:123:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  123 | [01;31m[Kerror_code_t[m[K tc_handler_free_memory(tc_handler_t *ptc_handler);
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../../../../asw/dataclasses/CDTCHandler/include/public/../../../../../service_libraries/pus_services/pus_tc_handler/include/public/pus_tc_handler.h:129:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  129 | [01;31m[Kerror_code_t[m[K tc_handler_get_uint8_appdata_field(tc_handler_t *ptc_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../../../../asw/dataclasses/CDTCHandler/include/public/../../../../../service_libraries/pus_services/pus_tc_handler/include/public/pus_tc_handler.h:132:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  132 | [01;31m[Kerror_code_t[m[K tc_handler_get_uint16_appdata_field(tc_handler_t *ptc_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../../../../asw/dataclasses/CDTCHandler/include/public/../../../../../service_libraries/pus_services/pus_tc_handler/include/public/pus_tc_handler.h:135:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  135 | [01;31m[Kerror_code_t[m[K tc_handler_get_uint32_appdata_field(tc_handler_t *ptc_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../../../../asw/dataclasses/CDTCHandler/include/public/../../../../../service_libraries/pus_services/pus_tc_handler/include/public/pus_tc_handler.h:138:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  138 | [01;31m[Kerror_code_t[m[K tc_handler_get_uint64_appdata_field(tc_handler_t *ptc_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../../../../asw/dataclasses/CDTCHandler/include/public/../../../../../service_libraries/pus_services/pus_tc_handler/include/public/pus_tc_handler.h:141:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  141 | [01;31m[Kerror_code_t[m[K tc_handler_get_int8_appdata_field(tc_handler_t *ptc_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../../../../asw/dataclasses/CDTCHandler/include/public/../../../../../service_libraries/pus_services/pus_tc_handler/include/public/pus_tc_handler.h:144:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  144 | [01;31m[Kerror_code_t[m[K tc_handler_get_int16_appdata_field(tc_handler_t *ptc_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../../../../asw/dataclasses/CDTCHandler/include/public/../../../../../service_libraries/pus_services/pus_tc_handler/include/public/pus_tc_handler.h:147:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  147 | [01;31m[Kerror_code_t[m[K tc_handler_get_int32_appdata_field(tc_handler_t *ptc_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../../../../asw/dataclasses/CDTCHandler/include/public/../../../../../service_libraries/pus_services/pus_tc_handler/include/public/pus_tc_handler.h:150:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  150 | [01;31m[Kerror_code_t[m[K tc_handler_get_int64_appdata_field(tc_handler_t *ptc_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../../../../asw/dataclasses/CDTCHandler/include/public/../../../../../service_libraries/pus_services/pus_tc_handler/include/public/pus_tc_handler.h:153:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  153 | [01;31m[Kerror_code_t[m[K tc_handler_get_float_appdata_field(tc_handler_t *ptc_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../../../../asw/dataclasses/CDTCHandler/include/public/../../../../../service_libraries/pus_services/pus_tc_handler/include/public/pus_tc_handler.h:156:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  156 | [01;31m[Kerror_code_t[m[K tc_handler_get_byte_array_appdata_field(
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../../../../asw/dataclasses/CDTCHandler/include/public/../../../../../service_libraries/pus_services/pus_tc_handler/include/public/pus_tc_handler.h:159:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  159 | [01;31m[Kerror_code_t[m[K tc_handler_get_tc_mem_descriptor_from_remaining_appdata(
+      | [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/pus_tm_handler.h:34[m[K,
+                 from [01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/pus_service12.h:36[m[K,
+                 from [01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/emu_gss_pus_service12.h:30[m[K,
+                 from [01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/emu_gss_v1.h:29[m[K:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/../../../pus_sys_data_pool/include/public/pus_sys_data_pool.h:131:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  131 | [01;31m[Kerror_code_t[m[K sys_data_pool_get_param_value(uint16_t param_id
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/../../../pus_sys_data_pool/include/public/pus_sys_data_pool.h:143:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  143 | [01;31m[Kerror_code_t[m[K sys_data_pool_set_param_from_serialized_bytes(uint16_t param_id,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/../../../pus_sys_data_pool/include/public/pus_sys_data_pool.h:155:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  155 | [01;31m[Kerror_code_t[m[K sys_data_pool_set_item_from_serialized_bytes(
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/../../../pus_sys_data_pool/include/public/pus_sys_data_pool.h:164:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  164 | [01;31m[Kerror_code_t[m[K sys_data_pool_set_uint8_param(uint16_t param_id,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/../../../pus_sys_data_pool/include/public/pus_sys_data_pool.h:172:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  172 | [01;31m[Kerror_code_t[m[K sys_data_pool_set_int16_param(uint16_t param_id,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/../../../pus_sys_data_pool/include/public/pus_sys_data_pool.h:181:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  181 | [01;31m[Kerror_code_t[m[K sys_data_pool_set_uint32_param(uint16_t param_id,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/../../../pus_sys_data_pool/include/public/pus_sys_data_pool.h:224:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  224 | [01;31m[Kerror_code_t[m[K  sys_data_pool_param_update_mean(uint16_t valid_param_id,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/pus_tm_handler.h:79:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+   79 | [01;31m[Kerror_code_t[m[K tm_handler_mem_alloc_and_startup(tm_handler_t *ptm_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/pus_tm_handler.h:88:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+   88 | [01;31m[Kerror_code_t[m[K tm_handler_close_and_tx(tm_handler_t *ptm_handler);
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/pus_tm_handler.h:96:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+   96 | [01;31m[Kerror_code_t[m[K tm_handler_free_mem(tm_handler_t *ptm_handler);
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/pus_tm_handler.h:108:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  108 | [01;31m[Kerror_code_t[m[K tm_handler_append_uint8_appdata_field(tm_handler_t *ptm_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/pus_tm_handler.h:111:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  111 | [01;31m[Kerror_code_t[m[K tm_handler_append_uint16_appdata_field(tm_handler_t *ptm_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/pus_tm_handler.h:114:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  114 | [01;31m[Kerror_code_t[m[K tm_handler_append_uint32_appdata_field(tm_handler_t *ptm_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/pus_tm_handler.h:117:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  117 | [01;31m[Kerror_code_t[m[K tm_handler_append_uint64_appdata_field(tm_handler_t *ptm_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/pus_tm_handler.h:120:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  120 | [01;31m[Kerror_code_t[m[K tm_handler_append_int8_appdata_field(tm_handler_t *ptm_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/pus_tm_handler.h:123:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  123 | [01;31m[Kerror_code_t[m[K tm_handler_append_int16_appdata_field(tm_handler_t *ptm_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/pus_tm_handler.h:126:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  126 | [01;31m[Kerror_code_t[m[K tm_handler_append_int32_appdata_field(tm_handler_t *ptm_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/pus_tm_handler.h:129:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  129 | [01;31m[Kerror_code_t[m[K tm_handler_append_int64_appdata_field(tm_handler_t *ptm_handler,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/pus_tm_handler.h:132:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  132 | [01;31m[Kerror_code_t[m[K tm_handler_append_byte_array_appdata_field(tm_handler_t *ptm_handler
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_tm_handler/include/public/pus_tm_handler.h:135:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  135 | [01;31m[Kerror_code_t[m[K tm_handler_append_data_pool_item(tm_handler_t *ptm_handler
+      | [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/pus_service12.h:38[m[K:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_service05/include/public/pus_service05.h:127:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  127 | [01;31m[Kerror_code_t[m[K pus_service1_tx_TM_5_1_start_up();
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_service05/include/public/pus_service05.h:135:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  135 | [01;31m[Kerror_code_t[m[K pus_service1_tx_TM_5_X_param_out_of_limit(uint16_t EvID,
+      | [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/../../../../service_libraries/pus_services/pus_service12/include/public/../../../pus_service05/include/public/pus_service05.h:144:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kerror_code_t[m[K’ does not name a type
+  144 | [01;31m[Kerror_code_t[m[K pus_service1_tx_TM_5_X_param_check_value_fail(uint16_t EvID
+      | [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/emu_gss_v1.h:31[m[K:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/emu_tc_programming/src/../../../llsw/emu_gss/include/public/../emu_gss/emu_gss_pus_service19.h:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[KEmuGSS_TCProgram128_1[m[K’ does not name a type; did you mean ‘[01m[KEmuGSS_TCProgram12_1[m[K’?
+   31 |         [01;31m[KEmuGSS_TCProgram128_1[m[K mProgram_128_1;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[KEmuGSS_TCProgram12_1[m[K

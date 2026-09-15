@@ -1,0 +1,100 @@
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/edroomsl.h:237:2:CEDROOMMemoryPool::~CEDROOMMemoryPool()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/edroomsl.h:579:10:CEDROOMMessage::~CEDROOMMessage()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/edroomsl.h:689:10:CEDROOMTimeOutMessage::~CEDROOMTimeOutMessage()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/edroomsl.h:1884:10:CEDROOMLocalTXChannel::~CEDROOMLocalTXChannel()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:127:15:virtual TEDROOMUInt32 CEDROOMMemoryPool::GetElementSize()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:191:13:virtual TEDROOMInt8 CEDROOMMemoryPool::FreeData(void*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:345:6:virtual void CEDROOMMessage::FreeDeliveryInfo()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:376:6:virtual void CEDROOMMessage::reply(TEDROOMSignal, void*, CEDROOMMemoryPool*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:465:15:virtual TEDROOMUInt32 CEDROOMSynchrMessagesPool::GetElementSize()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/edroomsl.h:579:10:virtual CEDROOMMessage::~CEDROOMMessage()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/edroomsl.h:689:10:virtual CEDROOMTimeOutMessage::~CEDROOMTimeOutMessage()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/edroomsl.h:237:2:virtual CEDROOMMemoryPool::~CEDROOMMemoryPool()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/edroomsl.h:1884:10:virtual CEDROOMLocalTXChannel::~CEDROOMLocalTXChannel()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:432:6:virtual void CEDROOMTimeOutMessage::FreeDeliveryInfo()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:478:13:virtual TEDROOMInt8 CEDROOMSynchrMessagesPool::FreeData(void*)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/edroomsl.h:644:10:CEDROOMSynchrMessage::~CEDROOMSynchrMessage()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/edroomsl.h:644:10:virtual CEDROOMSynchrMessage::~CEDROOMSynchrMessage()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/edroomsl.h:813:2:CEDROOMSynchrMessagesPool::~CEDROOMSynchrMessagesPool()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/edroomsl.h:813:2:virtual CEDROOMSynchrMessagesPool::~CEDROOMSynchrMessagesPool()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/edroomsl.h:315:2:CEDROOMProtectedMemoryPool::~CEDROOMProtectedMemoryPool()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/edroomsl.h:315:2:virtual CEDROOMProtectedMemoryPool::~CEDROOMProtectedMemoryPool()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:2055:13:static Pr_TaskRV_t CEDROOMComponent::EDROOMComponentTask(Pr_TaskP_t)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:407:6:virtual void CEDROOMSynchrMessage::reply(TEDROOMSignal, void*, CEDROOMMemoryPool*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:399:6:virtual void CEDROOMSynchrMessage::reply(TEDROOMSignal)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:368:6:virtual void CEDROOMMessage::reply(TEDROOMSignal)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:285:13:virtual TEDROOMInt8 CEDROOMProtectedMemoryPool::FreeData(void*)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:102:6:void CEDROOMMemoryPool::SetMemory(TEDROOMUInt32, void*, TEDROOMBool*, TEDROOMUInt32)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:147:14:TEDROOMByte* CEDROOMMemoryPool::AllocData(TEDROOMUInt32&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:135:14:TEDROOMByte* CEDROOMMemoryPool::AllocData()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:244:1:CEDROOMProtectedMemoryPool::CEDROOMProtectedMemoryPool(TEDROOMUInt32, void*, TEDROOMBool*, TEDROOMUInt32)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:256:14:TEDROOMByte* CEDROOMProtectedMemoryPool::AllocData()	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:268:14:TEDROOMByte* CEDROOMProtectedMemoryPool::AllocData(TEDROOMUInt32&)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:330:1:CEDROOMMessage::CEDROOMMessage()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:352:19:CEDROOMInterface* CEDROOMMessage::GetPInterface()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:357:15:TEDROOMWord32 CEDROOMMessage::GetMsgDataSize()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:390:1:CEDROOMSynchrMessage::CEDROOMSynchrMessage()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:457:1:CEDROOMSynchrMessagesPool::CEDROOMSynchrMessagesPool(CEDROOMSynchrMessage*)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:471:23:CEDROOMSynchrMessage* CEDROOMSynchrMessagesPool::AllocData()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:484:6:void CEDROOMMessagesPool::SetMemory(TEDROOMUInt32, CEDROOMMessage*, TEDROOMBool*)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:492:17:CEDROOMMessage* CEDROOMMessagesPool::AllocData()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:498:6:void CEDROOMTimeOutMessagesPool::SetMemory(TEDROOMUInt32, CEDROOMTimeOutMessage*, TEDROOMBool*)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:506:24:CEDROOMTimeOutMessage* CEDROOMTimeOutMessagesPool::AllocData()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:543:6:void CEDROOMInterface::send(TEDROOMSignal)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:550:6:void CEDROOMInterface::send(TEDROOMSignal, void*, CEDROOMMemoryPool*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:562:17:CEDROOMMessage* CEDROOMInterface::invoke(TEDROOMSignal)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:570:17:CEDROOMMessage* CEDROOMInterface::invoke(TEDROOMSignal, void*, CEDROOMMemoryPool*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:580:15:TEDROOMSignal CEDROOMInterface::applyConverFunct(TEDROOMSignal)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:588:13:TEDROOMBool CEDROOMInterface::operator==(CEDROOMInterface&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:592:13:TEDROOMBool CEDROOMInterface::operator!=(CEDROOMInterface&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:601:6:void CEDROOMIRQInterface::InstallHandler()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:610:6:void CEDROOMIRQInterface::DeInstallHandler()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:620:6:void CEDROOMIRQInterface::EndIRQHandlerTask()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:630:6:void CEDROOMIRQInterface::MaskIRQ()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:635:6:void CEDROOMIRQInterface::UnMaskIRQ()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:640:1:CEDROOMIRQInterface::CEDROOMIRQInterface(Pr_IRQHandler, Pr_IRQHandler, Pr_IRQEvent&, Pr_SemaphoreBin&, TEDROOMInt8)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:716:1:CEDROOMNonMaskIRQInterface::CEDROOMNonMaskIRQInterface(Pr_IRQHandler, Pr_IRQHandler, Pr_IRQEvent&, Pr_SemaphoreBin&, TEDROOMUInt8, TEDROOMUInt8*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:728:6:void CEDROOMNonMaskIRQInterface::InstallHandler()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:739:6:void CEDROOMNonMaskIRQInterface::DeInstallHandler()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:748:6:void CEDROOMNonMaskIRQInterface::EndIRQHandlerTask()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:790:1:CEDROOMTimer::CEDROOMTimer()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:795:13:TEDROOMBool CEDROOMTimer::IsValid()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:807:1:CEDROOMTimingInterface::CEDROOMTimingInterface(CEDROOMTimingSAP*, TEDROOMUInt32)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:849:6:void CEDROOMTimingInterface::currentTime(Pr_Time&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:856:9:Pr_Time CEDROOMTimingInterface::currentTime()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:870:1:CEDROOMTimingSAP::CEDROOMTimingSAP(CEDROOMComponent*, unsigned int, CEDROOMTimingMemory*)	64	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1056:14:CEDROOMTimer CEDROOMTimingSAP::InformAt(CEDROOMTimingInterface*, Pr_Time)	144	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:820:14:CEDROOMTimer CEDROOMTimingInterface::InformAt(Pr_Time)	64	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:833:14:CEDROOMTimer CEDROOMTimingInterface::InformIn(Pr_Time)	96	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1236:6:void CEDROOMTimingSAP::Start()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1248:6:void CEDROOMTimingMemory::SetMemory(TEDROOMUInt32, CEDROOMTimerInfo*, TEDROOMBool*, CEDROOMTimeOutMessage*, TEDROOMBool*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1265:6:void CEDROOMTimerInfoPool::SetMemory(TEDROOMUInt32, CEDROOMTimerInfo*, TEDROOMBool*)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1276:19:CEDROOMTimerInfo* CEDROOMTimerInfoPool::AllocData(TEDROOMUInt32&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1310:1:CEDROOMQueue::CQueueNode::CQueueNode()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1318:1:CEDROOMQueue::CQueueHead::CQueueHead()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1328:1:CEDROOMQueue::CEDROOMQueue(TEDROOMUInt32, Pr_Task*, Pr_SemaphoreRec*, TEDROOMUInt16, CEDROOMQueueNodesPool*, CQueueHead*)	64	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1361:13:TEDROOMBool CEDROOMQueue::IsFull()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1401:13:TEDROOMBool CEDROOMQueue::Out(CEDROOMMessage*&)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1456:6:void CEDROOMQueue::UpDateSortedQueueHeadsList(TEDROOMPriority)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1369:6:void CEDROOMQueue::In(CEDROOMMessage*)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:653:6:void CEDROOMIRQInterface::NewIRQMsg(TEDROOMSignal, void*, CEDROOMMemoryPool*)	64	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:895:13:static Pr_TaskRV_t CEDROOMTimingSAP::EDROOMfunTimer(Pr_TaskP_t)	144	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1621:6:virtual void CEDROOMLocalTXChannel::send(TEDROOMSignal, void*, CEDROOMMemoryPool*)	64	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1511:13:TEDROOMBool CEDROOMQueue::PutInNode(CQueueHead*, CQueueNode*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1535:6:void CEDROOMQueue::TakeOutNode(CQueueNode*&, TEDROOMPriority&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1558:6:void CEDROOMQueue::CEDROOMQueueNodesPool::SetMemory(TEDROOMUInt32, CEDROOMQueue::CQueueNode*, TEDROOMBool*)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1569:27:CEDROOMQueue::CQueueNode* CEDROOMQueue::CEDROOMQueueNodesPool::AllocData()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1606:1:CEDROOMLocalTXChannel::CEDROOMLocalTXChannel()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1782:14:TEDROOMInt32 CEDROOMLocalCommSAP::RegisterInterface(TEDROOMInterfaceID, CEDROOMInterface&, CEDROOMComponent*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1795:6:void CEDROOMLocalCommSAP::Connect(CEDROOMInterface&, CEDROOMInterface&, CEDROOMLocalConnection&, TEDROOMSignal (*)(TEDROOMSignal), TEDROOMSignal (*)(TEDROOMSignal))	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1860:1:CEDROOMComponent::CEDROOMComponent(TEDROOMComponentID, TEDROOMUInt16, TEDROOMUInt32, TEDROOMPriority, TEDROOMUInt32, CEDROOMComponentMemory*)	96	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1891:1:CEDROOMComponent::CEDROOMComponent(const char*, TEDROOMComponentID, TEDROOMUInt16, TEDROOMUInt32, TEDROOMPriority, TEDROOMUInt32, CEDROOMComponentMemory*)	112	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1923:1:CEDROOMComponent::~CEDROOMComponent()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1923:1:virtual CEDROOMComponent::~CEDROOMComponent()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1930:6:void CEDROOMComponent::EDROOMDestroy()	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1969:5:int CEDROOMComponent::EDROOMStart()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:2009:6:void CEDROOMComponent::EDROOMFreeMessage(CEDROOMMessage*&)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1693:17:virtual CEDROOMMessage* CEDROOMLocalTXChannel::invoke(TEDROOMSignal, void*, CEDROOMMemoryPool*)	64	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:1984:6:void CEDROOMComponent::EDROOMNewMsg()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:2037:6:void CEDROOMComponent::EDROOMFreeMsgBackData()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:2071:6:void CEDROOMComponentMemory::SetMemory(TEDROOMUInt32, CEDROOMMessage*, TEDROOMBool*, TEDROOMUInt32, CEDROOMQueue::CQueueNode*, TEDROOMBool*, CEDROOMQueue::CQueueHead*)	48	static

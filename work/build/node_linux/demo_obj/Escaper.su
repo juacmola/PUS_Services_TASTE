@@ -1,0 +1,7 @@
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:29:1:Escaper_init	64	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:47:1:Escaper_start_decoder	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:53:1:Escaper_decode_packet	80	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:110:1:Escaper_start_encoder	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:118:1:Escaper_encode_packet	64	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:164:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:164:1:_sub_I_00099_1	16	static

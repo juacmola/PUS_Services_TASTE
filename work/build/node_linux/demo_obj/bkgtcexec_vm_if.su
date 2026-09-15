@@ -1,0 +1,5 @@
+/home/jorge/sctre/work/bkgtcexec/SDL/wrappers/bkgtcexec_vm_if.c:11:6:bkgtcexec_get_sender	32	static
+/home/jorge/sctre/work/bkgtcexec/SDL/wrappers/bkgtcexec_vm_if.c:23:6:init_bkgtcexec	32	static
+/home/jorge/sctre/work/bkgtcexec/SDL/wrappers/bkgtcexec_vm_if.c:37:6:bkgtcexec_SBKGTC	48	static
+/home/jorge/sctre/work/bkgtcexec/SDL/wrappers/bkgtcexec_vm_if.c:69:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/bkgtcexec/SDL/wrappers/bkgtcexec_vm_if.c:69:1:_sub_I_00099_1	16	static

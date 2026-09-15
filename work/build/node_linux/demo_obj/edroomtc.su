@@ -1,0 +1,11 @@
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomtc.cc:9:1:CEDROOMstream::CEDROOMstream()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomtc.cc:21:1:CEDROOMstream::CEDROOMstream(const char*)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomtc.cc:26:6:void CEDROOMstream::open(const char*, int)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomtc.cc:31:6:void CEDROOMstream::close()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomtc.cc:36:6:void CEDROOMstream::reopen()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomtc.cc:41:5:int CEDROOMstream::is_open()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomtc.cc:46:5:int CEDROOMstream::good()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomtc.cc:51:17:CEDROOMstream& CEDROOMstream::operator<<(const char*)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomtc.cc:58:17:CEDROOMstream& CEDROOMstream::operator<<(const int&)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomtc.cc:66:17:CEDROOMstream& CEDROOMstream::operator<<(const unsigned int&)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomtc.cc:74:17:CEDROOMstream& CEDROOMstream::operator<<(const float&)	8	static

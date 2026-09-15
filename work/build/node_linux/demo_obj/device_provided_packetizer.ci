@@ -1,0 +1,24 @@
+graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c"
+node: { title: "resetDeviceProvidedPacketizerFunctions" label: "resetDeviceProvidedPacketizerFunctions\n/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:10:6\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "getDeviceProvidedPacketizerHeaderSize" label: "getDeviceProvidedPacketizerHeaderSize\n/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:15:1\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_load8" label: "__builtin___asan_report_load8\n<built-in>" shape : ellipse }
+edge: { sourcename: "getDeviceProvidedPacketizerHeaderSize" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:21:57" }
+node: { title: "getDeviceProvidedPacketizerInitFunction" label: "getDeviceProvidedPacketizerInitFunction\n/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:25:1\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "getDeviceProvidedPacketizerInitFunction" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:31:59" }
+node: { title: "getDeviceProvidedPacketizerPacketizeFunction" label: "getDeviceProvidedPacketizerPacketizeFunction\n/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:35:1\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "getDeviceProvidedPacketizerPacketizeFunction" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:41:64" }
+node: { title: "getDeviceProvidedPacketizerDepacketizeFunction" label: "getDeviceProvidedPacketizerDepacketizeFunction\n/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:45:1\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "getDeviceProvidedPacketizerDepacketizeFunction" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:51:66" }
+node: { title: "setDeviceProvidedPacketizerHeaderSize" label: "setDeviceProvidedPacketizerHeaderSize\n/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:55:1\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_store8" label: "__builtin___asan_report_store8\n<built-in>" shape : ellipse }
+edge: { sourcename: "setDeviceProvidedPacketizerHeaderSize" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:61:59" }
+node: { title: "setDeviceProvidedPacketizerFunctions" label: "setDeviceProvidedPacketizerFunctions\n/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:65:1\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "setDeviceProvidedPacketizerFunctions" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:74:61" }
+edge: { sourcename: "setDeviceProvidedPacketizerFunctions" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:75:66" }
+edge: { sourcename: "setDeviceProvidedPacketizerFunctions" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:76:68" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:_sub_I_00099_0" label: "_sub_I_00099_0\n/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:77:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:_sub_I_00099_0" targetname: "__asan_init" label: "/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:77:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:_sub_I_00099_0" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:77:1" }
+}

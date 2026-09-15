@@ -1,0 +1,116 @@
+graph: { title: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c"
+node: { title: "legacy_get_sender" label: "legacy_get_sender\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:11:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_store4" label: "__builtin___asan_report_store4\n<built-in>" shape : ellipse }
+edge: { sourcename: "legacy_get_sender" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:13:19" }
+node: { title: "init_legacy" label: "init_legacy\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:21:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "getTimeInMilliseconds" label: "getTimeInMilliseconds\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.h:22:18" shape : ellipse }
+edge: { sourcename: "init_legacy" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:25:50" }
+node: { title: "legacy_startup" label: "legacy_startup\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:28:19" shape : ellipse }
+edge: { sourcename: "init_legacy" targetname: "legacy_startup" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:29:7" }
+node: { title: "puts" label: "puts\n/usr/include/stdio.h:724:12" shape : ellipse }
+edge: { sourcename: "init_legacy" targetname: "puts" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:30:7" }
+node: { title: "legacy_DoHousekeeping" label: "legacy_DoHousekeeping\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:34:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_dohousekeeping_get_sender" label: "legacy_dohousekeeping_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:103:12" shape : ellipse }
+edge: { sourcename: "legacy_DoHousekeeping" targetname: "legacy_dohousekeeping_get_sender" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:36:17" }
+node: { title: "getenv" label: "getenv\n/usr/include/stdlib.h:773:14" shape : ellipse }
+edge: { sourcename: "legacy_DoHousekeeping" targetname: "getenv" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:40:26" }
+edge: { sourcename: "legacy_DoHousekeeping" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:42:28" }
+node: { title: "printf" label: "printf\n/usr/include/stdio.h:363:12" shape : ellipse }
+edge: { sourcename: "legacy_DoHousekeeping" targetname: "printf" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:43:7" }
+node: { title: "__asan_report_load8" label: "__builtin___asan_report_load8\n<built-in>" shape : ellipse }
+edge: { sourcename: "legacy_DoHousekeeping" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:44:7" }
+node: { title: "fflush" label: "fflush\n/usr/include/stdio.h:236:12" shape : ellipse }
+edge: { sourcename: "legacy_DoHousekeeping" targetname: "fflush" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:44:7" }
+node: { title: "legacy_PI_DoHousekeeping" label: "legacy_PI_DoHousekeeping\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:48:16" shape : ellipse }
+edge: { sourcename: "legacy_DoHousekeeping" targetname: "legacy_PI_DoHousekeeping" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:49:4" }
+node: { title: "legacy_ExecBKGTC" label: "legacy_ExecBKGTC\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:56:6\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_execbkgtc_get_sender" label: "legacy_execbkgtc_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:109:12" shape : ellipse }
+edge: { sourcename: "legacy_ExecBKGTC" targetname: "legacy_execbkgtc_get_sender" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:60:17" }
+edge: { sourcename: "legacy_ExecBKGTC" targetname: "getenv" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:64:26" }
+edge: { sourcename: "legacy_ExecBKGTC" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:66:28" }
+edge: { sourcename: "legacy_ExecBKGTC" targetname: "printf" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:67:7" }
+edge: { sourcename: "legacy_ExecBKGTC" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:68:7" }
+edge: { sourcename: "legacy_ExecBKGTC" targetname: "fflush" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:68:7" }
+node: { title: "legacy_PI_ExecBKGTC" label: "legacy_PI_ExecBKGTC\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:72:16" shape : ellipse }
+edge: { sourcename: "legacy_ExecBKGTC" targetname: "legacy_PI_ExecBKGTC" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:80:4" }
+node: { title: "legacy_ExecHKFDIRTC" label: "legacy_ExecHKFDIRTC\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:87:6\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_exechkfdirtc_get_sender" label: "legacy_exechkfdirtc_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:115:12" shape : ellipse }
+edge: { sourcename: "legacy_ExecHKFDIRTC" targetname: "legacy_exechkfdirtc_get_sender" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:91:17" }
+edge: { sourcename: "legacy_ExecHKFDIRTC" targetname: "getenv" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:95:26" }
+edge: { sourcename: "legacy_ExecHKFDIRTC" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:97:28" }
+edge: { sourcename: "legacy_ExecHKFDIRTC" targetname: "printf" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:98:7" }
+edge: { sourcename: "legacy_ExecHKFDIRTC" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:99:7" }
+edge: { sourcename: "legacy_ExecHKFDIRTC" targetname: "fflush" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:99:7" }
+node: { title: "legacy_PI_ExecHKFDIRTC" label: "legacy_PI_ExecHKFDIRTC\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:103:16" shape : ellipse }
+edge: { sourcename: "legacy_ExecHKFDIRTC" targetname: "legacy_PI_ExecHKFDIRTC" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:111:4" }
+node: { title: "legacy_HandleTC" label: "legacy_HandleTC\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:118:6\n64 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_handletc_get_sender" label: "legacy_handletc_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:121:12" shape : ellipse }
+edge: { sourcename: "legacy_HandleTC" targetname: "legacy_handletc_get_sender" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:123:17" }
+edge: { sourcename: "legacy_HandleTC" targetname: "getenv" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:127:26" }
+edge: { sourcename: "legacy_HandleTC" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:129:28" }
+edge: { sourcename: "legacy_HandleTC" targetname: "printf" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:130:7" }
+edge: { sourcename: "legacy_HandleTC" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:131:7" }
+edge: { sourcename: "legacy_HandleTC" targetname: "fflush" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:131:7" }
+node: { title: "legacy_PI_HandleTC" label: "legacy_PI_HandleTC\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:135:16" shape : ellipse }
+edge: { sourcename: "legacy_HandleTC" targetname: "legacy_PI_HandleTC" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:144:4" }
+node: { title: "legacy_Init" label: "legacy_Init\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:151:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_init_get_sender" label: "legacy_init_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:127:12" shape : ellipse }
+edge: { sourcename: "legacy_Init" targetname: "legacy_init_get_sender" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:153:17" }
+edge: { sourcename: "legacy_Init" targetname: "getenv" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:157:26" }
+edge: { sourcename: "legacy_Init" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:159:28" }
+edge: { sourcename: "legacy_Init" targetname: "printf" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:160:7" }
+edge: { sourcename: "legacy_Init" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:161:7" }
+edge: { sourcename: "legacy_Init" targetname: "fflush" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:161:7" }
+node: { title: "legacy_PI_Init" label: "legacy_PI_Init\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:165:16" shape : ellipse }
+edge: { sourcename: "legacy_Init" targetname: "legacy_PI_Init" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:166:4" }
+node: { title: "legacy_NewEvAction" label: "legacy_NewEvAction\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:173:6\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_newevaction_get_sender" label: "legacy_newevaction_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:133:12" shape : ellipse }
+edge: { sourcename: "legacy_NewEvAction" targetname: "legacy_newevaction_get_sender" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:177:17" }
+edge: { sourcename: "legacy_NewEvAction" targetname: "getenv" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:181:26" }
+edge: { sourcename: "legacy_NewEvAction" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:183:28" }
+edge: { sourcename: "legacy_NewEvAction" targetname: "printf" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:184:7" }
+edge: { sourcename: "legacy_NewEvAction" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:185:7" }
+edge: { sourcename: "legacy_NewEvAction" targetname: "fflush" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:185:7" }
+node: { title: "legacy_PI_NewEvAction" label: "legacy_PI_NewEvAction\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:189:16" shape : ellipse }
+edge: { sourcename: "legacy_NewEvAction" targetname: "legacy_PI_NewEvAction" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:197:4" }
+node: { title: "legacy_NewRxTC" label: "legacy_NewRxTC\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:204:6\n64 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_newrxtc_get_sender" label: "legacy_newrxtc_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:139:12" shape : ellipse }
+edge: { sourcename: "legacy_NewRxTC" targetname: "legacy_newrxtc_get_sender" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:209:17" }
+edge: { sourcename: "legacy_NewRxTC" targetname: "getenv" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:213:26" }
+edge: { sourcename: "legacy_NewRxTC" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:215:28" }
+edge: { sourcename: "legacy_NewRxTC" targetname: "printf" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:216:7" }
+edge: { sourcename: "legacy_NewRxTC" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:217:7" }
+edge: { sourcename: "legacy_NewRxTC" targetname: "fflush" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:217:7" }
+node: { title: "legacy_PI_NewRxTC" label: "legacy_PI_NewRxTC\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:221:16" shape : ellipse }
+edge: { sourcename: "legacy_NewRxTC" targetname: "legacy_PI_NewRxTC" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:230:4" }
+node: { title: "legacy_PollTC" label: "legacy_PollTC\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:237:6\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_polltc_get_sender" label: "legacy_polltc_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:145:12" shape : ellipse }
+edge: { sourcename: "legacy_PollTC" targetname: "legacy_polltc_get_sender" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:241:17" }
+edge: { sourcename: "legacy_PollTC" targetname: "getenv" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:245:26" }
+edge: { sourcename: "legacy_PollTC" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:247:28" }
+edge: { sourcename: "legacy_PollTC" targetname: "printf" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:248:7" }
+edge: { sourcename: "legacy_PollTC" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:249:7" }
+edge: { sourcename: "legacy_PollTC" targetname: "fflush" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:249:7" }
+node: { title: "legacy_PI_PollTC" label: "legacy_PI_PollTC\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:253:16" shape : ellipse }
+edge: { sourcename: "legacy_PollTC" targetname: "legacy_PI_PollTC" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:261:4" }
+node: { title: "legacy_Reboot" label: "legacy_Reboot\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:268:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_reboot_get_sender" label: "legacy_reboot_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:151:12" shape : ellipse }
+edge: { sourcename: "legacy_Reboot" targetname: "legacy_reboot_get_sender" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:270:17" }
+edge: { sourcename: "legacy_Reboot" targetname: "getenv" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:274:26" }
+edge: { sourcename: "legacy_Reboot" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:276:28" }
+edge: { sourcename: "legacy_Reboot" targetname: "printf" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:277:7" }
+edge: { sourcename: "legacy_Reboot" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:278:7" }
+edge: { sourcename: "legacy_Reboot" targetname: "fflush" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:278:7" }
+node: { title: "legacy_PI_Reboot" label: "legacy_PI_Reboot\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:282:16" shape : ellipse }
+edge: { sourcename: "legacy_Reboot" targetname: "legacy_PI_Reboot" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:283:4" }
+node: { title: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:285:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "__builtin___asan_unregister_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:285:1" }
+node: { title: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:285:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:285:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:285:1" }
+node: { title: "__asan_register_globals" label: "__builtin___asan_register_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_vm_if.c:285:1" }
+}

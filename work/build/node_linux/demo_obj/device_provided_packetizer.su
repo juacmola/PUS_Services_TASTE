@@ -1,0 +1,8 @@
+/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:10:6:resetDeviceProvidedPacketizerFunctions	16	static
+/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:15:1:getDeviceProvidedPacketizerHeaderSize	32	static
+/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:25:1:getDeviceProvidedPacketizerInitFunction	32	static
+/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:35:1:getDeviceProvidedPacketizerPacketizeFunction	32	static
+/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:45:1:getDeviceProvidedPacketizerDepacketizeFunction	32	static
+/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:55:1:setDeviceProvidedPacketizerHeaderSize	32	static
+/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:65:1:setDeviceProvidedPacketizerFunctions	48	static
+/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c:77:1:_sub_I_00099_0	16	static

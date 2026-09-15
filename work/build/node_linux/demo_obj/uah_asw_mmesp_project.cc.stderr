@@ -1,0 +1,4 @@
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/uah_asw_mmesp_project.cc:5:10:[m[K [01;31m[Kfatal error: [m[Kpublic/edroom_glue.h: No existe el archivo o el directorio
+    5 | #include [01;31m[K<public/edroom_glue.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.

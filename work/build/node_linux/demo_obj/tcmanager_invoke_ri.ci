@@ -1,0 +1,122 @@
+graph: { title: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c"
+node: { title: "tcmanager_RI_HandleTC" label: "tcmanager_RI_HandleTC\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:22:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_RI_HandleTC" targetname: "tcmanager_RI_HandleTC_To_PID" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:28:4" }
+node: { title: "tcmanager_RI_HandleTC_To_PID" label: "tcmanager_RI_HandleTC_To_PID\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:32:6\n224 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_stack_malloc_1" label: "__asan_stack_malloc_1\n<built-in>" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_HandleTC_To_PID" targetname: "__asan_stack_malloc_1" }
+node: { title: "getenv" label: "getenv\n/usr/include/stdlib.h:773:14" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_HandleTC_To_PID" targetname: "getenv" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:40:27" }
+node: { title: "getTimeInMilliseconds" label: "getTimeInMilliseconds\n/home/jorge/sctre/work/dataview/C/timeInMS.h:16:11" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_HandleTC_To_PID" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:42:28" }
+node: { title: "printf" label: "printf\n/usr/include/stdio.h:363:12" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_HandleTC_To_PID" targetname: "printf" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:44:7" }
+node: { title: "__asan_report_load8" label: "__builtin___asan_report_load8\n<built-in>" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_HandleTC_To_PID" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:45:7" }
+node: { title: "fflush" label: "fflush\n/usr/include/stdio.h:236:12" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_HandleTC_To_PID" targetname: "fflush" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:45:7" }
+node: { title: "__asan_report_store8" label: "__builtin___asan_report_store8\n<built-in>" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_HandleTC_To_PID" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:48:16" }
+edge: { sourcename: "tcmanager_RI_HandleTC_To_PID" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:49:16" }
+node: { title: "vm_tcmanager_handletc" label: "vm_tcmanager_handletc\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:52:16" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_HandleTC_To_PID" targetname: "vm_tcmanager_handletc" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:57:4" }
+node: { title: "__stack_chk_fail" label: "__stack_chk_fail\n<built-in>" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_HandleTC_To_PID" targetname: "__stack_chk_fail" }
+node: { title: "tcmanager_RI_Init" label: "tcmanager_RI_Init\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:70:6\n16 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_RI_Init" targetname: "tcmanager_RI_Init_To_PID" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:73:4" }
+node: { title: "tcmanager_RI_Init_To_PID" label: "tcmanager_RI_Init_To_PID\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:76:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_RI_Init_To_PID" targetname: "getenv" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:81:27" }
+edge: { sourcename: "tcmanager_RI_Init_To_PID" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:83:28" }
+edge: { sourcename: "tcmanager_RI_Init_To_PID" targetname: "printf" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:85:7" }
+edge: { sourcename: "tcmanager_RI_Init_To_PID" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:86:7" }
+edge: { sourcename: "tcmanager_RI_Init_To_PID" targetname: "fflush" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:86:7" }
+node: { title: "vm_tcmanager_init" label: "vm_tcmanager_init\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:91:16" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_Init_To_PID" targetname: "vm_tcmanager_init" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:92:4" }
+node: { title: "tcmanager_RI_NewEvAction" label: "tcmanager_RI_NewEvAction\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:105:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_RI_NewEvAction" targetname: "tcmanager_RI_NewEvAction_To_PID" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:110:4" }
+node: { title: "tcmanager_RI_NewEvAction_To_PID" label: "tcmanager_RI_NewEvAction_To_PID\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:114:6\n176 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_stack_malloc_0" label: "__asan_stack_malloc_0\n<built-in>" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_NewEvAction_To_PID" targetname: "__asan_stack_malloc_0" }
+edge: { sourcename: "tcmanager_RI_NewEvAction_To_PID" targetname: "getenv" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:121:27" }
+edge: { sourcename: "tcmanager_RI_NewEvAction_To_PID" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:123:28" }
+edge: { sourcename: "tcmanager_RI_NewEvAction_To_PID" targetname: "printf" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:125:7" }
+edge: { sourcename: "tcmanager_RI_NewEvAction_To_PID" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:126:7" }
+edge: { sourcename: "tcmanager_RI_NewEvAction_To_PID" targetname: "fflush" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:126:7" }
+edge: { sourcename: "tcmanager_RI_NewEvAction_To_PID" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:129:16" }
+node: { title: "vm_tcmanager_newevaction" label: "vm_tcmanager_newevaction\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:132:16" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_NewEvAction_To_PID" targetname: "vm_tcmanager_newevaction" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:136:4" }
+edge: { sourcename: "tcmanager_RI_NewEvAction_To_PID" targetname: "__stack_chk_fail" }
+node: { title: "tcmanager_RI_NewRxTC" label: "tcmanager_RI_NewRxTC\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:154:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_RI_NewRxTC" targetname: "tcmanager_RI_NewRxTC_To_PID" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:160:4" }
+node: { title: "tcmanager_RI_NewRxTC_To_PID" label: "tcmanager_RI_NewRxTC_To_PID\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:164:6\n192 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_RI_NewRxTC_To_PID" targetname: "__asan_stack_malloc_0" }
+edge: { sourcename: "tcmanager_RI_NewRxTC_To_PID" targetname: "getenv" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:172:27" }
+edge: { sourcename: "tcmanager_RI_NewRxTC_To_PID" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:174:28" }
+edge: { sourcename: "tcmanager_RI_NewRxTC_To_PID" targetname: "printf" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:176:7" }
+edge: { sourcename: "tcmanager_RI_NewRxTC_To_PID" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:177:7" }
+edge: { sourcename: "tcmanager_RI_NewRxTC_To_PID" targetname: "fflush" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:177:7" }
+edge: { sourcename: "tcmanager_RI_NewRxTC_To_PID" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:180:16" }
+node: { title: "vm_tcmanager_newrxtc" label: "vm_tcmanager_newrxtc\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:183:16" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_NewRxTC_To_PID" targetname: "vm_tcmanager_newrxtc" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:188:4" }
+edge: { sourcename: "tcmanager_RI_NewRxTC_To_PID" targetname: "__stack_chk_fail" }
+node: { title: "tcmanager_RI_PollTC" label: "tcmanager_RI_PollTC\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:205:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_RI_PollTC" targetname: "tcmanager_RI_PollTC_To_PID" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:210:4" }
+node: { title: "tcmanager_RI_PollTC_To_PID" label: "tcmanager_RI_PollTC_To_PID\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:214:6\n176 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_RI_PollTC_To_PID" targetname: "__asan_stack_malloc_0" }
+edge: { sourcename: "tcmanager_RI_PollTC_To_PID" targetname: "getenv" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:221:27" }
+edge: { sourcename: "tcmanager_RI_PollTC_To_PID" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:223:28" }
+edge: { sourcename: "tcmanager_RI_PollTC_To_PID" targetname: "printf" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:225:7" }
+edge: { sourcename: "tcmanager_RI_PollTC_To_PID" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:226:7" }
+edge: { sourcename: "tcmanager_RI_PollTC_To_PID" targetname: "fflush" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:226:7" }
+edge: { sourcename: "tcmanager_RI_PollTC_To_PID" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:229:16" }
+node: { title: "vm_tcmanager_polltc" label: "vm_tcmanager_polltc\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:232:16" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_PollTC_To_PID" targetname: "vm_tcmanager_polltc" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:236:4" }
+edge: { sourcename: "tcmanager_RI_PollTC_To_PID" targetname: "__stack_chk_fail" }
+node: { title: "tcmanager_RI_Reboot" label: "tcmanager_RI_Reboot\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:248:6\n16 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_RI_Reboot" targetname: "tcmanager_RI_Reboot_To_PID" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:251:4" }
+node: { title: "tcmanager_RI_Reboot_To_PID" label: "tcmanager_RI_Reboot_To_PID\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:254:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_RI_Reboot_To_PID" targetname: "getenv" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:259:27" }
+edge: { sourcename: "tcmanager_RI_Reboot_To_PID" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:261:28" }
+edge: { sourcename: "tcmanager_RI_Reboot_To_PID" targetname: "printf" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:263:7" }
+edge: { sourcename: "tcmanager_RI_Reboot_To_PID" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:264:7" }
+edge: { sourcename: "tcmanager_RI_Reboot_To_PID" targetname: "fflush" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:264:7" }
+node: { title: "vm_tcmanager_reboot" label: "vm_tcmanager_reboot\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:269:16" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_Reboot_To_PID" targetname: "vm_tcmanager_reboot" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:270:4" }
+node: { title: "tcmanager_RI_SBKGTC" label: "tcmanager_RI_SBKGTC\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:283:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_RI_SBKGTC" targetname: "tcmanager_RI_SBKGTC_To_PID" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:288:4" }
+node: { title: "tcmanager_RI_SBKGTC_To_PID" label: "tcmanager_RI_SBKGTC_To_PID\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:292:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_RI_SBKGTC_To_PID" targetname: "getenv" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:299:27" }
+edge: { sourcename: "tcmanager_RI_SBKGTC_To_PID" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:301:28" }
+edge: { sourcename: "tcmanager_RI_SBKGTC_To_PID" targetname: "printf" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:303:7" }
+edge: { sourcename: "tcmanager_RI_SBKGTC_To_PID" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:304:7" }
+edge: { sourcename: "tcmanager_RI_SBKGTC_To_PID" targetname: "fflush" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:304:7" }
+node: { title: "vm_tcmanager_sbkgtc" label: "vm_tcmanager_sbkgtc\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:309:16" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_SBKGTC_To_PID" targetname: "vm_tcmanager_sbkgtc" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:313:4" }
+node: { title: "tcmanager_RI_SHKFDIRTC" label: "tcmanager_RI_SHKFDIRTC\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:329:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_RI_SHKFDIRTC" targetname: "tcmanager_RI_SHKFDIRTC_To_PID" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:334:4" }
+node: { title: "tcmanager_RI_SHKFDIRTC_To_PID" label: "tcmanager_RI_SHKFDIRTC_To_PID\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:338:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_RI_SHKFDIRTC_To_PID" targetname: "getenv" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:345:27" }
+edge: { sourcename: "tcmanager_RI_SHKFDIRTC_To_PID" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:347:28" }
+edge: { sourcename: "tcmanager_RI_SHKFDIRTC_To_PID" targetname: "printf" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:349:7" }
+edge: { sourcename: "tcmanager_RI_SHKFDIRTC_To_PID" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:350:7" }
+edge: { sourcename: "tcmanager_RI_SHKFDIRTC_To_PID" targetname: "fflush" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:350:7" }
+node: { title: "vm_tcmanager_shkfdirtc" label: "vm_tcmanager_shkfdirtc\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:355:16" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_SHKFDIRTC_To_PID" targetname: "vm_tcmanager_shkfdirtc" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:359:4" }
+node: { title: "tcmanager_RI_get_sender" label: "tcmanager_RI_get_sender\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:369:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "tcmanager_get_sender" label: "tcmanager_get_sender\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:371:15" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_get_sender" targetname: "tcmanager_get_sender" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:372:3" }
+node: { title: "tcmanager_RI_get_last_error" label: "tcmanager_RI_get_last_error\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:375:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_store16" label: "__builtin___asan_report_store16\n<built-in>" shape : ellipse }
+edge: { sourcename: "tcmanager_RI_get_last_error" targetname: "__asan_report_store16" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:377:10" }
+node: { title: "tcmanager_get_last_error" label: "tcmanager_get_last_error\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:380:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_get_last_error" targetname: "tcmanager_RI_get_last_error" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:382:5" }
+node: { title: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:383:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "__builtin___asan_unregister_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:383:1" }
+node: { title: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:383:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:383:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:383:1" }
+node: { title: "__asan_register_globals" label: "__builtin___asan_register_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_invoke_ri.c:383:1" }
+}

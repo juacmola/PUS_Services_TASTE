@@ -1,0 +1,4 @@
+[01m[K/home/jorge/sctre/work/hkfdirmng/C/src/hkfdirmng.c:12:10:[m[K [01;31m[Kfatal error: [m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/components/cctcmanager/src/cctcmanager_iface_v1.h: No existe el archivo o el directorio
+   12 | #include [01;31m[K"/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/components/cctcmanager/src/cctcmanager_iface_v1.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.

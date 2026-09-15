@@ -1,0 +1,11 @@
+<built-in>:asn1scchkfdirmng_t_runtime_error_selectionRP	32	static
+<built-in>:asn1scchkfdirmng_contextIP	16	static
+/home/jorge/sctre/work/dataview/Ada/src/hkfdirmng_datamodel.ads:60:1:Asn1scchkfdirmng_States_Init	16	static
+/home/jorge/sctre/work/dataview/Ada/src/hkfdirmng_datamodel.ads:85:1:Asn1scchkfdirmng_Context_Init	200	static
+/home/jorge/sctre/work/dataview/Ada/src/hkfdirmng_datamodel.ads:97:1:Asn1scchkfdirmng_T_Runtime_Error_Selection_Init	16	static
+/home/jorge/sctre/work/dataview/Ada/src/hkfdirmng_datamodel.adb:41:1:Asn1scchkfdirmng_States_Equal	16	static
+/home/jorge/sctre/work/dataview/Ada/src/hkfdirmng_datamodel.adb:49:1:Asn1scchkfdirmng_States_Isconstraintvalid	16	static
+/home/jorge/sctre/work/dataview/Ada/src/hkfdirmng_datamodel.adb:64:1:Asn1scchkfdirmng_Context_Equal	48	static
+/home/jorge/sctre/work/dataview/Ada/src/hkfdirmng_datamodel.adb:97:1:Asn1scchkfdirmng_Context_Isconstraintvalid	48	static
+/home/jorge/sctre/work/dataview/Ada/src/hkfdirmng_datamodel.adb:123:1:Asn1scchkfdirmng_T_Runtime_Error_Selection_Equal	16	static
+/home/jorge/sctre/work/dataview/Ada/src/hkfdirmng_datamodel.adb:131:1:Asn1scchkfdirmng_T_Runtime_Error_Selection_Isconstraintvalid	16	static

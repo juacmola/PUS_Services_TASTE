@@ -1,0 +1,215 @@
+graph: { title: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c"
+node: { title: "isApythonQ" label: "isApythonQ\n/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:42:5\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_load4" label: "__builtin___asan_report_load4\n<built-in>" shape : ellipse }
+edge: { sourcename: "isApythonQ" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:46:26" }
+edge: { sourcename: "isApythonQ" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:46:40" }
+node: { title: "nameOfQ" label: "nameOfQ\n/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:54:7\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "nameOfQ" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:58:26" }
+node: { title: "__asan_report_load8" label: "__builtin___asan_report_load8\n<built-in>" shape : ellipse }
+edge: { sourcename: "nameOfQ" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:59:28" }
+node: { title: "build_full_queue_name" label: "build_full_queue_name\n/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:79:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "memcpy" label: "__builtin_memcpy\n<built-in>" shape : ellipse }
+edge: { sourcename: "build_full_queue_name" targetname: "memcpy" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:83:5" }
+node: { title: "strlen" label: "__builtin_strlen\n<built-in>" shape : ellipse }
+edge: { sourcename: "build_full_queue_name" targetname: "strlen" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:87:5" }
+edge: { sourcename: "build_full_queue_name" targetname: "memcpy" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:87:5" }
+node: { title: "strcat" label: "strcat\n/usr/include/string.h:149:14" shape : ellipse }
+edge: { sourcename: "build_full_queue_name" targetname: "strcat" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:88:5" }
+node: { title: "checkMQsize" label: "checkMQsize\n/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:97:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "getenv" label: "getenv\n/usr/include/stdlib.h:773:14" shape : ellipse }
+edge: { sourcename: "checkMQsize" targetname: "getenv" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:101:17" }
+node: { title: "fopen" label: "fopen\n/usr/include/stdio.h:264:14" shape : ellipse }
+edge: { sourcename: "checkMQsize" targetname: "fopen" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:105:16" }
+node: { title: "fgets" label: "fgets\n/usr/include/stdio.h:654:14" shape : ellipse }
+edge: { sourcename: "checkMQsize" targetname: "fgets" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:106:9" }
+node: { title: "atoi" label: "atoi\n/usr/include/stdlib.h:105:12" shape : ellipse }
+edge: { sourcename: "checkMQsize" targetname: "atoi" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:107:21" }
+node: { title: "debug_printf" label: "debug_printf\n/home/jorge/sctre/work/irq/GUI/src/debug_messages.h:16:6" shape : ellipse }
+edge: { sourcename: "checkMQsize" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:109:13" }
+node: { title: "__asan_handle_no_return" label: "__builtin___asan_handle_no_return\n<built-in>" shape : ellipse }
+edge: { sourcename: "checkMQsize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:122:13" }
+node: { title: "exit" label: "exit\n/usr/include/stdlib.h:756:13" shape : ellipse }
+edge: { sourcename: "checkMQsize" targetname: "exit" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:122:13" }
+edge: { sourcename: "checkMQsize" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:125:9" }
+edge: { sourcename: "checkMQsize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:126:9" }
+edge: { sourcename: "checkMQsize" targetname: "exit" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:126:9" }
+node: { title: "fclose" label: "fclose\n/usr/include/stdio.h:184:12" shape : ellipse }
+edge: { sourcename: "checkMQsize" targetname: "fclose" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:128:5" }
+node: { title: "create_exchange_queue" label: "create_exchange_queue\n/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:131:5\n1440 bytes (dynamic,bounded)\n0 dynamic objects" }
+node: { title: "__asan_stack_malloc_5" label: "__asan_stack_malloc_5\n<built-in>" shape : ellipse }
+edge: { sourcename: "create_exchange_queue" targetname: "__asan_stack_malloc_5" }
+node: { title: "__asan_stack_free_5" label: "__asan_stack_free_5\n<built-in>" shape : ellipse }
+edge: { sourcename: "create_exchange_queue" targetname: "__asan_stack_free_5" }
+edge: { sourcename: "create_exchange_queue" targetname: "checkMQsize" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:141:5" }
+node: { title: "perror" label: "perror\n/usr/include/stdio.h:878:13" shape : ellipse }
+edge: { sourcename: "create_exchange_queue" targetname: "perror" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:145:9" }
+edge: { sourcename: "create_exchange_queue" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:146:9" }
+edge: { sourcename: "create_exchange_queue" targetname: "exit" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:146:9" }
+edge: { sourcename: "create_exchange_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:149:5" }
+edge: { sourcename: "create_exchange_queue" targetname: "build_full_queue_name" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:152:5" }
+edge: { sourcename: "create_exchange_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:153:5" }
+node: { title: "__asan_report_store8" label: "__builtin___asan_report_store8\n<built-in>" shape : ellipse }
+edge: { sourcename: "create_exchange_queue" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:156:24" }
+edge: { sourcename: "create_exchange_queue" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:157:25" }
+edge: { sourcename: "create_exchange_queue" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:158:26" }
+node: { title: "mq_open" label: "mq_open\n/usr/include/mqueue.h:38:14" shape : ellipse }
+edge: { sourcename: "create_exchange_queue" targetname: "mq_open" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:161:15" }
+edge: { sourcename: "create_exchange_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:172:9" }
+node: { title: "mq_unlink" label: "mq_unlink\n/usr/include/mqueue.h:57:12" shape : ellipse }
+edge: { sourcename: "create_exchange_queue" targetname: "mq_unlink" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:174:12" }
+edge: { sourcename: "create_exchange_queue" targetname: "perror" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:176:13" }
+edge: { sourcename: "create_exchange_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:177:13" }
+edge: { sourcename: "create_exchange_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:181:9" }
+edge: { sourcename: "create_exchange_queue" targetname: "mq_open" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:182:19" }
+edge: { sourcename: "create_exchange_queue" targetname: "perror" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:190:13" }
+edge: { sourcename: "create_exchange_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:191:13" }
+edge: { sourcename: "create_exchange_queue" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:192:13" }
+edge: { sourcename: "create_exchange_queue" targetname: "exit" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:192:13" }
+node: { title: "__asan_report_store4" label: "__builtin___asan_report_store4\n<built-in>" shape : ellipse }
+edge: { sourcename: "create_exchange_queue" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:197:17" }
+edge: { sourcename: "create_exchange_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:200:9" }
+edge: { sourcename: "create_exchange_queue" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:201:9" }
+edge: { sourcename: "create_exchange_queue" targetname: "exit" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:201:9" }
+edge: { sourcename: "create_exchange_queue" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:203:23" }
+node: { title: "strstr" label: "strstr\n/usr/include/string.h:350:14" shape : ellipse }
+edge: { sourcename: "create_exchange_queue" targetname: "strstr" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:205:9" }
+edge: { sourcename: "create_exchange_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:206:9" }
+edge: { sourcename: "create_exchange_queue" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:207:34" }
+edge: { sourcename: "create_exchange_queue" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:209:34" }
+node: { title: "strdup" label: "strdup\n/usr/include/string.h:187:14" shape : ellipse }
+edge: { sourcename: "create_exchange_queue" targetname: "strdup" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:210:30" }
+edge: { sourcename: "create_exchange_queue" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:210:28" }
+node: { title: "mq_getattr" label: "mq_getattr\n/usr/include/mqueue.h:46:12" shape : ellipse }
+edge: { sourcename: "create_exchange_queue" targetname: "mq_getattr" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:213:5" }
+edge: { sourcename: "create_exchange_queue" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:214:5" }
+edge: { sourcename: "create_exchange_queue" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:214:5" }
+edge: { sourcename: "create_exchange_queue" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:214:5" }
+edge: { sourcename: "create_exchange_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:214:5" }
+edge: { sourcename: "create_exchange_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:225:5" }
+node: { title: "__stack_chk_fail" label: "__stack_chk_fail\n<built-in>" shape : ellipse }
+edge: { sourcename: "create_exchange_queue" targetname: "__stack_chk_fail" }
+node: { title: "retrieve_message_from_queue" label: "retrieve_message_from_queue\n/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:229:5\n192 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_stack_malloc_0" label: "__asan_stack_malloc_0\n<built-in>" shape : ellipse }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "__asan_stack_malloc_0" }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:231:18" }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:234:5" }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:235:5" }
+node: { title: "malloc" label: "malloc\n/usr/include/stdlib.h:672:14" shape : ellipse }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "malloc" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:238:25" }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:241:9" }
+node: { title: "mq_receive" label: "mq_receive\n/usr/include/mqueue.h:66:16" shape : ellipse }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "mq_receive" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:246:21" }
+node: { title: "__errno_location" label: "__errno_location\n/usr/include/errno.h:37:13" shape : ellipse }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "__errno_location" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:251:13" }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:251:13" }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "perror" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:253:13" }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:254:13" }
+node: { title: "free" label: "free\n/usr/include/stdlib.h:687:13" shape : ellipse }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "free" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:255:13" }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "free" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:261:9" }
+node: { title: "__asan_report_load_n" label: "__builtin___asan_report_load_n\n<built-in>" shape : ellipse }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "__asan_report_load_n" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:268:5" }
+node: { title: "__asan_report_store_n" label: "__builtin___asan_report_store_n\n<built-in>" shape : ellipse }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "__asan_report_store_n" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:268:5" }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:269:5" }
+node: { title: "memcpy" label: "memcpy\n/usr/include/string.h:43:14" shape : ellipse }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "memcpy" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:272:5" }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "free" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:274:5" }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:275:5" }
+edge: { sourcename: "retrieve_message_from_queue" targetname: "__stack_chk_fail" }
+node: { title: "write_message_to_queue" label: "write_message_to_queue\n/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:279:5\n384 bytes (dynamic)\n2 dynamic objects\n message_data_received /home/jorge/sctre/work/irq/GUI/src/queue_manager.c:309:14\n (null) (null):0:0" }
+node: { title: "__asan_stack_malloc_2" label: "__asan_stack_malloc_2\n<built-in>" shape : ellipse }
+edge: { sourcename: "write_message_to_queue" targetname: "__asan_stack_malloc_2" }
+node: { title: "__asan_allocas_unpoison" label: "__asan_allocas_unpoison\n<built-in>" shape : ellipse }
+edge: { sourcename: "write_message_to_queue" targetname: "__asan_allocas_unpoison" }
+edge: { sourcename: "write_message_to_queue" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:284:9" }
+edge: { sourcename: "write_message_to_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:286:5" }
+edge: { sourcename: "write_message_to_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:287:5" }
+edge: { sourcename: "write_message_to_queue" targetname: "mq_getattr" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:288:5" }
+edge: { sourcename: "write_message_to_queue" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:289:5" }
+edge: { sourcename: "write_message_to_queue" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:289:5" }
+edge: { sourcename: "write_message_to_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:289:5" }
+edge: { sourcename: "write_message_to_queue" targetname: "malloc" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:291:41" }
+edge: { sourcename: "write_message_to_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:293:9" }
+edge: { sourcename: "write_message_to_queue" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:299:40" }
+edge: { sourcename: "write_message_to_queue" targetname: "memcpy" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:303:9" }
+edge: { sourcename: "write_message_to_queue" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:307:15" }
+edge: { sourcename: "write_message_to_queue" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:307:36" }
+edge: { sourcename: "write_message_to_queue" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:309:42" }
+node: { title: "__asan_alloca_poison" label: "__builtin___asan_alloca_poison\n<built-in>" shape : ellipse }
+edge: { sourcename: "write_message_to_queue" targetname: "__asan_alloca_poison" }
+edge: { sourcename: "write_message_to_queue" targetname: "isApythonQ" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:311:28" }
+edge: { sourcename: "write_message_to_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:312:9" }
+edge: { sourcename: "write_message_to_queue" targetname: "getenv" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:314:39" }
+edge: { sourcename: "write_message_to_queue" targetname: "getenv" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:316:39" }
+edge: { sourcename: "write_message_to_queue" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:318:13" }
+edge: { sourcename: "write_message_to_queue" targetname: "nameOfQ" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:318:13" }
+edge: { sourcename: "write_message_to_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:318:13" }
+node: { title: "printf" label: "printf\n/usr/include/stdio.h:363:12" shape : ellipse }
+edge: { sourcename: "write_message_to_queue" targetname: "printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:321:13" }
+edge: { sourcename: "write_message_to_queue" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:327:17" }
+edge: { sourcename: "write_message_to_queue" targetname: "retrieve_message_from_queue" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:327:17" }
+edge: { sourcename: "write_message_to_queue" targetname: "__asan_allocas_unpoison" }
+node: { title: "mq_send" label: "mq_send\n/usr/include/mqueue.h:70:12" shape : ellipse }
+edge: { sourcename: "write_message_to_queue" targetname: "mq_send" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:335:16" }
+edge: { sourcename: "write_message_to_queue" targetname: "perror" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:337:9" }
+edge: { sourcename: "write_message_to_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:338:9" }
+edge: { sourcename: "write_message_to_queue" targetname: "free" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:339:9" }
+edge: { sourcename: "write_message_to_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:343:5" }
+edge: { sourcename: "write_message_to_queue" targetname: "free" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:344:5" }
+edge: { sourcename: "write_message_to_queue" targetname: "__stack_chk_fail" }
+node: { title: "common" label: "common\n/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:350:5\n1328 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "common" targetname: "__asan_stack_malloc_5" }
+edge: { sourcename: "common" targetname: "__asan_stack_free_5" }
+edge: { sourcename: "common" targetname: "checkMQsize" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:352:5" }
+edge: { sourcename: "common" targetname: "__asan_report_store_n" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:355:10" }
+edge: { sourcename: "common" targetname: "build_full_queue_name" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:356:5" }
+edge: { sourcename: "common" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:358:5" }
+edge: { sourcename: "common" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:359:5" }
+edge: { sourcename: "common" targetname: "mq_open" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:363:22" }
+edge: { sourcename: "common" targetname: "perror" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:368:9" }
+edge: { sourcename: "common" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:369:9" }
+edge: { sourcename: "common" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:374:19" }
+edge: { sourcename: "common" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:377:13" }
+edge: { sourcename: "common" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:378:13" }
+edge: { sourcename: "common" targetname: "exit" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:378:13" }
+edge: { sourcename: "common" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:380:27" }
+edge: { sourcename: "common" targetname: "strstr" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:382:13" }
+edge: { sourcename: "common" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:383:13" }
+edge: { sourcename: "common" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:384:38" }
+edge: { sourcename: "common" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:387:38" }
+edge: { sourcename: "common" targetname: "strdup" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:389:34" }
+edge: { sourcename: "common" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:389:32" }
+edge: { sourcename: "common" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:391:9" }
+edge: { sourcename: "common" targetname: "__stack_chk_fail" }
+node: { title: "open_exchange_queue_for_reading" label: "open_exchange_queue_for_reading\n/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:396:5\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "open_exchange_queue_for_reading" targetname: "common" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:398:12" }
+node: { title: "open_exchange_queue_for_writing" label: "open_exchange_queue_for_writing\n/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:401:5\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "open_exchange_queue_for_writing" targetname: "common" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:403:12" }
+node: { title: "delete_exchange_queue" label: "delete_exchange_queue\n/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:406:5\n1280 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "delete_exchange_queue" targetname: "__asan_stack_malloc_5" }
+edge: { sourcename: "delete_exchange_queue" targetname: "__asan_stack_free_5" }
+edge: { sourcename: "delete_exchange_queue" targetname: "__asan_report_store_n" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:409:10" }
+edge: { sourcename: "delete_exchange_queue" targetname: "build_full_queue_name" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:410:5" }
+edge: { sourcename: "delete_exchange_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:412:5" }
+edge: { sourcename: "delete_exchange_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:413:5" }
+node: { title: "mq_close" label: "mq_close\n/usr/include/mqueue.h:43:12" shape : ellipse }
+edge: { sourcename: "delete_exchange_queue" targetname: "mq_close" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:416:9" }
+edge: { sourcename: "delete_exchange_queue" targetname: "perror" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:418:9" }
+edge: { sourcename: "delete_exchange_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:419:9" }
+edge: { sourcename: "delete_exchange_queue" targetname: "mq_unlink" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:424:9" }
+edge: { sourcename: "delete_exchange_queue" targetname: "perror" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:426:9" }
+edge: { sourcename: "delete_exchange_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:427:9" }
+edge: { sourcename: "delete_exchange_queue" targetname: "debug_printf" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:431:5" }
+edge: { sourcename: "delete_exchange_queue" targetname: "__stack_chk_fail" }
+node: { title: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:433:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "__builtin___asan_unregister_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:433:1" }
+node: { title: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:433:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:433:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:433:1" }
+node: { title: "__asan_register_globals" label: "__builtin___asan_register_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:433:1" }
+}

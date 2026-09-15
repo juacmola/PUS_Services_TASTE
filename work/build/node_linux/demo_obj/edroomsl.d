@@ -1,0 +1,19 @@
+edroomsl.o: \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/edroomsl_iface_v1.h \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/edroomsl.h \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/../../../../../llsw/config/include/public/config.h \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/../../../../../llsw/config/include/public/../../../../asw/edroom_glue/include/edroom_glue/edroomdf.h \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/../../../../../llsw/config/include/public/basic_types.h \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/../../../../../asw/edroom_glue/include/edroom_glue/edroomdf.h \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/../../../edroombp/include/public/edroombp.h \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/../../../edroombp/include/public/../../../../../llsw/config/include/public/config.h \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/../../../edroombp/include/public/../edroombp_swr/rtemsapi_5_1/rtems_5_1/edroombp.h \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/../../../edroombp/include/public/../edroombp_swr/rtemsapi_5_1/rtems_5_1/../../../../../../../llsw/config/include/public/config.h \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/../../../edroombp/include/public/../edroombp_swr/rtemsapi_5_1/rtems_5_1/../../edroomtypes.h \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/../../../edroombp/include/public/../edroombp_swr/rtemsapi_5_1/rtems_5_1/../../../../../../../llsw/rtems_osswr/include/public/basic_types.h \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/../../../edroombp/include/public/../edroombp_swr/rtemsapi_5_1/rtems_5_1/../../../../../../../llsw/rtems_osswr/include/public/../rtems_osswr/leon3_types.h \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/../../../edroomsl_types/include/public/edroomsl_types.h \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/../../../edroomsl_types/include/public/../../../edroomsl_types/include/edroomsl_types/edroomsl_types.h \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../include/public/../../../edroomsl/include/edroomsl/../../../edroomsl_types/include/public/../../../edroomsl_types/include/edroomsl_types/../../../../../llsw/rtems_osswr/include/public/basic_types.h \
+ /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/../../edroomsl_types/include/public/edroomsl_types.h

@@ -1,0 +1,4 @@
+/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:26:1:get_device_configuration	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:36:1:get_remote_device_configuration	48	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:52:1:get_device_packetizer_cfg	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:59:1:_sub_I_00099_0	16	static

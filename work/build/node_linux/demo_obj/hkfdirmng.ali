@@ -1,0 +1,202 @@
+V "GNAT Lib v13"
+A -Wall
+A -Wextra
+A -gnatwa
+A -gnatA
+A -gnatd.E
+A -fstack-check=specific
+A -fstack-usage
+A -fcallgraph-info=su,da
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U hkfdirmng%b		hkfdirmng.adb		b1c9db34 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U hkfdirmng%s		hkfdirmng.ads		4cd94f76 EB NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W adaasn1rtl%s		adaasn1rtl.adb		adaasn1rtl.ali
+W hkfdirmng_datamodel%s	hkfdirmng_datamodel.adb	hkfdirmng_datamodel.ali
+W hkfdirmng_ri%s	hkfdirmng_ri.adb	hkfdirmng_ri.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W sctre_dataview%s	sctre_dataview.adb	sctre_dataview.ali
+W system_dataview%s	system_dataview.adb	system_dataview.ali
+W taste_basictypes%s	taste_basictypes.adb	taste_basictypes.ali
+
+D ada.ads		20240521074738 76789da1 ada%s
+D a-charac.ads		20240521074737 2d3ec45b ada.characters%s
+D a-chahan.ads		20240521074737 278246c0 ada.characters.handling%s
+D a-chlat1.ads		20240521074737 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20240521074738 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20240521074738 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240521074738 119b8fb3 ada.streams%s
+D a-string.ads		20240521074738 90ac6797 ada.strings%s
+D a-sttebu.ads		20240521074738 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20240521074738 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240521074738 9eaa38c6 ada.tags%s
+D a-textio.ads		20240521074738 5c2c6153 ada.text_io%s
+D a-unccon.ads		20240521074738 0e9b276f ada.unchecked_conversion%s
+D adaasn1rtl.ads	20260913085857 2efce9f1 adaasn1rtl%s
+D board_config.ads	20260913085857 ff248fc1 board_config%s
+D hkfdirmng.ads		20260913085855 25d5df8a hkfdirmng%s
+D hkfdirmng.adb		20260913085855 b5aecc26 hkfdirmng%b
+D hkfdirmng_datamodel.ads  20260913085857 4afd29ef hkfdirmng_datamodel%s
+D hkfdirmng_ri.ads	20260913085851 fe3525ba hkfdirmng_ri%s
+D interfac.ads		20240521074738 15f799c2 interfaces%s
+D i-c.ads		20240521074738 5c5a6c17 interfaces.c%s
+D i-cstrin.ads		20240521074738 f40c8db4 interfaces.c.strings%s
+D i-cstrea.ads		20240521074738 e53d8b8e interfaces.c_streams%s
+D sctre_dataview.ads	20260913085857 b51d3bcd sctre_dataview%s
+D system.ads		20240521074738 426dafb8 system%s
+D s-bitops.ads		20240521074738 cdf3ac3c system.bit_ops%s
+D s-bituti.ads		20240521074738 797cbcce system.bitfield_utils%s
+D s-bitfie.ads		20240521074738 8e9b6290 system.bitfields%s
+D s-crtl.ads		20240521074738 8a0692f8 system.crtl%s
+D s-exctab.ads		20240521074738 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240521074738 dc5161d4 system.file_control_block%s
+D s-parame.ads		20251218205951 1f39ba92 system.parameters%s
+D s-putima.ads		20240521074738 17291fe4 system.put_images%s
+D s-secsta.ads		20240521074738 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240521074738 df77073e system.soft_links%s
+D s-stache.ads		20240521074738 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240521074738 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240521074738 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20240521074738 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20240521074738 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240521074738 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20240521074738 d9032363 system.wch_con%s
+D system_dataview.ads	20260913085857 b89ed9d5 system_dataview%s
+D taste_basictypes.ads	20260913085857 38c2c5f6 taste_basictypes%s
+D text_io.ads		20240521074738 21b2c898 text_io%s
+G a e
+G c Z s s [to_t_runtime_error_selection hkfdirmng 31 13 none]
+G c Z s s [get_state hkfdirmng 32 13 none]
+G c Z s b [startup hkfdirmng 33 14 none]
+G c Z s b [shkfdirtc hkfdirmng 35 14 none]
+G c Z s b [trigger hkfdirmng 38 14 none]
+G c Z s b [execute_transition hkfdirmng 50 14 none]
+G c Z b b [p_0_exectc hkfdirmng 7 14 none]
+G c Z b b [p_0_evtceventaction hkfdirmng 8 14 none]
+G r c none [get_state hkfdirmng 32 13 none] [to_c_pointer hkfdirmng_ri 33 13 none]
+G r c none [startup hkfdirmng 33 14 none] [get_sender hkfdirmng_ri 23 14 none]
+G r c none [startup hkfdirmng 33 14 none] [exechkfdirtc hkfdirmng_ri 15 14 none]
+G r c none [startup hkfdirmng 33 14 none] [dohousekeeping hkfdirmng_ri 12 14 none]
+G r c none [startup hkfdirmng 33 14 none] [sevaction hkfdirmng_ri 18 14 none]
+G r c none [shkfdirtc hkfdirmng 35 14 none] [get_sender hkfdirmng_ri 23 14 none]
+G r c none [shkfdirtc hkfdirmng 35 14 none] [exechkfdirtc hkfdirmng_ri 15 14 none]
+G r c none [shkfdirtc hkfdirmng 35 14 none] [dohousekeeping hkfdirmng_ri 12 14 none]
+G r c none [shkfdirtc hkfdirmng 35 14 none] [sevaction hkfdirmng_ri 18 14 none]
+G r c none [trigger hkfdirmng 38 14 none] [get_sender hkfdirmng_ri 23 14 none]
+G r c none [trigger hkfdirmng 38 14 none] [exechkfdirtc hkfdirmng_ri 15 14 none]
+G r c none [trigger hkfdirmng 38 14 none] [dohousekeeping hkfdirmng_ri 12 14 none]
+G r c none [trigger hkfdirmng 38 14 none] [sevaction hkfdirmng_ri 18 14 none]
+G r c none [execute_transition hkfdirmng 50 14 none] [get_sender hkfdirmng_ri 23 14 none]
+G r c none [execute_transition hkfdirmng 50 14 none] [exechkfdirtc hkfdirmng_ri 15 14 none]
+G r c none [execute_transition hkfdirmng 50 14 none] [dohousekeeping hkfdirmng_ri 12 14 none]
+G r c none [execute_transition hkfdirmng 50 14 none] [sevaction hkfdirmng_ri 18 14 none]
+G r c none [p_0_exectc hkfdirmng 7 14 none] [exechkfdirtc hkfdirmng_ri 15 14 none]
+G r c none [p_0_evtceventaction hkfdirmng 8 14 none] [sevaction hkfdirmng_ri 18 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|5r6 9r5
+X 2 a-charac.ads
+16K13*Characters 18e19 16|5r10 9r9
+X 3 a-chahan.ads
+43K24*Handling 455e28 16|5w21 9r20
+X 12 a-textio.ads
+282U14*New_Line 17|61s19
+519U14*Put 17|60s19
+X 14 adaasn1rtl.ads
+5K9*adaasn1rtl 128e15 16|17w6 18r5
+19B12*Asn1Boolean{boolean}
+X 16 hkfdirmng.ads
+22K9*Hkfdirmng 52l5 52e14 17|6b14 103l5 103t14
+24e4*self{43|49E6}
+25r4*Default_Context{18|64R6} 30r47
+30r4*ctxt{18|64R6} 32r102 17|12m28 12r28 29r15 31m16 41r15 53r17 64m19 68m35
+. 68r35 73m19 77m35 77r35 84m19 101m10
+31V13*To_T_Runtime_Error_Selection{18|88E6} 31>43
+31e43 Src{44|62E6} 31r247
+32V13*Get_State{22|59P9}
+33U14*Startup 17|98b14 102l11 102t18
+35U14*SHKFDIRTC 35=24 36i<c,hkfdirmng_PI_SHKFDIRTC>21 17|27b14 36l11 36t20
+35r24 packet{24|41R6} 17|27b24 31r31
+38U14*trigger 39i<c,hkfdirmng_PI_trigger>21 17|39b14 47l11 47t18
+41U14*RI_0_SEvAction=41:87 17|21s10
+41e29 Dest_PID{43|49E6}
+43U14*RI_0_DoHousekeeping=43:93 17|79s19
+43e35 Dest_PID{43|49E6}
+45U14*RI_0_ExecHKFDIRTC=45:121 17|12s10
+45r33 Packet{24|41R6}
+45e63 Dest_PID{43|49E6}
+47U14*RI_0_get_sender=47:114 17|68s19 77s19
+47e31 sender{43|49E6}
+47e56 Dest_PID{43|49E6}
+49U14*RI_0_get_last_error=49:127
+49r35 err{44|67R6}
+49e69 Dest_PID{43|49E6}
+50U14*Execute_Transition 50>34 17|32s16 34s16 43s16 45s16 50b14 95l11 95t29
+. 100s10
+50i34 Id{integer} 17|50b34 51r25
+51N4*CS_Only 17|34r36 45r36 86r21
+X 17 hkfdirmng.adb
+7U14 p_0_ExecTC 9b14 15l11 15t21 70s19
+8U14 p_0_evTCEventAction 18b14 24l11 24t30 81s19
+51i7 trId{integer} 53r36 56r17 57r18 63m19 72m19 83m19 87m19
+92L15 Continuous_Signals 65r24 74r24 85r24 88r24
+93L15 Next_Transition
+X 18 hkfdirmng_datamodel.ads
+46K9*Hkfdirmng_Datamodel 16|19w6 19r31 31r107 31r174 18|105e24
+51E6*asn1SccHkfdirmng_States 16|32r71 18|51e48
+51n34*asn1Sccready{51E6} 17|30r18 42r18 64r33 73r33 84r33
+64R6*asn1SccHkfdirmng_Context 16|25r30 30r19 18|71e11
+65e5*state{51E6} 16|32r107 17|29r20 41r20 64m24 73m24 84m24
+66b5*init_done{14|19E12} 16|26m8 17|53r22 101m15
+67e5*sender{43|49E6} 16|27m8 17|68m40 77m40
+68e5*offspring{43|49E6} 16|28m8
+69r5*packet{24|41R6} 17|12m33 31m21
+88E6*asn1SccHkfdirmng_T_Runtime_Error_Selection 16|31r127 31r194 18|88e133
+X 19 hkfdirmng_ri.ads
+10K9*Hkfdirmng_RI 16|21w6 32r44 41r74 43r80 45r108 47r101 49r114 19|35e17
+12U14*Dohousekeeping 16|43r93
+15U14*Exechkfdirtc 16|45r121
+18U14*Sevaction 16|41r87
+23U14*Get_Sender 16|47r114
+26U14*Get_Last_Error 16|49r127
+33V13*To_C_Pointer{22|59P9} 16|32s57
+X 20 interfac.ads
+38K9*Interfaces 16|3w6 4r6 7r5 8r5 20|232e15
+X 21 i-c.ads
+29K20*C 16|4r17 8r16 21|597e17
+X 22 i-cstrin.ads
+44K22*Strings 16|4w19 8r18 22|156e25
+59P9*chars_ptr 16|32r30
+X 24 sctre_dataview.ads
+34K9*SCTRE_DATAVIEW 16|11w6 12r5 24|179e19
+41R6*asn1SccRawTC 16|35r39 45r49 17|27r39 24|44e11
+X 43 system_dataview.ads
+34K9*System_Dataview 16|15w6 16r5 43|66e20
+49E6*asn1SccPID 16|24r20 41r40 43r46 45r74 47r44 47r67 49r80 43|49e102
+49n39*asn1Scchkfdirmng{49E6} 16|24r34
+49n90*asn1Sccenv{49E6} 16|27r18 28r21 41r54 43r60 45r88 47r81 49r94
+X 44 taste_basictypes.ads
+34K9*TASTE_BasicTypes 16|13w6 14r5 31r49 44|144e21
+62E6*asn1SccT_Runtime_Error_selection 16|31r66 44|62e101
+67R6*asn1SccT_Runtime_Error 16|49r45 44|77e11
+X 45 text_io.ads
+24K9*Text_IO=24:29 17|3w6 3r19
+

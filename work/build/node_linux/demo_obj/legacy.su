@@ -1,0 +1,59 @@
+/home/jorge/sctre/work/legacy/CPP/src/../../../../../asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCHandler/include/public/../../../CDTCAcceptReport/include/public/cdtcacceptreport.h:16:2:CDTCAcceptReport::CDTCAcceptReport()	32	static
+/home/jorge/sctre/work/legacy/CPP/src/../../../../../asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCHandler/include/public/../../../CDTCAcceptReport/include/public/cdtcacceptreport.h:21:7:bool CDTCAcceptReport::IsAccepted()	32	static
+/home/jorge/sctre/work/legacy/CPP/src/../../../../../asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCHandler/include/public/../../../CDTCExecCtrl/include/public/cdtcexecctrl.h:24:7:bool CDTCExecCtrl::IsRebootTC()	32	static
+/home/jorge/sctre/work/legacy/CPP/src/../../../../../asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCHandler/include/public/../../../CDTCExecCtrl/include/public/cdtcexecctrl.h:41:7:bool CDTCExecCtrl::IsHK_FDIRTC()	32	static
+/home/jorge/sctre/work/legacy/CPP/src/../../../../../asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCHandler/include/public/../../../CDTCExecCtrl/include/public/cdtcexecctrl.h:50:10:bool CDTCExecCtrl::IsBKGTC()	32	static
+/usr/include/c++/13/bits/chrono.h:822:7:constexpr bool std::chrono::operator<(const duration<_Rep1, _Period1>&, const duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1, 1000000000>; _Rep2 = long int; _Period2 = std::ratio<1, 1000000000>]	208	static
+/usr/include/c++/13/bits/chrono.h:573:23:constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = long int; <template-parameter-2-2> = void; _Rep = long int; _Period = std::ratio<1, 1000000000>]	32	static
+/usr/include/c++/13/bits/chrono.h:589:2:constexpr std::chrono::duration<_Rep, _Period>::rep std::chrono::duration<_Rep, _Period>::count() const [with _Rep = long int; _Period = std::ratio<1, 1000000000>]	32	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy_state.h:9:5:LegacyTCHandler::LegacyTCHandler()	32	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy_state.h:19:7:legacy_state::legacy_state()	32	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:18:6:bool {anonymous}::ValidPacket(const uint8_t*, size_t)	32	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:28:1:LegacyTCHandler::~LegacyTCHandler()	32	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:30:6:void LegacyTCHandler::Reset()	32	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:39:6:bool LegacyTCHandler::Load(const asn1SccRawTC&)	176	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:52:6:bool LegacyTCHandler::ExtractEventAction()	176	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:71:6:void LegacyTCHandler::CopyPacket(asn1SccRawTC&) const	48	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:80:6:void legacy_startup()	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:82:17:void FInit()	208	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:98:6:void legacy_PI_Init()	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:100:6:void legacy_PI_DoHousekeeping()	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:112:17:void FTCExecCtrl()	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:115:17:bool GToReboot()	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:116:17:bool GFwdToHK_FDIR()	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:117:17:bool GFwdToBKG()	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:118:17:void FExecRebootTC()	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:119:17:void FExecPrioTC()	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:121:17:void FFwdHK_FDIRTC(asn1SccRawTC*)	32	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:128:17:void FFwdBKGTC(asn1SccRawTC*)	32	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:134:6:void legacy_PI_HandleTC(asn1SccFwdCommand*, asn1SccRawTC*)	32	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:156:17:bool FGetEvAction()	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:162:6:void legacy_PI_NewEvAction(asn1SccRxTC*)	32	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:171:17:void FReboot()	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:172:6:void legacy_PI_Reboot()	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:174:17:bool FGetTC(const asn1SccTelecommand*)	528	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:197:17:bool GAcceptTC()	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:198:17:void FMngTCAcceptation()	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:199:17:void FMngTCRejection()	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:204:6:void legacy_PI_NewRxTC(const asn1SccTelecommand*, asn1SccRxTC*)	32	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:217:6:void legacy_PI_ExecHKFDIRTC(const asn1SccRawTC*)	240	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:224:6:void legacy_PI_ExecBKGTC(const asn1SccRawTC*)	240	static
+/usr/include/c++/13/bits/chrono.h:1192:7:constexpr bool std::chrono::operator>=(const time_point<_Clock, _Duration1>&, const time_point<_Clock, _Duration2>&) [with _Clock = _V2::steady_clock; _Dur1 = duration<long int, std::ratio<1, 1000000000> >; _Dur2 = duration<long int, std::ratio<1, 1000000000> >]	32	static
+/usr/include/c++/13/bits/chrono.h:1174:7:constexpr bool std::chrono::operator<(const time_point<_Clock, _Duration1>&, const time_point<_Clock, _Duration2>&) [with _Clock = _V2::steady_clock; _Dur1 = duration<long int, std::ratio<1, 1000000000> >; _Dur2 = duration<long int, std::ratio<1, 1000000000> >]	192	static
+/usr/include/c++/13/bits/chrono.h:949:2:constexpr std::chrono::time_point<_Clock, _Dur>::duration std::chrono::time_point<_Clock, _Dur>::time_since_epoch() const [with _Clock = std::chrono::_V2::steady_clock; _Dur = std::chrono::duration<long int, std::ratio<1, 1000000000> >]	32	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:233:6:void legacy_PI_PollTC(asn1SccRxTC*)	624	static
+/usr/include/c++/13/bits/chrono.h:589:2:constexpr std::chrono::duration<_Rep, _Period>::rep std::chrono::duration<_Rep, _Period>::count() const [with _Rep = long int; _Period = std::ratio<1>]	32	static
+/usr/include/c++/13/bits/chrono.h:573:23:constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = int; <template-parameter-2-2> = void; _Rep = long int; _Period = std::ratio<1>]	32	static
+/usr/include/c++/13/bits/chrono.h:1101:7:constexpr std::chrono::time_point<_Clock, typename std::common_type<_Dur1, std::chrono::duration<_Rep2, _Period2> >::type> std::chrono::operator+(const time_point<_Clock, _Duration1>&, const duration<_Rep2, _Period2>&) [with _Clock = _V2::steady_clock; _Dur1 = duration<long int, std::ratio<1, 1000000000> >; _Rep2 = long int; _Period2 = std::ratio<1>]	224	static
+/usr/include/c++/13/bits/chrono.h:581:14:constexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep2 = long int; _Period2 = std::ratio<1>; <template-parameter-2-3> = void; _Rep = long int; _Period = std::ratio<1, 1000000000>]	160	static
+/usr/include/c++/13/bits/chrono.h:978:2:constexpr std::chrono::time_point<_Clock, _Dur>& std::chrono::time_point<_Clock, _Dur>::operator+=(const duration&) [with _Clock = std::chrono::_V2::steady_clock; _Dur = std::chrono::duration<long int, std::ratio<1, 1000000000> >]	32	static
+/usr/include/c++/13/bits/chrono.h:273:7:constexpr std::chrono::__enable_if_is_duration<_ToDur> std::chrono::duration_cast(const duration<_Rep, _Period>&) [with _ToDur = duration<long int, std::ratio<1, 1000000000> >; _Rep = long int; _Period = std::ratio<1>]	32	static
+/usr/include/c++/13/bits/chrono.h:696:7:constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator+(const duration<_Rep1, _Period1>&, const duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1, 1000000000>; _Rep2 = long int; _Period2 = std::ratio<1>]	272	static
+/usr/include/c++/13/bits/chrono.h:936:21:constexpr std::chrono::time_point<_Clock, _Dur>::time_point(const duration&) [with _Clock = std::chrono::_V2::steady_clock; _Dur = std::chrono::duration<long int, std::ratio<1, 1000000000> >]	32	static
+/usr/include/c++/13/bits/chrono.h:625:2:constexpr std::chrono::duration<_Rep, _Period>& std::chrono::duration<_Rep, _Period>::operator+=(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1, 1000000000>]	32	static
+/usr/include/c++/13/bits/chrono.h:221:4:static constexpr _ToDur std::chrono::__duration_cast_impl<_ToDur, _CF, _CR, false, true>::__cast(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1>; _ToDur = std::chrono::duration<long int, std::ratio<1, 1000000000> >; _CF = std::ratio<1000000000, 1>; _CR = long int]	192	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy_state.h:19:7:legacy_state::~legacy_state()	32	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:267:1:void __static_initialization_and_destruction_0()	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:267:1:cc)	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:267:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/legacy/CPP/src/legacy.cc:267:1:_sub_I_00099_1	16	static

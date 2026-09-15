@@ -1,0 +1,8 @@
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:58:1:Broker_packetizer_error_to_broker_error	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:76:1:Broker_initialize_packetizers_functions	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:105:1:Broker_initialize	192	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:132:1:Broker_deliver_request	112	dynamic,bounded
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:193:1:Broker_receive_packet	336	dynamic,bounded
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:243:1:Broker_register_error_callback	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:246:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:246:1:_sub_I_00099_1	16	static

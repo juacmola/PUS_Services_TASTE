@@ -1,0 +1,10 @@
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_sc_channel_drv/src/emu_sc_channel_drv.cc:39:6:void RXLockFunction()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_sc_channel_drv/src/emu_sc_channel_drv.cc:42:6:void RXUnlockFunction()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_sc_channel_drv/src/emu_sc_channel_drv.cc:48:6:void TXLockFunction()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_sc_channel_drv/src/emu_sc_channel_drv.cc:51:6:void TXUnlockFunction()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_sc_channel_drv/src/emu_sc_channel_drv.cc:55:17:void SC_Channel_Init(void*)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_sc_channel_drv/src/emu_sc_channel_drv.cc:61:8:bool_t SC_Channel_RxData()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_sc_channel_drv/src/emu_sc_channel_drv.cc:66:6:void SC_Channel_GetNextTC(CDTCMemDescriptor&)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_sc_channel_drv/src/emu_sc_channel_drv.cc:87:6:void SC_Channel_HandlePendingTCs()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_sc_channel_drv/src/emu_sc_channel_drv.cc:95:17:void SC_Channel_TxTM(const tm_mem_descriptor_t*)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_sc_channel_drv/src/emu_sc_channel_drv.cc:103:1:cc)	32	static

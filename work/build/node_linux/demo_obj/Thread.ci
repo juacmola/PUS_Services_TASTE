@@ -1,0 +1,71 @@
+graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc"
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:_ZNKSt5ctypeIcE8do_widenEc" label: "virtual std::ctype<char>::char_type std::ctype<char>::do_widen(char) const\n/usr/include/c++/13/bits/locale_facets.h:1092:7\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "_ZN5taste6Thread14method_wrapperEPv" label: "static void* taste::Thread::method_wrapper(void*)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:113:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "_ZN5taste6Thread14method_wrapperEPv" targetname: "__indirect_call" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:116:11" }
+node: { title: "_ZN5taste6Thread29method_wrapper_with_parameterEPv" label: "static void* taste::Thread::method_wrapper_with_parameter(void*)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:122:1\n16 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "_ZN5taste6Thread29method_wrapper_with_parameterEPv" targetname: "__indirect_call" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:127:11" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" label: "std::basic_ostream<_CharT, _Traits>& std::endl(basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = char_traits<char>]\n/usr/include/c++/13/ostream:735:5\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "_ZSt16__throw_bad_castv" label: "void std::__throw_bad_cast()\n/usr/include/c++/13/bits/functexcept.h:60:3" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" targetname: "_ZSt16__throw_bad_castv" label: "/usr/include/c++/13/bits/basic_ios.h:50:18" }
+node: { title: "_ZNKSt5ctypeIcE13_M_widen_initEv" label: "void std::ctype<char>::_M_widen_init() const\n/usr/include/c++/13/bits/locale_facets.h:1178:12" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" targetname: "_ZNKSt5ctypeIcE13_M_widen_initEv" label: "/usr/include/c++/13/bits/locale_facets.h:884:21" }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" targetname: "__indirect_call" label: "/usr/include/c++/13/bits/locale_facets.h:885:23" }
+node: { title: "_ZNSo3putEc" label: "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::put(char_type) [with _CharT = char; _Traits = std::char_traits<char>]\n/usr/include/c++/13/bits/ostream.tcc:153:5" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" targetname: "_ZNSo3putEc" label: "/usr/include/c++/13/ostream:736:19" }
+node: { title: "_ZNSo5flushEv" label: "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::flush() [with _CharT = char; _Traits = std::char_traits<char>]\n/usr/include/c++/13/bits/ostream.tcc:221:5" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" targetname: "_ZNSo5flushEv" label: "/usr/include/c++/13/ostream:758:24" }
+node: { title: "_ZN5taste6ThreadC2Eim" label: "taste::Thread::Thread(int, size_t)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:28:1\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "_ZN5taste6Thread4joinEv" label: "void taste::Thread::join()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:57:1\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "pthread_join" label: "int pthread_join(pthread_t, void**)\n/usr/include/pthread.h:219:12" shape : ellipse }
+edge: { sourcename: "_ZN5taste6Thread4joinEv" targetname: "pthread_join" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:59:17" }
+node: { title: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" label: "void taste::Thread::create_thread(void* (*)(void*), void*)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:63:1\n144 bytes (static)\n0 dynamic objects" }
+node: { title: "pthread_attr_init" label: "int pthread_attr_init(pthread_attr_t*)\n/usr/include/pthread.h:285:12" shape : ellipse }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "pthread_attr_init" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:67:32" }
+node: { title: "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" label: "std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const char*) [with _Traits = char_traits<char>]\n/usr/include/c++/13/ostream:662:5" shape : ellipse }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:69:22" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" label: "/usr/include/c++/13/ostream:115:13" }
+node: { title: "exit" label: "void exit(int)\n/usr/include/stdlib.h:756:13" shape : ellipse }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "exit" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:70:13" }
+node: { title: "pthread_attr_setstacksize" label: "int pthread_attr_setstacksize(pthread_attr_t*, size_t)\n/usr/include/pthread.h:373:12" shape : ellipse }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "pthread_attr_setstacksize" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:73:36" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:75:22" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" label: "/usr/include/c++/13/ostream:115:13" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "exit" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:76:13" }
+node: { title: "pthread_attr_setschedpolicy" label: "int pthread_attr_setschedpolicy(pthread_attr_t*, int)\n/usr/include/pthread.h:329:12" shape : ellipse }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "pthread_attr_setschedpolicy" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:80:38" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:82:22" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" label: "/usr/include/c++/13/ostream:115:13" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "exit" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:83:13" }
+node: { title: "sched_get_priority_min" label: "int sched_get_priority_min(int)\n/usr/include/sched.h:74:12" shape : ellipse }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "sched_get_priority_min" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:86:56" }
+node: { title: "sched_get_priority_max" label: "int sched_get_priority_max(int)\n/usr/include/sched.h:71:12" shape : ellipse }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "sched_get_priority_max" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:87:56" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:90:22" }
+node: { title: "_ZNSolsEi" label: "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]\n/usr/include/c++/13/bits/ostream.tcc:110:5" shape : ellipse }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "_ZNSolsEi" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:91:22" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:91:22" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "_ZNSolsEi" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:91:59" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:91:59" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "_ZNSolsEi" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:91:76" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" label: "/usr/include/c++/13/ostream:115:13" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "exit" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:92:13" }
+node: { title: "pthread_attr_setschedparam" label: "int pthread_attr_setschedparam(pthread_attr_t*, const sched_param*)\n/usr/include/pthread.h:319:12" shape : ellipse }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "pthread_attr_setschedparam" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:97:37" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:99:22" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" label: "/usr/include/c++/13/ostream:115:13" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "exit" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:100:13" }
+node: { title: "pthread_create" label: "int pthread_create(pthread_t*, const pthread_attr_t*, void* (*)(void*), void*)\n/usr/include/pthread.h:202:12" shape : ellipse }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "pthread_create" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:103:25" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:105:22" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" label: "/usr/include/c++/13/ostream:115:13" }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "exit" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:106:13" }
+node: { title: "pthread_attr_destroy" label: "int pthread_attr_destroy(pthread_attr_t*)\n/usr/include/pthread.h:288:12" shape : ellipse }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "pthread_attr_destroy" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:109:25" }
+node: { title: "__stack_chk_fail" label: "__stack_chk_fail\n<built-in>" shape : ellipse }
+edge: { sourcename: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" targetname: "__stack_chk_fail" }
+node: { title: "_ZN5taste6Thread5startEPFvvE" label: "void taste::Thread::start(void (*)())\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:35:1\n8 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "_ZN5taste6Thread5startEPFvvE" targetname: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:41:18" }
+node: { title: "_ZN5taste6Thread5startEPFvPvES1_" label: "void taste::Thread::start(void (*)(void*), void*)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:45:1\n8 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "_ZN5taste6Thread5startEPFvPvES1_" targetname: "_ZN5taste6Thread13create_threadEPFPvS1_ES1_" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:53:18" }
+}

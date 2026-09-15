@@ -1,0 +1,30 @@
+graph: { title: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb"
+node: { title: "tcmanager_ri__delete_instance" label: "Delete_Instance\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager_ri.ads:45:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "tcmanager_ri__to_c_pointer" label: "To_C_Pointer\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager_ri.ads:48:4\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "interfaces__c__strings__new_string" label: "New_String\n/usr/lib/gcc/x86_64-linux-gnu/13/adainclude/i-cstrin.ads:77:13" shape : ellipse }
+edge: { sourcename: "tcmanager_ri__to_c_pointer" targetname: "interfaces__c__strings__new_string" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager_ri.ads:49:8" }
+node: { title: "tcmanager_ri__handletc" label: "Handletc\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:5:4\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "*tcmanager_RI_HandleTC_To_PID" label: "C_Handletc\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:9:17" shape : ellipse }
+edge: { sourcename: "tcmanager_ri__handletc" targetname: "*tcmanager_RI_HandleTC_To_PID" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:17:10" }
+node: { title: "tcmanager_ri__init" label: "Init\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:22:4\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "*tcmanager_RI_Init_To_PID" label: "C_Init\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:23:17" shape : ellipse }
+edge: { sourcename: "tcmanager_ri__init" targetname: "*tcmanager_RI_Init_To_PID" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:29:10" }
+node: { title: "tcmanager_ri__newevaction" label: "Newevaction\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:34:4\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "*tcmanager_RI_NewEvAction_To_PID" label: "C_Newevaction\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:37:17" shape : ellipse }
+edge: { sourcename: "tcmanager_ri__newevaction" targetname: "*tcmanager_RI_NewEvAction_To_PID" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:44:10" }
+node: { title: "tcmanager_ri__newrxtc" label: "Newrxtc\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:49:4\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "*tcmanager_RI_NewRxTC_To_PID" label: "C_Newrxtc\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:53:17" shape : ellipse }
+edge: { sourcename: "tcmanager_ri__newrxtc" targetname: "*tcmanager_RI_NewRxTC_To_PID" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:61:10" }
+node: { title: "tcmanager_ri__polltc" label: "Polltc\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:66:4\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "*tcmanager_RI_PollTC_To_PID" label: "C_Polltc\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:69:17" shape : ellipse }
+edge: { sourcename: "tcmanager_ri__polltc" targetname: "*tcmanager_RI_PollTC_To_PID" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:76:10" }
+node: { title: "tcmanager_ri__reboot" label: "Reboot\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:81:4\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "*tcmanager_RI_Reboot_To_PID" label: "C_Reboot\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:82:17" shape : ellipse }
+edge: { sourcename: "tcmanager_ri__reboot" targetname: "*tcmanager_RI_Reboot_To_PID" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:88:10" }
+node: { title: "tcmanager_ri__sbkgtc" label: "Sbkgtc\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:93:4\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "*tcmanager_RI_SBKGTC_To_PID" label: "C_Sbkgtc\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:96:17" shape : ellipse }
+edge: { sourcename: "tcmanager_ri__sbkgtc" targetname: "*tcmanager_RI_SBKGTC_To_PID" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:103:10" }
+node: { title: "tcmanager_ri__shkfdirtc" label: "Shkfdirtc\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:108:4\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "*tcmanager_RI_SHKFDIRTC_To_PID" label: "C_Shkfdirtc\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:111:17" shape : ellipse }
+edge: { sourcename: "tcmanager_ri__shkfdirtc" targetname: "*tcmanager_RI_SHKFDIRTC_To_PID" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:118:10" }
+}

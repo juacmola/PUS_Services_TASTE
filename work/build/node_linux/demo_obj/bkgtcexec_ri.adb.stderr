@@ -1,0 +1,4 @@
+bkgtcexec_ri.ads:8:06: warning: redundant with clause [-gnatwr]
+bkgtcexec_ri.ads:8:27: warning: "System_Dataview" is already use-visible through previous use_clause at line 5 [-gnatwr]
+bkgtcexec_ri.ads:14:27: warning: "Check_Queue.Res" is an 8-bit Ada Boolean [-gnatwx]
+bkgtcexec_ri.ads:14:27: warning: use appropriate corresponding type in C (e.g. char) [-gnatwx]

@@ -1,0 +1,10 @@
+/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager_ri.ads:45:4:Delete_Instance	16	static
+/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager_ri.ads:48:4:To_C_Pointer	32	static
+/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:5:4:Handletc	48	static
+/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:22:4:Init	32	static
+/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:34:4:Newevaction	48	static
+/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:49:4:Newrxtc	48	static
+/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:66:4:Polltc	48	static
+/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:81:4:Reboot	32	static
+/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:93:4:Sbkgtc	32	static
+/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_ri.adb:108:4:Shkfdirtc	32	static

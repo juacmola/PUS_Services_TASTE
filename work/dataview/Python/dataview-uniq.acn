@@ -1,0 +1,23 @@
+SCTRE-DATAVIEW DEFINITIONS ::= BEGIN
+    RxTC[]
+    FwdCommand[]
+    GPendingEvAction[]
+    GToReboot[]
+    GFwToHK-FDIR[]
+    GFwToBKG[]
+    Telecommand[]
+    Pr-time[]
+END
+TASTE-BasicTypes DEFINITIONS ::= BEGIN
+    T-Int32[]
+    T-UInt32[]
+    T-Int8[]
+    T-UInt8[]
+    T-Boolean[]
+    T-Null-Record[]
+    T-Runtime-Error[]
+END
+System-Dataview DEFINITIONS ::= BEGIN
+    PID-Range[]
+    PID[]
+END

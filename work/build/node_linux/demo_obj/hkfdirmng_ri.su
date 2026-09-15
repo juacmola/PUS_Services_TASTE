@@ -1,0 +1,5 @@
+/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng_ri.ads:30:4:Delete_Instance	16	static
+/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng_ri.ads:33:4:To_C_Pointer	32	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_ri.adb:5:4:Dohousekeeping	32	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_ri.adb:17:4:Exechkfdirtc	32	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_ri.adb:32:4:Sevaction	32	static

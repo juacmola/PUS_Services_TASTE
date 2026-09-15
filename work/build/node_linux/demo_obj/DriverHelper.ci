@@ -1,0 +1,17 @@
+graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c"
+node: { title: "get_device_configuration" label: "get_device_configuration\n/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:26:1\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_load8" label: "__builtin___asan_report_load8\n<built-in>" shape : ellipse }
+edge: { sourcename: "get_device_configuration" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:32:33" }
+node: { title: "get_remote_device_configuration" label: "get_remote_device_configuration\n/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:36:1\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_load4" label: "__builtin___asan_report_load4\n<built-in>" shape : ellipse }
+edge: { sourcename: "get_remote_device_configuration" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:41:26" }
+edge: { sourcename: "get_remote_device_configuration" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:43:56" }
+edge: { sourcename: "get_remote_device_configuration" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:44:41" }
+node: { title: "get_device_packetizer_cfg" label: "get_device_packetizer_cfg\n/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:52:1\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "get_device_packetizer_cfg" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:58:12" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:_sub_I_00099_0" label: "_sub_I_00099_0\n/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:59:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:_sub_I_00099_0" targetname: "__asan_init" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:59:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:_sub_I_00099_0" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/RuntimeCommon/DriverHelper.c:59:1" }
+}

@@ -1,0 +1,60 @@
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:300:1:int __gthread_active_p()	16	static
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:746:1:int __gthread_mutex_lock(__gthread_mutex_t*)	32	static
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:776:1:int __gthread_mutex_unlock(__gthread_mutex_t*)	32	static
+/usr/include/c++/13/bits/std_mutex.h:111:5:void std::mutex::lock()	48	static
+/usr/include/c++/13/bits/std_mutex.h:129:5:void std::mutex::unlock()	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:18:6:void call_bkgtcexec_sbkgtc(const char*, size_t)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:23:13:bool thread_bkgtcexec_sbkgtc_check_queue()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:31:6:void call_hkfdirmng_shkfdirtc(const char*, size_t)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:41:13:bool thread_hkfdirmng_shkfdirtc_check_queue()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:49:6:void call_hkfdirmng_trigger(const char*, size_t)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:59:13:bool thread_hkfdirmng_trigger_check_queue()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:67:6:void call_tcmanager_poll(const char*, size_t)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:77:13:bool thread_tcmanager_poll_check_queue()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:85:6:void call_tcmanager_sevaction(const char*, size_t)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:95:13:bool thread_tcmanager_sevaction_check_queue()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:106:6:void vm_bkgtcexec_execbkgtc(asn1SccPID, const char*, size_t)	48	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:127:6:void call_protected_BKGTCExec_SBKGTC(const char*, size_t)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:142:6:void bkgtcexec_check_queue(bool*)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:156:6:void vm_hkfdirmng_dohousekeeping(asn1SccPID)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:171:6:void vm_hkfdirmng_exechkfdirtc(asn1SccPID, const char*, size_t)	48	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:190:6:void vm_hkfdirmng_sevaction(asn1SccPID)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:203:6:void call_protected_HKFDIRMng_SHKFDIRTC(const char*, size_t)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:217:6:void call_protected_HKFDIRMng_trigger()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:228:6:void hkfdirmng_check_queue(bool*)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:246:6:void call_protected_Legacy_DoHousekeeping()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:256:6:void call_protected_Legacy_ExecBKGTC(const char*, size_t)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:270:6:void call_protected_Legacy_ExecHKFDIRTC(const char*, size_t)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:284:6:void call_protected_Legacy_HandleTC(char*, size_t*, char*, size_t*)	48	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:300:6:void call_protected_Legacy_Init()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:310:6:void call_protected_Legacy_NewEvAction(char*, size_t*)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:324:6:void call_protected_Legacy_NewRxTC(const char*, size_t, char*, size_t*)	48	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:340:6:void call_protected_Legacy_PollTC(char*, size_t*)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:354:6:void call_protected_Legacy_Reboot()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:365:6:void legacy_check_queue(bool*)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:399:6:void vm_tcmanager_handletc(asn1SccPID, char*, size_t*, char*, size_t*)	64	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:421:6:void vm_tcmanager_init(asn1SccPID)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:436:6:void vm_tcmanager_newevaction(asn1SccPID, char*, size_t*)	48	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:456:6:void vm_tcmanager_newrxtc(asn1SccPID, const char*, size_t, char*, size_t*)	64	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:478:6:void vm_tcmanager_polltc(asn1SccPID, char*, size_t*)	48	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:498:6:void vm_tcmanager_reboot(asn1SccPID)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:512:6:void vm_tcmanager_sbkgtc(asn1SccPID, const char*, size_t)	48	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:525:6:void vm_tcmanager_shkfdirtc(asn1SccPID, const char*, size_t)	48	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:540:6:void call_protected_TCManager_poll()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:550:6:void call_protected_TCManager_SEvAction()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:561:6:void tcmanager_check_queue(bool*)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Queue.h:180:1:bool taste::Queue<PARAMETER_SIZE>::is_empty() const [with long unsigned int PARAMETER_SIZE = 260]	176	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Queue.h:180:1:bool taste::Queue<PARAMETER_SIZE>::is_empty() const [with long unsigned int PARAMETER_SIZE = 1]	176	static
+/usr/include/c++/13/bits/unique_lock.h:68:16:std::unique_lock<_Mutex>::unique_lock(mutex_type&) [with _Mutex = std::mutex]	32	static
+/usr/include/c++/13/bits/unique_lock.h:103:7:std::unique_lock<_Mutex>::~unique_lock() [with _Mutex = std::mutex]	32	static
+/usr/include/c++/13/bits/stl_queue.h:218:7:bool std::queue<_Tp, _Sequence>::empty() const [with _Tp = taste::Request<260>; _Sequence = std::deque<taste::Request<260>, std::allocator<taste::Request<260> > >]	32	static
+/usr/include/c++/13/bits/stl_queue.h:218:7:bool std::queue<_Tp, _Sequence>::empty() const [with _Tp = taste::Request<1>; _Sequence = std::deque<taste::Request<1>, std::allocator<taste::Request<1> > >]	32	static
+/usr/include/c++/13/bits/move.h:51:5:constexpr _Tp* std::__addressof(_Tp&) [with _Tp = mutex]	16	static
+/usr/include/c++/13/bits/unique_lock.h:133:7:void std::unique_lock<_Mutex>::lock() [with _Mutex = std::mutex]	32	static
+/usr/include/c++/13/bits/unique_lock.h:194:7:void std::unique_lock<_Mutex>::unlock() [with _Mutex = std::mutex]	32	static
+/usr/include/c++/13/bits/stl_deque.h:1347:7:bool std::deque<_Tp, _Alloc>::empty() const [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	32	static
+/usr/include/c++/13/bits/stl_deque.h:1347:7:bool std::deque<_Tp, _Alloc>::empty() const [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	32	static
+/usr/include/c++/13/bits/stl_deque.h:272:7:bool std::operator==(const _Deque_iterator<taste::Request<260>, taste::Request<260>&, taste::Request<260>*>::_Self&, const _Deque_iterator<taste::Request<260>, taste::Request<260>&, taste::Request<260>*>::_Self&)	32	static
+/usr/include/c++/13/bits/stl_deque.h:272:7:bool std::operator==(const _Deque_iterator<taste::Request<1>, taste::Request<1>&, taste::Request<1>*>::_Self&, const _Deque_iterator<taste::Request<1>, taste::Request<1>&, taste::Request<1>*>::_Self&)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:576:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/build/node_linux/demo/demo_interface.cc:576:1:_sub_I_00099_1	16	static

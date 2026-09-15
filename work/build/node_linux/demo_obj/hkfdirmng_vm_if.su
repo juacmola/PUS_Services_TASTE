@@ -1,0 +1,6 @@
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:11:6:hkfdirmng_get_sender	32	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:23:6:init_hkfdirmng	32	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:37:6:hkfdirmng_SHKFDIRTC	48	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:74:6:hkfdirmng_trigger	32	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:97:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:97:1:_sub_I_00099_1	16	static

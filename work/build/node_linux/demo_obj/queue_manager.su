@@ -1,0 +1,13 @@
+/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:42:5:isApythonQ	48	static
+/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:54:7:nameOfQ	48	static
+/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:79:6:build_full_queue_name	32	static
+/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:97:6:checkMQsize	32	static
+/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:131:5:create_exchange_queue	1440	dynamic,bounded
+/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:229:5:retrieve_message_from_queue	192	static
+/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:279:5:write_message_to_queue	384	dynamic
+/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:350:5:common	1328	static
+/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:396:5:open_exchange_queue_for_reading	32	static
+/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:401:5:open_exchange_queue_for_writing	32	static
+/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:406:5:delete_exchange_queue	1280	static
+/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:433:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/irq/GUI/src/queue_manager.c:433:1:_sub_I_00099_1	16	static

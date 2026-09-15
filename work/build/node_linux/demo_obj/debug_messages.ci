@@ -1,0 +1,29 @@
+graph: { title: "/home/jorge/sctre/work/dataview/C/debug_messages.c"
+node: { title: "debug_printf" label: "debug_printf\n/home/jorge/sctre/work/dataview/C/debug_messages.c:11:6\n368 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_stack_malloc_1" label: "__asan_stack_malloc_1\n<built-in>" shape : ellipse }
+edge: { sourcename: "debug_printf" targetname: "__asan_stack_malloc_1" }
+node: { title: "getenv" label: "getenv\n/usr/include/stdlib.h:773:14" shape : ellipse }
+edge: { sourcename: "debug_printf" targetname: "getenv" label: "/home/jorge/sctre/work/dataview/C/debug_messages.c:19:28" }
+node: { title: "puts" label: "__builtin_puts\n<built-in>" shape : ellipse }
+edge: { sourcename: "debug_printf" targetname: "puts" label: "/home/jorge/sctre/work/dataview/C/debug_messages.c:22:2" }
+node: { title: "vsnprintf" label: "vsnprintf\n/usr/include/stdio.h:389:12" shape : ellipse }
+edge: { sourcename: "debug_printf" targetname: "vsnprintf" label: "/home/jorge/sctre/work/dataview/C/debug_messages.c:29:2" }
+node: { title: "printf" label: "printf\n/usr/include/stdio.h:363:12" shape : ellipse }
+edge: { sourcename: "debug_printf" targetname: "printf" label: "/home/jorge/sctre/work/dataview/C/debug_messages.c:30:2" }
+node: { title: "__asan_handle_no_return" label: "__builtin___asan_handle_no_return\n<built-in>" shape : ellipse }
+edge: { sourcename: "debug_printf" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/dataview/C/debug_messages.c:34:2" }
+node: { title: "exit" label: "exit\n/usr/include/stdlib.h:756:13" shape : ellipse }
+edge: { sourcename: "debug_printf" targetname: "exit" label: "/home/jorge/sctre/work/dataview/C/debug_messages.c:34:2" }
+node: { title: "__stack_chk_fail" label: "__stack_chk_fail\n<built-in>" shape : ellipse }
+edge: { sourcename: "debug_printf" targetname: "__stack_chk_fail" }
+node: { title: "/home/jorge/sctre/work/dataview/C/debug_messages.c:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/dataview/C/debug_messages.c:35:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "__builtin___asan_unregister_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/dataview/C/debug_messages.c:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/dataview/C/debug_messages.c:35:1" }
+node: { title: "/home/jorge/sctre/work/dataview/C/debug_messages.c:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/dataview/C/debug_messages.c:35:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/dataview/C/debug_messages.c:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/dataview/C/debug_messages.c:35:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/dataview/C/debug_messages.c:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/dataview/C/debug_messages.c:35:1" }
+node: { title: "__asan_register_globals" label: "__builtin___asan_register_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/dataview/C/debug_messages.c:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/dataview/C/debug_messages.c:35:1" }
+}

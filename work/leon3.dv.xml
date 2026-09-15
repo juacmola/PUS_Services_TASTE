@@ -1,0 +1,19 @@
+<DeploymentView version="1.2" UiFile="leon3.ui.xml" creatorHash="8f9a913" modifierHash="8f9a913">
+    <Node id="{46b00048-ed0c-4ffb-8179-ef4631b34560}" name="x86 Linux POHIC_1" type="ocarina_processors_x86::x86.linux" node_label="Node_1" namespace="ocarina_processors_x86">
+        <Partition id="{2fe97c68-701c-4855-83fd-5a14c889d7e5}" name="Partition_1">
+            <Function id="{4b0f8c80-33e5-4a1c-b2c1-08f37a56c973}" name="TCManager" path="TCManager"/>
+            <Function id="{5a8b85c6-e56c-4178-90a6-6c33a6eb5a2e}" name="Legacy" path="Legacy"/>
+            <Function id="{d03a3135-96bc-4d16-92f9-f878cb787d53}" name="BKGTCExec" path="BKGTCExec"/>
+            <Function id="{6706a175-6a82-420a-9d52-e619b3c197a2}" name="IRQ" path="IRQ"/>
+            <Function id="{039bb464-8ec0-4284-98b7-26d17579345d}" name="HKFDIRMng" path="HKFDIRMng"/>
+        </Partition>
+        <Device id="{7809c2f5-8001-4a2e-93ae-0169aa7fd0dc}" name="ethernet1" requires_bus_access="ocarina_buses::ip.i" port="ethernet1" asn1file="/home/jorge/tool-inst/include/ocarina/runtime/polyorb-hi-c/src/drivers/configuration/ip.asn" asn1type="IP-Conf-T" asn1module="POHICDRIVER-IP" impl_extends="ocarina_drivers::generic_sockets_ip.pohic" bus_namespace="ocarina_buses" extends="ocarina_drivers::generic_sockets_ip" namespace="ocarina_drivers">
+        </Device>
+        <Device id="{2f853cd8-2b5c-4fc1-98d9-afdd6b218c3f}" name="ethernet2" requires_bus_access="ocarina_buses::ip.i" port="ethernet2" asn1file="/home/jorge/tool-inst/include/ocarina/runtime/polyorb-hi-c/src/drivers/configuration/ip.asn" asn1type="IP-Conf-T" asn1module="POHICDRIVER-IP" impl_extends="ocarina_drivers::generic_sockets_ip.pohic" bus_namespace="ocarina_buses" extends="ocarina_drivers::generic_sockets_ip" namespace="ocarina_drivers">
+        </Device>
+        <Device id="{1d27315c-1c4c-4df8-a981-b6b91877d11b}" name="ethernet3" requires_bus_access="ocarina_buses::ip.i" port="ethernet3" asn1file="/home/jorge/tool-inst/include/ocarina/runtime/polyorb-hi-c/src/drivers/configuration/ip.asn" asn1type="IP-Conf-T" asn1module="POHICDRIVER-IP" impl_extends="ocarina_drivers::generic_sockets_ip.pohic" bus_namespace="ocarina_buses" extends="ocarina_drivers::generic_sockets_ip" namespace="ocarina_drivers">
+        </Device>
+        <Device id="{696e2748-6358-42fd-be38-5ee3ea21d5ac}" name="serial" requires_bus_access="ocarina_buses::serial.minimal" port="serial" asn1file="/home/jorge/tool-inst/include/ocarina/runtime/polyorb-hi-c/src/drivers/configuration/serial.asn" asn1type="Serial-Conf-T" asn1module="POHICDRIVER-UART" impl_extends="ocarina_drivers::linux_serial.minimal" bus_namespace="ocarina_buses" extends="ocarina_drivers::linux_serial" namespace="ocarina_drivers">
+        </Device>
+    </Node>
+</DeploymentView>

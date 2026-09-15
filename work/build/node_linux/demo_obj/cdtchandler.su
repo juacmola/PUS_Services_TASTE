@@ -1,0 +1,10 @@
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCHandler/src/cdtchandler.cc:16:1:CDTCHandler::CDTCHandler()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCHandler/src/cdtchandler.cc:23:6:void CDTCHandler::BuildFromDescriptor(CDTCMemDescriptor&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCHandler/src/cdtchandler.cc:29:18:CDTCAcceptReport CDTCHandler::DoAcceptation()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCHandler/src/cdtchandler.cc:37:6:void CDTCHandler::MngTCRejection(CDTCAcceptReport&)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCHandler/src/cdtchandler.cc:45:6:void CDTCHandler::MngTCAcceptation()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCHandler/src/cdtchandler.cc:51:14:CDTCExecCtrl CDTCHandler::GetExecCtrl()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCHandler/src/cdtchandler.cc:81:6:void CDTCHandler::ExecPrioTC()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCHandler/src/cdtchandler.cc:110:6:void CDTCHandler::ExecHK_FDIRTC()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCHandler/src/cdtchandler.cc:145:6:void CDTCHandler::ExecBKGTC()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCHandler/src/cdtchandler.cc:172:6:void CDTCHandler::ExecRebootTC()	16	static

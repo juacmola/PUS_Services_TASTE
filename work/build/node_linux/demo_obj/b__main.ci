@@ -1,0 +1,84 @@
+graph: { title: "b__main.adb"
+node: { title: "ada_main__Tsec_default_sized_stacksBIP" label: "Tsec_default_sized_stacksBIP\n<built-in>\n64 bytes (static)\n0 dynamic objects" }
+node: { title: "system__secondary_stack__ss_stackIP" label: "Ss_Stackip\n/usr/lib/gcc/x86_64-linux-gnu/13/adainclude/s-secsta.ads:314:9" shape : ellipse }
+edge: { sourcename: "ada_main__Tsec_default_sized_stacksBIP" targetname: "system__secondary_stack__ss_stackIP" label: "b__main.adb:49:4" }
+node: { title: "b__main.adb:ada_main__finalize_library" label: "finalize_library\nb__main.adb:56:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "ada__text_io__finalize_spec" label: "f1\nb__main.adb:60:20" shape : ellipse }
+edge: { sourcename: "b__main.adb:ada_main__finalize_library" targetname: "ada__text_io__finalize_spec" label: "b__main.adb:64:13" }
+node: { title: "system__file_io__finalize_body" label: "f2\nb__main.adb:68:20" shape : ellipse }
+edge: { sourcename: "b__main.adb:ada_main__finalize_library" targetname: "system__file_io__finalize_body" label: "b__main.adb:73:13" }
+node: { title: "__gnat_reraise_library_exception_if_any" label: "reraise_library_exception_if_any\nb__main.adb:77:20" shape : ellipse }
+edge: { sourcename: "b__main.adb:ada_main__finalize_library" targetname: "__gnat_reraise_library_exception_if_any" label: "b__main.adb:80:10" }
+node: { title: "adafinal" label: "adafinal\nb__main.adb:84:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__gnat_runtime_finalize" label: "runtime_finalize\nb__main.adb:88:17" shape : ellipse }
+edge: { sourcename: "adafinal" targetname: "__gnat_runtime_finalize" label: "b__main.adb:96:7" }
+node: { title: "system__standard_library__adafinal" label: "s_stalib_adafinal\nb__main.adb:85:17" shape : ellipse }
+edge: { sourcename: "adafinal" targetname: "system__standard_library__adafinal" label: "b__main.adb:97:7" }
+node: { title: "adainit" label: "adainit\nb__main.adb:103:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "ada_main___elabb" label: "e77b\nb__main.adb:168:15" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "ada_main___elabb" label: "b__main.adb:168:15" }
+node: { title: "__gnat_runtime_initialize" label: "runtime_initialize\nb__main.adb:137:17" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "__gnat_runtime_initialize" label: "b__main.adb:173:7" }
+node: { title: "ada__exceptions___elabs" label: "e80b\nb__main.adb:178:24" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "ada__exceptions___elabs" label: "b__main.adb:178:24" }
+node: { title: "system__soft_links___elabs" label: "e82b\nb__main.adb:181:27" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "system__soft_links___elabs" label: "b__main.adb:181:27" }
+node: { title: "system__exception_table___elabb" label: "e84b\nb__main.adb:184:32" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "system__exception_table___elabb" label: "b__main.adb:184:32" }
+node: { title: "ada__containers___elabs" label: "e86b\nb__main.adb:188:24" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "ada__containers___elabs" label: "b__main.adb:188:24" }
+node: { title: "ada__io_exceptions___elabs" label: "e88b\nb__main.adb:192:27" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "ada__io_exceptions___elabs" label: "b__main.adb:192:27" }
+node: { title: "ada__numerics___elabs" label: "e90b\nb__main.adb:196:22" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "ada__numerics___elabs" label: "b__main.adb:196:22" }
+node: { title: "ada__strings___elabs" label: "e92b\nb__main.adb:200:21" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "ada__strings___elabs" label: "b__main.adb:200:21" }
+node: { title: "ada__strings__maps___elabs" label: "e94b\nb__main.adb:204:26" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "ada__strings__maps___elabs" label: "b__main.adb:204:26" }
+node: { title: "ada__strings__maps__constants___elabs" label: "e96b\nb__main.adb:208:36" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "ada__strings__maps__constants___elabs" label: "b__main.adb:208:36" }
+node: { title: "interfaces__c___elabs" label: "e98b\nb__main.adb:212:22" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "interfaces__c___elabs" label: "b__main.adb:212:22" }
+node: { title: "system__exceptions___elabs" label: "e100b\nb__main.adb:216:27" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "system__exceptions___elabs" label: "b__main.adb:216:27" }
+node: { title: "system__object_reader___elabs" label: "e102b\nb__main.adb:220:30" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "system__object_reader___elabs" label: "b__main.adb:220:30" }
+node: { title: "system__dwarf_lines___elabs" label: "e104b\nb__main.adb:224:28" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "system__dwarf_lines___elabs" label: "b__main.adb:224:28" }
+node: { title: "system__os_lib___elabb" label: "e106b\nb__main.adb:227:23" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "system__os_lib___elabb" label: "b__main.adb:227:23" }
+node: { title: "system__soft_links__initialize___elabb" label: "e108b\nb__main.adb:231:38" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "system__soft_links__initialize___elabb" label: "b__main.adb:231:38" }
+node: { title: "system__traceback__symbolic___elabb" label: "e110b\nb__main.adb:236:35" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "system__traceback__symbolic___elabb" label: "b__main.adb:236:35" }
+node: { title: "system__img_int___elabs" label: "e112b\nb__main.adb:240:24" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "system__img_int___elabs" label: "b__main.adb:240:24" }
+node: { title: "system__img_uns___elabs" label: "e114b\nb__main.adb:245:24" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "system__img_uns___elabs" label: "b__main.adb:245:24" }
+node: { title: "ada__strings__utf_encoding___elabs" label: "e116b\nb__main.adb:250:34" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "ada__strings__utf_encoding___elabs" label: "b__main.adb:250:34" }
+node: { title: "ada__tags___elabs" label: "e118b\nb__main.adb:254:18" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "ada__tags___elabs" label: "b__main.adb:254:18" }
+node: { title: "ada__tags___elabb" label: "e120b\nb__main.adb:257:18" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "ada__tags___elabb" label: "b__main.adb:257:18" }
+node: { title: "ada__strings__text_buffers___elabs" label: "e122b\nb__main.adb:261:34" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "ada__strings__text_buffers___elabs" label: "b__main.adb:261:34" }
+node: { title: "interfaces__c__strings___elabs" label: "e124b\nb__main.adb:265:30" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "interfaces__c__strings___elabs" label: "b__main.adb:265:30" }
+node: { title: "ada__streams___elabs" label: "e126b\nb__main.adb:269:21" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "ada__streams___elabs" label: "b__main.adb:269:21" }
+node: { title: "system__file_control_block___elabs" label: "e128b\nb__main.adb:273:35" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "system__file_control_block___elabs" label: "b__main.adb:273:35" }
+node: { title: "system__finalization_root___elabs" label: "e130b\nb__main.adb:277:34" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "system__finalization_root___elabs" label: "b__main.adb:277:34" }
+node: { title: "ada__finalization___elabs" label: "e132b\nb__main.adb:281:26" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "ada__finalization___elabs" label: "b__main.adb:281:26" }
+node: { title: "system__file_io___elabb" label: "e134b\nb__main.adb:285:24" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "system__file_io___elabb" label: "b__main.adb:285:24" }
+node: { title: "ada__text_io___elabs" label: "e136b\nb__main.adb:289:21" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "ada__text_io___elabs" label: "b__main.adb:289:21" }
+node: { title: "ada__text_io___elabb" label: "e138b\nb__main.adb:292:21" shape : ellipse }
+edge: { sourcename: "adainit" targetname: "ada__text_io___elabb" label: "b__main.adb:292:21" }
+node: { title: "ada_main___elabb" label: "ada_main\nb__main.adb:8:1\n16 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "ada_main___elabb" targetname: "ada_main__Tsec_default_sized_stacksBIP" label: "b__main.adb:49:4" }
+}

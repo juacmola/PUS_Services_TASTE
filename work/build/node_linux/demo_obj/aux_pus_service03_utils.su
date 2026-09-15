@@ -1,0 +1,1 @@
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service03/src/aux_pus_service03_utils.cc:34:14:error_code_t pus_service3_get_SID_index(uint16_t, uint8_t*)	8	static

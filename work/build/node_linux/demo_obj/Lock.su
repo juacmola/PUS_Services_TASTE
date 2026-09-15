@@ -1,0 +1,2 @@
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:27:1:void taste::Lock::lock()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:33:1:void taste::Lock::unlock()	8	static

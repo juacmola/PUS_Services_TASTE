@@ -1,0 +1,10 @@
+graph: { title: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_invoke_ri.c"
+node: { title: "legacy_RI_get_sender" label: "legacy_RI_get_sender\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_invoke_ri.c:8:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_get_sender" label: "legacy_get_sender\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_invoke_ri.c:10:15" shape : ellipse }
+edge: { sourcename: "legacy_RI_get_sender" targetname: "legacy_get_sender" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_invoke_ri.c:11:3" }
+node: { title: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_invoke_ri.c:_sub_I_00099_0" label: "_sub_I_00099_0\n/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_invoke_ri.c:12:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_invoke_ri.c:_sub_I_00099_0" targetname: "__asan_init" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_invoke_ri.c:12:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_invoke_ri.c:_sub_I_00099_0" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/legacy/CPP/wrappers/legacy_invoke_ri.c:12:1" }
+}

@@ -1,0 +1,5 @@
+<built-in>:Tsec_default_sized_stacksBIP	64	static
+b__main.adb:56:4:finalize_library	16	static
+b__main.adb:84:4:adafinal	16	static
+b__main.adb:103:4:adainit	16	static
+b__main.adb:8:1:ada_main	16	static

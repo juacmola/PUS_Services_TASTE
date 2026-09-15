@@ -1,0 +1,5 @@
+bkgtcexec_ri.ads:3:06: warning: no entities of "Sctre_Dataview" are referenced [-gnatwu]
+bkgtcexec_ri.ads:3:24: warning: use clause for package "SCTRE_DATAVIEW" has no effect [-gnatwu]
+bkgtcexec_ri.ads:8:06: warning: redundant with clause [-gnatwr]
+bkgtcexec_ri.ads:14:27: warning: "Check_Queue.Res" is an 8-bit Ada Boolean [-gnatwx]
+bkgtcexec_ri.ads:14:27: warning: use appropriate corresponding type in C (e.g. char) [-gnatwx]

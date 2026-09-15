@@ -1,0 +1,184 @@
+V "GNAT Lib v13"
+A -Wall
+A -Wextra
+A -gnatwa
+A -gnatA
+A -gnatd.E
+A -fstack-check=specific
+A -fstack-usage
+A -fcallgraph-info=su,da
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U tcmanager_datamodel%b	tcmanager_datamodel.adb	f16040a8 NE OO PK
+W sctre_dataview%s	sctre_dataview.adb	sctre_dataview.ali
+W system_dataview%s	system_dataview.adb	system_dataview.ali
+
+U tcmanager_datamodel%s	tcmanager_datamodel.ads	801841cc EE NE OO PK
+W adaasn1rtl%s		adaasn1rtl.adb		adaasn1rtl.ali
+W interfaces%s		interfac.ads		interfac.ali
+W sctre_dataview%s	sctre_dataview.adb	sctre_dataview.ali
+W system%s		system.ads		system.ali
+W system_dataview%s	system_dataview.adb	system_dataview.ali
+
+D ada.ads		20240521074738 76789da1 ada%s
+D a-charac.ads		20240521074737 2d3ec45b ada.characters%s
+D a-chlat1.ads		20240521074737 e0d72e76 ada.characters.latin_1%s
+D adaasn1rtl.ads	20260913085857 2efce9f1 adaasn1rtl%s
+D board_config.ads	20260913085857 ff248fc1 board_config%s
+D interfac.ads		20240521074738 15f799c2 interfaces%s
+D sctre_dataview.ads	20260913085857 b51d3bcd sctre_dataview%s
+D system.ads		20240521074738 426dafb8 system%s
+D s-bitops.ads		20240521074738 cdf3ac3c system.bit_ops%s
+D s-bituti.ads		20240521074738 797cbcce system.bitfield_utils%s
+D s-bitfie.ads		20240521074738 8e9b6290 system.bitfields%s
+D s-stoele.ads		20240521074738 ab5468e4 system.storage_elements%s
+D s-unstyp.ads		20240521074738 fa2a7f59 system.unsigned_types%s
+D system_dataview.ads	20260913085857 b89ed9d5 system_dataview%s
+D tcmanager_datamodel.ads  20260913085857 f4fd7c5f tcmanager_datamodel%s
+D tcmanager_datamodel.adb  20260913085857 081edeef tcmanager_datamodel%b
+G a e
+G c Z s b [asn1scctcmanager_states_equal tcmanager_datamodel 55 10 none]
+G c Z s b [asn1scctcmanager_states_isconstraintvalid tcmanager_datamodel 58 10 none]
+G c Z s s [asn1scctcmanager_states_init tcmanager_datamodel 60 10 none]
+G c Z s b [asn1scctcmanager_context_equal tcmanager_datamodel 76 10 none]
+G c Z s b [asn1scctcmanager_context_isconstraintvalid tcmanager_datamodel 87 10 none]
+G c Z s s [asn1scctcmanager_context_init tcmanager_datamodel 89 10 none]
+G c Z s b [asn1scctcmanager_t_runtime_error_selection_equal tcmanager_datamodel 96 10 none]
+G c Z s b [asn1scctcmanager_t_runtime_error_selection_isconstraintvalid tcmanager_datamodel 99 10 none]
+G c Z s s [asn1scctcmanager_t_runtime_error_selection_init tcmanager_datamodel 101 10 none]
+G c Z s s [asn1scctcmanager_contextIP tcmanager_datamodel 64 6 none]
+G r c none [asn1scctcmanager_context_equal tcmanager_datamodel 76 10 none] [asn1sccrawtc_equal sctre_dataview 46 10 none]
+G r c none [asn1scctcmanager_context_equal tcmanager_datamodel 76 10 none] [asn1scctelecommand_equal sctre_dataview 141 10 none]
+G r c none [asn1scctcmanager_context_isconstraintvalid tcmanager_datamodel 87 10 none] [asn1sccpid_isconstraintvalid system_dataview 56 10 none]
+G r c none [asn1scctcmanager_context_isconstraintvalid tcmanager_datamodel 87 10 none] [asn1sccrxtc_isconstraintvalid sctre_dataview 61 10 none]
+G r c none [asn1scctcmanager_context_isconstraintvalid tcmanager_datamodel 87 10 none] [asn1sccrawtc_isconstraintvalid sctre_dataview 49 10 none]
+G r c none [asn1scctcmanager_context_isconstraintvalid tcmanager_datamodel 87 10 none] [asn1sccfwdcommand_isconstraintvalid sctre_dataview 73 10 none]
+G r c none [asn1scctcmanager_context_isconstraintvalid tcmanager_datamodel 87 10 none] [asn1scctelecommand_isconstraintvalid sctre_dataview 153 10 none]
+G r c none [asn1scctcmanager_context_init tcmanager_datamodel 89 10 none] [asn1scctelecommand_init sctre_dataview 161 10 none]
+X 4 adaasn1rtl.ads
+5K9*adaasn1rtl 128e15 15|11w6 19r5 24r10 25r10 26r10 27r10 28r10 51r92 58r90
+. 66r17 87r92 92r146 99r128 16|54r90 57r11 57r37 110r92 113r11 113r37 150r128
+. 153r11 153r37
+10M9*BIT 15|28r21
+12M12*Asn1Byte{6|69M9}
+14I12*Asn1Int{5|3I12} 15|27r21
+15M12*Asn1UInt{5|4M12} 15|26r21
+17N4*Enumerated_Size 15|51r103 92r157
+19B12*Asn1Boolean{boolean} 15|66r28
+22A9*BitArray(10M9)<integer> 15|25r21
+25A9*OctetBuffer(12M12)<integer> 15|24r21
+41R9*ASN1_RESULT 44e14 15|58r101 87r103 99r139 16|54r101 57r22 57r48 110r103
+. 113r22 113r48 150r139 153r22 153r48
+42b7*Success{boolean} 16|57m61 60m9 61r30 113m61 117r12 119r16 121r20 123r24
+. 125r28 127r32 153m61 156m9 157r30
+43i7*ErrorCode{integer} 16|57m78 61m9 113m78 153m78 157m9
+X 5 board_config.ads
+3I12*Asn1Int{6|56I9}
+4M12*Asn1UInt{6|83M9}
+X 6 interfac.ads
+38K9*Interfaces 232e15 15|4w6 8r5
+56I9*Integer_64<long_long_integer>
+69M9*Unsigned_8
+83M9*Unsigned_64
+X 7 sctre_dataview.ads
+34K9*SCTRE_DATAVIEW 179e19 15|40w6 40r26 69r18 70r14 71r15 72r10 90r152 90r247
+. 90r286 16|20w6 30r10 31r10 32r10 33r10 34r10 35r10 36r10 91r32 97r40 122r24
+. 124r28 126r32 128r36
+40I9*asn1SccRawTC_length_index{integer}
+41R6*asn1SccRawTC 44e11 15|70r29 16|31r25
+42i5*Length{40I9} 15|90m199
+43a5*Data{39A9} 15|90m212
+46V10*asn1SccRawTC_Equal{boolean} 16|91s47
+49V10*asn1SccRawTC_IsConstraintValid{4|41R9} 16|124s43
+54E6*asn1SccRxTC 54e60 15|69r33 16|30r25
+54n22*asn1Sccnot_accepted{54E6} 15|90r167
+61V10*asn1SccRxTC_IsConstraintValid{4|41R9} 16|122s39
+66E6*asn1SccFwdCommand 66e106 15|71r30 16|32r25
+66n28*asn1Sccto_reboot{66E6} 15|90r262
+73V10*asn1SccFwdCommand_IsConstraintValid{4|41R9} 16|126s47
+118M9*asn1SccTelecommand_service_type{4|15M12} 16|33r25
+120M9*asn1SccTelecommand_subservice_type{4|15M12} 16|34r25
+124R6*asn1SccTelecommand_param 126e11 16|35r25
+128R6*asn1SccTelecommand 132e11 15|72r25 16|36r25
+141V10*asn1SccTelecommand_Equal{boolean} 16|97s55
+153V10*asn1SccTelecommand_IsConstraintValid{4|41R9} 16|128s51
+161V10*asn1SccTelecommand_Init{128R6} 15|90s301
+X 8 system.ads
+37K9*System 153e11 15|15w6
+X 14 system_dataview.ads
+34K9*System_Dataview 66e20 15|34w6 34r27 67r14 68r17 90r57 90r104 16|11w6
+. 29r10 118r16 120r20
+49E6*asn1SccPID 49e102 15|67r30 68r33 16|29r26
+49n21*asn1Sccbkgtcexec{49E6} 15|90r73 90r120
+56V10*asn1SccPID_IsConstraintValid{4|41R9} 16|118s32 120s36
+X 15 tcmanager_datamodel.ads
+46K9*Tcmanager_Datamodel 109l5 109e24 16|39b14 167l5 167t24
+50I9*asn1SccTcmanager_States_index_range{integer}
+51E6*asn1SccTcmanager_States 51e79 52r5 55r53 58r58 60r47 65r13 16|46r55
+. 54r58
+51n34*asn1Sccreboot{51E6} 53r6 61r2 90r12 16|60r31
+51n49*asn1Sccready{51E6} 53r26 16|60r58
+51n63*asn1Sccvalidtc{51E6} 53r45 16|60r86
+55V10*asn1SccTcmanager_States_Equal{boolean} 55>40 55>46 16|46b10 52l5 52t34
+55e40 val1{51E6} 16|46b41 50r16
+55e46 val2{51E6} 16|46b47 50r23
+57i1*ERR_TCMANAGER_STATES{integer} 16|61r50
+58V10*asn1SccTcmanager_States_IsConstraintValid{4|41R9} 58>52 16|54b10 63l5
+. 63t46 116s12
+58e52 val{51E6} 16|54b52 60r25 60r52 60r80
+60V10*asn1SccTcmanager_States_Init{51E6}
+64R6*asn1SccTcmanager_Context 73e11 76r54 87r59 89r48 16|69r56 110r59
+65e5*state{51E6} 90m3 16|76r18 76r31 116r58
+66b5*init_done{4|19E12} 90m27 16|79r22 79r39
+67e5*sender{14|49E6} 90m47 16|82r26 82r40 118r65
+68e5*offspring{14|49E6} 90m91 16|85r30 85r47 120r69
+69e5*acceptance{7|54E6} 90m138 16|88r34 88r52 122r73
+70r5*packet{7|41R6} 90m188 16|91r71 91r84 124r78
+71e5*fwdcomm{7|66E6} 90m236 16|94r42 94r57 126r87
+72r5*tc{7|128R6} 90m280 16|97r85 97r94 128r92
+76V10*asn1SccTcmanager_Context_Equal{boolean} 76>41 76>47 16|69b10 108l5
+. 108t35
+76r41 val1{64R6} 16|69b42 76r13 79r17 82r21 85r25 88r29 91r66 94r37 97r80
+76r47 val2{64R6} 16|69b48 76r26 79r34 82r35 85r42 88r47 91r79 94r52 97r89
+78i1*ERR_TCMANAGER_CONTEXT{integer}
+79i1*ERR_TCMANAGER_CONTEXT_STATE_2{integer}
+80i1*ERR_TCMANAGER_CONTEXT_INIT_DONE{integer}
+81i1*ERR_TCMANAGER_CONTEXT_SENDER_2{integer}
+82i1*ERR_TCMANAGER_CONTEXT_OFFSPRING_2{integer}
+83i1*ERR_TCMANAGER_CONTEXT_ACCEPTANCE_2{integer}
+84i1*ERR_TCMANAGER_CONTEXT_PACKET_2{integer}
+85i1*ERR_TCMANAGER_CONTEXT_FWDCOMM_2{integer}
+86i1*ERR_TCMANAGER_CONTEXT_TC{integer}
+87V10*asn1SccTcmanager_Context_IsConstraintValid{4|41R9} 87>53 16|110b10
+. 136l5 136t47
+87r53 val{64R6} 16|110b53 116r54 118r61 120r65 122r69 124r74 126r83 128r88
+89V10*asn1SccTcmanager_Context_Init{64R6}
+91I9*asn1SccTcmanager_T_Runtime_Error_Selection_index_range{integer}
+92E6*asn1SccTcmanager_T_Runtime_Error_Selection 92e133 93r5 96r72 99r77 101r66
+. 16|142r74 150r77
+92n53*asn1Sccnoerror_present{92E6} 94r6 102r2 16|156r31
+92n77*asn1Sccencodeerror_present{92E6} 94r35 16|156r67
+92n105*asn1Sccdecodeerror_present{92E6} 94r68 16|156r109
+96V10*asn1SccTcmanager_T_Runtime_Error_Selection_Equal{boolean} 96>59 96>65
+. 16|142b10 148l5 148t53
+96e59 val1{92E6} 16|142b60 146r16
+96e65 val2{92E6} 16|142b66 146r23
+98i1*ERR_TCMANAGER_T_RUNTIME_ERROR_SELECTION{integer} 16|157r50
+99V10*asn1SccTcmanager_T_Runtime_Error_Selection_IsConstraintValid{4|41R9}
+. 99>71 16|150b10 159l5 159t65
+99e71 val{92E6} 16|150b71 156r25 156r61 156r103
+101V10*asn1SccTcmanager_T_Runtime_Error_Selection_Init{92E6}
+X 16 tcmanager_datamodel.adb
+57r5 ret{4|41R9} 60m5 61m5 61r26 62r12
+72b5 ret{boolean} 76m5 78r8 79m9 81r12 82m13 84r16 85m17 87r20 88m21 90r24
+. 91m25 93r28 94m29 96r32 97m33 106r16
+113r5 ret{4|41R9} 116m5 117r8 118m9 119r12 120m13 121r16 122m17 123r20 124m21
+. 125r24 126m25 127r28 128m29 135r12
+153r5 ret{4|41R9} 156m5 157m5 157r26 158r12
+

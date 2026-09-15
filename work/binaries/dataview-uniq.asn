@@ -1,0 +1,119 @@
+SCTRE-DATAVIEW DEFINITIONS ::=
+BEGIN
+
+TC-type{APID, SEQ-COUNT, APUserID, PUS} ::= SEQUENCE {
+    dest-apid           APID  DEFAULT obsw-AP,
+    sequence-count      SEQ-COUNT,
+    packet-length       INTEGER(0..65535),
+    secondary-header    TC-Secondary-Header {APUserID},
+    application-data    PUS,
+    packet-error        INTEGER(0..65535)
+}
+
+TM-type {APID, Seq-count, APUserID, TM-Time, TMs} ::= SEQUENCE {
+    source-apid         APID,
+    sequence-count      Seq-count,
+    packet-length       INTEGER(0..65535),
+    secondary-header    TM-Secondary-Header{APUserID, TM-Time},
+    source-data         TMs,
+    packet-error        INTEGER(0..65535)
+}
+
+TM-no-sec-header{APID, Seq-count, TM-09} ::= SEQUENCE {
+    source-apid         APID,
+    sequence-count      Seq-count,
+    packet-length       INTEGER(0..65535),
+    source-data         TM-09,
+    packet-error        INTEGER(0..65535)
+}
+
+TC-Secondary-Header {APUserID} ::= SEQUENCE {
+    ack-successful-completion BOOLEAN,
+    ack-successful-progress   BOOLEAN,
+    ack-successful-start      BOOLEAN,
+    ack-successful-acceptance BOOLEAN,
+    service-type              INTEGER (0..255),
+    message-subtype-id        INTEGER (0..255),
+    source-id                 APUserID
+}
+
+TM-Secondary-Header {APUserID, TM-Time}  ::= SEQUENCE {
+    time-reference-status   INTEGER(0..15),
+    service-type            INTEGER(0..255),
+    message-subtype-id      INTEGER(0..255),
+    message-type-counter    INTEGER(0..65535),
+    destination-id          APUserID,
+    time                    TM-Time
+}
+
+
+-- Complete PUS packet copied by value across asynchronous interfaces.
+RawTC ::= OCTET STRING (SIZE (0..256))
+
+RxTC  ::= ENUMERATED { not-accepted, accepted }
+FwdCommand  ::= ENUMERATED { to-reboot, exec-prio-tc, fwdhk-fdir-tc, fwdbkgtc }
+GPendingEvAction ::= BOOLEAN
+GToReboot ::= BOOLEAN
+GFwToHK-FDIR ::= BOOLEAN
+GFwToBKG  ::= BOOLEAN
+Telecommand ::= SEQUENCE {
+    service-type     INTEGER(0..255),
+    subservice-type  INTEGER(0..255),
+    param       OCTET STRING (SIZE (3))
+}
+
+Pr-time ::= REAL(0.0..1000000.0)
+
+
+END
+
+
+TASTE-BasicTypes DEFINITIONS ::=
+BEGIN
+
+-- Set of TASTE predefined basic types
+
+T-Int32 ::=  INTEGER (-2147483648 .. 2147483647)
+
+T-UInt32 ::= INTEGER (0 .. 4294967295)
+
+T-Int8 ::= INTEGER (-128 .. 127)
+
+T-UInt8 ::= INTEGER (0 .. 255)
+
+T-Boolean ::= BOOLEAN
+
+T-Null-Record ::= SEQUENCE {}
+
+T-Runtime-Error ::= CHOICE {
+   noerror T-UInt32, -- this shall be NULL, but DMT does not support NULL and SEDS does not support empty sequences
+   encodeerror T-Int32, -- the names shall be changed after fix in seds converter (space creator) will be merged
+   decodeerror T-Int32
+}
+
+END
+
+-- Dataview generated on-the-fly providing information on the system
+-- and made available to the user code.
+System-Dataview DEFINITIONS ::=
+BEGIN
+
+   -- Range of PID - type can be used to size arrays of PID type
+   PID-Range ::= INTEGER(0..4)
+
+   -- List of functions (instances) present in the system
+   PID ::= ENUMERATED {
+       bkgtcexec,
+       
+       hkfdirmng,
+       
+       legacy,
+       
+       tcmanager,
+       
+       
+       env
+   }
+
+END
+

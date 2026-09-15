@@ -1,0 +1,116 @@
+/usr/include/c++/13/new:174:33:void* operator new(std::size_t, void*)	16	static
+/usr/include/c++/13/bits/stl_deque.h:96:3:constexpr std::size_t std::__deque_buf_size(size_t)	16	static
+/usr/include/c++/13/bits/std_function.h:85:17:void* std::_Any_data::_M_access()	16	static
+/usr/include/c++/13/bits/std_function.h:86:17:const void* std::_Any_data::_M_access() const	16	static
+/usr/include/c++/13/bits/std_function.h:241:5:std::_Function_base::~_Function_base()	32	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:63:6:void register_communication_device_thread(void (*)())	32	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:70:13:void initializeDevices()	32	static
+/usr/include/c++/13/bits/std_mutex.h:67:15:constexpr std::__mutex_base::__mutex_base()	32	static
+/usr/include/c++/13/bits/std_mutex.h:104:5:constexpr std::mutex::mutex()	32	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:95:13:void Initialize_Thread_bkgtcexec_sbkgtc()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:100:13:void Join_Thread_bkgtcexec_sbkgtc()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:108:13:void Initialize_Thread_hkfdirmng_shkfdirtc()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:113:13:void Join_Thread_hkfdirmng_shkfdirtc()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:121:13:void Initialize_Thread_hkfdirmng_trigger()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:126:13:void Join_Thread_hkfdirmng_trigger()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:134:13:void Initialize_Thread_tcmanager_poll()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:139:13:void Join_Thread_tcmanager_poll()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:147:13:void Initialize_Thread_tcmanager_sevaction()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:152:13:void Join_Thread_tcmanager_sevaction()	16	static
+/usr/include/c++/13/bits/std_function.h:334:11:std::function<void()>::~function()	32	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:158:5:int main()	256	static
+/usr/include/c++/13/bits/stl_algobase.h:257:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = long unsigned int]	32	static
+/usr/include/c++/13/bits/stl_queue.h:96:11:std::queue<taste::Request<260>, std::deque<taste::Request<260>, std::allocator<taste::Request<260> > > >::~queue()	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Queue.h:121:1:taste::Queue<PARAMETER_SIZE>::Queue(size_t, const char*) [with long unsigned int PARAMETER_SIZE = 260]	64	static
+/usr/include/c++/13/bits/stl_queue.h:96:11:std::queue<taste::Request<1>, std::deque<taste::Request<1>, std::allocator<taste::Request<1> > > >::~queue()	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Queue.h:121:1:taste::Queue<PARAMETER_SIZE>::Queue(size_t, const char*) [with long unsigned int PARAMETER_SIZE = 1]	64	static
+/usr/include/c++/13/bits/std_function.h:239:5:constexpr std::_Function_base::_Function_base()	32	static
+/usr/include/c++/13/bits/std_function.h:435:2:)>::function(_Functor&&) [with _Functor = void (*)(); _Constraints = void; _Res = void; _ArgTypes = {}]	32	static
+/usr/include/c++/13/bits/stl_deque.h:855:7:std::deque<_Tp, _Alloc>::deque() [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	32	static
+/usr/include/c++/13/bits/stl_queue.h:166:2:std::queue<_Tp, _Sequence>::queue() [with _Seq = std::deque<taste::Request<260>, std::allocator<taste::Request<260> > >; _Requires = void; _Tp = taste::Request<260>; _Sequence = std::deque<taste::Request<260>, std::allocator<taste::Request<260> > >]	32	static
+/usr/include/c++/13/bits/stl_deque.h:1027:7:std::deque<_Tp, _Alloc>::~deque() [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	272	static
+/usr/include/c++/13/bits/stl_deque.h:855:7:std::deque<_Tp, _Alloc>::deque() [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	32	static
+/usr/include/c++/13/bits/stl_queue.h:166:2:std::queue<_Tp, _Sequence>::queue() [with _Seq = std::deque<taste::Request<1>, std::allocator<taste::Request<1> > >; _Requires = void; _Tp = taste::Request<1>; _Sequence = std::deque<taste::Request<1>, std::allocator<taste::Request<1> > >]	32	static
+/usr/include/c++/13/bits/stl_deque.h:1027:7:std::deque<_Tp, _Alloc>::~deque() [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	272	static
+/usr/include/c++/13/bits/std_function.h:225:4:static bool std::_Function_base::_Base_manager<_Functor>::_M_not_empty_function(_Tp*) [with _Tp = void(); _Functor = void (*)()]	16	static
+/usr/include/c++/13/bits/move.h:70:5:constexpr _Tp&& std::forward(typename remove_reference<_Functor>::type&) [with _Tp = void (*)()]	16	static
+/usr/include/c++/13/bits/std_function.h:211:4:static void std::_Function_base::_Base_manager<_Functor>::_M_init_functor(std::_Any_data&, _Fn&&) [with _Fn = void (*)(); _Functor = void (*)()]	32	static
+/usr/include/c++/13/bits/std_function.h:288:7:) [with _Res = void; _Functor = void (*)(); _ArgTypes = {}]	32	static
+/usr/include/c++/13/bits/std_function.h:267:7:), _Functor>::_M_manager(std::_Any_data&, const std::_Any_data&, std::_Manager_operation) [with _Res = void; _Functor = void (*)(); _ArgTypes = {}]	64	static
+/usr/include/c++/13/bits/stl_deque.h:542:14:std::_Deque_base<taste::Request<260>, std::allocator<taste::Request<260> > >::_Deque_impl::~_Deque_impl()	48	static
+/usr/include/c++/13/bits/stl_deque.h:458:7:std::_Deque_base<_Tp, _Alloc>::_Deque_base() [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	48	static
+/usr/include/c++/13/bits/stl_deque.h:617:5:std::_Deque_base<_Tp, _Alloc>::~_Deque_base() [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	32	static
+/usr/include/c++/13/bits/stl_deque.h:1151:7:std::deque<_Tp, _Alloc>::iterator std::deque<_Tp, _Alloc>::begin() [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	32	static
+/usr/include/c++/13/bits/stl_deque.h:1170:7:std::deque<_Tp, _Alloc>::iterator std::deque<_Tp, _Alloc>::end() [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	32	static
+/usr/include/c++/13/bits/stl_deque.h:568:7:std::_Deque_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Deque_base<_Tp, _Alloc>::_M_get_Tp_allocator() [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	16	static
+/usr/include/c++/13/bits/stl_deque.h:2087:7:void std::deque<_Tp, _Alloc>::_M_destroy_data(iterator, iterator, const std::allocator<_Tp1>&) [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	192	static
+/usr/include/c++/13/bits/stl_deque.h:542:14:std::_Deque_base<taste::Request<1>, std::allocator<taste::Request<1> > >::_Deque_impl::~_Deque_impl()	48	static
+/usr/include/c++/13/bits/stl_deque.h:458:7:std::_Deque_base<_Tp, _Alloc>::_Deque_base() [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	48	static
+/usr/include/c++/13/bits/stl_deque.h:617:5:std::_Deque_base<_Tp, _Alloc>::~_Deque_base() [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	32	static
+/usr/include/c++/13/bits/stl_deque.h:1151:7:std::deque<_Tp, _Alloc>::iterator std::deque<_Tp, _Alloc>::begin() [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	32	static
+/usr/include/c++/13/bits/stl_deque.h:1170:7:std::deque<_Tp, _Alloc>::iterator std::deque<_Tp, _Alloc>::end() [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	32	static
+/usr/include/c++/13/bits/stl_deque.h:568:7:std::_Deque_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Deque_base<_Tp, _Alloc>::_M_get_Tp_allocator() [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	16	static
+/usr/include/c++/13/bits/stl_deque.h:2087:7:void std::deque<_Tp, _Alloc>::_M_destroy_data(iterator, iterator, const std::allocator<_Tp1>&) [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	192	static
+/usr/include/c++/13/bits/std_function.h:150:4:static void std::_Function_base::_Base_manager<_Functor>::_M_create(std::_Any_data&, _Fn&&, std::true_type) [with _Fn = void (*)(); _Functor = void (*)()]	48	static
+/usr/include/c++/13/bits/std_function.h:134:2:static _Functor* std::_Function_base::_Base_manager<_Functor>::_M_get_pointer(const std::_Any_data&) [with _Functor = void (*)()]	48	static
+/usr/include/c++/13/bits/invoke.h:104:5:) [with _Res = void; _Callable = void (*&)(); _Args = {}]	32	static
+/usr/include/c++/13/bits/std_function.h:90:7:_Tp& std::_Any_data::_M_access() [with _Tp = const std::type_info*]	32	static
+/usr/include/c++/13/bits/std_function.h:90:7:_Tp& std::_Any_data::_M_access() [with _Tp = void (**)()]	32	static
+/usr/include/c++/13/bits/std_function.h:180:2:static bool std::_Function_base::_Base_manager<_Functor>::_M_manager(std::_Any_data&, const std::_Any_data&, std::_Manager_operation) [with _Functor = void (*)()]	64	static
+/usr/include/c++/13/bits/stl_deque.h:545:2:std::_Deque_base<_Tp, _Alloc>::_Deque_impl::_Deque_impl() [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	48	static
+/usr/include/c++/13/bits/stl_deque.h:638:5:void std::_Deque_base<_Tp, _Alloc>::_M_initialize_map(std::size_t) [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	224	static
+/usr/include/c++/13/bits/stl_deque.h:695:5:void std::_Deque_base<_Tp, _Alloc>::_M_destroy_nodes(_Map_pointer, _Map_pointer) [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	64	static
+/usr/include/c++/13/bits/stl_deque.h:601:7:void std::_Deque_base<_Tp, _Alloc>::_M_deallocate_map(_Map_pointer, std::size_t) [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	192	static
+/usr/include/c++/13/bits/stl_deque.h:168:7:std::_Deque_iterator<_Tp, _Ref, _Ptr>::_Deque_iterator(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&) [with _Tp = taste::Request<260>; _Ref = taste::Request<260>&; _Ptr = taste::Request<260>*]	32	static
+/usr/include/c++/13/bits/stl_deque.h:545:2:std::_Deque_base<_Tp, _Alloc>::_Deque_impl::_Deque_impl() [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	48	static
+/usr/include/c++/13/bits/stl_deque.h:638:5:void std::_Deque_base<_Tp, _Alloc>::_M_initialize_map(std::size_t) [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	224	static
+/usr/include/c++/13/bits/stl_deque.h:695:5:void std::_Deque_base<_Tp, _Alloc>::_M_destroy_nodes(_Map_pointer, _Map_pointer) [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	64	static
+/usr/include/c++/13/bits/stl_deque.h:601:7:void std::_Deque_base<_Tp, _Alloc>::_M_deallocate_map(_Map_pointer, std::size_t) [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	192	static
+/usr/include/c++/13/bits/stl_deque.h:168:7:std::_Deque_iterator<_Tp, _Ref, _Ptr>::_Deque_iterator(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&) [with _Tp = taste::Request<1>; _Ref = taste::Request<1>&; _Ptr = taste::Request<1>*]	32	static
+/usr/include/c++/13/bits/std_function.h:95:7:const _Tp& std::_Any_data::_M_access() const [with _Tp = void (*)()]	32	static
+/usr/include/c++/13/bits/move.h:51:5:constexpr _Tp* std::__addressof(_Tp&) [with _Tp = void (* const)()]	16	static
+/usr/include/c++/13/bits/move.h:70:5:constexpr _Tp&& std::forward(typename remove_reference<_Functor>::type&) [with _Tp = void (*&)()]	16	static
+/usr/include/c++/13/bits/invoke.h:60:5:) [with _Res = void; _Fn = void (*&)(); _Args = {}]	32	static
+/usr/include/c++/13/bits/std_function.h:211:4:static void std::_Function_base::_Base_manager<_Functor>::_M_init_functor(std::_Any_data&, _Fn&&) [with _Fn = void (* const&)(); _Functor = void (*)()]	32	static
+/usr/include/c++/13/bits/std_function.h:166:2:static void std::_Function_base::_Base_manager<_Functor>::_M_destroy(std::_Any_data&, std::true_type) [with _Functor = void (*)()]	32	static
+/usr/include/c++/13/bits/stl_deque.h:516:2:std::_Deque_base<_Tp, _Alloc>::_Deque_impl_data::_Deque_impl_data() [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	32	static
+/usr/include/c++/13/bits/new_allocator.h:104:7:std::__new_allocator<_Tp>::~__new_allocator() [with _Tp = taste::Request<260>]	16	static
+/usr/include/c++/13/bits/stl_deque.h:594:7:std::_Deque_base<_Tp, _Alloc>::_Map_pointer std::_Deque_base<_Tp, _Alloc>::_M_allocate_map(std::size_t) [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	192	static
+/usr/include/c++/13/bits/stl_deque.h:677:5:void std::_Deque_base<_Tp, _Alloc>::_M_create_nodes(_Map_pointer, _Map_pointer) [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	80	static
+/usr/include/c++/13/bits/stl_deque.h:263:7:void std::_Deque_iterator<_Tp, _Ref, _Ptr>::_M_set_node(_Map_pointer) [with _Tp = taste::Request<260>; _Ref = taste::Request<260>&; _Ptr = taste::Request<260>*]	48	static
+/usr/include/c++/13/bits/stl_deque.h:587:7:void std::_Deque_base<_Tp, _Alloc>::_M_deallocate_node(_Ptr) [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	64	static
+/usr/include/c++/13/bits/stl_deque.h:576:7:std::_Deque_base<_Tp, _Alloc>::_Map_alloc_type std::_Deque_base<_Tp, _Alloc>::_M_get_map_allocator() const [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	64	static
+/usr/include/c++/13/bits/stl_deque.h:516:2:std::_Deque_base<_Tp, _Alloc>::_Deque_impl_data::_Deque_impl_data() [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	32	static
+/usr/include/c++/13/bits/new_allocator.h:104:7:std::__new_allocator<_Tp>::~__new_allocator() [with _Tp = taste::Request<1>]	16	static
+/usr/include/c++/13/bits/stl_deque.h:594:7:std::_Deque_base<_Tp, _Alloc>::_Map_pointer std::_Deque_base<_Tp, _Alloc>::_M_allocate_map(std::size_t) [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	192	static
+/usr/include/c++/13/bits/stl_deque.h:677:5:void std::_Deque_base<_Tp, _Alloc>::_M_create_nodes(_Map_pointer, _Map_pointer) [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	80	static
+/usr/include/c++/13/bits/stl_deque.h:263:7:void std::_Deque_iterator<_Tp, _Ref, _Ptr>::_M_set_node(_Map_pointer) [with _Tp = taste::Request<1>; _Ref = taste::Request<1>&; _Ptr = taste::Request<1>*]	48	static
+/usr/include/c++/13/bits/stl_deque.h:587:7:void std::_Deque_base<_Tp, _Alloc>::_M_deallocate_node(_Ptr) [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	64	static
+/usr/include/c++/13/bits/stl_deque.h:576:7:std::_Deque_base<_Tp, _Alloc>::_Map_alloc_type std::_Deque_base<_Tp, _Alloc>::_M_get_map_allocator() const [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	64	static
+/usr/include/c++/13/bits/move.h:70:5:constexpr _Tp&& std::forward(typename remove_reference<_Functor>::type&) [with _Tp = void (* const&)()]	16	static
+/usr/include/c++/13/bits/std_function.h:150:4:static void std::_Function_base::_Base_manager<_Functor>::_M_create(std::_Any_data&, _Fn&&, std::true_type) [with _Fn = void (* const&)(); _Functor = void (*)()]	48	static
+/usr/include/c++/13/bits/std_function.h:90:7:_Tp& std::_Any_data::_M_access() [with _Tp = void (*)()]	32	static
+/usr/include/c++/13/bits/stl_deque.h:151:7:std::_Deque_iterator<_Tp, _Ref, _Ptr>::_Deque_iterator() [with _Tp = taste::Request<260>; _Ref = taste::Request<260>&; _Ptr = taste::Request<260>*]	32	static
+/usr/include/c++/13/bits/stl_deque.h:580:7:std::_Deque_base<_Tp, _Alloc>::_Ptr std::_Deque_base<_Tp, _Alloc>::_M_allocate_node() [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	48	static
+/usr/include/c++/13/bits/stl_deque.h:131:21:static std::size_t std::_Deque_iterator<_Tp, _Ref, _Ptr>::_S_buffer_size() [with _Tp = taste::Request<260>; _Ref = taste::Request<260>&; _Ptr = taste::Request<260>*]	16	static
+/usr/include/c++/13/bits/stl_deque.h:572:7:const std::_Deque_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Deque_base<_Tp, _Alloc>::_M_get_Tp_allocator() const [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	16	static
+/usr/include/c++/13/bits/new_allocator.h:104:7:std::__new_allocator<_Tp>::~__new_allocator() [with _Tp = taste::Request<260>*]	16	static
+/usr/include/c++/13/bits/new_allocator.h:156:7:void std::__new_allocator<_Tp>::deallocate(_Tp*, size_type) [with _Tp = taste::Request<260>*]	48	static
+/usr/include/c++/13/bits/stl_deque.h:151:7:std::_Deque_iterator<_Tp, _Ref, _Ptr>::_Deque_iterator() [with _Tp = taste::Request<1>; _Ref = taste::Request<1>&; _Ptr = taste::Request<1>*]	32	static
+/usr/include/c++/13/bits/stl_deque.h:580:7:std::_Deque_base<_Tp, _Alloc>::_Ptr std::_Deque_base<_Tp, _Alloc>::_M_allocate_node() [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	48	static
+/usr/include/c++/13/bits/stl_deque.h:131:21:static std::size_t std::_Deque_iterator<_Tp, _Ref, _Ptr>::_S_buffer_size() [with _Tp = taste::Request<1>; _Ref = taste::Request<1>&; _Ptr = taste::Request<1>*]	16	static
+/usr/include/c++/13/bits/stl_deque.h:572:7:const std::_Deque_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Deque_base<_Tp, _Alloc>::_M_get_Tp_allocator() const [with _Tp = taste::Request<1>; _Alloc = std::allocator<taste::Request<1> >]	16	static
+/usr/include/c++/13/bits/new_allocator.h:104:7:std::__new_allocator<_Tp>::~__new_allocator() [with _Tp = taste::Request<1>*]	16	static
+/usr/include/c++/13/bits/new_allocator.h:156:7:void std::__new_allocator<_Tp>::deallocate(_Tp*, size_type) [with _Tp = taste::Request<1>*]	48	static
+/usr/include/c++/13/bits/new_allocator.h:126:7:_Tp* std::__new_allocator<_Tp>::allocate(size_type, const void*) [with _Tp = taste::Request<260>*]	64	static
+/usr/include/c++/13/bits/new_allocator.h:156:7:void std::__new_allocator<_Tp>::deallocate(_Tp*, size_type) [with _Tp = taste::Request<260>]	48	static
+/usr/include/c++/13/bits/new_allocator.h:126:7:_Tp* std::__new_allocator<_Tp>::allocate(size_type, const void*) [with _Tp = taste::Request<1>*]	64	static
+/usr/include/c++/13/bits/new_allocator.h:156:7:void std::__new_allocator<_Tp>::deallocate(_Tp*, size_type) [with _Tp = taste::Request<1>]	48	static
+/usr/include/c++/13/bits/new_allocator.h:126:7:_Tp* std::__new_allocator<_Tp>::allocate(size_type, const void*) [with _Tp = taste::Request<260>]	64	static
+/usr/include/c++/13/bits/new_allocator.h:126:7:_Tp* std::__new_allocator<_Tp>::allocate(size_type, const void*) [with _Tp = taste::Request<1>]	64	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Queue.h:45:7:taste::Queue<260>::~Queue()	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Queue.h:45:7:taste::Queue<1>::~Queue()	32	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:192:1:void __static_initialization_and_destruction_0()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:192:1:cc)	16	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:192:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/build/node_linux/demo/main.cc:192:1:_sub_I_00099_1	16	static

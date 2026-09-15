@@ -1,0 +1,11 @@
+/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.ads:31:4:To_T_Runtime_Error_Selection	32	static
+/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.ads:32:4:Get_State	48	static
+/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:12:4:P_0_Dohandletc	16	static
+/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:21:4:P_0_Doreboot	16	static
+/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:30:4:P_0_Donewevaction	16	static
+/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:39:4:P_0_Donewrxtc	16	static
+/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:48:4:P_0_Doinit	16	static
+/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:57:4:Sevaction	16	static
+/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:68:4:Poll	16	static
+/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:79:4:Execute_Transition	80	static
+/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:194:4:Startup	16	static

@@ -1,0 +1,56 @@
+graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc"
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:_ZNKSt5ctypeIcE8do_widenEc" label: "virtual std::ctype<char>::char_type std::ctype<char>::do_widen(char) const\n/usr/include/c++/13/bits/locale_facets.h:1092:7\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:_ZZNSt9once_flag18_Prepare_executionC4IZSt9call_onceIRSt8functionIFvvEEJEEvRS_OT_DpOT0_EUlvE_EERS8_ENUlvE_4_FUNEv" label: "static constexpr void std::once_flag::_Prepare_execution::_Prepare_execution<std::call_once<function<void()>&>(once_flag&, function<void()>&)::<lambda()> >(std::call_once<function<void()>&>(once_flag&, function<void()>&)::<lambda()>&)::<lambda()>::_FUN()\n/usr/include/c++/13/mutex:836:16\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "_ZSt25__throw_bad_function_callv" label: "void std::__throw_bad_function_call()\n/usr/include/c++/13/bits/functexcept.h:114:3" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:_ZZNSt9once_flag18_Prepare_executionC4IZSt9call_onceIRSt8functionIFvvEEJEEvRS_OT_DpOT0_EUlvE_EERS8_ENUlvE_4_FUNEv" targetname: "_ZSt25__throw_bad_function_callv" label: "/usr/include/c++/13/bits/std_function.h:590:29" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:_ZZNSt9once_flag18_Prepare_executionC4IZSt9call_onceIRSt8functionIFvvEEJEEvRS_OT_DpOT0_EUlvE_EERS8_ENUlvE_4_FUNEv" targetname: "__indirect_call" label: "/usr/include/c++/13/bits/std_function.h:591:9" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" label: "std::basic_ostream<_CharT, _Traits>& std::endl(basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = char_traits<char>]\n/usr/include/c++/13/ostream:735:5\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "_ZSt16__throw_bad_castv" label: "void std::__throw_bad_cast()\n/usr/include/c++/13/bits/functexcept.h:60:3" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" targetname: "_ZSt16__throw_bad_castv" label: "/usr/include/c++/13/bits/basic_ios.h:50:18" }
+node: { title: "_ZNKSt5ctypeIcE13_M_widen_initEv" label: "void std::ctype<char>::_M_widen_init() const\n/usr/include/c++/13/bits/locale_facets.h:1178:12" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" targetname: "_ZNKSt5ctypeIcE13_M_widen_initEv" label: "/usr/include/c++/13/bits/locale_facets.h:884:21" }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" targetname: "__indirect_call" label: "/usr/include/c++/13/bits/locale_facets.h:885:23" }
+node: { title: "_ZNSo3putEc" label: "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::put(char_type) [with _CharT = char; _Traits = std::char_traits<char>]\n/usr/include/c++/13/bits/ostream.tcc:153:5" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" targetname: "_ZNSo3putEc" label: "/usr/include/c++/13/ostream:736:19" }
+node: { title: "_ZNSo5flushEv" label: "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::flush() [with _CharT = char; _Traits = std::char_traits<char>]\n/usr/include/c++/13/bits/ostream.tcc:221:5" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" targetname: "_ZNSo5flushEv" label: "/usr/include/c++/13/ostream:758:24" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:_ZNSt8functionIFvvEED2Ev" label: "std::function<void()>::~function()\n/usr/include/c++/13/bits/std_function.h:334:11\n16 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:_ZNSt8functionIFvvEED2Ev" targetname: "__indirect_call" label: "/usr/include/c++/13/bits/std_function.h:244:12" }
+node: { title: "_ZN5taste12StartBarrier10initializeEmSt8functionIFvvEE" label: "static void taste::StartBarrier::initialize(size_t, InitCallback)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:28:1\n80 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "_ZN5taste12StartBarrier10initializeEmSt8functionIFvvEE" targetname: "__indirect_call" label: "/usr/include/c++/13/bits/std_function.h:391:10" }
+edge: { sourcename: "_ZN5taste12StartBarrier10initializeEmSt8functionIFvvEE" targetname: "__indirect_call" label: "/usr/include/c++/13/bits/std_function.h:244:12" }
+node: { title: "_Unwind_Resume" label: "void __builtin_unwind_resume(void*)\n<built-in>" shape : ellipse }
+edge: { sourcename: "_ZN5taste12StartBarrier10initializeEmSt8functionIFvvEE" targetname: "_Unwind_Resume" }
+node: { title: "__stack_chk_fail" label: "__stack_chk_fail\n<built-in>" shape : ellipse }
+edge: { sourcename: "_ZN5taste12StartBarrier10initializeEmSt8functionIFvvEE" targetname: "__stack_chk_fail" }
+edge: { sourcename: "_ZN5taste12StartBarrier10initializeEmSt8functionIFvvEE" targetname: "__indirect_call" label: "/usr/include/c++/13/bits/std_function.h:244:12" }
+node: { title: "pthread_barrier_init" label: "int pthread_barrier_init(pthread_barrier_t*, const pthread_barrierattr_t*, unsigned int)\n/usr/include/pthread.h:1254:12" shape : ellipse }
+edge: { sourcename: "_ZN5taste12StartBarrier10initializeEmSt8functionIFvvEE" targetname: "pthread_barrier_init" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:32:48" }
+node: { title: "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" label: "std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const char*) [with _Traits = char_traits<char>]\n/usr/include/c++/13/ostream:662:5" shape : ellipse }
+edge: { sourcename: "_ZN5taste12StartBarrier10initializeEmSt8functionIFvvEE" targetname: "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:34:22" }
+node: { title: "_ZNSolsEi" label: "std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]\n/usr/include/c++/13/bits/ostream.tcc:110:5" shape : ellipse }
+edge: { sourcename: "_ZN5taste12StartBarrier10initializeEmSt8functionIFvvEE" targetname: "_ZNSolsEi" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:34:80" }
+edge: { sourcename: "_ZN5taste12StartBarrier10initializeEmSt8functionIFvvEE" targetname: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" label: "/usr/include/c++/13/ostream:115:13" }
+node: { title: "exit" label: "void exit(int)\n/usr/include/stdlib.h:756:13" shape : ellipse }
+edge: { sourcename: "_ZN5taste12StartBarrier10initializeEmSt8functionIFvvEE" targetname: "exit" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:35:13" }
+edge: { sourcename: "_ZN5taste12StartBarrier10initializeEmSt8functionIFvvEE" targetname: "__stack_chk_fail" }
+node: { title: "_ZN5taste12StartBarrier4waitEv" label: "static void taste::StartBarrier::wait()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:40:1\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "pthread_barrier_wait" label: "int pthread_barrier_wait(pthread_barrier_t*)\n/usr/include/pthread.h:1264:12" shape : ellipse }
+edge: { sourcename: "_ZN5taste12StartBarrier4waitEv" targetname: "pthread_barrier_wait" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:42:48" }
+edge: { sourcename: "_ZN5taste12StartBarrier4waitEv" targetname: "_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:44:22" }
+edge: { sourcename: "_ZN5taste12StartBarrier4waitEv" targetname: "_ZNSolsEi" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:44:71" }
+edge: { sourcename: "_ZN5taste12StartBarrier4waitEv" targetname: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_.isra.0" label: "/usr/include/c++/13/ostream:115:13" }
+edge: { sourcename: "_ZN5taste12StartBarrier4waitEv" targetname: "exit" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:45:13" }
+node: { title: "pthread_once" label: "int pthread_once(pthread_once_t*, void (*)())\n/usr/include/pthread.h:509:12" shape : ellipse }
+edge: { sourcename: "_ZN5taste12StartBarrier4waitEv" targetname: "pthread_once" label: "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:700:35" }
+node: { title: "_ZSt20__throw_system_errori" label: "void std::__throw_system_error(int)\n/usr/include/c++/13/bits/functexcept.h:106:3" shape : ellipse }
+edge: { sourcename: "_ZN5taste12StartBarrier4waitEv" targetname: "_ZSt20__throw_system_errori" label: "/usr/include/c++/13/mutex:908:22" }
+edge: { sourcename: "_ZN5taste12StartBarrier4waitEv" targetname: "__stack_chk_fail" }
+edge: { sourcename: "_ZN5taste12StartBarrier4waitEv" targetname: "_Unwind_Resume" }
+edge: { sourcename: "_ZN5taste12StartBarrier4waitEv" targetname: "__stack_chk_fail" }
+edge: { sourcename: "_ZN5taste12StartBarrier4waitEv" targetname: "__stack_chk_fail" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:_GLOBAL__sub_I__ZN5taste12StartBarrier10initializeEmSt8functionIFvvEE" label: "cc)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:54:1\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "__cxa_atexit" label: "int __cxxabiv1::__cxa_atexit(void (*)(void*), void*, void*)\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:_GLOBAL__sub_I__ZN5taste12StartBarrier10initializeEmSt8functionIFvvEE" targetname: "__cxa_atexit" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:52:28" }
+}

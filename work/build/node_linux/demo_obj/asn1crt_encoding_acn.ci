@@ -1,0 +1,27 @@
+graph: { title: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c"
+node: { title: "getIntegerDigits" label: "getIntegerDigits\n/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:154:6\n320 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_stack_malloc_2" label: "__asan_stack_malloc_2\n<built-in>" shape : ellipse }
+edge: { sourcename: "getIntegerDigits" targetname: "__asan_stack_malloc_2" }
+node: { title: "__asan_report_store1" label: "__builtin___asan_report_store1\n<built-in>" shape : ellipse }
+edge: { sourcename: "getIntegerDigits" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:156:15" }
+node: { title: "memset" label: "memset\n/usr/include/string.h:61:14" shape : ellipse }
+edge: { sourcename: "getIntegerDigits" targetname: "memset" label: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:158:2" }
+edge: { sourcename: "getIntegerDigits" targetname: "memset" label: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:159:2" }
+node: { title: "__asan_report_load1" label: "__builtin___asan_report_load1\n<built-in>" shape : ellipse }
+edge: { sourcename: "getIntegerDigits" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:162:24" }
+edge: { sourcename: "getIntegerDigits" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:162:38" }
+edge: { sourcename: "getIntegerDigits" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:161:24" }
+edge: { sourcename: "getIntegerDigits" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:166:12" }
+edge: { sourcename: "getIntegerDigits" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:167:20" }
+edge: { sourcename: "getIntegerDigits" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:167:64" }
+edge: { sourcename: "getIntegerDigits" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:167:43" }
+edge: { sourcename: "getIntegerDigits" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:171:21" }
+edge: { sourcename: "getIntegerDigits" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:172:16" }
+node: { title: "__stack_chk_fail" label: "__stack_chk_fail\n<built-in>" shape : ellipse }
+edge: { sourcename: "getIntegerDigits" targetname: "__stack_chk_fail" }
+node: { title: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:_sub_I_00099_0" label: "_sub_I_00099_0\n/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:248:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:_sub_I_00099_0" targetname: "__asan_init" label: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:248:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:_sub_I_00099_0" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/dataview/C/asn1crt_encoding_acn.c:248:1" }
+}

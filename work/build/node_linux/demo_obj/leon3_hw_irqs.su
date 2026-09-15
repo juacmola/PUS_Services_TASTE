@@ -1,0 +1,6 @@
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/leon3/leon3_hw_irqs.cc:19:9:uint8_t leon3_clear_irq(uint8_t)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/leon3/leon3_hw_irqs.cc:32:9:uint8_t leon3_force_irq(uint8_t)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/leon3/leon3_hw_irqs.cc:56:9:uint8_t leon3_unmask_irq(uint8_t)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/leon3/leon3_hw_irqs.cc:82:9:uint8_t leon3_mask_irq(uint8_t)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/leon3/leon3_hw_irqs.cc:104:6:void leon3_unmask_all_irqs()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/leon3/leon3_hw_irqs.cc:111:6:void leon3_mask_all_irqs()	8	static

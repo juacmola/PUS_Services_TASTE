@@ -1,0 +1,57 @@
+graph: { title: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c"
+node: { title: "hkfdirmng_get_sender" label: "hkfdirmng_get_sender\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:11:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_store4" label: "__builtin___asan_report_store4\n<built-in>" shape : ellipse }
+edge: { sourcename: "hkfdirmng_get_sender" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:13:19" }
+node: { title: "init_hkfdirmng" label: "init_hkfdirmng\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:23:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "getTimeInMilliseconds" label: "getTimeInMilliseconds\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.h:22:18" shape : ellipse }
+edge: { sourcename: "init_hkfdirmng" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:27:50" }
+node: { title: "adainit" label: "adainit\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:18:13" shape : ellipse }
+edge: { sourcename: "init_hkfdirmng" targetname: "adainit" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:30:7" }
+node: { title: "hkfdirmng_startup" label: "hkfdirmng_startup\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:31:19" shape : ellipse }
+edge: { sourcename: "init_hkfdirmng" targetname: "hkfdirmng_startup" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:32:7" }
+node: { title: "puts" label: "puts\n/usr/include/stdio.h:724:12" shape : ellipse }
+edge: { sourcename: "init_hkfdirmng" targetname: "puts" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:33:7" }
+node: { title: "hkfdirmng_SHKFDIRTC" label: "hkfdirmng_SHKFDIRTC\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:37:6\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "hkfdirmng_shkfdirtc_get_sender" label: "hkfdirmng_shkfdirtc_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:85:12" shape : ellipse }
+edge: { sourcename: "hkfdirmng_SHKFDIRTC" targetname: "hkfdirmng_shkfdirtc_get_sender" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:41:17" }
+node: { title: "getenv" label: "getenv\n/usr/include/stdlib.h:773:14" shape : ellipse }
+edge: { sourcename: "hkfdirmng_SHKFDIRTC" targetname: "getenv" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:45:26" }
+edge: { sourcename: "hkfdirmng_SHKFDIRTC" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:47:28" }
+node: { title: "printf" label: "printf\n/usr/include/stdio.h:363:12" shape : ellipse }
+edge: { sourcename: "hkfdirmng_SHKFDIRTC" targetname: "printf" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:48:7" }
+node: { title: "__asan_report_load8" label: "__builtin___asan_report_load8\n<built-in>" shape : ellipse }
+edge: { sourcename: "hkfdirmng_SHKFDIRTC" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:49:7" }
+node: { title: "fflush" label: "fflush\n/usr/include/stdio.h:236:12" shape : ellipse }
+edge: { sourcename: "hkfdirmng_SHKFDIRTC" targetname: "fflush" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:49:7" }
+node: { title: "hkfdirmng_PI_SHKFDIRTC" label: "hkfdirmng_PI_SHKFDIRTC\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:53:16" shape : ellipse }
+edge: { sourcename: "hkfdirmng_SHKFDIRTC" targetname: "hkfdirmng_PI_SHKFDIRTC" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:61:4" }
+node: { title: "hkfdirmng_state" label: "hkfdirmng_state\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:93:20" shape : ellipse }
+edge: { sourcename: "hkfdirmng_SHKFDIRTC" targetname: "hkfdirmng_state" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:66:7" }
+edge: { sourcename: "hkfdirmng_SHKFDIRTC" targetname: "printf" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:66:7" }
+edge: { sourcename: "hkfdirmng_SHKFDIRTC" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:67:7" }
+edge: { sourcename: "hkfdirmng_SHKFDIRTC" targetname: "fflush" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:67:7" }
+node: { title: "hkfdirmng_trigger" label: "hkfdirmng_trigger\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:74:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "hkfdirmng_trigger_get_sender" label: "hkfdirmng_trigger_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:91:12" shape : ellipse }
+edge: { sourcename: "hkfdirmng_trigger" targetname: "hkfdirmng_trigger_get_sender" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:76:17" }
+edge: { sourcename: "hkfdirmng_trigger" targetname: "getenv" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:80:26" }
+edge: { sourcename: "hkfdirmng_trigger" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:82:28" }
+edge: { sourcename: "hkfdirmng_trigger" targetname: "printf" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:83:7" }
+edge: { sourcename: "hkfdirmng_trigger" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:84:7" }
+edge: { sourcename: "hkfdirmng_trigger" targetname: "fflush" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:84:7" }
+node: { title: "hkfdirmng_PI_trigger" label: "hkfdirmng_PI_trigger\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:88:16" shape : ellipse }
+edge: { sourcename: "hkfdirmng_trigger" targetname: "hkfdirmng_PI_trigger" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:89:4" }
+edge: { sourcename: "hkfdirmng_trigger" targetname: "hkfdirmng_state" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:94:7" }
+edge: { sourcename: "hkfdirmng_trigger" targetname: "printf" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:94:7" }
+edge: { sourcename: "hkfdirmng_trigger" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:95:7" }
+edge: { sourcename: "hkfdirmng_trigger" targetname: "fflush" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:95:7" }
+node: { title: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:97:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "__builtin___asan_unregister_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:97:1" }
+node: { title: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:97:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:97:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:97:1" }
+node: { title: "__asan_register_globals" label: "__builtin___asan_register_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_vm_if.c:97:1" }
+}

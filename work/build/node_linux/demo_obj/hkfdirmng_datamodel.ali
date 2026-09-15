@@ -1,0 +1,165 @@
+V "GNAT Lib v13"
+A -Wall
+A -Wextra
+A -gnatwa
+A -gnatA
+A -gnatd.E
+A -fstack-check=specific
+A -fstack-usage
+A -fcallgraph-info=su,da
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U hkfdirmng_datamodel%b	hkfdirmng_datamodel.adb	69b9777c NE OO PK
+W sctre_dataview%s	sctre_dataview.adb	sctre_dataview.ali
+W system_dataview%s	system_dataview.adb	system_dataview.ali
+
+U hkfdirmng_datamodel%s	hkfdirmng_datamodel.ads	3e18147c EE NE OO PK
+W adaasn1rtl%s		adaasn1rtl.adb		adaasn1rtl.ali
+W interfaces%s		interfac.ads		interfac.ali
+W sctre_dataview%s	sctre_dataview.adb	sctre_dataview.ali
+W system%s		system.ads		system.ali
+W system_dataview%s	system_dataview.adb	system_dataview.ali
+
+D ada.ads		20240521074738 76789da1 ada%s
+D a-charac.ads		20240521074737 2d3ec45b ada.characters%s
+D a-chlat1.ads		20240521074737 e0d72e76 ada.characters.latin_1%s
+D adaasn1rtl.ads	20260913085857 2efce9f1 adaasn1rtl%s
+D board_config.ads	20260913085857 ff248fc1 board_config%s
+D hkfdirmng_datamodel.ads  20260913085857 4afd29ef hkfdirmng_datamodel%s
+D hkfdirmng_datamodel.adb  20260913085857 2ec7bc8b hkfdirmng_datamodel%b
+D interfac.ads		20240521074738 15f799c2 interfaces%s
+D sctre_dataview.ads	20260913085857 b51d3bcd sctre_dataview%s
+D system.ads		20240521074738 426dafb8 system%s
+D s-bitops.ads		20240521074738 cdf3ac3c system.bit_ops%s
+D s-bituti.ads		20240521074738 797cbcce system.bitfield_utils%s
+D s-bitfie.ads		20240521074738 8e9b6290 system.bitfields%s
+D s-stoele.ads		20240521074738 ab5468e4 system.storage_elements%s
+D s-unstyp.ads		20240521074738 fa2a7f59 system.unsigned_types%s
+D system_dataview.ads	20260913085857 b89ed9d5 system_dataview%s
+G a e
+G c Z s b [asn1scchkfdirmng_states_equal hkfdirmng_datamodel 55 10 none]
+G c Z s b [asn1scchkfdirmng_states_isconstraintvalid hkfdirmng_datamodel 58 10 none]
+G c Z s s [asn1scchkfdirmng_states_init hkfdirmng_datamodel 60 10 none]
+G c Z s b [asn1scchkfdirmng_context_equal hkfdirmng_datamodel 74 10 none]
+G c Z s b [asn1scchkfdirmng_context_isconstraintvalid hkfdirmng_datamodel 83 10 none]
+G c Z s s [asn1scchkfdirmng_context_init hkfdirmng_datamodel 85 10 none]
+G c Z s b [asn1scchkfdirmng_t_runtime_error_selection_equal hkfdirmng_datamodel 92 10 none]
+G c Z s b [asn1scchkfdirmng_t_runtime_error_selection_isconstraintvalid hkfdirmng_datamodel 95 10 none]
+G c Z s s [asn1scchkfdirmng_t_runtime_error_selection_init hkfdirmng_datamodel 97 10 none]
+G c Z s s [asn1scchkfdirmng_contextIP hkfdirmng_datamodel 64 6 none]
+G r c none [asn1scchkfdirmng_context_equal hkfdirmng_datamodel 74 10 none] [asn1sccrawtc_equal sctre_dataview 46 10 none]
+G r c none [asn1scchkfdirmng_context_equal hkfdirmng_datamodel 74 10 none] [asn1real_equal adaasn1rtl 90 13 none]
+G r c none [asn1scchkfdirmng_context_isconstraintvalid hkfdirmng_datamodel 83 10 none] [asn1sccpid_isconstraintvalid system_dataview 56 10 none]
+G r c none [asn1scchkfdirmng_context_isconstraintvalid hkfdirmng_datamodel 83 10 none] [asn1sccrawtc_isconstraintvalid sctre_dataview 49 10 none]
+G r c none [asn1scchkfdirmng_context_isconstraintvalid hkfdirmng_datamodel 83 10 none] [asn1sccpr_time_isconstraintvalid sctre_dataview 169 10 none]
+X 4 adaasn1rtl.ads
+5K9*adaasn1rtl 128e15 6|11w6 19r5 24r10 25r10 26r10 27r10 28r10 51r61 58r90
+. 66r17 83r92 88r146 95r128 7|49r90 52r11 52r37 86r33 97r92 100r11 100r37
+. 131r128 134r11 134r37
+10M9*BIT 6|28r21
+12M12*Asn1Byte{8|69M9}
+14I12*Asn1Int{5|3I12} 6|27r21
+15M12*Asn1UInt{5|4M12} 6|26r21
+16F12*Asn1Real{5|5F12}
+17N4*Enumerated_Size 6|51r72 88r157
+19B12*Asn1Boolean{boolean} 6|66r28
+22A9*BitArray(10M9)<integer> 6|25r21
+25A9*OctetBuffer(12M12)<integer> 6|24r21
+41R9*ASN1_RESULT 44e14 6|58r101 83r103 95r139 7|49r101 52r22 52r48 97r103
+. 100r22 100r48 131r139 134r22 134r48
+42b7*Success{boolean} 7|52m61 55m9 56r30 100m61 104r12 106r16 108r20 110r24
+. 134m61 137m9 138r30
+43i7*ErrorCode{integer} 7|52m78 56m9 100m78 134m78 138m9
+90V13*Asn1Real_Equal{boolean} 7|86s44
+X 5 board_config.ads
+3I12*Asn1Int{8|56I9}
+4M12*Asn1UInt{8|83M9}
+5F12*Asn1Real{long_float}
+X 6 hkfdirmng_datamodel.ads
+46K9*Hkfdirmng_Datamodel 105l5 105e24 7|34b14 148l5 148t24
+50I9*asn1SccHkfdirmng_States_index_range{integer}
+51E6*asn1SccHkfdirmng_States 51e48 52r5 55r53 58r58 60r47 65r13 7|41r55 49r58
+51n34*asn1Sccready{51E6} 53r6 61r2 86r12 7|55r27
+55V10*asn1SccHkfdirmng_States_Equal{boolean} 55>40 55>46 7|41b10 47l5 47t34
+55e40 val1{51E6} 7|41b41 45r16
+55e46 val2{51E6} 7|41b47 45r23
+57i1*ERR_HKFDIRMNG_STATES{integer} 7|56r50
+58V10*asn1SccHkfdirmng_States_IsConstraintValid{4|41R9} 58>52 7|49b10 58l5
+. 58t46 103s12
+58e52 val{51E6} 7|49b52 55r21
+60V10*asn1SccHkfdirmng_States_Init{51E6}
+64R6*asn1SccHkfdirmng_Context 71e11 74r54 83r59 85r48 7|64r56 97r59
+65e5*state{51E6} 86m3 7|71r18 71r31 103r58
+66b5*init_done{4|19E12} 86m26 7|74r22 74r39
+67e5*sender{16|49E6} 86m46 7|77r26 77r40 105r65
+68e5*offspring{16|49E6} 86m90 7|80r30 80r47 107r69
+69r5*packet{9|41R6} 86m137 7|83r67 83r80 109r74
+70f5*time{9|163F9} 86m185 7|86r64 86r75 111r80
+74V10*asn1SccHkfdirmng_Context_Equal{boolean} 74>41 74>47 7|64b10 95l5 95t35
+74r41 val1{64R6} 7|64b42 71r13 74r17 77r21 80r25 83r62 86r59
+74r47 val2{64R6} 7|64b48 71r26 74r34 77r35 80r42 83r75 86r70
+76i1*ERR_HKFDIRMNG_CONTEXT{integer}
+77i1*ERR_HKFDIRMNG_CONTEXT_STATE_2{integer}
+78i1*ERR_HKFDIRMNG_CONTEXT_INIT_DONE{integer}
+79i1*ERR_HKFDIRMNG_CONTEXT_SENDER_2{integer}
+80i1*ERR_HKFDIRMNG_CONTEXT_OFFSPRING_2{integer}
+81i1*ERR_HKFDIRMNG_CONTEXT_PACKET_2{integer}
+82i1*ERR_HKFDIRMNG_CONTEXT_TIME_2{integer}
+83V10*asn1SccHkfdirmng_Context_IsConstraintValid{4|41R9} 83>53 7|97b10 117l5
+. 117t47
+83r53 val{64R6} 7|97b53 103r54 105r61 107r65 109r70 111r76
+85V10*asn1SccHkfdirmng_Context_Init{64R6}
+87I9*asn1SccHkfdirmng_T_Runtime_Error_Selection_index_range{integer}
+88E6*asn1SccHkfdirmng_T_Runtime_Error_Selection 88e133 89r5 92r72 95r77 97r66
+. 7|123r74 131r77
+88n53*asn1Sccnoerror_present{88E6} 90r6 98r2 7|137r31
+88n77*asn1Sccencodeerror_present{88E6} 90r35 7|137r67
+88n105*asn1Sccdecodeerror_present{88E6} 90r68 7|137r109
+92V10*asn1SccHkfdirmng_T_Runtime_Error_Selection_Equal{boolean} 92>59 92>65
+. 7|123b10 129l5 129t53
+92e59 val1{88E6} 7|123b60 127r16
+92e65 val2{88E6} 7|123b66 127r23
+94i1*ERR_HKFDIRMNG_T_RUNTIME_ERROR_SELECTION{integer} 7|138r50
+95V10*asn1SccHkfdirmng_T_Runtime_Error_Selection_IsConstraintValid{4|41R9}
+. 95>71 7|131b10 140l5 140t65
+95e71 val{88E6} 7|131b71 137r25 137r61 137r103
+97V10*asn1SccHkfdirmng_T_Runtime_Error_Selection_Init{88E6}
+X 7 hkfdirmng_datamodel.adb
+52r5 ret{4|41R9} 55m5 56m5 56r26 57r12
+67b5 ret{boolean} 71m5 73r8 74m9 76r12 77m13 79r16 80m17 82r20 83m21 85r24
+. 86m25 93r16
+100r5 ret{4|41R9} 103m5 104r8 105m9 106r12 107m13 108r16 109m17 110r20 111m21
+. 116r12
+134r5 ret{4|41R9} 137m5 138m5 138r26 139r12
+X 8 interfac.ads
+38K9*Interfaces 6|4w6 8r5 8|232e15
+56I9*Integer_64<long_long_integer>
+69M9*Unsigned_8
+83M9*Unsigned_64
+X 9 sctre_dataview.ads
+34K9*SCTRE_DATAVIEW 6|40w6 40r26 69r14 70r12 7|20w6 30r10 31r10 83r28 109r24
+. 111r28 9|179e19
+40I9*asn1SccRawTC_length_index{integer}
+41R6*asn1SccRawTC 6|69r29 7|30r25 9|44e11
+42i5*Length{40I9} 6|86m148
+43a5*Data{39A9} 6|86m161
+46V10*asn1SccRawTC_Equal{boolean} 7|83s43
+49V10*asn1SccRawTC_IsConstraintValid{4|41R9} 7|109s39
+163F9*asn1SccPr_time{4|16F12} 6|70r27 7|31r25
+169V10*asn1SccPr_time_IsConstraintValid{4|41R9} 7|111s43
+X 10 system.ads
+37K9*System 6|15w6 10|153e11
+X 16 system_dataview.ads
+34K9*System_Dataview 6|34w6 34r27 67r14 68r17 86r56 86r103 7|11w6 29r10 105r16
+. 107r20 16|66e20
+49E6*asn1SccPID 6|67r30 68r33 7|29r26 16|49e102
+49n21*asn1Sccbkgtcexec{49E6} 6|86r72 86r119
+56V10*asn1SccPID_IsConstraintValid{4|41R9} 7|105s32 107s36
+

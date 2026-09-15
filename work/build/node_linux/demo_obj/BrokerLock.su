@@ -1,0 +1,2 @@
+/home/jorge/sctre/work/build/node_linux/demo/runtime/BrokerLock.cc:33:10:void Broker_acquire_lock()	8	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/BrokerLock.cc:35:10:void Broker_release_lock()	8	static

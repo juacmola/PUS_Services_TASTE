@@ -1,0 +1,4 @@
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:[m[K In member function ‘[01m[Kvirtual TEDROOMInt8 CEDROOMMemoryPool::[01;32m[KFreeData[m[K(void*)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl/src/edroomsl.cc:206:25:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K< 0[m[K’ is always false [[01;35m[K-Wtype-limits[m[K]
+  206 |         if (([01;35m[Kl_position < 0[m[K) || (l_position >= l_dimensionUInt64)) {
+      |              [01;35m[K~~~~~~~~~~~^~~[m[K

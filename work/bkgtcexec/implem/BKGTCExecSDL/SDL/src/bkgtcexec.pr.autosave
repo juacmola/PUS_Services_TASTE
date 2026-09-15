@@ -1,0 +1,32 @@
+/* CIF PROCESS (250, 150), (150, 75) */
+
+process Bkgtcexec;
+    /* CIF procedure (737, 49), (70, 35) */
+    /* CIF Keep Specific Geode Partition 'default' */
+    procedure ExecTC;
+        /* CIF START (326, 57), (70, 35) */
+        START;
+            /* CIF task (304, 112), (112, 35) */
+            task 'FExecBKGTC()';
+            /* CIF return (343, 162), (35, 35) */
+            return ;
+    endprocedure;
+    /* CIF START (182, 0), (70, 35) */
+    START;
+        /* CIF PROCEDURECALL (130, 55), (172, 35) */
+        call writeln("[BKGT] Startup");
+        /* CIF NEXTSTATE (182, 105), (70, 35) */
+        NEXTSTATE Ready;
+    /* CIF state (459, 0), (70, 35) */
+    /* CIF Keep Specific Geode Partition 'default' */
+    state Ready;
+        /* CIF input (459, 60), (70, 35) */
+        input SBKGTC;
+            /* CIF PROCEDURECALL (459, 115), (70, 35) */
+            call ExecTC
+            /* CIF comment (548, 115), (106, 35) */
+            comment 'FExecBKGTC()';
+            /* CIF NEXTSTATE (459, 170), (70, 35) */
+            NEXTSTATE Ready;
+    endstate;
+endprocess Bkgtcexec;
