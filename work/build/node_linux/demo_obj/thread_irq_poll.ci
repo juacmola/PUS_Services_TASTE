@@ -1,0 +1,13 @@
+graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/thread_irq_poll.cc"
+node: { title: "_Z12irq_poll_jobv" label: "void irq_poll_job()\n/home/jorge/sctre/work/build/node_linux/demo/thread_irq_poll.cc:12:6\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/thread_irq_poll.cc:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/build/node_linux/demo/thread_irq_poll.cc:23:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "void __builtin___asan_unregister_globals(void*, long int)\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/thread_irq_poll.cc:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/thread_irq_poll.cc:23:1" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/thread_irq_poll.cc:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/build/node_linux/demo/thread_irq_poll.cc:23:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "void __builtin___asan_init()\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/thread_irq_poll.cc:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/build/node_linux/demo/thread_irq_poll.cc:23:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "void __builtin___asan_version_mismatch_check_v8()\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/thread_irq_poll.cc:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/build/node_linux/demo/thread_irq_poll.cc:23:1" }
+node: { title: "__asan_register_globals" label: "void __builtin___asan_register_globals(void*, long int)\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/thread_irq_poll.cc:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/thread_irq_poll.cc:23:1" }
+}

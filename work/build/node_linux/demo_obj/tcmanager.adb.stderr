@@ -1,0 +1,7 @@
+tcmanager.adb:3:06: warning: renamed predefined unit is an obsolescent feature (RM J.1) [-gnatwj]
+tcmanager.adb:10:14: warning: procedure "p_0_doNewRxTC" is not referenced [-gnatwu]
+tcmanager.ads:5:20: warning: no entities of "Ada.Characters.Handling" are referenced [-gnatwu]
+tcmanager.ads:7:01: warning: use clause for package "Handling" has no effect [-gnatwu]
+tcmanager.ads:7:01: warning: use clause for package "Interfaces" has no effect [-gnatwu]
+tcmanager.ads:62:27: warning: "Check_Queue.Res" is an 8-bit Ada Boolean [-gnatwx]
+tcmanager.ads:62:27: warning: use appropriate corresponding type in C (e.g. char) [-gnatwx]

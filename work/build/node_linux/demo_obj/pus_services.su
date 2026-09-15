@@ -1,0 +1,4 @@
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/src/pus_services.cc:38:6:void pus_services_startup(void*)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/src/pus_services.cc:54:6:void pus_services_mng_reboot()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/src/pus_services.cc:61:6:void pus_services_do_FDIR()	80	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/src/pus_services.cc:141:6:void pus_services_update_params()	8	static

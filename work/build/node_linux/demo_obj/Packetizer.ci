@@ -1,0 +1,105 @@
+graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c"
+node: { title: "Packetizer_init" label: "Packetizer_init\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:33:1\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_store8" label: "__builtin___asan_report_store8\n<built-in>" shape : ellipse }
+edge: { sourcename: "Packetizer_init" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:38:17" }
+node: { title: "__asan_report_store2" label: "__builtin___asan_report_store2\n<built-in>" shape : ellipse }
+edge: { sourcename: "Packetizer_init" targetname: "__asan_report_store2" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:39:31" }
+node: { title: "Packetizer_packetize" label: "Packetizer_packetize\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:43:1\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_load2" label: "__builtin___asan_report_load2\n<built-in>" shape : ellipse }
+edge: { sourcename: "Packetizer_packetize" targetname: "__asan_report_load2" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:56:5" }
+node: { title: "__asan_handle_no_return" label: "__builtin___asan_handle_no_return\n<built-in>" shape : ellipse }
+edge: { sourcename: "Packetizer_packetize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:56:5" }
+node: { title: "__assert_fail" label: "__assert_fail\n/usr/include/assert.h:69:13" shape : ellipse }
+edge: { sourcename: "Packetizer_packetize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:56:5" }
+edge: { sourcename: "Packetizer_packetize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:57:5" }
+edge: { sourcename: "Packetizer_packetize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:57:5" }
+edge: { sourcename: "Packetizer_packetize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:58:5" }
+edge: { sourcename: "Packetizer_packetize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:58:5" }
+edge: { sourcename: "Packetizer_packetize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:59:5" }
+edge: { sourcename: "Packetizer_packetize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:59:5" }
+edge: { sourcename: "Packetizer_packetize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:60:5" }
+edge: { sourcename: "Packetizer_packetize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:60:5" }
+node: { title: "memset" label: "memset\n/usr/include/string.h:61:14" shape : ellipse }
+edge: { sourcename: "Packetizer_packetize" targetname: "memset" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:62:5" }
+edge: { sourcename: "Packetizer_packetize" targetname: "writePacketId" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:64:5" }
+edge: { sourcename: "Packetizer_packetize" targetname: "writePacketSequenceControl" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:65:5" }
+edge: { sourcename: "Packetizer_packetize" targetname: "writePacketDataLength" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:66:5" }
+edge: { sourcename: "Packetizer_packetize" targetname: "writeSenderPid" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:67:5" }
+edge: { sourcename: "Packetizer_packetize" targetname: "writeCrc" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:68:5" }
+edge: { sourcename: "Packetizer_packetize" targetname: "__asan_report_load2" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:71:11" }
+node: { title: "Packetizer_depacketize" label: "Packetizer_depacketize\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:80:1\n96 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:95:5" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:95:5" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:96:5" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:96:5" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:97:5" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:97:5" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:98:5" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:98:5" }
+node: { title: "__asan_report_store4" label: "__builtin___asan_report_store4\n<built-in>" shape : ellipse }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:103:24" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "readPacketDataLength" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:109:37" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:114:24" }
+node: { title: "__asan_report_load1" label: "__builtin___asan_report_load1\n<built-in>" shape : ellipse }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:120:39" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:121:42" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:125:26" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:126:29" }
+node: { title: "calculateCrc16" label: "calculateCrc16\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Crc16.h:51:10" shape : ellipse }
+edge: { sourcename: "Packetizer_depacketize" targetname: "calculateCrc16" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:128:13" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:132:24" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:139:27" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:142:24" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:148:33" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:149:36" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_report_store2" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:148:18" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:150:17" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:151:15" }
+edge: { sourcename: "Packetizer_depacketize" targetname: "__asan_report_store2" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:152:13" }
+node: { title: "writePacketId" label: "writePacketId\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:158:1\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "writePacketId" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:161:18" }
+edge: { sourcename: "writePacketId" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:169:18" }
+node: { title: "__asan_report_store1" label: "__builtin___asan_report_store1\n<built-in>" shape : ellipse }
+edge: { sourcename: "writePacketId" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:169:22" }
+node: { title: "writePacketSequenceControl" label: "writePacketSequenceControl\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:173:1\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "writePacketSequenceControl" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:176:18" }
+edge: { sourcename: "writePacketSequenceControl" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:176:22" }
+edge: { sourcename: "writePacketSequenceControl" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:177:18" }
+edge: { sourcename: "writePacketSequenceControl" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:177:22" }
+edge: { sourcename: "writePacketSequenceControl" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:180:18" }
+edge: { sourcename: "writePacketSequenceControl" targetname: "__asan_report_load2" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:180:36" }
+edge: { sourcename: "writePacketSequenceControl" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:180:22" }
+edge: { sourcename: "writePacketSequenceControl" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:182:18" }
+edge: { sourcename: "writePacketSequenceControl" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:182:22" }
+node: { title: "writePacketDataLength" label: "writePacketDataLength\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:186:1\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "writePacketDataLength" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:189:26" }
+edge: { sourcename: "writePacketDataLength" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:190:26" }
+edge: { sourcename: "writePacketDataLength" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:191:26" }
+edge: { sourcename: "writePacketDataLength" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:192:26" }
+edge: { sourcename: "writePacketDataLength" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:194:26" }
+edge: { sourcename: "writePacketDataLength" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:195:26" }
+edge: { sourcename: "writePacketDataLength" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:196:26" }
+edge: { sourcename: "writePacketDataLength" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:197:26" }
+node: { title: "writeCrc" label: "writeCrc\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:202:1\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "writeCrc" targetname: "calculateCrc16" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:204:20" }
+edge: { sourcename: "writeCrc" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:206:95" }
+edge: { sourcename: "writeCrc" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:207:99" }
+node: { title: "writeSenderPid" label: "writeSenderPid\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:211:1\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "writeSenderPid" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:213:64" }
+edge: { sourcename: "writeSenderPid" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:214:68" }
+node: { title: "readPacketDataLength" label: "readPacketDataLength\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:218:1\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "readPacketDataLength" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:220:58" }
+edge: { sourcename: "readPacketDataLength" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:220:98" }
+edge: { sourcename: "readPacketDataLength" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:221:60" }
+edge: { sourcename: "readPacketDataLength" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:221:98" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:228:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "__builtin___asan_unregister_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:228:1" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:228:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:228:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:228:1" }
+node: { title: "__asan_register_globals" label: "__builtin___asan_register_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:228:1" }
+}

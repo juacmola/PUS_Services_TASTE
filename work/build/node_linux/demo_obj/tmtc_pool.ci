@@ -1,0 +1,16 @@
+graph: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc"
+node: { title: "init_tmtc_pool" label: "void init_tmtc_pool()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:64:17\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "tmtc_pool_alloc" label: "uint8_t* tmtc_pool_alloc()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:76:22\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "_ZN15Pr_SemaphoreRec4WaitEv" label: "void Pr_SemaphoreRec::Wait()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/../../../service_libraries/edroomsl/edroombp/include/public/../edroombp_swr/rtemsapi_5_1/rtems_5_1/edroombp.h:272:10" shape : ellipse }
+edge: { sourcename: "tmtc_pool_alloc" targetname: "_ZN15Pr_SemaphoreRec4WaitEv" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:81:28" }
+node: { title: "_ZN15Pr_SemaphoreRec6SignalEv" label: "void Pr_SemaphoreRec::Signal()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/../../../service_libraries/edroomsl/edroombp/include/public/../edroombp_swr/rtemsapi_5_1/rtems_5_1/edroombp.h:267:10" shape : ellipse }
+edge: { sourcename: "tmtc_pool_alloc" targetname: "_ZN15Pr_SemaphoreRec6SignalEv" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:94:30" }
+node: { title: "tmtc_pool_free" label: "void tmtc_pool_free(uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:103:17\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tmtc_pool_free" targetname: "_ZN15Pr_SemaphoreRec4WaitEv" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:113:29" }
+edge: { sourcename: "tmtc_pool_free" targetname: "_ZN15Pr_SemaphoreRec6SignalEv" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:115:34" }
+node: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:_GLOBAL__sub_I_init_tmtc_pool" label: "cc)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:118:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "_ZN15Pr_SemaphoreRecC1Ev" label: "Pr_SemaphoreRec::Pr_SemaphoreRec()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/../../../service_libraries/edroomsl/edroombp/include/public/../edroombp_swr/rtemsapi_5_1/rtems_5_1/edroombp.h:257:5" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:_GLOBAL__sub_I_init_tmtc_pool" targetname: "_ZN15Pr_SemaphoreRecC1Ev" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:61:17" }
+node: { title: "__cxa_atexit" label: "int __cxxabiv1::__cxa_atexit(void (*)(void*), void*, void*)\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:_GLOBAL__sub_I_init_tmtc_pool" targetname: "__cxa_atexit" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:61:17" }
+}

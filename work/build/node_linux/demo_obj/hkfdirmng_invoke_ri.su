@@ -1,0 +1,11 @@
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:16:6:hkfdirmng_RI_DoHousekeeping	16	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:22:6:hkfdirmng_RI_DoHousekeeping_To_PID	48	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:51:6:hkfdirmng_RI_ExecHKFDIRTC	32	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:60:6:hkfdirmng_RI_ExecHKFDIRTC_To_PID	48	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:93:6:hkfdirmng_RI_SEvAction	16	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:99:6:hkfdirmng_RI_SEvAction_To_PID	48	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:122:6:hkfdirmng_RI_get_sender	32	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:128:6:hkfdirmng_RI_get_last_error	32	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:133:6:hkfdirmng_get_last_error	32	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:136:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:136:1:_sub_I_00099_1	16	static

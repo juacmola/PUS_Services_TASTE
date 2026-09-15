@@ -1,0 +1,111 @@
+V "GNAT Lib v13"
+A -Wall
+A -Wextra
+A -gnatwa
+A -gnatA
+A -gnatd.E
+A -fstack-check=specific
+A -fstack-usage
+A -fcallgraph-info=su,da
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U hkfdirmng_ri%b	hkfdirmng_ri.adb	6eee11d5 NE OO PK
+
+U hkfdirmng_ri%s	hkfdirmng_ri.ads	a91abfc4 EE NE OO PK
+W adaasn1rtl%s		adaasn1rtl.adb		adaasn1rtl.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W sctre_dataview%s	sctre_dataview.adb	sctre_dataview.ali
+W system_dataview%s	system_dataview.adb	system_dataview.ali
+W taste_basictypes%s	taste_basictypes.adb	taste_basictypes.ali
+
+D ada.ads		20240521074738 76789da1 ada%s
+D a-charac.ads		20240521074737 2d3ec45b ada.characters%s
+D a-chlat1.ads		20240521074737 e0d72e76 ada.characters.latin_1%s
+D a-unccon.ads		20240521074738 0e9b276f ada.unchecked_conversion%s
+D adaasn1rtl.ads	20260913085857 2efce9f1 adaasn1rtl%s
+D board_config.ads	20260913085857 ff248fc1 board_config%s
+D hkfdirmng_ri.ads	20260913085851 fe3525ba hkfdirmng_ri%s
+D hkfdirmng_ri.adb	20260913085851 90db346f hkfdirmng_ri%b
+D interfac.ads		20240521074738 15f799c2 interfaces%s
+D i-c.ads		20240521074738 5c5a6c17 interfaces.c%s
+D i-cstrin.ads		20240521074738 f40c8db4 interfaces.c.strings%s
+D sctre_dataview.ads	20260913085857 b51d3bcd sctre_dataview%s
+D system.ads		20240521074738 426dafb8 system%s
+D s-bitops.ads		20240521074738 cdf3ac3c system.bit_ops%s
+D s-bituti.ads		20240521074738 797cbcce system.bitfield_utils%s
+D s-bitfie.ads		20240521074738 8e9b6290 system.bitfields%s
+D s-exctab.ads		20240521074738 91bef6ef system.exception_table%s
+D s-parame.ads		20251218205951 1f39ba92 system.parameters%s
+D s-stalib.ads		20240521074738 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240521074738 ab5468e4 system.storage_elements%s
+D s-unstyp.ads		20240521074738 fa2a7f59 system.unsigned_types%s
+D system_dataview.ads	20260913085857 b89ed9d5 system_dataview%s
+D taste_basictypes.ads	20260913085857 38c2c5f6 taste_basictypes%s
+G a e
+G c Z s b [dohousekeeping hkfdirmng_ri 12 14 none]
+G c Z s b [exechkfdirtc hkfdirmng_ri 15 14 none]
+G c Z s b [sevaction hkfdirmng_ri 18 14 none]
+G c Z s s [check_queue hkfdirmng_ri 20 14 none]
+G c Z s s [get_sender hkfdirmng_ri 23 14 none]
+G c Z s s [get_last_error hkfdirmng_ri 26 14 none]
+G c Z s s [delete_instance hkfdirmng_ri 30 14 none]
+G c Z s s [to_c_pointer hkfdirmng_ri 33 13 none]
+X 5 adaasn1rtl.ads
+5K9*adaasn1rtl 128e15 7|6w6 20r37
+19B12*Asn1Boolean{boolean} 7|20r48
+X 7 hkfdirmng_ri.ads
+10K9*Hkfdirmng_RI 35l5 35e17 8|3b14 42l5 42t17
+12U14*Dohousekeeping 12>30 8|5b14 13l8 13t22
+12e30 Dest_PID{22|49E6} 8|5b30 12r28
+15U14*Exechkfdirtc 15=28 15>58 8|17b14 28l8 28t20
+15r28 Packet{12|41R6} 8|18b8 27m36
+15e58 Dest_PID{22|49E6} 8|19b8 27r26
+18U14*Sevaction 18>25 8|32b14 40l8 40t17
+18e25 Dest_PID{22|49E6} 8|32b25 39r23
+20U14*Check_Queue 20<27
+20b27 Res{5|19E12}
+23U14*Get_Sender 23<26 23>51
+23e26 Sender{22|49E6}
+23e51 Dest_PID{22|49E6}
+26U14*Get_Last_Error 26<30 26>64
+26r30 Err{23|67R6}
+26e64 Dest_PID{22|49E6}
+30U14*Delete_Instance 30>31
+30e31 unused_pid{22|49E6}
+33V13*To_C_Pointer{11|59P9} 33>27
+33a27 State_As_String{string} 34r20
+X 8 hkfdirmng_ri.adb
+6U17*C_Dohousekeeping 7>11 12s10
+7e11 Dest_PID{22|49E6}
+20U17*C_Exechkfdirtc 21>11 22=11 27s10
+21e11 Dest_PID{22|49E6}
+22r11 Packet{12|41R6}
+33U17*C_Sevaction 34>11 39s10
+34e11 Dest_PID{22|49E6}
+X 9 interfac.ads
+38K9*Interfaces 7|7r6 7r32 9|232e15
+X 10 i-c.ads
+29K20*C 7|7r17 7r43 10|597e17
+X 11 i-cstrin.ads
+44K22*Strings 7|7w19 7r45 11|156e25
+59P9*chars_ptr 7|33r60
+77V13*New_String{59P9} 7|34s8
+X 12 sctre_dataview.ads
+34K9*SCTRE_DATAVIEW 7|3w6 3r28 12|179e19
+41R6*asn1SccRawTC 7|15r44 8|18r24 22r27 12|44e11
+X 22 system_dataview.ads
+34K9*System_Dataview 7|5w6 5r28 8w6 8r27 22|66e20
+49E6*asn1SccPID 7|12r41 15r69 18r36 23r39 23r62 26r75 30r44 8|5r41 7r22 19r19
+. 21r22 32r36 34r22 22|49e102
+49n90*asn1Sccenv{49E6} 7|12r55 15r83 18r50 23r76 26r89 8|5r55 19r33 32r50
+X 23 taste_basictypes.ads
+34K9*TASTE_BasicTypes 7|4w6 4r28 23|144e21
+67R6*asn1SccT_Runtime_Error 7|26r40 23|77e11
+

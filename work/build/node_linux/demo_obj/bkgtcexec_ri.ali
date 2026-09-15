@@ -1,0 +1,100 @@
+V "GNAT Lib v13"
+A -Wall
+A -Wextra
+A -gnatwa
+A -gnatA
+A -gnatd.E
+A -fstack-check=specific
+A -fstack-usage
+A -fcallgraph-info=su,da
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U bkgtcexec_ri%b	bkgtcexec_ri.adb	0d8a1619 NE OO PK
+
+U bkgtcexec_ri%s	bkgtcexec_ri.ads	1cb31222 EE NE OO PK
+W adaasn1rtl%s		adaasn1rtl.adb		adaasn1rtl.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W sctre_dataview%s	sctre_dataview.adb	sctre_dataview.ali
+W system_dataview%s	system_dataview.adb	system_dataview.ali
+W taste_basictypes%s	taste_basictypes.adb	taste_basictypes.ali
+
+D ada.ads		20240521074738 76789da1 ada%s
+D a-charac.ads		20240521074737 2d3ec45b ada.characters%s
+D a-chlat1.ads		20240521074737 e0d72e76 ada.characters.latin_1%s
+D a-unccon.ads		20240521074738 0e9b276f ada.unchecked_conversion%s
+D adaasn1rtl.ads	20260913085857 2efce9f1 adaasn1rtl%s
+D bkgtcexec_ri.ads	20260913085851 4b9c885c bkgtcexec_ri%s
+D bkgtcexec_ri.adb	20260913085851 46169e45 bkgtcexec_ri%b
+D board_config.ads	20260913085857 ff248fc1 board_config%s
+D interfac.ads		20240521074738 15f799c2 interfaces%s
+D i-c.ads		20240521074738 5c5a6c17 interfaces.c%s
+D i-cstrin.ads		20240521074738 f40c8db4 interfaces.c.strings%s
+D sctre_dataview.ads	20260913085857 b51d3bcd sctre_dataview%s
+D system.ads		20240521074738 426dafb8 system%s
+D s-bitops.ads		20240521074738 cdf3ac3c system.bit_ops%s
+D s-bituti.ads		20240521074738 797cbcce system.bitfield_utils%s
+D s-bitfie.ads		20240521074738 8e9b6290 system.bitfields%s
+D s-exctab.ads		20240521074738 91bef6ef system.exception_table%s
+D s-parame.ads		20251218205951 1f39ba92 system.parameters%s
+D s-stalib.ads		20240521074738 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240521074738 ab5468e4 system.storage_elements%s
+D s-unstyp.ads		20240521074738 fa2a7f59 system.unsigned_types%s
+D system_dataview.ads	20260913085857 b89ed9d5 system_dataview%s
+D taste_basictypes.ads	20260913085857 38c2c5f6 taste_basictypes%s
+G a e
+G c Z s b [execbkgtc bkgtcexec_ri 12 14 none]
+G c Z s s [check_queue bkgtcexec_ri 14 14 none]
+G c Z s s [get_sender bkgtcexec_ri 17 14 none]
+G c Z s s [get_last_error bkgtcexec_ri 20 14 none]
+G c Z s s [delete_instance bkgtcexec_ri 24 14 none]
+G c Z s s [to_c_pointer bkgtcexec_ri 27 13 none]
+X 5 adaasn1rtl.ads
+5K9*adaasn1rtl 128e15 6|6w6 14r37
+19B12*Asn1Boolean{boolean} 6|14r48
+X 6 bkgtcexec_ri.ads
+10K9*Bkgtcexec_RI 29l5 29e17 7|3b14 18l5 18t17
+12U14*Execbkgtc 12=25 12>55 7|5b14 16l8 16t17
+12r25 Packet{12|41R6} 7|6b8 15m33
+12e55 Dest_PID{22|49E6} 7|7b8 15r23
+14U14*Check_Queue 14<27
+14b27 Res{5|19E12}
+17U14*Get_Sender 17<26 17>51
+17e26 Sender{22|49E6}
+17e51 Dest_PID{22|49E6}
+20U14*Get_Last_Error 20<30 20>64
+20r30 Err{23|67R6}
+20e64 Dest_PID{22|49E6}
+24U14*Delete_Instance 24>31
+24e31 unused_pid{22|49E6}
+27V13*To_C_Pointer{11|59P9} 27>27
+27a27 State_As_String{string} 28r20
+X 7 bkgtcexec_ri.adb
+8U17*C_Execbkgtc 9>11 10=11 15s10
+9e11 Dest_PID{22|49E6}
+10r11 Packet{12|41R6}
+X 9 interfac.ads
+38K9*Interfaces 6|7r6 7r32 9|232e15
+X 10 i-c.ads
+29K20*C 6|7r17 7r43 10|597e17
+X 11 i-cstrin.ads
+44K22*Strings 6|7w19 7r45 11|156e25
+59P9*chars_ptr 6|27r60
+77V13*New_String{59P9} 6|28s8
+X 12 sctre_dataview.ads
+34K9*SCTRE_DATAVIEW 6|3w6 3r28 12|179e19
+41R6*asn1SccRawTC 6|12r41 7|6r24 10r27 12|44e11
+X 22 system_dataview.ads
+34K9*System_Dataview 6|5w6 5r28 8w6 8r27 22|66e20
+49E6*asn1SccPID 6|12r66 17r39 17r62 20r75 24r44 7|7r19 9r22 22|49e102
+49n90*asn1Sccenv{49E6} 6|12r80 17r76 20r89 7|7r33
+X 23 taste_basictypes.ads
+34K9*TASTE_BasicTypes 6|4w6 4r28 23|144e21
+67R6*asn1SccT_Runtime_Error 6|20r40 23|77e11
+

@@ -1,0 +1,42 @@
+graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c"
+node: { title: "PassthroughPacketizer_init" label: "PassthroughPacketizer_init\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:34:1\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_store8" label: "__builtin___asan_report_store8\n<built-in>" shape : ellipse }
+edge: { sourcename: "PassthroughPacketizer_init" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:39:17" }
+node: { title: "__asan_report_load4" label: "__builtin___asan_report_load4\n<built-in>" shape : ellipse }
+edge: { sourcename: "PassthroughPacketizer_init" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:41:30" }
+edge: { sourcename: "PassthroughPacketizer_init" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:41:93" }
+node: { title: "__asan_handle_no_return" label: "__builtin___asan_handle_no_return\n<built-in>" shape : ellipse }
+edge: { sourcename: "PassthroughPacketizer_init" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:43:9" }
+node: { title: "abort" label: "abort\n/usr/include/stdlib.h:730:13" shape : ellipse }
+edge: { sourcename: "PassthroughPacketizer_init" targetname: "abort" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:43:9" }
+node: { title: "PassthroughPacketizer_packetize" label: "PassthroughPacketizer_packetize\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:48:1\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "PassthroughPacketizer_packetize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:66:5" }
+node: { title: "__assert_fail" label: "__assert_fail\n/usr/include/assert.h:69:13" shape : ellipse }
+edge: { sourcename: "PassthroughPacketizer_packetize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:66:5" }
+edge: { sourcename: "PassthroughPacketizer_packetize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:67:5" }
+edge: { sourcename: "PassthroughPacketizer_packetize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:67:5" }
+node: { title: "PassthroughPacketizer_depacketize" label: "PassthroughPacketizer_depacketize\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:73:1\n64 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "PassthroughPacketizer_depacketize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:92:5" }
+edge: { sourcename: "PassthroughPacketizer_depacketize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:92:5" }
+edge: { sourcename: "PassthroughPacketizer_depacketize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:93:5" }
+edge: { sourcename: "PassthroughPacketizer_depacketize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:93:5" }
+edge: { sourcename: "PassthroughPacketizer_depacketize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:94:5" }
+edge: { sourcename: "PassthroughPacketizer_depacketize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:94:5" }
+edge: { sourcename: "PassthroughPacketizer_depacketize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:95:5" }
+edge: { sourcename: "PassthroughPacketizer_depacketize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:95:5" }
+edge: { sourcename: "PassthroughPacketizer_depacketize" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:98:42" }
+node: { title: "__asan_report_store2" label: "__builtin___asan_report_store2\n<built-in>" shape : ellipse }
+edge: { sourcename: "PassthroughPacketizer_depacketize" targetname: "__asan_report_store2" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:98:18" }
+edge: { sourcename: "PassthroughPacketizer_depacketize" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:99:17" }
+edge: { sourcename: "PassthroughPacketizer_depacketize" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:100:15" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:103:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "__builtin___asan_unregister_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:103:1" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:103:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:103:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:103:1" }
+node: { title: "__asan_register_globals" label: "__builtin___asan_register_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/PassthroughPacketizer.c:103:1" }
+}

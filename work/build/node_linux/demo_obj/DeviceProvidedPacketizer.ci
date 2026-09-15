@@ -1,0 +1,24 @@
+graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c"
+node: { title: "DeviceProvidedPacketizer_init" label: "DeviceProvidedPacketizer_init\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:26:1\n64 bytes (static)\n0 dynamic objects" }
+node: { title: "getDeviceProvidedPacketizerInitFunction" label: "getDeviceProvidedPacketizerInitFunction\n/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.h:15:26" shape : ellipse }
+edge: { sourcename: "DeviceProvidedPacketizer_init" targetname: "getDeviceProvidedPacketizerInitFunction" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:28:48" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "DeviceProvidedPacketizer_init" targetname: "__indirect_call" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:30:5" }
+node: { title: "__asan_report_load8" label: "__builtin___asan_report_load8\n<built-in>" shape : ellipse }
+edge: { sourcename: "DeviceProvidedPacketizer_init" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:32:5" }
+node: { title: "setDeviceProvidedPacketizerHeaderSize" label: "setDeviceProvidedPacketizerHeaderSize\n/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.h:21:6" shape : ellipse }
+edge: { sourcename: "DeviceProvidedPacketizer_init" targetname: "setDeviceProvidedPacketizerHeaderSize" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:32:5" }
+node: { title: "DeviceProvidedPacketizer_packetize" label: "DeviceProvidedPacketizer_packetize\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:36:1\n80 bytes (dynamic,bounded)\n0 dynamic objects" }
+node: { title: "getDeviceProvidedPacketizerPacketizeFunction" label: "getDeviceProvidedPacketizerPacketizeFunction\n/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.h:17:31" shape : ellipse }
+edge: { sourcename: "DeviceProvidedPacketizer_packetize" targetname: "getDeviceProvidedPacketizerPacketizeFunction" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:45:58" }
+edge: { sourcename: "DeviceProvidedPacketizer_packetize" targetname: "__indirect_call" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:51:12" }
+node: { title: "DeviceProvidedPacketizer_depacketize" label: "DeviceProvidedPacketizer_depacketize\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:55:1\n112 bytes (dynamic,bounded)\n0 dynamic objects" }
+node: { title: "getDeviceProvidedPacketizerDepacketizeFunction" label: "getDeviceProvidedPacketizerDepacketizeFunction\n/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.h:19:33" shape : ellipse }
+edge: { sourcename: "DeviceProvidedPacketizer_depacketize" targetname: "getDeviceProvidedPacketizerDepacketizeFunction" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:66:62" }
+edge: { sourcename: "DeviceProvidedPacketizer_depacketize" targetname: "__indirect_call" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:72:12" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:_sub_I_00099_0" label: "_sub_I_00099_0\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:74:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:_sub_I_00099_0" targetname: "__asan_init" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:74:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:_sub_I_00099_0" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/DeviceProvidedPacketizer.c:74:1" }
+}

@@ -1,0 +1,29 @@
+graph: { title: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb"
+node: { title: "bkgtcexec__to_t_runtime_error_selection" label: "To_T_Runtime_Error_Selection\n/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.ads:31:4\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "bkgtcexec_datamodel__asn1sccbkgtcexec_t_runtime_error_selectionRP" label: "Asn1sccbkgtcexec_T_Runtime_Error_Selectionrp\n/home/jorge/sctre/work/dataview/Ada/src/bkgtcexec_datamodel.ads:86:6" shape : ellipse }
+edge: { sourcename: "bkgtcexec__to_t_runtime_error_selection" targetname: "bkgtcexec_datamodel__asn1sccbkgtcexec_t_runtime_error_selectionRP" label: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.ads:31:236" }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+edge: { sourcename: "bkgtcexec__to_t_runtime_error_selection" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.ads:31:236" }
+node: { title: "*bkgtcexec_state" label: "Get_State\n/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.ads:32:4\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "__gnat_rcheck_CE_Invalid_Data" label: "gnat_rcheck_CE_Invalid_Data\n<built-in>" shape : ellipse }
+edge: { sourcename: "*bkgtcexec_state" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.ads:32:106" }
+node: { title: "bkgtcexec_ri__to_c_pointer" label: "To_C_Pointer\n/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec_ri.ads:27:13" shape : ellipse }
+edge: { sourcename: "*bkgtcexec_state" targetname: "bkgtcexec_ri__to_c_pointer" label: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.ads:32:56" }
+node: { title: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb:bkgtcexec__p_0_exectc" label: "P_0_Exectc\n/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb:8:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "bkgtcexec_ri__execbkgtc" label: "Execbkgtc\n/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec_ri.ads:12:14" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb:bkgtcexec__p_0_exectc" targetname: "bkgtcexec_ri__execbkgtc" label: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb:11:10" }
+node: { title: "bkgtcexec_PI_SBKGTC" label: "Sbkgtc\n/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb:17:4\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "bkgtcexec_PI_SBKGTC" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb:19:19" }
+edge: { sourcename: "bkgtcexec_PI_SBKGTC" targetname: "bkgtcexec__execute_transition" label: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb:22:16" }
+edge: { sourcename: "bkgtcexec_PI_SBKGTC" targetname: "bkgtcexec__execute_transition" label: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb:24:16" }
+node: { title: "bkgtcexec__execute_transition" label: "Execute_Transition\n/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb:29:4\n80 bytes (static)\n0 dynamic objects" }
+node: { title: "ada__text_io__put__4" label: "Put\n/usr/lib/gcc/x86_64-linux-gnu/13/adainclude/a-textio.ads:519:14" shape : ellipse }
+edge: { sourcename: "bkgtcexec__execute_transition" targetname: "ada__text_io__put__4" label: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb:39:19" }
+node: { title: "ada__text_io__new_line__2" label: "New_Line\n/usr/lib/gcc/x86_64-linux-gnu/13/adainclude/a-textio.ads:282:14" shape : ellipse }
+edge: { sourcename: "bkgtcexec__execute_transition" targetname: "ada__text_io__new_line__2" label: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb:40:19" }
+node: { title: "*bkgtcexec_get_sender" label: "Get_Sender\n/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec_ri.ads:17:14" shape : ellipse }
+edge: { sourcename: "bkgtcexec__execute_transition" targetname: "*bkgtcexec_get_sender" label: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb:47:19" }
+edge: { sourcename: "bkgtcexec__execute_transition" targetname: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb:bkgtcexec__p_0_exectc" label: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb:49:19" }
+node: { title: "*bkgtcexec_startup" label: "Startup\n/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb:66:4\n16 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "*bkgtcexec_startup" targetname: "bkgtcexec__execute_transition" label: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec.adb:68:10" }
+}

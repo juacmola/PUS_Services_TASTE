@@ -1,0 +1,35 @@
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:300:1:int __gthread_active_p()	16	static
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:746:1:int __gthread_mutex_lock(__gthread_mutex_t*)	32	static
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:776:1:int __gthread_mutex_unlock(__gthread_mutex_t*)	32	static
+/usr/include/c++/13/bits/std_mutex.h:111:5:void std::mutex::lock()	48	static
+/usr/include/c++/13/bits/std_mutex.h:129:5:void std::mutex::unlock()	32	static
+/usr/include/c++/13/bits/stl_deque.h:96:3:constexpr std::size_t std::__deque_buf_size(size_t)	16	static
+/home/jorge/sctre/work/build/node_linux/demo/thread_bkgtcexec_sbkgtc.cc:12:6:void bkgtcexec_sbkgtc_job()	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Request.h:125:1:taste::Request<PARAMETER_SIZE>::Request() [with long unsigned int PARAMETER_SIZE = 260]	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Queue.h:163:1:void taste::Queue<PARAMETER_SIZE>::get(taste::Request<PARAMETER_SIZE>&) [with long unsigned int PARAMETER_SIZE = 260]	160	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Request.h:173:1:asn1SccPID taste::Request<PARAMETER_SIZE>::sender_pid() const [with long unsigned int PARAMETER_SIZE = 260]	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Request.h:159:1:uint8_t* taste::Request<PARAMETER_SIZE>::data() [with long unsigned int PARAMETER_SIZE = 260]	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Request.h:143:1:size_t taste::Request<PARAMETER_SIZE>::length() const [with long unsigned int PARAMETER_SIZE = 260]	32	static
+/usr/include/c++/13/bits/unique_lock.h:68:16:std::unique_lock<_Mutex>::unique_lock(mutex_type&) [with _Mutex = std::mutex]	32	static
+/usr/include/c++/13/bits/unique_lock.h:103:7:std::unique_lock<_Mutex>::~unique_lock() [with _Mutex = std::mutex]	32	static
+/usr/include/c++/13/bits/stl_queue.h:218:7:bool std::queue<_Tp, _Sequence>::empty() const [with _Tp = taste::Request<260>; _Sequence = std::deque<taste::Request<260>, std::allocator<taste::Request<260> > >]	32	static
+/usr/include/c++/13/bits/stl_queue.h:233:7:std::queue<_Tp, _Sequence>::reference std::queue<_Tp, _Sequence>::front() [with _Tp = taste::Request<260>; _Sequence = std::deque<taste::Request<260>, std::allocator<taste::Request<260> > >]	32	static
+/usr/include/c++/13/bits/stl_queue.h:318:7:void std::queue<_Tp, _Sequence>::pop() [with _Tp = taste::Request<260>; _Sequence = std::deque<taste::Request<260>, std::allocator<taste::Request<260> > >]	32	static
+/usr/include/c++/13/bits/move.h:51:5:constexpr _Tp* std::__addressof(_Tp&) [with _Tp = mutex]	16	static
+/usr/include/c++/13/bits/unique_lock.h:133:7:void std::unique_lock<_Mutex>::lock() [with _Mutex = std::mutex]	32	static
+/usr/include/c++/13/bits/unique_lock.h:194:7:void std::unique_lock<_Mutex>::unlock() [with _Mutex = std::mutex]	32	static
+/usr/include/c++/13/bits/stl_deque.h:1347:7:bool std::deque<_Tp, _Alloc>::empty() const [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	32	static
+/usr/include/c++/13/bits/stl_deque.h:1444:7:std::deque<_Tp, _Alloc>::reference std::deque<_Tp, _Alloc>::front() [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	192	static
+/usr/include/c++/13/bits/stl_deque.h:1574:7:void std::deque<_Tp, _Alloc>::pop_front() [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	80	static
+/usr/include/c++/13/bits/stl_deque.h:272:7:bool std::operator==(const _Deque_iterator<taste::Request<260>, taste::Request<260>&, taste::Request<260>*>::_Self&, const _Deque_iterator<taste::Request<260>, taste::Request<260>&, taste::Request<260>*>::_Self&)	32	static
+/usr/include/c++/13/bits/stl_deque.h:1151:7:std::deque<_Tp, _Alloc>::iterator std::deque<_Tp, _Alloc>::begin() [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	32	static
+/usr/include/c++/13/bits/stl_deque.h:181:7:std::_Deque_iterator<_Tp, _Ref, _Ptr>::reference std::_Deque_iterator<_Tp, _Ref, _Ptr>::operator*() const [with _Tp = taste::Request<260>; _Ref = taste::Request<260>&; _Ptr = taste::Request<260>*]	32	static
+/usr/include/c++/13/bits/stl_deque.h:568:7:std::_Deque_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Deque_base<_Tp, _Alloc>::_M_get_Tp_allocator() [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	16	static
+/usr/include/c++/13/bits/deque.tcc:576:10:void std::deque<_Tp, _Alloc>::_M_pop_front_aux() [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	80	static
+/usr/include/c++/13/bits/stl_deque.h:168:7:std::_Deque_iterator<_Tp, _Ref, _Ptr>::_Deque_iterator(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&) [with _Tp = taste::Request<260>; _Ref = taste::Request<260>&; _Ptr = taste::Request<260>*]	32	static
+/usr/include/c++/13/bits/stl_deque.h:587:7:void std::_Deque_base<_Tp, _Alloc>::_M_deallocate_node(_Ptr) [with _Tp = taste::Request<260>; _Alloc = std::allocator<taste::Request<260> >]	64	static
+/usr/include/c++/13/bits/stl_deque.h:263:7:void std::_Deque_iterator<_Tp, _Ref, _Ptr>::_M_set_node(_Map_pointer) [with _Tp = taste::Request<260>; _Ref = taste::Request<260>&; _Ptr = taste::Request<260>*]	48	static
+/usr/include/c++/13/bits/stl_deque.h:131:21:static std::size_t std::_Deque_iterator<_Tp, _Ref, _Ptr>::_S_buffer_size() [with _Tp = taste::Request<260>; _Ref = taste::Request<260>&; _Ptr = taste::Request<260>*]	16	static
+/usr/include/c++/13/bits/new_allocator.h:156:7:void std::__new_allocator<_Tp>::deallocate(_Tp*, size_type) [with _Tp = taste::Request<260>]	48	static
+/home/jorge/sctre/work/build/node_linux/demo/thread_bkgtcexec_sbkgtc.cc:28:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/build/node_linux/demo/thread_bkgtcexec_sbkgtc.cc:28:1:_sub_I_00099_1	16	static

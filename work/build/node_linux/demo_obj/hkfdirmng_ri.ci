@@ -1,0 +1,15 @@
+graph: { title: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_ri.adb"
+node: { title: "hkfdirmng_ri__delete_instance" label: "Delete_Instance\n/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng_ri.ads:30:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "hkfdirmng_ri__to_c_pointer" label: "To_C_Pointer\n/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng_ri.ads:33:4\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "interfaces__c__strings__new_string" label: "New_String\n/usr/lib/gcc/x86_64-linux-gnu/13/adainclude/i-cstrin.ads:77:13" shape : ellipse }
+edge: { sourcename: "hkfdirmng_ri__to_c_pointer" targetname: "interfaces__c__strings__new_string" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng_ri.ads:34:8" }
+node: { title: "hkfdirmng_ri__dohousekeeping" label: "Dohousekeeping\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_ri.adb:5:4\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "*hkfdirmng_RI_DoHousekeeping_To_PID" label: "C_Dohousekeeping\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_ri.adb:6:17" shape : ellipse }
+edge: { sourcename: "hkfdirmng_ri__dohousekeeping" targetname: "*hkfdirmng_RI_DoHousekeeping_To_PID" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_ri.adb:12:10" }
+node: { title: "hkfdirmng_ri__exechkfdirtc" label: "Exechkfdirtc\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_ri.adb:17:4\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "*hkfdirmng_RI_ExecHKFDIRTC_To_PID" label: "C_Exechkfdirtc\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_ri.adb:20:17" shape : ellipse }
+edge: { sourcename: "hkfdirmng_ri__exechkfdirtc" targetname: "*hkfdirmng_RI_ExecHKFDIRTC_To_PID" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_ri.adb:27:10" }
+node: { title: "hkfdirmng_ri__sevaction" label: "Sevaction\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_ri.adb:32:4\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "*hkfdirmng_RI_SEvAction_To_PID" label: "C_Sevaction\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_ri.adb:33:17" shape : ellipse }
+edge: { sourcename: "hkfdirmng_ri__sevaction" targetname: "*hkfdirmng_RI_SEvAction_To_PID" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_ri.adb:39:10" }
+}

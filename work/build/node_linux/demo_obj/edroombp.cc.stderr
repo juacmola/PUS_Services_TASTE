@@ -1,0 +1,483 @@
+In file included from [01m[K/usr/include/x86_64-linux-gnu/sys/types.h:155[m[K,
+                 from [01m[K/usr/include/stdlib.h:514[m[K,
+                 from [01m[K/usr/include/c++/13/cstdlib:79[m[K,
+                 from [01m[K/usr/include/c++/13/stdlib.h:36[m[K,
+                 from [01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:27[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:27:19:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Ktypedef __int64_t int64_t[m[K’
+   27 | typedef __int64_t [01;31m[Kint64_t[m[K;
+      |                   [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/../../../include/edroombp_swr/rtemsapi_5_1/rtems_5_1/../../../../../../../llsw/rtems_osswr/include/public/basic_types.h:8[m[K,
+                 from [01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/../../../include/edroombp_swr/rtemsapi_5_1/rtems_5_1/../../edroomtypes.h:4[m[K,
+                 from [01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/../../../include/edroombp_swr/rtemsapi_5_1/rtems_5_1/edroombp.h:29[m[K,
+                 from [01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:25[m[K:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/../../../include/edroombp_swr/rtemsapi_5_1/rtems_5_1/../../../../../../../llsw/rtems_osswr/include/public/../rtems_osswr/leon3_types.h:32:41:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Ktypedef long long int int64_t[m[K’
+   32 | typedef signed long long int            [01;36m[Kint64_t[m[K;
+      |                                         [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:31[m[K:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/../../../../../../llsw/rtems_osswr/include/rtems_config.h:34:1:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_task[m[K’ does not name a type
+   34 | [01;31m[Krtems_task[m[K Init(rtems_task_argument arg);
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:123:8:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_interval[m[K’ does not name a type
+  123 | static [01;31m[Krtems_interval[m[K TICKS_PER_SECOND = 0;
+      |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:130:1:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_time_of_day[m[K’ does not name a type
+  130 | [01;31m[Krtems_time_of_day[m[K system_tod =
+      | [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In constructor ‘[01m[KPr_Kernel::[01;32m[KPr_Kernel[m[K()[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:142:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_time_of_day[m[K’ was not declared in this scope
+  142 |         [01;31m[Krtems_time_of_day[m[K time_buffer;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:145:9:[m[K [01;31m[Kerror: [m[K‘[01m[KTICKS_PER_SECOND[m[K’ was not declared in this scope; did you mean ‘[01m[KCLICKS_PER_SEC[m[K’?
+  145 |         [01;31m[KTICKS_PER_SECOND[m[K = rtems_clock_get_ticks_per_second();
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |         [32m[KCLICKS_PER_SEC[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:145:28:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_clock_get_ticks_per_second[m[K’ was not declared in this scope
+  145 |         TICKS_PER_SECOND = [01;31m[Krtems_clock_get_ticks_per_second[m[K();
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:150:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_buffer[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetbuffer[m[K’?
+  150 |         [01;31m[Ktime_buffer[m[K.year = system_tod.year;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+      |         [32m[Ksetbuffer[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:150:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ksystem_tod[m[K’ was not declared in this scope; did you mean ‘[01m[Ksystem[m[K’?
+  150 |         time_buffer.year = [01;31m[Ksystem_tod[m[K.year;
+      |                            [01;31m[K^~~~~~~~~~[m[K
+      |                            [32m[Ksystem[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:158:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_clock_set[m[K’ was not declared in this scope
+  158 |         [01;31m[Krtems_clock_set[m[K(&time_buffer);
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:161:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_clock_get_tod_timeval[m[K’ was not declared in this scope
+  161 |         [01;31m[Krtems_clock_get_tod_timeval[m[K(&start_time);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In constructor ‘[01m[KPr_Task::[01;32m[KPr_Task[m[K(Pr_TaskRV_t (*)(Pr_TaskP_t), TEDROOMPriority, unsigned int)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:206:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_name[m[K’ was not declared in this scope; did you mean ‘[01m[Knsem_name[m[K’?
+  206 |         [01;31m[Krtems_name[m[K r_name;
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Knsem_name[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:207:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_mode[m[K’ was not declared in this scope
+  207 |         [01;31m[Krtems_mode[m[K r_mode;
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:208:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_attribute[m[K’ was not declared in this scope; did you mean ‘[01m[K__has_attribute[m[K’?
+  208 |         [01;31m[Krtems_attribute[m[K r_attributes;
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |         [32m[K__has_attribute[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:227:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kr_name[m[K’ was not declared in this scope; did you mean ‘[01m[Krename[m[K’?
+  227 |         [01;31m[Kr_name[m[K = rtems_build_name(ntask_name[0], ntask_name[1], ntask_name[2],
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Krename[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:227:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_build_name[m[K’ was not declared in this scope
+  227 |         r_name = [01;31m[Krtems_build_name[m[K(ntask_name[0], ntask_name[1], ntask_name[2],
+      |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:230:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kr_mode[m[K’ was not declared in this scope; did you mean ‘[01m[Kremove[m[K’?
+  230 |         [01;31m[Kr_mode[m[K = RTEMS_PREEMPT | RTEMS_NO_ASR | RTEMS_NO_TIMESLICE
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kremove[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:230:18:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_PREEMPT[m[K’ was not declared in this scope
+  230 |         r_mode = [01;31m[KRTEMS_PREEMPT[m[K | RTEMS_NO_ASR | RTEMS_NO_TIMESLICE
+      |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:230:34:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_NO_ASR[m[K’ was not declared in this scope
+  230 |         r_mode = RTEMS_PREEMPT | [01;31m[KRTEMS_NO_ASR[m[K | RTEMS_NO_TIMESLICE
+      |                                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:230:49:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_NO_TIMESLICE[m[K’ was not declared in this scope
+  230 |         r_mode = RTEMS_PREEMPT | RTEMS_NO_ASR | [01;31m[KRTEMS_NO_TIMESLICE[m[K
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:231:27:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_INTERRUPT_LEVEL[m[K’ was not declared in this scope; did you mean ‘[01m[KRTEMS_INTERRUPT[m[K’?
+  231 |                         | [01;31m[KRTEMS_INTERRUPT_LEVEL[m[K(0);
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                           [32m[KRTEMS_INTERRUPT[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:234:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kr_attributes[m[K’ was not declared in this scope
+  234 |         [01;31m[Kr_attributes[m[K = RTEMS_LOCAL;
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:234:24:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_LOCAL[m[K’ was not declared in this scope
+  234 |         r_attributes = [01;31m[KRTEMS_LOCAL[m[K;
+      |                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:239:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_task_create[m[K’ was not declared in this scope
+  239 |         [01;31m[Krtems_task_create[m[K(r_name, priorityTmp, _stackSize, r_mode,
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:246:49:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_task_argument[m[K’ was not declared in this scope
+  246 |         rtems_task_start(taskID, TaskFunction, ([01;31m[Krtems_task_argument[m[K) (this));
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:246:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_task_start[m[K’ was not declared in this scope
+  246 |         [01;31m[Krtems_task_start[m[K(taskID, TaskFunction, (rtems_task_argument) (this));
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In static member function ‘[01m[Kstatic Pr_TaskRV_t Pr_Task::[01;32m[KTaskFunction[m[K(Pr_TaskP_t)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:254:27:[m[K [01;35m[Kwarning: [m[Kcast to pointer from integer of different size [[01;35m[K-Wint-to-pointer-cast[m[K]
+  254 |         Pr_Task *mythis = [01;35m[K(Pr_Task*) arg[m[K;
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:264:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_task_delete[m[K’ was not declared in this scope
+  264 |         [01;31m[Krtems_task_delete[m[K(mythis->taskID);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In member function ‘[01m[Kvoid Pr_Task::[01;32m[KChangePriority[m[K(TEDROOMPriority)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:331:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_task_priority[m[K’ was not declared in this scope
+  331 |         [01;31m[Krtems_task_priority[m[K old_prio; /*        NOT used further than the call */
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:336:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kold_prio[m[K’ was not declared in this scope
+  336 |         rtems_task_set_priority(taskID, (uint32_t) _priority, &[01;31m[Kold_prio[m[K);
+      |                                                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:336:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_task_set_priority[m[K’ was not declared in this scope
+  336 |         [01;31m[Krtems_task_set_priority[m[K(taskID, (uint32_t) _priority, &old_prio);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In function ‘[01m[Kvoid[01;32m[K edroombp_get_time[m[K(void*)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:378:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_clock_get_tod_timeval[m[K’ was not declared in this scope
+  378 |         [01;31m[Krtems_clock_get_tod_timeval[m[K((EDROOMTimeSpec *)time_val);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In function ‘[01m[Kvoid[01;32m[K Pr_DelayIn[m[K(const Pr_Time&)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:531:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_interval[m[K’ was not declared in this scope; did you mean ‘[01m[K_interval[m[K’?
+  531 |         [01;31m[Krtems_interval[m[K ticks;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+      |         [32m[K_interval[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:533:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kticks[m[K’ was not declared in this scope
+  533 |         [01;31m[Kticks[m[K = (rtems_interval) _interval.Ticks();
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:535:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_task_wake_after[m[K’ was not declared in this scope
+  535 |         [01;31m[Krtems_task_wake_after[m[K(ticks);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In function ‘[01m[Kvoid[01;32m[K Pr_DelayAt[m[K(const Pr_Time&)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:546:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_interval[m[K’ was not declared in this scope
+  546 |         [01;31m[Krtems_interval[m[K intervalo;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:548:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_clock_get_tod_timeval[m[K’ was not declared in this scope
+  548 |         [01;31m[Krtems_clock_get_tod_timeval[m[K(&time);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:574:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kintervalo[m[K’ was not declared in this scope
+  574 |         [01;31m[Kintervalo[m[K = (time.tv_sec * USECS_PER_SEC) + time.tv_usec;
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:576:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_task_wake_after[m[K’ was not declared in this scope
+  576 |         [01;31m[Krtems_task_wake_after[m[K(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In constructor ‘[01m[KPr_SemaphoreBin::[01;32m[KPr_SemaphoreBin[m[K(uint32_t)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:604:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_name[m[K’ was not declared in this scope; did you mean ‘[01m[Knsem_name[m[K’?
+  604 |         [01;31m[Krtems_name[m[K r_name;
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Knsem_name[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:605:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_attribute[m[K’ was not declared in this scope; did you mean ‘[01m[K__has_attribute[m[K’?
+  605 |         [01;31m[Krtems_attribute[m[K attributes;
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |         [32m[K__has_attribute[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:611:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kr_name[m[K’ was not declared in this scope; did you mean ‘[01m[Krename[m[K’?
+  611 |         [01;31m[Kr_name[m[K = rtems_build_name(nsem_name[0], nsem_name[1], nsem_name[2],
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Krename[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:611:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_build_name[m[K’ was not declared in this scope
+  611 |         r_name = [01;31m[Krtems_build_name[m[K(nsem_name[0], nsem_name[1], nsem_name[2],
+      |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:614:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kattributes[m[K’ was not declared in this scope
+  614 |         [01;31m[Kattributes[m[K = RTEMS_DEFAULT_ATTRIBUTES;
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:614:22:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_DEFAULT_ATTRIBUTES[m[K’ was not declared in this scope
+  614 |         attributes = [01;31m[KRTEMS_DEFAULT_ATTRIBUTES[m[K;
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:615:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_semaphore_create[m[K’ was not declared in this scope
+  615 |         [01;31m[Krtems_semaphore_create[m[K(r_name, _value, attributes,
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In member function ‘[01m[Kvoid Pr_SemaphoreBin::[01;32m[KSignal[m[K()[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:623:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_semaphore_release[m[K’ was not declared in this scope
+  623 |         [01;31m[Krtems_semaphore_release[m[K(sem);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In member function ‘[01m[Kvoid Pr_SemaphoreBin::[01;32m[KWait[m[K()[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:628:37:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_WAIT[m[K’ was not declared in this scope
+  628 |         rtems_semaphore_obtain(sem, [01;31m[KRTEMS_WAIT[m[K, RTEMS_NO_TIMEOUT);
+      |                                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:628:49:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_NO_TIMEOUT[m[K’ was not declared in this scope
+  628 |         rtems_semaphore_obtain(sem, RTEMS_WAIT, [01;31m[KRTEMS_NO_TIMEOUT[m[K);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:628:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_semaphore_obtain[m[K’ was not declared in this scope
+  628 |         [01;31m[Krtems_semaphore_obtain[m[K(sem, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In member function ‘[01m[Kint32_t Pr_SemaphoreBin::[01;32m[KWaitCond[m[K()[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:633:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_status_code[m[K’ was not declared in this scope
+  633 |         [01;31m[Krtems_status_code[m[K status;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:635:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatic[m[K’?
+  635 |         [01;31m[Kstatus[m[K = rtems_semaphore_obtain(sem, RTEMS_NO_WAIT, RTEMS_NO_TIMEOUT);
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kstatic[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:635:46:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_NO_WAIT[m[K’ was not declared in this scope
+  635 |         status = rtems_semaphore_obtain(sem, [01;31m[KRTEMS_NO_WAIT[m[K, RTEMS_NO_TIMEOUT);
+      |                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:635:61:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_NO_TIMEOUT[m[K’ was not declared in this scope
+  635 |         status = rtems_semaphore_obtain(sem, RTEMS_NO_WAIT, [01;31m[KRTEMS_NO_TIMEOUT[m[K);
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:635:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_semaphore_obtain[m[K’ was not declared in this scope
+  635 |         status = [01;31m[Krtems_semaphore_obtain[m[K(sem, RTEMS_NO_WAIT, RTEMS_NO_TIMEOUT);
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:637:27:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_SUCCESSFUL[m[K’ was not declared in this scope
+  637 |         return (status == [01;31m[KRTEMS_SUCCESSFUL[m[K);
+      |                           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In member function ‘[01m[Kbool Pr_SemaphoreBin::[01;32m[KWaitTimed[m[K(const Pr_Time&)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:642:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_status_code[m[K’ was not declared in this scope
+  642 |         [01;31m[Krtems_status_code[m[K status;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:643:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_interval[m[K’ was not declared in this scope
+  643 |         [01;31m[Krtems_interval[m[K TimeInTicks;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:645:9:[m[K [01;31m[Kerror: [m[K‘[01m[KTimeInTicks[m[K’ was not declared in this scope
+  645 |         [01;31m[KTimeInTicks[m[K = (rtems_interval) ((_waittime.time.tv_sec * CLICKS_PER_SEC)
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:650:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatic[m[K’?
+  650 |                 [01;31m[Kstatus[m[K = rtems_semaphore_obtain(sem, RTEMS_NO_WAIT, RTEMS_NO_TIMEOUT);
+      |                 [01;31m[K^~~~~~[m[K
+      |                 [32m[Kstatic[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:650:54:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_NO_WAIT[m[K’ was not declared in this scope
+  650 |                 status = rtems_semaphore_obtain(sem, [01;31m[KRTEMS_NO_WAIT[m[K, RTEMS_NO_TIMEOUT);
+      |                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:650:69:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_NO_TIMEOUT[m[K’ was not declared in this scope
+  650 |                 status = rtems_semaphore_obtain(sem, RTEMS_NO_WAIT, [01;31m[KRTEMS_NO_TIMEOUT[m[K);
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:650:26:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_semaphore_obtain[m[K’ was not declared in this scope
+  650 |                 status = [01;31m[Krtems_semaphore_obtain[m[K(sem, RTEMS_NO_WAIT, RTEMS_NO_TIMEOUT);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:655:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatic[m[K’?
+  655 |                 [01;31m[Kstatus[m[K = rtems_semaphore_obtain(sem, RTEMS_WAIT, TimeInTicks);
+      |                 [01;31m[K^~~~~~[m[K
+      |                 [32m[Kstatic[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:655:54:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_WAIT[m[K’ was not declared in this scope
+  655 |                 status = rtems_semaphore_obtain(sem, [01;31m[KRTEMS_WAIT[m[K, TimeInTicks);
+      |                                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:655:26:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_semaphore_obtain[m[K’ was not declared in this scope
+  655 |                 status = [01;31m[Krtems_semaphore_obtain[m[K(sem, RTEMS_WAIT, TimeInTicks);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:659:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatic[m[K’?
+  659 |         return ([01;31m[Kstatus[m[K == RTEMS_SUCCESSFUL);
+      |                 [01;31m[K^~~~~~[m[K
+      |                 [32m[Kstatic[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:659:27:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_SUCCESSFUL[m[K’ was not declared in this scope
+  659 |         return (status == [01;31m[KRTEMS_SUCCESSFUL[m[K);
+      |                           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In destructor ‘[01m[KPr_SemaphoreBin::[01;32m[K~Pr_SemaphoreBin[m[K()[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:665:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_semaphore_release[m[K’ was not declared in this scope
+  665 |         [01;31m[Krtems_semaphore_release[m[K(sem);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:667:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_semaphore_delete[m[K’ was not declared in this scope
+  667 |         [01;31m[Krtems_semaphore_delete[m[K(sem);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In constructor ‘[01m[KPr_SemaphoreRec::[01;32m[KPr_SemaphoreRec[m[K()[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:684:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_id[m[K’ was not declared in this scope
+  684 |         [01;31m[Krtems_id[m[K possible_semid;
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:685:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_name[m[K’ was not declared in this scope; did you mean ‘[01m[Knsem_name[m[K’?
+  685 |         [01;31m[Krtems_name[m[K r_name;
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Knsem_name[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:687:21:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_PRIORITY[m[K’ was not declared in this scope; did you mean ‘[01m[KGETPRIORITY[m[K’?
+  687 |         prio_type = [01;31m[KRTEMS_PRIORITY[m[K | RTEMS_BINARY_SEMAPHORE  | RTEMS_INHERIT_PRIORITY;
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                     [32m[KGETPRIORITY[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:687:38:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_BINARY_SEMAPHORE[m[K’ was not declared in this scope
+  687 |         prio_type = RTEMS_PRIORITY | [01;31m[KRTEMS_BINARY_SEMAPHORE[m[K  | RTEMS_INHERIT_PRIORITY;
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:687:64:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_INHERIT_PRIORITY[m[K’ was not declared in this scope
+  687 |         prio_type = RTEMS_PRIORITY | RTEMS_BINARY_SEMAPHORE  | [01;31m[KRTEMS_INHERIT_PRIORITY[m[K;
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:690:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kr_name[m[K’ was not declared in this scope; did you mean ‘[01m[Krename[m[K’?
+  690 |         [01;31m[Kr_name[m[K = rtems_build_name(nsem_name[0], nsem_name[1], nsem_name[2],
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Krename[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:690:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_build_name[m[K’ was not declared in this scope
+  690 |         r_name = [01;31m[Krtems_build_name[m[K(nsem_name[0], nsem_name[1], nsem_name[2],
+      |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:693:44:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_attribute[m[K’ was not declared in this scope; did you mean ‘[01m[K__has_attribute[m[K’?
+  693 |         rtems_semaphore_create(r_name, 1, ([01;31m[Krtems_attribute[m[K)prio_type,
+      |                                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                            [32m[K__has_attribute[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:694:25:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_NO_PRIORITY[m[K’ was not declared in this scope
+  694 |                         [01;31m[KRTEMS_NO_PRIORITY[m[K , &possible_semid);
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:694:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kpossible_semid[m[K’ was not declared in this scope
+  694 |                         RTEMS_NO_PRIORITY , &[01;31m[Kpossible_semid[m[K);
+      |                                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:693:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_semaphore_create[m[K’ was not declared in this scope
+  693 |         [01;31m[Krtems_semaphore_create[m[K(r_name, 1, (rtems_attribute)prio_type,
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In constructor ‘[01m[KPr_SemaphoreRec::[01;32m[KPr_SemaphoreRec[m[K(int32_t)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:706:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_id[m[K’ was not declared in this scope
+  706 |         [01;31m[Krtems_id[m[K possible_semid;
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:707:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_name[m[K’ was not declared in this scope; did you mean ‘[01m[Knsem_name[m[K’?
+  707 |         [01;31m[Krtems_name[m[K r_name;
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Knsem_name[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:710:21:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_PRIORITY[m[K’ was not declared in this scope; did you mean ‘[01m[KGETPRIORITY[m[K’?
+  710 |         prio_type = [01;31m[KRTEMS_PRIORITY[m[K | RTEMS_BINARY_SEMAPHORE |
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                     [32m[KGETPRIORITY[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:710:38:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_BINARY_SEMAPHORE[m[K’ was not declared in this scope
+  710 |         prio_type = RTEMS_PRIORITY | [01;31m[KRTEMS_BINARY_SEMAPHORE[m[K |
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:711:81:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_PRIORITY_CEILING[m[K’ was not declared in this scope
+  711 |                                                                                 [01;31m[KRTEMS_PRIORITY_CEILING[m[K | RTEMS_LOCAL;
+      |                                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:711:106:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_LOCAL[m[K’ was not declared in this scope
+  711 |                                                                                 RTEMS_PRIORITY_CEILING | [01;31m[KRTEMS_LOCAL[m[K;
+      |                                                                                                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:719:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kr_name[m[K’ was not declared in this scope; did you mean ‘[01m[Krename[m[K’?
+  719 |         [01;31m[Kr_name[m[K = rtems_build_name(nsem_name[0], nsem_name[1], nsem_name[2],
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Krename[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:719:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_build_name[m[K’ was not declared in this scope
+  719 |         r_name = [01;31m[Krtems_build_name[m[K(nsem_name[0], nsem_name[1], nsem_name[2],
+      |                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:722:44:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_attribute[m[K’ was not declared in this scope; did you mean ‘[01m[K__has_attribute[m[K’?
+  722 |         rtems_semaphore_create(r_name, 1, ([01;31m[Krtems_attribute[m[K)prio_type,
+      |                                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                            [32m[K__has_attribute[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:723:104:[m[K [01;31m[Kerror: [m[K‘[01m[Kpossible_semid[m[K’ was not declared in this scope
+  723 |                                                                                         prio_ceiling, &[01;31m[Kpossible_semid[m[K);
+      |                                                                                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:722:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_semaphore_create[m[K’ was not declared in this scope
+  722 |         [01;31m[Krtems_semaphore_create[m[K(r_name, 1, (rtems_attribute)prio_type,
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In member function ‘[01m[Kvoid Pr_SemaphoreRec::[01;32m[KSignal[m[K()[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:731:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_semaphore_release[m[K’ was not declared in this scope
+  731 |         [01;31m[Krtems_semaphore_release[m[K(mutex);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In member function ‘[01m[Kvoid Pr_SemaphoreRec::[01;32m[KWait[m[K()[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:736:39:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_WAIT[m[K’ was not declared in this scope
+  736 |         rtems_semaphore_obtain(mutex, [01;31m[KRTEMS_WAIT[m[K, RTEMS_NO_TIMEOUT);
+      |                                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:736:51:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_NO_TIMEOUT[m[K’ was not declared in this scope
+  736 |         rtems_semaphore_obtain(mutex, RTEMS_WAIT, [01;31m[KRTEMS_NO_TIMEOUT[m[K);
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:736:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_semaphore_obtain[m[K’ was not declared in this scope
+  736 |         [01;31m[Krtems_semaphore_obtain[m[K(mutex, RTEMS_WAIT, RTEMS_NO_TIMEOUT);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In member function ‘[01m[Kint32_t Pr_SemaphoreRec::[01;32m[KWaitCond[m[K()[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:742:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_status_code[m[K’ was not declared in this scope
+  742 |         [01;31m[Krtems_status_code[m[K status;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:744:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatic[m[K’?
+  744 |         [01;31m[Kstatus[m[K = rtems_semaphore_obtain(mutex, RTEMS_NO_WAIT, RTEMS_NO_TIMEOUT);
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kstatic[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:744:48:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_NO_WAIT[m[K’ was not declared in this scope
+  744 |         status = rtems_semaphore_obtain(mutex, [01;31m[KRTEMS_NO_WAIT[m[K, RTEMS_NO_TIMEOUT);
+      |                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:744:63:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_NO_TIMEOUT[m[K’ was not declared in this scope
+  744 |         status = rtems_semaphore_obtain(mutex, RTEMS_NO_WAIT, [01;31m[KRTEMS_NO_TIMEOUT[m[K);
+      |                                                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:744:18:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_semaphore_obtain[m[K’ was not declared in this scope
+  744 |         status = [01;31m[Krtems_semaphore_obtain[m[K(mutex, RTEMS_NO_WAIT, RTEMS_NO_TIMEOUT);
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:746:27:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_SUCCESSFUL[m[K’ was not declared in this scope
+  746 |         return (status == [01;31m[KRTEMS_SUCCESSFUL[m[K);
+      |                           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In destructor ‘[01m[KPr_SemaphoreRec::[01;32m[K~Pr_SemaphoreRec[m[K()[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:752:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_semaphore_release[m[K’ was not declared in this scope
+  752 |         [01;31m[Krtems_semaphore_release[m[K(mutex);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:754:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_semaphore_delete[m[K’ was not declared in this scope
+  754 |         [01;31m[Krtems_semaphore_delete[m[K(mutex);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In static member function ‘[01m[Kstatic void Pr_IRQManager::[01;32m[KDisableAllIRQs[m[K()[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:791:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_interrupt_level[m[K’ was not declared in this scope
+  791 |         [01;31m[Krtems_interrupt_level[m[K rtems_level;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:793:33:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_level[m[K’ was not declared in this scope
+  793 |         rtems_interrupt_disable([01;31m[Krtems_level[m[K);
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:793:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_interrupt_disable[m[K’ was not declared in this scope
+  793 |         [01;31m[Krtems_interrupt_disable[m[K(rtems_level);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In static member function ‘[01m[Kstatic void Pr_IRQManager::[01;32m[KEnableAllIRQs[m[K()[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:798:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_interrupt_enable[m[K’ was not declared in this scope
+  798 |         [01;31m[Krtems_interrupt_enable[m[K(0);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In static member function ‘[01m[Kstatic void Pr_IRQManager::[01;32m[KInstallIRQHandler[m[K(Pr_IRQHandler, uint8_t, uint8_t)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:812:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_isr_entry[m[K’ was not declared in this scope
+  812 |         [01;31m[Krtems_isr_entry[m[K old_handler; /*NOT used further than the call's return*/
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:815:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kold_handler[m[K’ was not declared in this scope; did you mean ‘[01m[Khandler[m[K’?
+  815 |         [01;31m[Kold_handler[m[K = set_vector((rtems_isr_entry) handler,
+      |         [01;31m[K^~~~~~~~~~~[m[K
+      |         [32m[Khandler[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:815:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Khandler[m[K’
+  815 |         old_handler = set_vector[34m[K([m[K(rtems_isr_entry)[01;31m[K [m[K[32m[Khandler[m[K,
+      |                                 [34m[K~[m[K                 [01;31m[K^[m[K[32m[K~~~~~~~[m[K
+      |                                                   [32m[K)[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:816:26:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_vector_number[m[K’ was not declared in this scope
+  816 |                         ([01;31m[Krtems_vector_number[m[K) IRQVectorNumber, RTEMS_INTERRUPT);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:815:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_vector[m[K’ was not declared in this scope
+  815 |         old_handler = [01;31m[Kset_vector[m[K((rtems_isr_entry) handler,
+      |                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In member function ‘[01m[Kvoid Pr_IRQEvent::[01;32m[KSignal[m[K()[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:890:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_event_send[m[K’ was not declared in this scope
+  890 |         [01;31m[Krtems_event_send[m[K(caller_task_id, irq_event);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In member function ‘[01m[Kvoid Pr_IRQEvent::[01;32m[KWait[m[K()[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:897:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_event_set[m[K’ was not declared in this scope
+  897 |         [01;31m[Krtems_event_set[m[K event_out;
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:901:26:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_SELF[m[K’ was not declared in this scope
+  901 |         rtems_task_ident([01;31m[KRTEMS_SELF[m[K, RTEMS_SEARCH_ALL_NODES, &caller_task_id);
+      |                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:901:38:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_SEARCH_ALL_NODES[m[K’ was not declared in this scope
+  901 |         rtems_task_ident(RTEMS_SELF, [01;31m[KRTEMS_SEARCH_ALL_NODES[m[K, &caller_task_id);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:901:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_task_ident[m[K’ was not declared in this scope
+  901 |         [01;31m[Krtems_task_ident[m[K(RTEMS_SELF, RTEMS_SEARCH_ALL_NODES, &caller_task_id);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:905:40:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_WAIT[m[K’ was not declared in this scope
+  905 |         rtems_event_receive(irq_event, [01;31m[KRTEMS_WAIT[m[K, RTEMS_NO_TIMEOUT,
+      |                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:905:52:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_NO_TIMEOUT[m[K’ was not declared in this scope
+  905 |         rtems_event_receive(irq_event, RTEMS_WAIT, [01;31m[KRTEMS_NO_TIMEOUT[m[K,
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:906:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kevent_out[m[K’ was not declared in this scope
+  906 |                         &[01;31m[Kevent_out[m[K);
+      |                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:905:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_event_receive[m[K’ was not declared in this scope
+  905 |         [01;31m[Krtems_event_receive[m[K(irq_event, RTEMS_WAIT, RTEMS_NO_TIMEOUT,
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In member function ‘[01m[Kbool Pr_IRQEvent::[01;32m[KWaitTimed[m[K(Pr_Time)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:914:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_interval[m[K’ was not declared in this scope
+  914 |         [01;31m[Krtems_interval[m[K TimeInTicks;
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:915:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_event_set[m[K’ was not declared in this scope
+  915 |         [01;31m[Krtems_event_set[m[K event_out;
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:919:27:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_SELF[m[K’ was not declared in this scope
+  919 |         rtems_task_ident( [01;31m[KRTEMS_SELF[m[K, RTEMS_SEARCH_ALL_NODES,
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:919:39:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_SEARCH_ALL_NODES[m[K’ was not declared in this scope
+  919 |         rtems_task_ident( RTEMS_SELF, [01;31m[KRTEMS_SEARCH_ALL_NODES[m[K,
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:919:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_task_ident[m[K’ was not declared in this scope
+  919 |         [01;31m[Krtems_task_ident[m[K( RTEMS_SELF, RTEMS_SEARCH_ALL_NODES,
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:924:9:[m[K [01;31m[Kerror: [m[K‘[01m[KTimeInTicks[m[K’ was not declared in this scope
+  924 |         [01;31m[KTimeInTicks[m[K = (uint32_t) _time.Ticks();
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:926:40:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_WAIT[m[K’ was not declared in this scope
+  926 |         rtems_event_receive(irq_event, [01;31m[KRTEMS_WAIT[m[K, TimeInTicks,
+      |                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:927:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kevent_out[m[K’ was not declared in this scope
+  927 |                                         &[01;31m[Kevent_out[m[K);
+      |                                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:926:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_event_receive[m[K’ was not declared in this scope
+  926 |         [01;31m[Krtems_event_receive[m[K(irq_event, RTEMS_WAIT, TimeInTicks,
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:[m[K In member function ‘[01m[Kbool Pr_IRQEvent::[01;32m[KWaitCond[m[K()[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:936:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_event_set[m[K’ was not declared in this scope
+  936 |         [01;31m[Krtems_event_set[m[K event_out;
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:941:27:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_SELF[m[K’ was not declared in this scope
+  941 |         rtems_task_ident( [01;31m[KRTEMS_SELF[m[K, RTEMS_SEARCH_ALL_NODES,
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:941:39:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_SEARCH_ALL_NODES[m[K’ was not declared in this scope
+  941 |         rtems_task_ident( RTEMS_SELF, [01;31m[KRTEMS_SEARCH_ALL_NODES[m[K,
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:941:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_task_ident[m[K’ was not declared in this scope
+  941 |         [01;31m[Krtems_task_ident[m[K( RTEMS_SELF, RTEMS_SEARCH_ALL_NODES,
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:946:40:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_NO_WAIT[m[K’ was not declared in this scope
+  946 |         rtems_event_receive(irq_event, [01;31m[KRTEMS_NO_WAIT[m[K, RTEMS_NO_TIMEOUT,
+      |                                        [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:946:55:[m[K [01;31m[Kerror: [m[K‘[01m[KRTEMS_NO_TIMEOUT[m[K’ was not declared in this scope
+  946 |         rtems_event_receive(irq_event, RTEMS_NO_WAIT, [01;31m[KRTEMS_NO_TIMEOUT[m[K,
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:947:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kevent_out[m[K’ was not declared in this scope
+  947 |                         &[01;31m[Kevent_out[m[K);
+      |                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroombp/src/rtemsapi_5_1/rtems_5_1/edroombp.cc:946:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krtems_event_receive[m[K’ was not declared in this scope
+  946 |         [01;31m[Krtems_event_receive[m[K(irq_event, RTEMS_NO_WAIT, RTEMS_NO_TIMEOUT,
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K

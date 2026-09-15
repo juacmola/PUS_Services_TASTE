@@ -1,0 +1,6 @@
+/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:36:1:static bool taste::Hal::init()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:45:1:static uint64_t taste::Hal::getElapsedTimeInNs()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:60:1:static bool taste::Hal::sleepNs(uint64_t)	48	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:67:1:static int32_t taste::Hal::semaphoreCreate()	8	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:79:1:static bool taste::Hal::semaphoreObtain(int32_t)	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:87:1:static bool taste::Hal::semaphoreRelease(int32_t)	16	static

@@ -1,0 +1,348 @@
+SCTRE-DATAVIEW DEFINITIONS ::=
+BEGIN
+
+TC-type{APID, SEQ-COUNT, APUserID, PUS} ::= SEQUENCE {
+    dest-apid           APID  DEFAULT obsw-AP,
+    sequence-count      SEQ-COUNT,
+    packet-length       INTEGER(0..65535),
+    secondary-header    TC-Secondary-Header {APUserID},
+    application-data    PUS,
+    packet-error        INTEGER(0..65535)
+}
+
+TM-type {APID, Seq-count, APUserID, TM-Time, TMs} ::= SEQUENCE {
+    source-apid         APID,
+    sequence-count      Seq-count,
+    packet-length       INTEGER(0..65535),
+    secondary-header    TM-Secondary-Header{APUserID, TM-Time},
+    source-data         TMs,
+    packet-error        INTEGER(0..65535)
+}
+
+TM-no-sec-header{APID, Seq-count, TM-09} ::= SEQUENCE {
+    source-apid         APID,
+    sequence-count      Seq-count,
+    packet-length       INTEGER(0..65535),
+    source-data         TM-09,
+    packet-error        INTEGER(0..65535)
+}
+
+TC-Secondary-Header {APUserID} ::= SEQUENCE {
+    ack-successful-completion BOOLEAN,
+    ack-successful-progress   BOOLEAN,
+    ack-successful-start      BOOLEAN,
+    ack-successful-acceptance BOOLEAN,
+    service-type              INTEGER (0..255),
+    message-subtype-id        INTEGER (0..255),
+    source-id                 APUserID
+}
+
+TM-Secondary-Header {APUserID, TM-Time}  ::= SEQUENCE {
+    time-reference-status   INTEGER(0..15),
+    service-type            INTEGER(0..255),
+    message-subtype-id      INTEGER(0..255),
+    message-type-counter    INTEGER(0..65535),
+    destination-id          APUserID,
+    time                    TM-Time
+}
+
+
+-- Complete PUS packet copied by value across asynchronous interfaces.
+RawTC ::= OCTET STRING (SIZE (0..256))
+
+RxTC  ::= ENUMERATED { not-accepted, accepted }
+FwdCommand  ::= ENUMERATED { to-reboot, exec-prio-tc, fwdhk-fdir-tc, fwdbkgtc }
+GPendingEvAction ::= BOOLEAN
+GToReboot ::= BOOLEAN
+GFwToHK-FDIR ::= BOOLEAN
+GFwToBKG  ::= BOOLEAN
+Telecommand ::= SEQUENCE {
+    service-type     INTEGER(0..255),
+    subservice-type  INTEGER(0..255),
+    param       OCTET STRING (SIZE (3))
+}
+
+Pr-time ::= REAL(0.0..1000000.0)
+
+
+--    PUS ::= CHOICE {
+--        request-verification    PUS-1,
+--        device-access           PUS-2,
+--        housekeeping            PUS-3,
+--        memory-management       PUS-6,
+--        event-reporting         PUS-5,
+--        time-management         PUS-9,
+--        time-scheduling         PUS-11,
+--        on-board-monitoring     PUS-12,
+--        storage-and-retrieval   PUS-15,
+--        test                    PUS-17,
+--        event-action            PUS-19,
+--        param-management        PUS-20,
+--        position-based-sched    PUS-22
+--    }
+
+    --TC ::= TC-type{APID, Seq-count, APUserID, PUS}
+
+  --  PUS-1 ::= CHOICE {
+    --    pus-1-1-succ-acceptance         Create-TM-Struct,
+--        pus-1-2-fail-acceptance         Create-TM-Struct,
+--        pus-1-3-succ-start-exec         Create-TM-Struct,
+--        pus-1-4-fail-start-exec         Create-TM-Struct,
+--        pus-1-5-succ-progress-exec      Create-TM-Struct,
+--        pus-1-6-fail-progress-exec      Create-TM-Struct,
+--        pus-1-7-succ-completion-exec    Create-TM-Struct,
+--        pus-1-8-fail-completion-exec    Create-TM-Struct,
+--        pus-1-10-fail-routing           Create-TM-Struct
+--    }
+
+--    PUS-2 ::= CHOICE {
+--        pus-2-1-onoff-device-commands               Create-TC-Struct,
+--        pus-2-2-distribute-register-load-commands   Create-TC-Struct,
+--        pus-2-4-distribute-CPDU-commands            Create-TC-Struct,
+--        pus-2-5-distribute-register-dump-commands   Create-TC-Struct,
+--        pus-2-6-register-dump-report                Create-TM-Struct,
+--        pus-2-7-distribute-physical-device-commands Create-TC-Struct,
+--        pus-2-8-acquire-data-from-physical-devices  Create-TC-Struct,
+--        pus-2-9-physical-device-data-report         Create-TM-Struct
+--    }
+
+--    PUS-3 ::= CHOICE {
+--        pus-3-1-new-HK                              Create-HK-Struct,
+--        pus-3-3-del-HK                              Manage-HK-Struct,
+--        pus-3-5-periodic-HK-on                      Manage-HK-Struct,
+--        pus-3-6-periodic-HK-off                     Manage-HK-Struct,
+--        pus-3-9-report-HK                           Manage-HK-Struct,
+--        pus-3-10-HK-param-report-struct-report   Manage-HK-Struct,
+--        pus-3-25-HK-param-report                    Manage-HK-Struct,
+--        pus-3-27-one-shot-HK                        Manage-HK-Struct,
+--        pus-3-31-new-col-int                        Change-CollectionInterval
+--    }
+
+--    PUS-5 ::= CHOICE {
+--        pus-5-1-info-event-report               Create-TM-Struct,
+--        pus-5-2-low-severity-anomaly-report     Create-TM-Struct,
+--        pus-5-3-med-severity-anomaly-report     Create-TM-Struct,
+--        pus-5-4-high-severity-anomaly-report    Create-TM-Struct,
+--        pus-5-5-enable-report                   Create-TC-Struct,
+--        pus-5-6-disable-report                  Create-TC-Struct,
+--        pus-5-7-req-report-list-disabled-ev     Create-TC-Struct,
+--        pus-5-8-rep-report-list-disabled-ev     Create-TM-Struct
+--    }
+
+--    PUS-6 ::= CHOICE {
+--        pus-6-2-load-raw-mem-data-area              Create-TC-Struct,
+--        pus-6-5-dump-raw-mem-data                   Create-TC-Struct,
+--        pus-6-6-dumped-raw-mem-data-report          Create-TM-Struct,
+--        pus-6-9-check-raw-mem-data                  Create-TC-Struct,
+--        pus-6-10-checked-raw-mem-data-report        Create-TM-Struct,
+--        pus-6-13-enable-scrubbing-of-mem            Create-TC-Struct,
+--        pus-6-14-disable-scrubbing-of-mem           Create-TC-Struct,
+--        pus-6-15-enable-write-protection-of-mem     Create-TC-Struct,
+--        pus-6-16-disable-write-protection-of-mem    Create-TC-Struct
+--    }
+
+--    PUS-9 ::= CHOICE {
+--        pus-9-1-set-time-report-generation-rate     Create-TC-Struct,
+--        pus-9-2-CUC-time-report                     Create-TM-Struct,
+--        pus-9-3-CDS-time-report                     Create-TM-Struct
+--    }
+
+--    PUS-11 ::= CHOICE {
+--        pus-11-1-enable-time-based-exec                         Create-TC-Struct,
+--        pus-11-2-disable-time-based-exec                        Create-TC-Struct,
+--        pus-11-3-reset-time-based-schedule                      Create-TC-Struct,
+--        pus-11-4-insert-activities                              Create-TC-Struct,
+--        pus-11-5-del-time-based-activities-byID                 Create-TC-Struct,
+--        pus-11-6-del-time-based-activities-byFilter             Create-TC-Struct,
+--        pus-11-7-time-shift-activities-identified-byID          Create-TC-Struct,
+--        pus-11-8-time-shift-activities-identified-byFilter      Create-TC-Struct,
+--        pus-11-18-report-status-each-time-based-sub-schedules   Create-TC-Struct,
+--        pus-11-19-time-based-sub-schedule-status-report         Create-TM-Struct,
+--        pus-11-20-enable-time-based-sub-schedules               Create-TC-Struct,
+--        pus-11-21-disable-time-based-sub-schedules              Create-TC-Struct,
+--        pus-11-22-create-time-based-scheduling-groups           Create-TC-Struct,
+--        pus-11-23-del-time-based-scheduling-groups              Create-TC-Struct,
+--        pus-11-24-enable-time-based-scheduling-groups           Create-TC-Struct,
+--        pus-11-25-disable-time-based-scheduling-groups          Create-TC-Struct
+    --}
+
+  --  PUS-12 ::= CHOICE {
+--        pus-12-1-enable-param-monitoring-definitions    Create-TC-Struct,
+  --      pus-12-2-disable-param-monitoring-definitions   Create-TC-Struct,
+--        pus-12-4-delall-param-monitoring-definitions    Create-TC-Struct,
+--        psu-12-5-add-param-monitoring-definitions       Create-TC-Struct,
+--        pus-12-6-del-param-monitoring-definitions       Create-TC-Struct,
+  --      pus-12-8-report-param-monitoring-definitions    Create-TC-Struct,
+--        pus-12-9-param-monitoring-definition-report     Create-TM-Struct,
+--        pus-12-12-check-transition-report               Create-TM-Struct,
+--        pus-12-15-enable-param-monitoring-function      Create-TC-Struct,
+  --      pus-12-16-disable-param-monitoring-function     Create-TC-Struct
+ --   }
+
+--    PUS-15 ::= CHOICE {
+--        pus-15-1-enable-storage-of-packet-stores    Create-TC-Struct,
+--        pus-15-2-disable-storage-of-packet-stores   Create-TC-Struct,
+--        pus-15-3-add-report-types                   Create-TC-Struct,
+--        pus-15-4-del-report-types                   Create-TC-Struct,
+--        pus-15-5-report-content-application         Create-TC-Struct,
+--        pus-15-6-application-process-storage        Create-TM-Struct,
+--        pus-15-9-start-by-time-range-retrieval      Create-TC-Struct,
+--        pus-15-11-del-content-packet-stores         Create-TC-Struct,
+--        pus-15-12-report-content-packet-stores      Create-TC-Struct,
+--        pus-15-13-packet-store-content-report       Create-TM-Struct,
+--        pus-15-14-change-open-retrieval-start-time  Create-TC-Struct,
+--        pus-15-15-resume-open-retrieval             Create-TC-Struct,
+--        pus-15-16-suspend-open-retrieval            Create-TC-Struct,
+--        pus-15-17-abort-by-time-range-retrieval     Create-TC-Struct,
+--        pus-15-18-report-status-each-packet         Create-TC-Struct,
+--        pus-15-19-packet-store-status-report        Create-TM-Struct,
+--        pus-15-20-create-packet-stores              Create-TC-Struct,
+--        pus-15-21-del-packet-stores                 Create-TC-Struct,
+--        pus-15-29-add-struct-ids                    Create-TC-Struct,
+--        pus-15-30-del-struct-ids                    Create-TC-Struct
+  --  }
+
+--    PUS-17 ::= CHOICE {
+--        pus-17-1-are-you-alive-test             Manage-test,
+--        pus-17-2-are-you-alive-report           Manage-test,
+--        pus-17-3-on-board-connection-test       Manage-test,
+--        pus-17-4-on-board-connection-report     Manage-test
+  --  }
+
+--    PUS-19 ::= CHOICE {
+--        pus-19-1-add-ev-action-definitions              Create-TC-Struct,
+--        pus-19-2-del-ev-action-definitions              Create-TC-Struct,
+--        pus-19-3-delall-ev-action-definitions           Create-TC-Struct,
+--        pus-19-4-enable-ev-action-definitions           Create-TC-Struct,
+--        pus-19-5-disable-ev-action-definitions          Create-TC-Struct,
+--        pus-19-6-report-status-ev-action-definitions    Create-TC-Struct,
+--        pus-19-7-ev-action-status-report                Create-TM-Struct,
+--        pus-19-8-enable-ev-action-function              Create-TC-Struct,
+--        pus-19-9-disable-ev-action-function             Create-TC-Struct,
+--        pus-19-10-report-ev-action-definitions          Create-TC-Struct,
+--        pus-19-11-ev-action-definition-report           Create-TM-Struct
+--    }
+
+--    PUS-20 ::= CHOICE {
+--        pus-20-1-report-param-values                Create-TC-Struct,
+--        pus-20-2-param-value-report                 Create-TM-Struct,
+--        pus-20-3-set-param-values                   Create-TC-Struct,
+--        pus-20-4-change-raw-mem-param-definitions   Create-TC-Struct
+  --  }
+
+--    PUS-22 ::= CHOICE {
+--        pus-22-1-enable-pos-based-schedule-exec             Create-TC-Struct,
+--        pus-22-2-disable-pos-based-schedule-exec            Create-TC-Struct,
+--        pus-22-4-insert-activities-pos-based                Create-TC-Struct,
+--        pus-22-5-del-activities-pos-based-byID              Create-TC-Struct,
+--        pus-22-6-del-activities-pos-based-byFilter          Create-TC-Struct,
+--        pus-22-7-pos-shift-activites-byID                   Create-TC-Struct,
+--        pus-22-8-pos-shift-activites-byFilter               Create-TC-Struct,
+--        pus-22-18-report-status-each-pos-based-sub-sched    Create-TC-Struct,
+--        pus-22-19-pos-based-sub-sched-status-report         Create-TM-Struct,
+--        pus-22-20-enable-position-based-sub-sched           Create-TC-Struct,
+--        pus-22-21-disable-position-based-sub-sched          Create-TC-Struct,
+  --      pus-22-22-create-pos-based-sched-groups             Create-TC-Struct,
+ --       pus-22-23-del-pos-based-sched-groups                Create-TC-Struct,
+--        pus-22-24-enable-pos-based-sched-groups             Create-TC-Struct,
+--        pus-22-25-disable-pos-based-sched-groups            Create-TC-Struct,
+--        pus-22-26-report-status-each-pos-based-group        Create-TC-Struct,
+--        pus-22-27-pos-based-group-status-report             Create-TM-Struct,
+--        pus-22-28-set-orbit-number                          Create-TC-Struct
+  --  }
+
+   -- ProtocolSignal ::= ENUMERATED { sHKFDIRTC , sEvAction, sBKGTC }
+ --   ProtocolData ::= ENUMERATED { cdTCHandler, cdEvAction }
+
+
+-- MyInteger ::= INTEGER (0 .. 10000)
+
+-- ASN.1 Type definitions must start with an uppercase
+-- Field names in records (SEQUENCE) must start with a lowercase
+-- Underscores are not allowed: use dash (hyphen) 
+-- For integers do not assume that small ranges will be translated to small
+-- types in C or Ada (expect unsigned or signed 64 bits types with subtypes
+-- for the range in Ada)
+
+-- Simple types:
+
+-- TASTE-Boolean ::= BOOLEAN
+-- MyInteger   ::= INTEGER (0..255)
+-- MyReal      ::= REAL (0.0 .. 1000.0)
+-- MyBool      ::= BOOLEAN
+-- MyEnum      ::= ENUMERATED { hello, world, how-are-you }
+
+-- Complex types:
+
+--  MySeq       ::= SEQUENCE {
+--      input-data  MyInteger,
+--      output-data MyInteger,
+--      validity    ENUMERATED { valid, invalid }
+--  }
+--
+--  MyChoice    ::= CHOICE {
+--      a BOOLEAN,
+--      b MySeq
+--  }
+--
+--  MySeqOf     ::= SEQUENCE (SIZE (2)) OF MyEnum
+--
+--  MyOctStr    ::= OCTET STRING (SIZE (3))
+--
+--  -- You can also declare constants
+--  myVar       MySeqOf     ::= { hello, world }
+
+END
+
+
+TASTE-BasicTypes DEFINITIONS ::=
+BEGIN
+
+-- Set of TASTE predefined basic types
+
+T-Int32 ::=  INTEGER (-2147483648 .. 2147483647)
+
+T-UInt32 ::= INTEGER (0 .. 4294967295)
+
+T-Int8 ::= INTEGER (-128 .. 127)
+
+T-UInt8 ::= INTEGER (0 .. 255)
+
+T-Boolean ::= BOOLEAN
+
+T-Null-Record ::= SEQUENCE {}
+
+T-Runtime-Error ::= CHOICE {
+   noerror T-UInt32, -- this shall be NULL, but DMT does not support NULL and SEDS does not support empty sequences
+   encodeerror T-Int32, -- the names shall be changed after fix in seds converter (space creator) will be merged
+   decodeerror T-Int32
+}
+
+END
+
+-- Dataview generated on-the-fly providing information on the system
+-- and made available to the user code.
+System-Dataview DEFINITIONS ::=
+BEGIN
+
+   -- Range of PID - type can be used to size arrays of PID type
+   PID-Range ::= INTEGER(0..5)
+
+   -- List of functions (instances) present in the system
+   PID ::= ENUMERATED {
+       bkgtcexec,
+       
+       hkfdirmng,
+       
+       irq,
+       
+       legacy,
+       
+       tcmanager,
+       
+       
+       env
+   }
+
+END
+

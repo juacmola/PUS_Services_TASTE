@@ -1,0 +1,7 @@
+/home/jorge/sctre/work/dataview/C/asn1crt.c:26:13:int2uint	16	static
+/home/jorge/sctre/work/dataview/C/asn1crt.c:38:13:uint2int	48	static
+/home/jorge/sctre/work/dataview/C/asn1crt.c:51:6:Asn1Real_Equal	16	static
+/home/jorge/sctre/work/dataview/C/asn1crt.c:65:5:binarySearch	64	static
+/home/jorge/sctre/work/dataview/C/asn1crt.c:80:5:linearSearch	64	static
+/home/jorge/sctre/work/dataview/C/asn1crt.c:86:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/dataview/C/asn1crt.c:86:1:_sub_I_00099_1	16	static

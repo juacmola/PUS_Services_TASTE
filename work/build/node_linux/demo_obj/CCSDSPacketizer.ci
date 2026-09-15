@@ -1,0 +1,93 @@
+graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c"
+node: { title: "CCSDS_Packetizer_init" label: "CCSDS_Packetizer_init\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:34:1\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_store8" label: "__builtin___asan_report_store8\n<built-in>" shape : ellipse }
+edge: { sourcename: "CCSDS_Packetizer_init" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:39:17" }
+node: { title: "__asan_report_store2" label: "__builtin___asan_report_store2\n<built-in>" shape : ellipse }
+edge: { sourcename: "CCSDS_Packetizer_init" targetname: "__asan_report_store2" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:40:31" }
+node: { title: "CCSDS_Packetizer_packetize" label: "CCSDS_Packetizer_packetize\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:44:1\n64 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_load2" label: "__builtin___asan_report_load2\n<built-in>" shape : ellipse }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "__asan_report_load2" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:58:5" }
+node: { title: "__asan_handle_no_return" label: "__builtin___asan_handle_no_return\n<built-in>" shape : ellipse }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:58:5" }
+node: { title: "__assert_fail" label: "__assert_fail\n/usr/include/assert.h:69:13" shape : ellipse }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:58:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:59:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:59:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:60:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:60:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:61:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:61:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:62:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:62:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:63:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:63:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:65:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:65:5" }
+node: { title: "memset" label: "memset\n/usr/include/string.h:61:14" shape : ellipse }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "memset" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:70:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "writeCCSDSPacketId" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:72:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "writeCCSDSPacketSequenceControl" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:73:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "writeCCSDSPacketDataLength" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:74:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "writeChecksum" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:75:5" }
+edge: { sourcename: "CCSDS_Packetizer_packetize" targetname: "__asan_report_load2" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:78:11" }
+node: { title: "CCSDS_Packetizer_depacketize" label: "CCSDS_Packetizer_depacketize\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:88:1\n80 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:104:5" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:104:5" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:105:5" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:105:5" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:106:5" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:106:5" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:107:5" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:107:5" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "readCCSDSPacketDataLength" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:115:37" }
+node: { title: "__asan_report_store4" label: "__builtin___asan_report_store4\n<built-in>" shape : ellipse }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:118:24" }
+node: { title: "__asan_report_load1" label: "__builtin___asan_report_load1\n<built-in>" shape : ellipse }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:125:26" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:126:29" }
+node: { title: "IsoChecksum_calculate" label: "IsoChecksum_calculate\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/IsoChecksum.h:38:10" shape : ellipse }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "IsoChecksum_calculate" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:129:13" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:133:24" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:140:27" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:143:24" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:149:33" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:149:53" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__asan_report_store2" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:149:18" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:150:17" }
+edge: { sourcename: "CCSDS_Packetizer_depacketize" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:151:15" }
+node: { title: "writeCCSDSPacketId" label: "writeCCSDSPacketId\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:157:1\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "writeCCSDSPacketId" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:160:18" }
+edge: { sourcename: "writeCCSDSPacketId" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:167:18" }
+node: { title: "__asan_report_store1" label: "__builtin___asan_report_store1\n<built-in>" shape : ellipse }
+edge: { sourcename: "writeCCSDSPacketId" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:167:22" }
+node: { title: "writeCCSDSPacketSequenceControl" label: "writeCCSDSPacketSequenceControl\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:171:1\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "writeCCSDSPacketSequenceControl" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:174:18" }
+edge: { sourcename: "writeCCSDSPacketSequenceControl" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:174:22" }
+edge: { sourcename: "writeCCSDSPacketSequenceControl" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:175:18" }
+edge: { sourcename: "writeCCSDSPacketSequenceControl" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:175:22" }
+edge: { sourcename: "writeCCSDSPacketSequenceControl" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:178:18" }
+edge: { sourcename: "writeCCSDSPacketSequenceControl" targetname: "__asan_report_load2" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:178:36" }
+edge: { sourcename: "writeCCSDSPacketSequenceControl" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:178:22" }
+edge: { sourcename: "writeCCSDSPacketSequenceControl" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:179:18" }
+edge: { sourcename: "writeCCSDSPacketSequenceControl" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:179:22" }
+node: { title: "writeCCSDSPacketDataLength" label: "writeCCSDSPacketDataLength\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:183:1\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "writeCCSDSPacketDataLength" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:185:22" }
+edge: { sourcename: "writeCCSDSPacketDataLength" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:186:22" }
+node: { title: "writeChecksum" label: "writeChecksum\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:190:1\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "writeChecksum" targetname: "IsoChecksum_calculate" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:193:31" }
+edge: { sourcename: "writeChecksum" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:195:38" }
+edge: { sourcename: "writeChecksum" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:196:42" }
+node: { title: "readCCSDSPacketDataLength" label: "readCCSDSPacketDataLength\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:200:1\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "readCCSDSPacketDataLength" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:202:35" }
+edge: { sourcename: "readCCSDSPacketDataLength" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:202:61" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:203:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "__builtin___asan_unregister_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:203:1" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:203:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:203:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:203:1" }
+node: { title: "__asan_register_globals" label: "__builtin___asan_register_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:203:1" }
+}

@@ -1,0 +1,4 @@
+tcmanager_ri.ads:8:06: warning: redundant with clause [-gnatwr]
+tcmanager_ri.ads:8:27: warning: "System_Dataview" is already use-visible through previous use_clause at line 5 [-gnatwr]
+tcmanager_ri.ads:35:27: warning: "Check_Queue.Res" is an 8-bit Ada Boolean [-gnatwx]
+tcmanager_ri.ads:35:27: warning: use appropriate corresponding type in C (e.g. char) [-gnatwx]

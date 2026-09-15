@@ -1,0 +1,4 @@
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_sys_data_pool.cc:[m[K In static member function ‘[01m[Kstatic void GSSSysDataPool::[01;32m[KShowPIDValue[m[K(uint16_t, data_pool_item_t)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_sys_data_pool.cc:25:24:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+   25 |                 if (([01;35m[K0 <= pid[m[K) && (pid < 5)) {
+      |                      [01;35m[K~~^~~~~~[m[K

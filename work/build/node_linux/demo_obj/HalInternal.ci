@@ -1,0 +1,23 @@
+graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc"
+node: { title: "_ZN5taste3Hal4initEv" label: "static bool taste::Hal::init()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:36:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "_ZNSt6chrono3_V212steady_clock3nowEv" label: "static std::chrono::_V2::steady_clock::time_point std::chrono::_V2::steady_clock::now()\n/usr/include/c++/13/bits/chrono.h:1277:7" shape : ellipse }
+edge: { sourcename: "_ZN5taste3Hal4initEv" targetname: "_ZNSt6chrono3_V212steady_clock3nowEv" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:38:55" }
+node: { title: "_ZN5taste3Hal18getElapsedTimeInNsEv" label: "static uint64_t taste::Hal::getElapsedTimeInNs()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:45:1\n16 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "_ZN5taste3Hal18getElapsedTimeInNsEv" targetname: "_ZNSt6chrono3_V212steady_clock3nowEv" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:47:90" }
+node: { title: "_ZN5taste3Hal7sleepNsEm" label: "static bool taste::Hal::sleepNs(uint64_t)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:60:1\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "nanosleep" label: "int nanosleep(const timespec*, timespec*)\n/usr/include/time.h:282:12" shape : ellipse }
+edge: { sourcename: "_ZN5taste3Hal7sleepNsEm" targetname: "nanosleep" label: "/usr/include/c++/13/bits/this_thread_sleep.h:80:20" }
+node: { title: "__errno_location" label: "int* __errno_location()\n/usr/include/errno.h:37:13" shape : ellipse }
+edge: { sourcename: "_ZN5taste3Hal7sleepNsEm" targetname: "__errno_location" label: "/usr/include/c++/13/bits/this_thread_sleep.h:80:44" }
+node: { title: "__stack_chk_fail" label: "__stack_chk_fail\n<built-in>" shape : ellipse }
+edge: { sourcename: "_ZN5taste3Hal7sleepNsEm" targetname: "__stack_chk_fail" }
+node: { title: "_ZN5taste3Hal15semaphoreCreateEv" label: "static int32_t taste::Hal::semaphoreCreate()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:67:1\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "_ZN5taste3Hal15semaphoreObtainEi" label: "static bool taste::Hal::semaphoreObtain(int32_t)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:79:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "pthread_mutex_lock" label: "int pthread_mutex_lock(pthread_mutex_t*)\n/usr/include/pthread.h:794:12" shape : ellipse }
+edge: { sourcename: "_ZN5taste3Hal15semaphoreObtainEi" targetname: "pthread_mutex_lock" label: "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:749:41" }
+node: { title: "_ZSt20__throw_system_errori" label: "void std::__throw_system_error(int)\n/usr/include/c++/13/bits/functexcept.h:106:3" shape : ellipse }
+edge: { sourcename: "_ZN5taste3Hal15semaphoreObtainEi" targetname: "_ZSt20__throw_system_errori" label: "/usr/include/c++/13/bits/std_mutex.h:117:22" }
+node: { title: "_ZN5taste3Hal16semaphoreReleaseEi" label: "static bool taste::Hal::semaphoreRelease(int32_t)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:87:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "pthread_mutex_unlock" label: "int pthread_mutex_unlock(pthread_mutex_t*)\n/usr/include/pthread.h:835:12" shape : ellipse }
+edge: { sourcename: "_ZN5taste3Hal16semaphoreReleaseEi" targetname: "pthread_mutex_unlock" label: "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:779:43" }
+}

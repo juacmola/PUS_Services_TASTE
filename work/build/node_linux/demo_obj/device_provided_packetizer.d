@@ -1,0 +1,5 @@
+device_provided_packetizer.o: /home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.c 20260913085851 \
+/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.h 20260913085851 \
+/home/jorge/sctre/work/build/system_spec/system_spec.h 20260913085851 \
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.h 20260723112409 \
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/SpacePacket.h 20260723112409

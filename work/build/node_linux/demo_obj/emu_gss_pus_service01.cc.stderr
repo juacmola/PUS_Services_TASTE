@@ -1,0 +1,7 @@
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service01.cc:[m[K In member function ‘[01m[Kvoid GSSServ1TMHandler::[01;32m[KShowTM[m[K()[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service01.cc:48:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpack_id[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   48 |         uint16_t [01;35m[Kpack_id[m[K = GetNextUInt16AppDataField();
+      |                  [01;35m[K^~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service01.cc:51:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpack_seq_ctrl[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   51 |         uint16_t [01;35m[Kpack_seq_ctrl[m[K = GetNextUInt16AppDataField();
+      |                  [01;35m[K^~~~~~~~~~~~~[m[K

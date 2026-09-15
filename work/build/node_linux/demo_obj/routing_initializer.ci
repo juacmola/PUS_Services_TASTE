@@ -1,0 +1,32 @@
+graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c"
+node: { title: "initialize_routing" label: "initialize_routing\n/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:7:6\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "bkgtcexec_execbkgtc_set_all_routes_enabled" label: "bkgtcexec_execbkgtc_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:31:6" shape : ellipse }
+edge: { sourcename: "initialize_routing" targetname: "bkgtcexec_execbkgtc_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:12:5" }
+node: { title: "hkfdirmng_dohousekeeping_set_all_routes_enabled" label: "hkfdirmng_dohousekeeping_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:56:6" shape : ellipse }
+edge: { sourcename: "initialize_routing" targetname: "hkfdirmng_dohousekeeping_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:18:5" }
+node: { title: "hkfdirmng_exechkfdirtc_set_all_routes_enabled" label: "hkfdirmng_exechkfdirtc_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:66:6" shape : ellipse }
+edge: { sourcename: "initialize_routing" targetname: "hkfdirmng_exechkfdirtc_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:19:5" }
+node: { title: "hkfdirmng_sevaction_set_all_routes_enabled" label: "hkfdirmng_sevaction_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:76:6" shape : ellipse }
+edge: { sourcename: "initialize_routing" targetname: "hkfdirmng_sevaction_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:20:5" }
+node: { title: "tcmanager_handletc_set_all_routes_enabled" label: "tcmanager_handletc_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:167:6" shape : ellipse }
+edge: { sourcename: "initialize_routing" targetname: "tcmanager_handletc_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:29:5" }
+node: { title: "tcmanager_init_set_all_routes_enabled" label: "tcmanager_init_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:177:6" shape : ellipse }
+edge: { sourcename: "initialize_routing" targetname: "tcmanager_init_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:30:5" }
+node: { title: "tcmanager_newevaction_set_all_routes_enabled" label: "tcmanager_newevaction_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:187:6" shape : ellipse }
+edge: { sourcename: "initialize_routing" targetname: "tcmanager_newevaction_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:31:5" }
+node: { title: "tcmanager_newrxtc_set_all_routes_enabled" label: "tcmanager_newrxtc_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:197:6" shape : ellipse }
+edge: { sourcename: "initialize_routing" targetname: "tcmanager_newrxtc_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:32:5" }
+node: { title: "tcmanager_polltc_set_all_routes_enabled" label: "tcmanager_polltc_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:207:6" shape : ellipse }
+edge: { sourcename: "initialize_routing" targetname: "tcmanager_polltc_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:33:5" }
+node: { title: "tcmanager_reboot_set_all_routes_enabled" label: "tcmanager_reboot_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:217:6" shape : ellipse }
+edge: { sourcename: "initialize_routing" targetname: "tcmanager_reboot_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:34:5" }
+node: { title: "tcmanager_sbkgtc_set_all_routes_enabled" label: "tcmanager_sbkgtc_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:227:6" shape : ellipse }
+edge: { sourcename: "initialize_routing" targetname: "tcmanager_sbkgtc_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:35:5" }
+node: { title: "tcmanager_shkfdirtc_set_all_routes_enabled" label: "tcmanager_shkfdirtc_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:237:6" shape : ellipse }
+edge: { sourcename: "initialize_routing" targetname: "tcmanager_shkfdirtc_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:36:5" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:_sub_I_00099_0" label: "_sub_I_00099_0\n/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:39:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:_sub_I_00099_0" targetname: "__asan_init" label: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:39:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:_sub_I_00099_0" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/build/node_linux/demo/routing_initializer.c:39:1" }
+}

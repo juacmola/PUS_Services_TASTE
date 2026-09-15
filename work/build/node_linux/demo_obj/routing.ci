@@ -1,0 +1,106 @@
+graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/routing.c"
+node: { title: "bkgtcexec_execbkgtc_set_route_enabled" label: "bkgtcexec_execbkgtc_set_route_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:16:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_store1" label: "__builtin___asan_report_store1\n<built-in>" shape : ellipse }
+edge: { sourcename: "bkgtcexec_execbkgtc_set_route_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:18:52" }
+node: { title: "bkgtcexec_execbkgtc_set_recipient" label: "bkgtcexec_execbkgtc_set_recipient\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:21:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "bkgtcexec_execbkgtc_set_recipient" targetname: "bkgtcexec_execbkgtc_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:23:5" }
+edge: { sourcename: "bkgtcexec_execbkgtc_set_recipient" targetname: "bkgtcexec_execbkgtc_set_route_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:24:5" }
+node: { title: "bkgtcexec_execbkgtc_set_all_routes_enabled" label: "bkgtcexec_execbkgtc_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:27:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "bkgtcexec_execbkgtc_set_all_routes_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:31:46" }
+node: { title: "bkgtcexec_sbkgtc_get_sender" label: "bkgtcexec_sbkgtc_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:39:12\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "hkfdirmng_dohousekeeping_set_route_enabled" label: "hkfdirmng_dohousekeeping_set_route_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:52:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_dohousekeeping_set_route_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:54:57" }
+node: { title: "hkfdirmng_dohousekeeping_set_recipient" label: "hkfdirmng_dohousekeeping_set_recipient\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:57:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_dohousekeeping_set_recipient" targetname: "hkfdirmng_dohousekeeping_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:59:5" }
+edge: { sourcename: "hkfdirmng_dohousekeeping_set_recipient" targetname: "hkfdirmng_dohousekeeping_set_route_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:60:5" }
+node: { title: "hkfdirmng_dohousekeeping_set_all_routes_enabled" label: "hkfdirmng_dohousekeeping_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:63:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_dohousekeeping_set_all_routes_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:67:51" }
+node: { title: "hkfdirmng_exechkfdirtc_set_route_enabled" label: "hkfdirmng_exechkfdirtc_set_route_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:73:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_exechkfdirtc_set_route_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:75:55" }
+node: { title: "hkfdirmng_exechkfdirtc_set_recipient" label: "hkfdirmng_exechkfdirtc_set_recipient\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:78:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_exechkfdirtc_set_recipient" targetname: "hkfdirmng_exechkfdirtc_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:80:5" }
+edge: { sourcename: "hkfdirmng_exechkfdirtc_set_recipient" targetname: "hkfdirmng_exechkfdirtc_set_route_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:81:5" }
+node: { title: "hkfdirmng_exechkfdirtc_set_all_routes_enabled" label: "hkfdirmng_exechkfdirtc_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:84:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_exechkfdirtc_set_all_routes_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:88:49" }
+node: { title: "hkfdirmng_sevaction_set_route_enabled" label: "hkfdirmng_sevaction_set_route_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:94:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_sevaction_set_route_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:96:52" }
+node: { title: "hkfdirmng_sevaction_set_recipient" label: "hkfdirmng_sevaction_set_recipient\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:99:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_sevaction_set_recipient" targetname: "hkfdirmng_sevaction_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:101:5" }
+edge: { sourcename: "hkfdirmng_sevaction_set_recipient" targetname: "hkfdirmng_sevaction_set_route_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:102:5" }
+node: { title: "hkfdirmng_sevaction_set_all_routes_enabled" label: "hkfdirmng_sevaction_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:105:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_sevaction_set_all_routes_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:109:46" }
+node: { title: "hkfdirmng_shkfdirtc_get_sender" label: "hkfdirmng_shkfdirtc_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:117:12\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "hkfdirmng_trigger_get_sender" label: "hkfdirmng_trigger_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:123:12\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_dohousekeeping_get_sender" label: "legacy_dohousekeeping_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:135:12\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_execbkgtc_get_sender" label: "legacy_execbkgtc_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:141:12\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_exechkfdirtc_get_sender" label: "legacy_exechkfdirtc_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:147:12\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_handletc_get_sender" label: "legacy_handletc_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:153:12\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_init_get_sender" label: "legacy_init_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:159:12\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_newevaction_get_sender" label: "legacy_newevaction_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:165:12\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_newrxtc_get_sender" label: "legacy_newrxtc_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:171:12\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_polltc_get_sender" label: "legacy_polltc_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:177:12\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "legacy_reboot_get_sender" label: "legacy_reboot_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:183:12\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "tcmanager_handletc_set_route_enabled" label: "tcmanager_handletc_set_route_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:196:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_handletc_set_route_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:198:51" }
+node: { title: "tcmanager_handletc_set_recipient" label: "tcmanager_handletc_set_recipient\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:201:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_handletc_set_recipient" targetname: "tcmanager_handletc_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:203:5" }
+edge: { sourcename: "tcmanager_handletc_set_recipient" targetname: "tcmanager_handletc_set_route_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:204:5" }
+node: { title: "tcmanager_handletc_set_all_routes_enabled" label: "tcmanager_handletc_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:207:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_handletc_set_all_routes_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:211:45" }
+node: { title: "tcmanager_init_set_route_enabled" label: "tcmanager_init_set_route_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:217:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_init_set_route_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:219:47" }
+node: { title: "tcmanager_init_set_recipient" label: "tcmanager_init_set_recipient\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:222:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_init_set_recipient" targetname: "tcmanager_init_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:224:5" }
+edge: { sourcename: "tcmanager_init_set_recipient" targetname: "tcmanager_init_set_route_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:225:5" }
+node: { title: "tcmanager_init_set_all_routes_enabled" label: "tcmanager_init_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:228:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_init_set_all_routes_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:232:41" }
+node: { title: "tcmanager_newevaction_set_route_enabled" label: "tcmanager_newevaction_set_route_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:238:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_newevaction_set_route_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:240:54" }
+node: { title: "tcmanager_newevaction_set_recipient" label: "tcmanager_newevaction_set_recipient\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:243:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_newevaction_set_recipient" targetname: "tcmanager_newevaction_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:245:5" }
+edge: { sourcename: "tcmanager_newevaction_set_recipient" targetname: "tcmanager_newevaction_set_route_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:246:5" }
+node: { title: "tcmanager_newevaction_set_all_routes_enabled" label: "tcmanager_newevaction_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:249:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_newevaction_set_all_routes_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:253:48" }
+node: { title: "tcmanager_newrxtc_set_route_enabled" label: "tcmanager_newrxtc_set_route_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:259:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_newrxtc_set_route_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:261:50" }
+node: { title: "tcmanager_newrxtc_set_recipient" label: "tcmanager_newrxtc_set_recipient\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:264:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_newrxtc_set_recipient" targetname: "tcmanager_newrxtc_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:266:5" }
+edge: { sourcename: "tcmanager_newrxtc_set_recipient" targetname: "tcmanager_newrxtc_set_route_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:267:5" }
+node: { title: "tcmanager_newrxtc_set_all_routes_enabled" label: "tcmanager_newrxtc_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:270:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_newrxtc_set_all_routes_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:274:44" }
+node: { title: "tcmanager_polltc_set_route_enabled" label: "tcmanager_polltc_set_route_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:280:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_polltc_set_route_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:282:49" }
+node: { title: "tcmanager_polltc_set_recipient" label: "tcmanager_polltc_set_recipient\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:285:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_polltc_set_recipient" targetname: "tcmanager_polltc_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:287:5" }
+edge: { sourcename: "tcmanager_polltc_set_recipient" targetname: "tcmanager_polltc_set_route_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:288:5" }
+node: { title: "tcmanager_polltc_set_all_routes_enabled" label: "tcmanager_polltc_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:291:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_polltc_set_all_routes_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:295:43" }
+node: { title: "tcmanager_reboot_set_route_enabled" label: "tcmanager_reboot_set_route_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:301:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_reboot_set_route_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:303:49" }
+node: { title: "tcmanager_reboot_set_recipient" label: "tcmanager_reboot_set_recipient\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:306:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_reboot_set_recipient" targetname: "tcmanager_reboot_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:308:5" }
+edge: { sourcename: "tcmanager_reboot_set_recipient" targetname: "tcmanager_reboot_set_route_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:309:5" }
+node: { title: "tcmanager_reboot_set_all_routes_enabled" label: "tcmanager_reboot_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:312:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_reboot_set_all_routes_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:316:43" }
+node: { title: "tcmanager_sbkgtc_set_route_enabled" label: "tcmanager_sbkgtc_set_route_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:322:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_sbkgtc_set_route_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:324:49" }
+node: { title: "tcmanager_sbkgtc_set_recipient" label: "tcmanager_sbkgtc_set_recipient\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:327:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_sbkgtc_set_recipient" targetname: "tcmanager_sbkgtc_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:329:5" }
+edge: { sourcename: "tcmanager_sbkgtc_set_recipient" targetname: "tcmanager_sbkgtc_set_route_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:330:5" }
+node: { title: "tcmanager_sbkgtc_set_all_routes_enabled" label: "tcmanager_sbkgtc_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:333:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_sbkgtc_set_all_routes_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:337:43" }
+node: { title: "tcmanager_shkfdirtc_set_route_enabled" label: "tcmanager_shkfdirtc_set_route_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:343:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_shkfdirtc_set_route_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:345:52" }
+node: { title: "tcmanager_shkfdirtc_set_recipient" label: "tcmanager_shkfdirtc_set_recipient\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:348:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_shkfdirtc_set_recipient" targetname: "tcmanager_shkfdirtc_set_all_routes_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:350:5" }
+edge: { sourcename: "tcmanager_shkfdirtc_set_recipient" targetname: "tcmanager_shkfdirtc_set_route_enabled" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:351:5" }
+node: { title: "tcmanager_shkfdirtc_set_all_routes_enabled" label: "tcmanager_shkfdirtc_set_all_routes_enabled\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:354:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_shkfdirtc_set_all_routes_enabled" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:358:46" }
+node: { title: "tcmanager_poll_get_sender" label: "tcmanager_poll_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:366:12\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "tcmanager_sevaction_get_sender" label: "tcmanager_sevaction_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:372:12\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:_sub_I_00099_0" label: "_sub_I_00099_0\n/home/jorge/sctre/work/build/node_linux/demo/routing.c:375:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:_sub_I_00099_0" targetname: "__asan_init" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:375:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:_sub_I_00099_0" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/build/node_linux/demo/routing.c:375:1" }
+}

@@ -1,0 +1,438 @@
+Function BKGTCExec in context _Root
+├─ Full Prefix : (none)
+├─ Language    : sdl
+├─ Zip file    : (none)
+├─ Is type     : FALSE
+├─ Instance of : 
+├─ Minimum number of instances :  1
+├─ Maximum number of instances :  1
+├─ Instance number :  1
+├─ Instance original name : BKGTCExec
+├─ Context Parameters :
+├─ Directives:
+├─ Simulink Tuneable Parameters:
+├─ Implementations:
+├─ User properties:
+│  ├─ Taste::Instances_Max = 1
+│  ├─ Taste::Instances_Min = 1
+│  ├─ Taste::Startup_Priority = 1
+│  └─ TASTE_IV_Properties::Default_Codegen = Ada
+├─ Timers:
+├─ Provided interfaces:
+│  └─ Name : SBKGTC - in FV: BKGTCExec
+│     ├─ RCM Kind    : SPORADIC_OPERATION
+│     ├─ Period/MIAT :  0
+│     ├─ WCET (ms)   :  0
+│     ├─ Queue Size  :  1
+│     ├─ Parameters  :
+│     │  ├─ Name            : packet
+│     │  │  ├─ Type         : RawTC
+│     │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+│     │  │  ├─ ASN.1 File   : sctre.asn
+│     │  │  ├─ Basic type   : ASN1_STRING
+│     │  │  ├─ Encoding     : NATIVE
+│     │  │  └─ Direction    : PARAM_IN
+│     └─ Connections :
+│        └─ Function TCManager, interface SBKGTC
+└─ Required interfaces:
+   └─ Name : ExecBKGTC - in FV: BKGTCExec
+      ├─ RCM Kind    : PROTECTED_OPERATION
+      ├─ Period/MIAT :  0
+      ├─ WCET (ms)   :  0
+      ├─ Queue Size  :  1
+      ├─ Parameters  :
+      │  ├─ Name            : packet
+      │  │  ├─ Type         : RawTC
+      │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+      │  │  ├─ ASN.1 File   : sctre.asn
+      │  │  ├─ Basic type   : ASN1_STRING
+      │  │  ├─ Encoding     : NATIVE
+      │  │  └─ Direction    : PARAM_IN
+      └─ Connections :
+         └─ Function Legacy, interface ExecBKGTC
+
+Function HKFDIRMng in context _Root
+├─ Full Prefix : (none)
+├─ Language    : sdl
+├─ Zip file    : (none)
+├─ Is type     : FALSE
+├─ Instance of : 
+├─ Minimum number of instances :  1
+├─ Maximum number of instances :  1
+├─ Instance number :  1
+├─ Instance original name : HKFDIRMng
+├─ Context Parameters :
+├─ Directives:
+├─ Simulink Tuneable Parameters:
+├─ Implementations:
+├─ User properties:
+│  ├─ Taste::Instances_Max = 1
+│  ├─ Taste::Instances_Min = 1
+│  ├─ Taste::Startup_Priority = 1
+│  └─ TASTE_IV_Properties::Default_Codegen = Ada
+├─ Timers:
+├─ Provided interfaces:
+│  ├─ Name : SHKFDIRTC - in FV: HKFDIRMng
+│  │  ├─ RCM Kind    : SPORADIC_OPERATION
+│  │  ├─ Period/MIAT :  0
+│  │  ├─ WCET (ms)   :  0
+│  │  ├─ Queue Size  :  1
+│  │  ├─ Parameters  :
+│  │  │  ├─ Name            : packet
+│  │  │  │  ├─ Type         : RawTC
+│  │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+│  │  │  │  ├─ ASN.1 File   : sctre.asn
+│  │  │  │  ├─ Basic type   : ASN1_STRING
+│  │  │  │  ├─ Encoding     : NATIVE
+│  │  │  │  └─ Direction    : PARAM_IN
+│  │  └─ Connections :
+│  │     └─ Function TCManager, interface SHKFDIRTC
+│  └─ Name : trigger - in FV: HKFDIRMng
+│     ├─ RCM Kind    : CYCLIC_OPERATION
+│     ├─ Period/MIAT :  1000
+│     ├─ WCET (ms)   :  0
+│     ├─ Queue Size  :  1
+│     ├─ Parameters  :
+│     └─ Connections :
+└─ Required interfaces:
+   ├─ Name : DoHousekeeping - in FV: HKFDIRMng
+   │  ├─ RCM Kind    : PROTECTED_OPERATION
+   │  ├─ Period/MIAT :  0
+   │  ├─ WCET (ms)   :  0
+   │  ├─ Queue Size  :  1
+   │  ├─ Parameters  :
+   │  └─ Connections :
+   │     └─ Function Legacy, interface DoHousekeeping
+   ├─ Name : ExecHKFDIRTC - in FV: HKFDIRMng
+   │  ├─ RCM Kind    : PROTECTED_OPERATION
+   │  ├─ Period/MIAT :  0
+   │  ├─ WCET (ms)   :  0
+   │  ├─ Queue Size  :  1
+   │  ├─ Parameters  :
+   │  │  ├─ Name            : packet
+   │  │  │  ├─ Type         : RawTC
+   │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+   │  │  │  ├─ ASN.1 File   : sctre.asn
+   │  │  │  ├─ Basic type   : ASN1_STRING
+   │  │  │  ├─ Encoding     : NATIVE
+   │  │  │  └─ Direction    : PARAM_IN
+   │  └─ Connections :
+   │     └─ Function Legacy, interface ExecHKFDIRTC
+   └─ Name : SEvAction - in FV: HKFDIRMng
+      ├─ RCM Kind    : SPORADIC_OPERATION
+      ├─ Period/MIAT :  0
+      ├─ WCET (ms)   :  0
+      ├─ Queue Size  :  10
+      ├─ Parameters  :
+      └─ Connections :
+         └─ Function TCManager, interface SEvAction
+
+Function Legacy in context _Root
+├─ Full Prefix : (none)
+├─ Language    : cpp
+├─ Zip file    : (none)
+├─ Is type     : FALSE
+├─ Instance of : 
+├─ Minimum number of instances :  1
+├─ Maximum number of instances :  1
+├─ Instance number :  1
+├─ Instance original name : Legacy
+├─ Context Parameters :
+├─ Directives:
+├─ Simulink Tuneable Parameters:
+├─ Implementations:
+├─ User properties:
+│  ├─ Taste::Instances_Max = 1
+│  ├─ Taste::Instances_Min = 1
+│  ├─ Taste::Startup_Priority = 1
+│  └─ TASTE_IV_Properties::Default_Codegen = Ada
+├─ Timers:
+├─ Provided interfaces:
+│  ├─ Name : DoHousekeeping - in FV: Legacy
+│  │  ├─ RCM Kind    : PROTECTED_OPERATION
+│  │  ├─ Period/MIAT :  0
+│  │  ├─ WCET (ms)   :  0
+│  │  ├─ Queue Size  :  1
+│  │  ├─ Parameters  :
+│  │  └─ Connections :
+│  │     └─ Function HKFDIRMng, interface DoHousekeeping
+│  ├─ Name : ExecBKGTC - in FV: Legacy
+│  │  ├─ RCM Kind    : PROTECTED_OPERATION
+│  │  ├─ Period/MIAT :  0
+│  │  ├─ WCET (ms)   :  0
+│  │  ├─ Queue Size  :  1
+│  │  ├─ Parameters  :
+│  │  │  ├─ Name            : packet
+│  │  │  │  ├─ Type         : RawTC
+│  │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+│  │  │  │  ├─ ASN.1 File   : sctre.asn
+│  │  │  │  ├─ Basic type   : ASN1_STRING
+│  │  │  │  ├─ Encoding     : NATIVE
+│  │  │  │  └─ Direction    : PARAM_IN
+│  │  └─ Connections :
+│  │     └─ Function BKGTCExec, interface ExecBKGTC
+│  ├─ Name : ExecHKFDIRTC - in FV: Legacy
+│  │  ├─ RCM Kind    : PROTECTED_OPERATION
+│  │  ├─ Period/MIAT :  0
+│  │  ├─ WCET (ms)   :  0
+│  │  ├─ Queue Size  :  1
+│  │  ├─ Parameters  :
+│  │  │  ├─ Name            : packet
+│  │  │  │  ├─ Type         : RawTC
+│  │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+│  │  │  │  ├─ ASN.1 File   : sctre.asn
+│  │  │  │  ├─ Basic type   : ASN1_STRING
+│  │  │  │  ├─ Encoding     : NATIVE
+│  │  │  │  └─ Direction    : PARAM_IN
+│  │  └─ Connections :
+│  │     └─ Function HKFDIRMng, interface ExecHKFDIRTC
+│  ├─ Name : HandleTC - in FV: Legacy
+│  │  ├─ RCM Kind    : PROTECTED_OPERATION
+│  │  ├─ Period/MIAT :  0
+│  │  ├─ WCET (ms)   :  0
+│  │  ├─ Queue Size  :  1
+│  │  ├─ Parameters  :
+│  │  │  ├─ Name            : route
+│  │  │  │  ├─ Type         : FwdCommand
+│  │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+│  │  │  │  ├─ ASN.1 File   : sctre.asn
+│  │  │  │  ├─ Basic type   : ASN1_ENUMERATED
+│  │  │  │  ├─ Encoding     : NATIVE
+│  │  │  │  └─ Direction    : PARAM_OUT
+│  │  │  ├─ Name            : packet
+│  │  │  │  ├─ Type         : RawTC
+│  │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+│  │  │  │  ├─ ASN.1 File   : sctre.asn
+│  │  │  │  ├─ Basic type   : ASN1_STRING
+│  │  │  │  ├─ Encoding     : NATIVE
+│  │  │  │  └─ Direction    : PARAM_OUT
+│  │  └─ Connections :
+│  │     └─ Function TCManager, interface HandleTC
+│  ├─ Name : Init - in FV: Legacy
+│  │  ├─ RCM Kind    : PROTECTED_OPERATION
+│  │  ├─ Period/MIAT :  0
+│  │  ├─ WCET (ms)   :  0
+│  │  ├─ Queue Size  :  1
+│  │  ├─ Parameters  :
+│  │  └─ Connections :
+│  │     └─ Function TCManager, interface Init
+│  ├─ Name : NewEvAction - in FV: Legacy
+│  │  ├─ RCM Kind    : PROTECTED_OPERATION
+│  │  ├─ Period/MIAT :  0
+│  │  ├─ WCET (ms)   :  0
+│  │  ├─ Queue Size  :  1
+│  │  ├─ Parameters  :
+│  │  │  ├─ Name            : accepted
+│  │  │  │  ├─ Type         : RxTC
+│  │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+│  │  │  │  ├─ ASN.1 File   : sctre.asn
+│  │  │  │  ├─ Basic type   : ASN1_ENUMERATED
+│  │  │  │  ├─ Encoding     : NATIVE
+│  │  │  │  └─ Direction    : PARAM_OUT
+│  │  └─ Connections :
+│  │     └─ Function TCManager, interface NewEvAction
+│  ├─ Name : NewRxTC - in FV: Legacy
+│  │  ├─ RCM Kind    : PROTECTED_OPERATION
+│  │  ├─ Period/MIAT :  0
+│  │  ├─ WCET (ms)   :  0
+│  │  ├─ Queue Size  :  1
+│  │  ├─ Parameters  :
+│  │  │  ├─ Name            : tc
+│  │  │  │  ├─ Type         : Telecommand
+│  │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+│  │  │  │  ├─ ASN.1 File   : sctre.asn
+│  │  │  │  ├─ Basic type   : ASN1_SEQUENCE
+│  │  │  │  ├─ Encoding     : NATIVE
+│  │  │  │  └─ Direction    : PARAM_IN
+│  │  │  ├─ Name            : accepted
+│  │  │  │  ├─ Type         : RxTC
+│  │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+│  │  │  │  ├─ ASN.1 File   : sctre.asn
+│  │  │  │  ├─ Basic type   : ASN1_ENUMERATED
+│  │  │  │  ├─ Encoding     : NATIVE
+│  │  │  │  └─ Direction    : PARAM_OUT
+│  │  └─ Connections :
+│  │     └─ Function TCManager, interface NewRxTC
+│  ├─ Name : PollTC - in FV: Legacy
+│  │  ├─ RCM Kind    : PROTECTED_OPERATION
+│  │  ├─ Period/MIAT :  0
+│  │  ├─ WCET (ms)   :  0
+│  │  ├─ Queue Size  :  1
+│  │  ├─ Parameters  :
+│  │  │  ├─ Name            : accepted
+│  │  │  │  ├─ Type         : RxTC
+│  │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+│  │  │  │  ├─ ASN.1 File   : sctre.asn
+│  │  │  │  ├─ Basic type   : ASN1_ENUMERATED
+│  │  │  │  ├─ Encoding     : NATIVE
+│  │  │  │  └─ Direction    : PARAM_OUT
+│  │  └─ Connections :
+│  │     └─ Function TCManager, interface PollTC
+│  └─ Name : Reboot - in FV: Legacy
+│     ├─ RCM Kind    : PROTECTED_OPERATION
+│     ├─ Period/MIAT :  0
+│     ├─ WCET (ms)   :  0
+│     ├─ Queue Size  :  1
+│     ├─ Parameters  :
+│     └─ Connections :
+│        └─ Function TCManager, interface Reboot
+└─ Required interfaces:
+
+Function TCManager in context _Root
+├─ Full Prefix : (none)
+├─ Language    : sdl
+├─ Zip file    : (none)
+├─ Is type     : FALSE
+├─ Instance of : 
+├─ Minimum number of instances :  1
+├─ Maximum number of instances :  1
+├─ Instance number :  1
+├─ Instance original name : TCManager
+├─ Context Parameters :
+├─ Directives:
+├─ Simulink Tuneable Parameters:
+├─ Implementations:
+├─ User properties:
+│  ├─ Taste::Instances_Max = 1
+│  ├─ Taste::Instances_Min = 1
+│  ├─ Taste::Startup_Priority = 1
+│  └─ TASTE_IV_Properties::Default_Codegen = Ada
+├─ Timers:
+├─ Provided interfaces:
+│  ├─ Name : SEvAction - in FV: TCManager
+│  │  ├─ RCM Kind    : SPORADIC_OPERATION
+│  │  ├─ Period/MIAT :  0
+│  │  ├─ WCET (ms)   :  0
+│  │  ├─ Queue Size  :  10
+│  │  ├─ Parameters  :
+│  │  └─ Connections :
+│  │     └─ Function HKFDIRMng, interface SEvAction
+│  └─ Name : poll - in FV: TCManager
+│     ├─ RCM Kind    : CYCLIC_OPERATION
+│     ├─ Period/MIAT :  100
+│     ├─ WCET (ms)   :  0
+│     ├─ Queue Size  :  1
+│     ├─ Parameters  :
+│     └─ Connections :
+└─ Required interfaces:
+   ├─ Name : HandleTC - in FV: TCManager
+   │  ├─ RCM Kind    : PROTECTED_OPERATION
+   │  ├─ Period/MIAT :  0
+   │  ├─ WCET (ms)   :  0
+   │  ├─ Queue Size  :  1
+   │  ├─ Parameters  :
+   │  │  ├─ Name            : route
+   │  │  │  ├─ Type         : FwdCommand
+   │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+   │  │  │  ├─ ASN.1 File   : sctre.asn
+   │  │  │  ├─ Basic type   : ASN1_ENUMERATED
+   │  │  │  ├─ Encoding     : NATIVE
+   │  │  │  └─ Direction    : PARAM_OUT
+   │  │  ├─ Name            : packet
+   │  │  │  ├─ Type         : RawTC
+   │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+   │  │  │  ├─ ASN.1 File   : sctre.asn
+   │  │  │  ├─ Basic type   : ASN1_STRING
+   │  │  │  ├─ Encoding     : NATIVE
+   │  │  │  └─ Direction    : PARAM_OUT
+   │  └─ Connections :
+   │     └─ Function Legacy, interface HandleTC
+   ├─ Name : Init - in FV: TCManager
+   │  ├─ RCM Kind    : PROTECTED_OPERATION
+   │  ├─ Period/MIAT :  0
+   │  ├─ WCET (ms)   :  0
+   │  ├─ Queue Size  :  1
+   │  ├─ Parameters  :
+   │  └─ Connections :
+   │     └─ Function Legacy, interface Init
+   ├─ Name : NewEvAction - in FV: TCManager
+   │  ├─ RCM Kind    : PROTECTED_OPERATION
+   │  ├─ Period/MIAT :  0
+   │  ├─ WCET (ms)   :  0
+   │  ├─ Queue Size  :  1
+   │  ├─ Parameters  :
+   │  │  ├─ Name            : accepted
+   │  │  │  ├─ Type         : RxTC
+   │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+   │  │  │  ├─ ASN.1 File   : sctre.asn
+   │  │  │  ├─ Basic type   : ASN1_ENUMERATED
+   │  │  │  ├─ Encoding     : NATIVE
+   │  │  │  └─ Direction    : PARAM_OUT
+   │  └─ Connections :
+   │     └─ Function Legacy, interface NewEvAction
+   ├─ Name : NewRxTC - in FV: TCManager
+   │  ├─ RCM Kind    : PROTECTED_OPERATION
+   │  ├─ Period/MIAT :  0
+   │  ├─ WCET (ms)   :  0
+   │  ├─ Queue Size  :  1
+   │  ├─ Parameters  :
+   │  │  ├─ Name            : tc
+   │  │  │  ├─ Type         : Telecommand
+   │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+   │  │  │  ├─ ASN.1 File   : sctre.asn
+   │  │  │  ├─ Basic type   : ASN1_SEQUENCE
+   │  │  │  ├─ Encoding     : NATIVE
+   │  │  │  └─ Direction    : PARAM_IN
+   │  │  ├─ Name            : accepted
+   │  │  │  ├─ Type         : RxTC
+   │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+   │  │  │  ├─ ASN.1 File   : sctre.asn
+   │  │  │  ├─ Basic type   : ASN1_ENUMERATED
+   │  │  │  ├─ Encoding     : NATIVE
+   │  │  │  └─ Direction    : PARAM_OUT
+   │  └─ Connections :
+   │     └─ Function Legacy, interface NewRxTC
+   ├─ Name : PollTC - in FV: TCManager
+   │  ├─ RCM Kind    : PROTECTED_OPERATION
+   │  ├─ Period/MIAT :  0
+   │  ├─ WCET (ms)   :  0
+   │  ├─ Queue Size  :  1
+   │  ├─ Parameters  :
+   │  │  ├─ Name            : accepted
+   │  │  │  ├─ Type         : RxTC
+   │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+   │  │  │  ├─ ASN.1 File   : sctre.asn
+   │  │  │  ├─ Basic type   : ASN1_ENUMERATED
+   │  │  │  ├─ Encoding     : NATIVE
+   │  │  │  └─ Direction    : PARAM_OUT
+   │  └─ Connections :
+   │     └─ Function Legacy, interface PollTC
+   ├─ Name : Reboot - in FV: TCManager
+   │  ├─ RCM Kind    : PROTECTED_OPERATION
+   │  ├─ Period/MIAT :  0
+   │  ├─ WCET (ms)   :  0
+   │  ├─ Queue Size  :  1
+   │  ├─ Parameters  :
+   │  └─ Connections :
+   │     └─ Function Legacy, interface Reboot
+   ├─ Name : SBKGTC - in FV: TCManager
+   │  ├─ RCM Kind    : SPORADIC_OPERATION
+   │  ├─ Period/MIAT :  0
+   │  ├─ WCET (ms)   :  0
+   │  ├─ Queue Size  :  1
+   │  ├─ Parameters  :
+   │  │  ├─ Name            : packet
+   │  │  │  ├─ Type         : RawTC
+   │  │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+   │  │  │  ├─ ASN.1 File   : sctre.asn
+   │  │  │  ├─ Basic type   : ASN1_STRING
+   │  │  │  ├─ Encoding     : NATIVE
+   │  │  │  └─ Direction    : PARAM_IN
+   │  └─ Connections :
+   │     └─ Function BKGTCExec, interface SBKGTC
+   └─ Name : SHKFDIRTC - in FV: TCManager
+      ├─ RCM Kind    : SPORADIC_OPERATION
+      ├─ Period/MIAT :  0
+      ├─ WCET (ms)   :  0
+      ├─ Queue Size  :  1
+      ├─ Parameters  :
+      │  ├─ Name            : packet
+      │  │  ├─ Type         : RawTC
+      │  │  ├─ ASN.1 Module : SCTRE_DATAVIEW
+      │  │  ├─ ASN.1 File   : sctre.asn
+      │  │  ├─ Basic type   : ASN1_STRING
+      │  │  ├─ Encoding     : NATIVE
+      │  │  └─ Direction    : PARAM_IN
+      └─ Connections :
+         └─ Function HKFDIRMng, interface SHKFDIRTC
+

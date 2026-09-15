@@ -1,0 +1,117 @@
+-- ==============
+-- CONTRACTS.SLIM
+-- ==============
+-- ------
+-- SYNTAX
+-- ------
+-- system <SLIM FUNCTION NAME>
+-- properties
+--   Contracts => (
+--     [
+--       Name => "<NAME>";
+--       Assumption => "<ASSUMPTION>";
+--       Guarantee => "<GUARANTEE>";
+--     ],
+--     ...
+--   );
+-- end <SLIM FUNCTION NAME>;
+-- -------
+-- EXAMPLE
+-- -------
+-- system Battery
+-- properties
+--   Contracts => (
+--     [
+--       Name => "power";
+--       Assumption => "always(get_voltage >= 10)";
+--       Guarantee => "always(voltage_out >= 10)";
+--     ]
+--   );
+-- end Battery;
+-- ----------------------
+-- DUMP OF INTERFACE VIEW
+-- ----------------------
+-- Function (SDL): BKGTCExec
+---- PI (Sporadic): SBKGTC
+------ PARAM_IN (RawTC): SBKGTC.packet
+
+
+---- RI (Protected): ExecBKGTC
+------ PARAM_IN (RawTC): ExecBKGTC.packet
+
+
+-- Function (SDL): HKFDIRMng
+---- PI (Sporadic): SHKFDIRTC
+------ PARAM_IN (RawTC): SHKFDIRTC.packet
+
+
+
+---- RI (Protected): DoHousekeeping
+
+---- RI (Protected): ExecHKFDIRTC
+------ PARAM_IN (RawTC): ExecHKFDIRTC.packet
+
+---- RI (Sporadic): SEvAction
+
+
+-- Function (CPP): Legacy
+---- PI (Protected): DoHousekeeping
+
+---- PI (Protected): ExecBKGTC
+------ PARAM_IN (RawTC): ExecBKGTC.packet
+
+---- PI (Protected): ExecHKFDIRTC
+------ PARAM_IN (RawTC): ExecHKFDIRTC.packet
+
+---- PI (Protected): HandleTC
+------ PARAM_OUT (FwdCommand): HandleTC.route
+------ PARAM_OUT (RawTC): HandleTC.packet
+
+---- PI (Protected): Init
+
+---- PI (Protected): NewEvAction
+------ PARAM_OUT (RxTC): NewEvAction.accepted
+
+---- PI (Protected): NewRxTC
+------ PARAM_IN (Telecommand): NewRxTC.tc
+------ PARAM_OUT (RxTC): NewRxTC.accepted
+
+---- PI (Protected): PollTC
+------ PARAM_OUT (RxTC): PollTC.accepted
+
+---- PI (Protected): Reboot
+
+
+
+-- Function (SDL): TCManager
+---- PI (Sporadic): SEvAction
+
+
+
+---- RI (Protected): HandleTC
+------ PARAM_OUT (FwdCommand): HandleTC.route
+------ PARAM_OUT (RawTC): HandleTC.packet
+
+---- RI (Protected): Init
+
+---- RI (Protected): NewEvAction
+------ PARAM_OUT (RxTC): NewEvAction.accepted
+
+---- RI (Protected): NewRxTC
+------ PARAM_IN (Telecommand): NewRxTC.tc
+------ PARAM_OUT (RxTC): NewRxTC.accepted
+
+---- RI (Protected): PollTC
+------ PARAM_OUT (RxTC): PollTC.accepted
+
+---- RI (Protected): Reboot
+
+---- RI (Sporadic): SBKGTC
+------ PARAM_IN (RawTC): SBKGTC.packet
+
+---- RI (Sporadic): SHKFDIRTC
+------ PARAM_IN (RawTC): SHKFDIRTC.packet
+
+
+
+--

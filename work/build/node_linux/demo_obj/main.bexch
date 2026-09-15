@@ -1,0 +1,31 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/jorge/sctre/work/build/node_linux/demo.gpr
+20260913085851 7ea0344f859adf639c2eb3ce6ec595bb
+[BOUND OBJECT FILES]
+/home/jorge/sctre/work/build/node_linux/demo_obj/board_config.o
+/home/jorge/sctre/work/build/node_linux/demo_obj/adaasn1rtl.o
+/home/jorge/sctre/work/build/node_linux/demo_obj/sctre_dataview.o
+/home/jorge/sctre/work/build/node_linux/demo_obj/system_dataview.o
+/home/jorge/sctre/work/build/node_linux/demo_obj/bkgtcexec_datamodel.o
+/home/jorge/sctre/work/build/node_linux/demo_obj/hkfdirmng_datamodel.o
+/home/jorge/sctre/work/build/node_linux/demo_obj/taste_basictypes.o
+/home/jorge/sctre/work/build/node_linux/demo_obj/bkgtcexec_ri.o
+/home/jorge/sctre/work/build/node_linux/demo_obj/bkgtcexec.o
+/home/jorge/sctre/work/build/node_linux/demo_obj/hkfdirmng_ri.o
+/home/jorge/sctre/work/build/node_linux/demo_obj/hkfdirmng.o
+/home/jorge/sctre/work/build/node_linux/demo_obj/tcmanager_datamodel.o
+/home/jorge/sctre/work/build/node_linux/demo_obj/tcmanager_ri.o
+/home/jorge/sctre/work/build/node_linux/demo_obj/tcmanager.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/jorge/sctre/work/build/node_linux/demo_obj/
+-L/home/jorge/sctre/work/build/node_linux/demo_obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/13/adalib/
+-shared
+-lgnat-13
+-ldl

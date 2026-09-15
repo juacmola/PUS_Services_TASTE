@@ -1,0 +1,102 @@
+graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c"
+node: { title: "Escaper_init" label: "Escaper_init\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:29:1\n64 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_store4" label: "__builtin___asan_report_store4\n<built-in>" shape : ellipse }
+edge: { sourcename: "Escaper_init" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:35:25" }
+node: { title: "__asan_report_store1" label: "__builtin___asan_report_store1\n<built-in>" shape : ellipse }
+edge: { sourcename: "Escaper_init" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:36:28" }
+edge: { sourcename: "Escaper_init" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:37:20" }
+edge: { sourcename: "Escaper_init" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:38:29" }
+node: { title: "__asan_report_store8" label: "__builtin___asan_report_store8\n<built-in>" shape : ellipse }
+edge: { sourcename: "Escaper_init" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:39:35" }
+edge: { sourcename: "Escaper_init" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:40:37" }
+edge: { sourcename: "Escaper_init" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:41:35" }
+edge: { sourcename: "Escaper_init" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:42:37" }
+edge: { sourcename: "Escaper_init" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:43:41" }
+node: { title: "Escaper_start_decoder" label: "Escaper_start_decoder\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:47:1\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "Escaper_start_decoder" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:49:25" }
+node: { title: "Escaper_decode_packet" label: "Escaper_decode_packet\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:53:1\n80 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_load4" label: "__builtin___asan_report_load4\n<built-in>" shape : ellipse }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:60:20" }
+node: { title: "__asan_report_load1" label: "__builtin___asan_report_load1\n<built-in>" shape : ellipse }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:62:26" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:63:41" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:67:26" }
+node: { title: "__asan_report_load8" label: "__builtin___asan_report_load8\n<built-in>" shape : ellipse }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:68:21" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:68:21" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__indirect_call" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:68:21" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:69:57" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:70:41" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:71:33" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:72:41" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:73:33" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:74:57" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:75:41" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:77:28" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:77:67" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:82:45" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:84:29" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:84:59" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:84:100" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:84:92" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:90:24" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:90:63" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:95:41" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:97:25" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:97:55" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:97:96" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:97:88" }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:99:41" }
+node: { title: "__asan_handle_no_return" label: "__builtin___asan_handle_no_return\n<built-in>" shape : ellipse }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:103:17" }
+node: { title: "__assert_fail" label: "__assert_fail\n/usr/include/assert.h:69:13" shape : ellipse }
+edge: { sourcename: "Escaper_decode_packet" targetname: "__assert_fail" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:103:17" }
+node: { title: "Escaper_start_encoder" label: "Escaper_start_encoder\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:110:1\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "Escaper_start_encoder" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:112:29" }
+edge: { sourcename: "Escaper_start_encoder" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:113:20" }
+edge: { sourcename: "Escaper_start_encoder" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:114:28" }
+node: { title: "Escaper_encode_packet" label: "Escaper_encode_packet\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:118:1\n64 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:122:13" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:123:13" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:123:42" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:129:16" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:130:79" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:130:17" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:130:78" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:130:72" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:134:24" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:134:23" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:135:17" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:135:72" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:137:28" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:138:24" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:138:23" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:139:17" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:139:72" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:141:28" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:142:24" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:142:23" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:143:17" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:143:72" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:145:28" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:147:79" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:147:17" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:147:78" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:147:72" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:152:47" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:128:11" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:158:13" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:158:68" }
+edge: { sourcename: "Escaper_encode_packet" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:160:33" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:164:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "__builtin___asan_unregister_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:164:1" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:164:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:164:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:164:1" }
+node: { title: "__asan_register_globals" label: "__builtin___asan_register_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Escaper/Escaper.c:164:1" }
+}

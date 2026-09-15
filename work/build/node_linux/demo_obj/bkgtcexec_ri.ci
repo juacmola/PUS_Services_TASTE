@@ -1,0 +1,9 @@
+graph: { title: "/home/jorge/sctre/work/bkgtcexec/SDL/wrappers/bkgtcexec_ri.adb"
+node: { title: "bkgtcexec_ri__delete_instance" label: "Delete_Instance\n/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec_ri.ads:24:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "bkgtcexec_ri__to_c_pointer" label: "To_C_Pointer\n/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec_ri.ads:27:4\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "interfaces__c__strings__new_string" label: "New_String\n/usr/lib/gcc/x86_64-linux-gnu/13/adainclude/i-cstrin.ads:77:13" shape : ellipse }
+edge: { sourcename: "bkgtcexec_ri__to_c_pointer" targetname: "interfaces__c__strings__new_string" label: "/home/jorge/sctre/work/bkgtcexec/SDL/code/bkgtcexec_ri.ads:28:8" }
+node: { title: "bkgtcexec_ri__execbkgtc" label: "Execbkgtc\n/home/jorge/sctre/work/bkgtcexec/SDL/wrappers/bkgtcexec_ri.adb:5:4\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "*bkgtcexec_RI_ExecBKGTC_To_PID" label: "C_Execbkgtc\n/home/jorge/sctre/work/bkgtcexec/SDL/wrappers/bkgtcexec_ri.adb:8:17" shape : ellipse }
+edge: { sourcename: "bkgtcexec_ri__execbkgtc" targetname: "*bkgtcexec_RI_ExecBKGTC_To_PID" label: "/home/jorge/sctre/work/bkgtcexec/SDL/wrappers/bkgtcexec_ri.adb:15:10" }
+}

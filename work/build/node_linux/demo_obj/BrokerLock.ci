@@ -1,0 +1,8 @@
+graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/BrokerLock.cc"
+node: { title: "Broker_acquire_lock" label: "void Broker_acquire_lock()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/BrokerLock.cc:33:10\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "_ZN5taste4Lock4lockEv" label: "void taste::Lock::lock()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.h:61:10" shape : ellipse }
+edge: { sourcename: "Broker_acquire_lock" targetname: "_ZN5taste4Lock4lockEv" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/BrokerLock.cc:33:50" }
+node: { title: "Broker_release_lock" label: "void Broker_release_lock()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/BrokerLock.cc:35:10\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "_ZN5taste4Lock6unlockEv" label: "void taste::Lock::unlock()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.h:63:10" shape : ellipse }
+edge: { sourcename: "Broker_release_lock" targetname: "_ZN5taste4Lock6unlockEv" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/BrokerLock.cc:35:52" }
+}

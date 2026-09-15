@@ -1,0 +1,10 @@
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:34:1:CCSDS_Packetizer_init	48	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:44:1:CCSDS_Packetizer_packetize	64	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:88:1:CCSDS_Packetizer_depacketize	80	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:157:1:writeCCSDSPacketId	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:171:1:writeCCSDSPacketSequenceControl	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:183:1:writeCCSDSPacketDataLength	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:190:1:writeChecksum	48	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:200:1:readCCSDSPacketDataLength	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:203:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/CCSDSPacketizer.c:203:1:_sub_I_00099_1	16	static

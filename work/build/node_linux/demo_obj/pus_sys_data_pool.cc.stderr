@@ -1,0 +1,21 @@
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_sys_data_pool/src/pus_sys_data_pool.cc:[m[K In function ‘[01m[Kerror_code_t[01;32m[K sys_data_pool_param_update_mean[m[K(uint16_t, data_pool_item_t*, uint32_t)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_sys_data_pool/src/pus_sys_data_pool.cc:477:50:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+  477 |                         [01;35m[Kp_mean_value->int16_data = aux_mean / (samples + 1)[m[K;
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_sys_data_pool/src/pus_sys_data_pool.cc:480:17:[m[K [01;36m[Knote: [m[Khere
+  480 |                 [01;36m[Kcase[m[K (uint8_item_type): {
+      |                 [01;36m[K^~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_sys_data_pool/src/pus_sys_data_pool.cc:[m[K In function ‘[01m[Kerror_code_t[01;32m[K sys_data_pool_get_param_value[m[K(uint16_t, data_pool_item_t*)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_sys_data_pool/src/pus_sys_data_pool.cc:220:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kerror[m[K’ may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+  220 |         return [01;35m[Kerror[m[K;
+      |                [01;35m[K^~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_sys_data_pool/src/pus_sys_data_pool.cc:186:22:[m[K [01;36m[Knote: [m[K‘[01m[Kerror[m[K’ was declared here
+  186 |         error_code_t [01;36m[Kerror[m[K;
+      |                      [01;36m[K^~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_sys_data_pool/src/pus_sys_data_pool.cc:[m[K In function ‘[01m[Kerror_code_t[01;32m[K sys_data_pool_set_item_from_serialized_bytes[m[K(data_pool_item_type_t, const uint8_t*, data_pool_item_t*)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_sys_data_pool/src/pus_sys_data_pool.cc:301:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kerror[m[K’ may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+  301 |         return [01;35m[Kerror[m[K;
+      |                [01;35m[K^~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_sys_data_pool/src/pus_sys_data_pool.cc:269:22:[m[K [01;36m[Knote: [m[K‘[01m[Kerror[m[K’ was declared here
+  269 |         error_code_t [01;36m[Kerror[m[K;
+      |                      [01;36m[K^~~~~[m[K

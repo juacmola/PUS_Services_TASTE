@@ -1,0 +1,231 @@
+mscdocument taste_recorded /* MSC AND */;
+   language ASN.1;
+   data dataview-uniq.asn;
+
+/* CIF MSCDOCUMENT (0, 0) (2400, 2880) */
+mscdocument automade;
+   msg init;
+   msg trigger;
+   msg dohousekeeping;
+   msg poll;
+   msg polltc;
+   msg sevaction;
+   msg newevaction;
+   msg handletc;
+
+    msc recorded;
+   /* CIF INSTANCE (500, 35) (200, 70) (800, 800) */
+   instance tcmanager;
+      /* CIF MESSAGE (600, 190) (1250, 190) */
+      out init() to legacy;
+      /* CIF MESSAGE (-30, 640) (600, 640) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 730) (1250, 730) */
+      out polltc() to legacy;
+      /* CIF CONDITION (500, 1000) (200, 35) */
+      condition Ready  ;
+      /* CIF MESSAGE (1900, 910) (600, 1180) */
+      in sevaction() from hkfdirmng;
+      /* CIF MESSAGE (600, 1270) (1250, 1270) */
+      out newevaction() to legacy;
+      /* CIF MESSAGE (600, 1450) (1250, 1450) */
+      out handletc() to legacy;
+      /* CIF MESSAGE (-30, 1630) (600, 1630) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 1720) (1250, 1720) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 1900) (600, 1900) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 1990) (1250, 1990) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 2170) (600, 2170) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 2260) (1250, 2260) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 2440) (600, 2440) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 2530) (1250, 2530) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 2710) (600, 2710) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 2800) (1250, 2800) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 2980) (600, 2980) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 3070) (1250, 3070) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 3250) (600, 3250) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 3340) (1250, 3340) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 3520) (600, 3520) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 3610) (1250, 3610) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 3790) (600, 3790) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 3880) (1250, 3880) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 4060) (600, 4060) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 4150) (1250, 4150) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (1900, 4600) (600, 4600) */
+      in sevaction() from hkfdirmng;
+      /* CIF MESSAGE (600, 4780) (1250, 4780) */
+      out newevaction() to legacy;
+      /* CIF MESSAGE (600, 4960) (1250, 4960) */
+      out handletc() to legacy;
+      /* CIF MESSAGE (-30, 5140) (600, 5140) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 5230) (1250, 5230) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 5410) (600, 5410) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 5500) (1250, 5500) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 5680) (600, 5680) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 5770) (1250, 5770) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 5950) (600, 5950) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 6040) (1250, 6040) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 6220) (600, 6220) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 6310) (1250, 6310) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 6490) (600, 6490) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 6580) (1250, 6580) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 6760) (600, 6760) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 6850) (1250, 6850) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 7030) (600, 7030) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 7120) (1250, 7120) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 7300) (600, 7300) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 7390) (1250, 7390) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (1900, 7840) (600, 7840) */
+      in sevaction() from hkfdirmng;
+      /* CIF MESSAGE (600, 8020) (1250, 8020) */
+      out newevaction() to legacy;
+      /* CIF MESSAGE (600, 8200) (1250, 8200) */
+      out handletc() to legacy;
+      /* CIF MESSAGE (-30, 8380) (600, 8380) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 8470) (1250, 8470) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 8650) (600, 8650) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 8740) (1250, 8740) */
+      out polltc() to legacy;
+      /* CIF MESSAGE (-30, 8920) (600, 8920) */
+      in poll() from env;
+      /* CIF MESSAGE (600, 9010) (1250, 9010) */
+      out polltc() to legacy;
+   endinstance;
+
+   /* CIF INSTANCE (1150, 35) (200, 70) (800, 800) */
+   instance legacy;
+      /* CIF MESSAGE (600, 190) (1250, 190) */
+      in init() from tcmanager;
+      /* CIF MESSAGE (1900, 460) (1250, 460) */
+      in dohousekeeping() from hkfdirmng;
+      /* CIF MESSAGE (600, 730) (1250, 730) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 1270) (1250, 1270) */
+      in newevaction() from tcmanager;
+      /* CIF MESSAGE (600, 1450) (1250, 1450) */
+      in handletc() from tcmanager;
+      /* CIF MESSAGE (600, 1720) (1250, 1720) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 1990) (1250, 1990) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 2260) (1250, 2260) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 2530) (1250, 2530) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 2800) (1250, 2800) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 3070) (1250, 3070) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 3340) (1250, 3340) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 3610) (1250, 3610) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 3880) (1250, 3880) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 4150) (1250, 4150) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (1900, 4420) (1250, 4420) */
+      in dohousekeeping() from hkfdirmng;
+      /* CIF MESSAGE (600, 4780) (1250, 4780) */
+      in newevaction() from tcmanager;
+      /* CIF MESSAGE (600, 4960) (1250, 4960) */
+      in handletc() from tcmanager;
+      /* CIF MESSAGE (600, 5230) (1250, 5230) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 5500) (1250, 5500) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 5770) (1250, 5770) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 6040) (1250, 6040) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 6310) (1250, 6310) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 6580) (1250, 6580) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 6850) (1250, 6850) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 7120) (1250, 7120) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 7390) (1250, 7390) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (1900, 7660) (1250, 7660) */
+      in dohousekeeping() from hkfdirmng;
+      /* CIF MESSAGE (600, 8020) (1250, 8020) */
+      in newevaction() from tcmanager;
+      /* CIF MESSAGE (600, 8200) (1250, 8200) */
+      in handletc() from tcmanager;
+      /* CIF MESSAGE (600, 8470) (1250, 8470) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 8740) (1250, 8740) */
+      in polltc() from tcmanager;
+      /* CIF MESSAGE (600, 9010) (1250, 9010) */
+      in polltc() from tcmanager;
+   endinstance;
+
+   /* CIF INSTANCE (1800, 35) (200, 70) (800, 800) */
+   instance hkfdirmng;
+      /* CIF MESSAGE (-30, 370) (1900, 370) */
+      in trigger() from env;
+      /* CIF MESSAGE (1900, 460) (1250, 460) */
+      out dohousekeeping() to legacy;
+      /* CIF MESSAGE (1900, 910) (600, 1180) */
+      out sevaction() to tcmanager;
+      /* CIF CONDITION (1800, 1090) (200, 35) */
+      condition Ready  ;
+      /* CIF MESSAGE (-30, 4330) (1900, 4330) */
+      in trigger() from env;
+      /* CIF MESSAGE (1900, 4420) (1250, 4420) */
+      out dohousekeeping() to legacy;
+      /* CIF MESSAGE (1900, 4600) (600, 4600) */
+      out sevaction() to tcmanager;
+      /* CIF MESSAGE (-30, 7570) (1900, 7570) */
+      in trigger() from env;
+      /* CIF MESSAGE (1900, 7660) (1250, 7660) */
+      out dohousekeeping() to legacy;
+      /* CIF MESSAGE (1900, 7840) (600, 7840) */
+      out sevaction() to tcmanager;
+   endinstance;
+
+   endmsc;
+endmscdocument;
+endmscdocument;

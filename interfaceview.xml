@@ -1,0 +1,217 @@
+<InterfaceView version="1.3" asn1file="sctre.acn" mscfile="/home/jorge/sctre/sctre.msc" UiFile="interfaceview.ui.xml" modifierHash="8f9a913">
+<Function id="{4b6752c8-8e88-4821-b09f-1e3085265398}" name="TCManager" is_type="NO" language="SDL" default_implementation="TCManagerSDL" fixed_system_element="NO" required_system_element="NO" startup_priority="1" instances_min="1" instances_max="1">
+    <Property name="TASTE_IV_Properties::Default_Codegen" value="Ada"/>
+<Provided_Interface id="{f92dace3-f357-4bc6-a2e9-4d1be6ea8697}" name="poll" kind="Cyclic" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0" priority="1" stack_size="16384" dispatch_offset="1000" period="100">
+</Provided_Interface>
+
+<Provided_Interface id="{327ff124-2856-4526-992c-9e3d80d411d5}" name="SEvAction" kind="Sporadic" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0" priority="1" miat="0" stack_size="1024" queue_size="10">
+</Provided_Interface>
+
+<Required_Interface id="{f5f00e4e-9a76-4e32-aecf-8b4560de8fe2}" name="PollTC" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Output_Parameter name="accepted" type="RxTC" encoding="NATIVE"/>
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="true"/>
+</Required_Interface>
+
+<Required_Interface id="{6ac78aaa-10b1-465a-b416-e763f60026b3}" name="SHKFDIRTC" kind="Sporadic" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0" priority="1" miat="0" stack_size="1024" queue_size="1">
+    <Input_Parameter name="packet" type="RawTC" encoding="NATIVE"/>
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="false"/>
+</Required_Interface>
+
+<Required_Interface id="{2896bb92-94aa-494d-ae9e-1a13901633c8}" name="SBKGTC" kind="Sporadic" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0" priority="1" miat="0" stack_size="1024" queue_size="1">
+    <Input_Parameter name="packet" type="RawTC" encoding="NATIVE"/>
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="false"/>
+</Required_Interface>
+
+<Required_Interface id="{2dc05ddb-62fa-4ed4-9fdc-08203295fd62}" name="NewEvAction" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Output_Parameter name="accepted" type="RxTC" encoding="NATIVE"/>
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="true"/>
+</Required_Interface>
+
+<Required_Interface id="{b9454036-bc47-4a1c-8382-d82918311576}" name="HandleTC" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Output_Parameter name="route" type="FwdCommand" encoding="NATIVE"/>
+    <Output_Parameter name="packet" type="RawTC" encoding="NATIVE"/>
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="true"/>
+</Required_Interface>
+
+<Required_Interface id="{45d873c8-8269-46ec-9f68-af40bcd9087f}" name="Init" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="true"/>
+</Required_Interface>
+
+<Required_Interface id="{c06ca038-f3e8-4e00-ab50-379ad70d5976}" name="Reboot" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="true"/>
+</Required_Interface>
+
+<Required_Interface id="{2a369e75-ab2e-4b39-9f0b-c2879be3b0b6}" name="NewRxTC" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Input_Parameter name="tc" type="Telecommand" encoding="NATIVE"/>
+    <Output_Parameter name="accepted" type="RxTC" encoding="NATIVE"/>
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="true"/>
+</Required_Interface>
+
+    <Implementations>
+        <Implementation name="TCManagerSDL" language="SDL"/>
+        <Implementation name="TCManagerC" language="C"/>
+    </Implementations>
+</Function>
+
+<Function id="{8d8ac875-2fd8-431d-b945-2aba4ff1785b}" name="BKGTCExec" is_type="NO" language="SDL" default_implementation="BKGTCExecSDL" fixed_system_element="NO" required_system_element="NO" startup_priority="1" instances_min="1" instances_max="1">
+    <Property name="TASTE_IV_Properties::Default_Codegen" value="Ada"/>
+<Provided_Interface id="{7eb44606-f546-4c36-808b-e8bd1bdc6050}" name="SBKGTC" kind="Sporadic" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0" priority="1" miat="0" stack_size="1024" queue_size="1">
+    <Input_Parameter name="packet" type="RawTC" encoding="NATIVE"/>
+</Provided_Interface>
+
+<Required_Interface id="{5b28dd50-1eb4-4bd2-bf46-7dace129997d}" name="ExecBKGTC" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Input_Parameter name="packet" type="RawTC" encoding="NATIVE"/>
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="false"/>
+</Required_Interface>
+
+    <Implementations>
+        <Implementation name="BKGTCExecSDL" language="SDL"/>
+        <Implementation name="BKGTCExecC" language="C"/>
+    </Implementations>
+</Function>
+
+<Function id="{07bed102-597a-4b41-872c-08092bd3a4a7}" name="Legacy" is_type="NO" language="CPP" default_implementation="default" fixed_system_element="NO" required_system_element="NO" startup_priority="1" instances_min="1" instances_max="1">
+    <Property name="TASTE_IV_Properties::Default_Codegen" value="Ada"/>
+<Provided_Interface id="{312cc364-5734-49d5-912b-63ca5a4b1691}" name="DoHousekeeping" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+</Provided_Interface>
+
+<Provided_Interface id="{e497ffe2-5fec-4c0e-a6d4-dcf85182e8ec}" name="PollTC" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Output_Parameter name="accepted" type="RxTC" encoding="NATIVE"/>
+</Provided_Interface>
+
+<Provided_Interface id="{5f37ba3c-ced7-4da5-b4e6-fa98d44085fb}" name="NewEvAction" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Output_Parameter name="accepted" type="RxTC" encoding="NATIVE"/>
+</Provided_Interface>
+
+<Provided_Interface id="{0b6cfe64-5c17-44b8-8e2e-ac4779f09b4a}" name="HandleTC" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Output_Parameter name="route" type="FwdCommand" encoding="NATIVE"/>
+    <Output_Parameter name="packet" type="RawTC" encoding="NATIVE"/>
+</Provided_Interface>
+
+<Provided_Interface id="{5f94aa4c-609e-4a14-886e-d435fcc36e93}" name="Init" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+</Provided_Interface>
+
+<Provided_Interface id="{c296e733-9c8d-48db-9ecc-a8cc0fc074c0}" name="Reboot" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+</Provided_Interface>
+
+<Provided_Interface id="{7d9d4443-3e8f-4acc-aeff-8169c3180247}" name="NewRxTC" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Input_Parameter name="tc" type="Telecommand" encoding="NATIVE"/>
+    <Output_Parameter name="accepted" type="RxTC" encoding="NATIVE"/>
+</Provided_Interface>
+
+<Provided_Interface id="{c3ed4577-7eca-4302-9f67-adcde814a5a1}" name="ExecHKFDIRTC" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Input_Parameter name="packet" type="RawTC" encoding="NATIVE"/>
+</Provided_Interface>
+
+<Provided_Interface id="{dc28133d-ef65-48c4-b8e5-06f90d9451de}" name="ExecBKGTC" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Input_Parameter name="packet" type="RawTC" encoding="NATIVE"/>
+</Provided_Interface>
+
+    <Implementations>
+        <Implementation name="default" language="CPP"/>
+    </Implementations>
+</Function>
+
+<Function id="{dd6cd922-10a6-41b4-a8ff-ed6d5a930a6e}" name="HKFDIRMng" is_type="NO" language="SDL" default_implementation="HKFDIRMngSDL" fixed_system_element="NO" required_system_element="NO" startup_priority="1" instances_min="1" instances_max="1">
+    <Property name="TASTE_IV_Properties::Default_Codegen" value="Ada"/>
+<Provided_Interface id="{f0677990-66dd-4606-aa78-909578ba41c3}" name="trigger" kind="Cyclic" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0" priority="1" stack_size="16384" dispatch_offset="1000" period="1000">
+</Provided_Interface>
+
+<Provided_Interface id="{bfbe98b4-6f8f-446f-ae50-da4d6cc7f0fa}" name="SHKFDIRTC" kind="Sporadic" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0" priority="1" miat="0" stack_size="1024" queue_size="1">
+    <Input_Parameter name="packet" type="RawTC" encoding="NATIVE"/>
+</Provided_Interface>
+
+<Required_Interface id="{470a3fee-944a-4085-a440-d03761496c9d}" name="SEvAction" kind="Sporadic" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0" priority="1" miat="0" stack_size="1024" queue_size="10">
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="true"/>
+</Required_Interface>
+
+<Required_Interface id="{0b17f24d-8d5e-4c42-a041-913a0a4e867a}" name="DoHousekeeping" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="true"/>
+</Required_Interface>
+
+<Required_Interface id="{99081ab4-b865-48c2-bbbe-7086825c2db3}" name="ExecHKFDIRTC" kind="Protected" enable_multicast="true" layer="default" required_system_element="NO" is_simulink_interface="false" wcet="0">
+    <Input_Parameter name="packet" type="RawTC" encoding="NATIVE"/>
+    <Property name="Taste::InheritPI" value="true"/>
+    <Property name="Taste::Autonamed" value="false"/>
+</Required_Interface>
+
+    <Implementations>
+        <Implementation name="HKFDIRMngSDL" language="SDL"/>
+        <Implementation name="HKFDIRMngC" language="C"/>
+    </Implementations>
+</Function>
+
+<Connection id="{e3c06850-4c10-4cde-997c-ad2c2bd7760a}" required_system_element="NO">
+    <Source iface_id="{c06ca038-f3e8-4e00-ab50-379ad70d5976}" func_name="TCManager" ri_name="Reboot" />
+    <Target iface_id="{c296e733-9c8d-48db-9ecc-a8cc0fc074c0}" func_name="Legacy" pi_name="Reboot" />
+</Connection>
+
+<Connection id="{92503ee5-205b-445c-905d-88711dcaefa8}" required_system_element="NO">
+    <Source iface_id="{f5f00e4e-9a76-4e32-aecf-8b4560de8fe2}" func_name="TCManager" ri_name="PollTC" />
+    <Target iface_id="{e497ffe2-5fec-4c0e-a6d4-dcf85182e8ec}" func_name="Legacy" pi_name="PollTC" />
+</Connection>
+
+<Connection id="{da963c2b-3ee9-4d93-bce0-5a34ef1c1797}" required_system_element="NO">
+    <Source iface_id="{470a3fee-944a-4085-a440-d03761496c9d}" func_name="HKFDIRMng" ri_name="SEvAction" />
+    <Target iface_id="{327ff124-2856-4526-992c-9e3d80d411d5}" func_name="TCManager" pi_name="SEvAction" />
+</Connection>
+
+<Connection id="{ed5d85da-3ee0-4322-ba33-84cb54af2039}" name="TCManager_NewRxTC____Legacy_NewRxTC" required_system_element="NO">
+    <Source iface_id="{2a369e75-ab2e-4b39-9f0b-c2879be3b0b6}" func_name="TCManager" ri_name="NewRxTC" />
+    <Target iface_id="{7d9d4443-3e8f-4acc-aeff-8169c3180247}" func_name="Legacy" pi_name="NewRxTC" />
+</Connection>
+
+<Connection id="{7cf21d28-a183-4149-8405-07b473b2e3d4}" required_system_element="NO">
+    <Source iface_id="{5b28dd50-1eb4-4bd2-bf46-7dace129997d}" func_name="BKGTCExec" ri_name="ExecBKGTC" />
+    <Target iface_id="{dc28133d-ef65-48c4-b8e5-06f90d9451de}" func_name="Legacy" pi_name="ExecBKGTC" />
+</Connection>
+
+<Connection id="{ce7fd834-9afa-4b7c-80cd-bcd74f3c7f47}" name="TCManager_NewEvAction____Legacy_NewEvAction" required_system_element="NO">
+    <Source iface_id="{2dc05ddb-62fa-4ed4-9fdc-08203295fd62}" func_name="TCManager" ri_name="NewEvAction" />
+    <Target iface_id="{5f37ba3c-ced7-4da5-b4e6-fa98d44085fb}" func_name="Legacy" pi_name="NewEvAction" />
+</Connection>
+
+<Connection id="{44f9e4d2-535b-4d9f-ad61-2a495936581a}" name="TCManager_Init____Legacy_Init" required_system_element="NO">
+    <Source iface_id="{45d873c8-8269-46ec-9f68-af40bcd9087f}" func_name="TCManager" ri_name="Init" />
+    <Target iface_id="{5f94aa4c-609e-4a14-886e-d435fcc36e93}" func_name="Legacy" pi_name="Init" />
+</Connection>
+
+<Connection id="{99f71195-ee63-4001-9772-429e3d3aa7cd}" name="TCManager_SHKFDIRTC____HKFDIRMng_SHKFDIRTC" required_system_element="NO">
+    <Source iface_id="{6ac78aaa-10b1-465a-b416-e763f60026b3}" func_name="TCManager" ri_name="SHKFDIRTC" />
+    <Target iface_id="{bfbe98b4-6f8f-446f-ae50-da4d6cc7f0fa}" func_name="HKFDIRMng" pi_name="SHKFDIRTC" />
+</Connection>
+
+<Connection id="{b143b3f9-849c-4319-9c45-f25bb7af0789}" name="HKFDIRMng_DoHousekeeping____Legacy_DoHousekeeping" required_system_element="NO">
+    <Source iface_id="{0b17f24d-8d5e-4c42-a041-913a0a4e867a}" func_name="HKFDIRMng" ri_name="DoHousekeeping" />
+    <Target iface_id="{312cc364-5734-49d5-912b-63ca5a4b1691}" func_name="Legacy" pi_name="DoHousekeeping" />
+</Connection>
+
+<Connection id="{42f7ac4e-e81b-4924-a19b-5c70b41cb814}" required_system_element="NO">
+    <Source iface_id="{2896bb92-94aa-494d-ae9e-1a13901633c8}" func_name="TCManager" ri_name="SBKGTC" />
+    <Target iface_id="{7eb44606-f546-4c36-808b-e8bd1bdc6050}" func_name="BKGTCExec" pi_name="SBKGTC" />
+</Connection>
+
+<Connection id="{43a45032-63e3-4297-8f0c-ceac4b02a470}" required_system_element="NO">
+    <Source iface_id="{99081ab4-b865-48c2-bbbe-7086825c2db3}" func_name="HKFDIRMng" ri_name="ExecHKFDIRTC" />
+    <Target iface_id="{c3ed4577-7eca-4302-9f67-adcde814a5a1}" func_name="Legacy" pi_name="ExecHKFDIRTC" />
+</Connection>
+
+<Connection id="{3989f6a9-8bdc-447e-9f4c-3d836c7beb78}" name="TCManager_HandleTC____Legacy_HandleTC" required_system_element="NO">
+    <Source iface_id="{b9454036-bc47-4a1c-8382-d82918311576}" func_name="TCManager" ri_name="HandleTC" />
+    <Target iface_id="{0b6cfe64-5c17-44b8-8e2e-ac4779f09b4a}" func_name="Legacy" pi_name="HandleTC" />
+</Connection>
+
+<Layer name="default" is_visible="true"/>
+
+</InterfaceView>

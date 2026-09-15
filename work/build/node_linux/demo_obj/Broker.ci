@@ -1,0 +1,65 @@
+graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c"
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:Broker_packetizer_error_to_broker_error" label: "Broker_packetizer_error_to_broker_error\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:58:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "Broker_initialize_packetizers_functions" label: "Broker_initialize_packetizers_functions\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:76:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "Broker_initialize" label: "Broker_initialize\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:105:1\n192 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_stack_malloc_0" label: "__asan_stack_malloc_0\n<built-in>" shape : ellipse }
+edge: { sourcename: "Broker_initialize" targetname: "__asan_stack_malloc_0" }
+edge: { sourcename: "Broker_initialize" targetname: "Broker_initialize_packetizers_functions" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:108:5" }
+node: { title: "__asan_report_load4" label: "__builtin___asan_report_load4\n<built-in>" shape : ellipse }
+edge: { sourcename: "Broker_initialize" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:111:24" }
+edge: { sourcename: "Broker_initialize" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:123:32" }
+node: { title: "__asan_report_load8" label: "__builtin___asan_report_load8\n<built-in>" shape : ellipse }
+edge: { sourcename: "Broker_initialize" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:124:38" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "Broker_initialize" targetname: "__indirect_call" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:125:13" }
+node: { title: "__stack_chk_fail" label: "__stack_chk_fail\n<built-in>" shape : ellipse }
+edge: { sourcename: "Broker_initialize" targetname: "__stack_chk_fail" }
+node: { title: "Broker_deliver_request" label: "Broker_deliver_request\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:132:1\n112 bytes (dynamic,bounded)\n0 dynamic objects" }
+node: { title: "Broker_acquire_lock" label: "Broker_acquire_lock\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:54:13" shape : ellipse }
+edge: { sourcename: "Broker_deliver_request" targetname: "Broker_acquire_lock" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:141:5" }
+edge: { sourcename: "Broker_deliver_request" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:151:26" }
+edge: { sourcename: "Broker_deliver_request" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:152:24" }
+node: { title: "getDeviceProvidedPacketizerHeaderSize" label: "getDeviceProvidedPacketizerHeaderSize\n/home/jorge/sctre/work/build/node_linux/demo/device_provided_packetizer.h:13:8" shape : ellipse }
+edge: { sourcename: "Broker_deliver_request" targetname: "getDeviceProvidedPacketizerHeaderSize" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:156:23" }
+edge: { sourcename: "Broker_deliver_request" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:158:21" }
+node: { title: "memcpy" label: "memcpy\n/usr/include/string.h:43:14" shape : ellipse }
+edge: { sourcename: "Broker_deliver_request" targetname: "memcpy" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:161:5" }
+edge: { sourcename: "Broker_deliver_request" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:163:35" }
+edge: { sourcename: "Broker_deliver_request" targetname: "__indirect_call" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:166:32" }
+edge: { sourcename: "Broker_deliver_request" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:185:11" }
+edge: { sourcename: "Broker_deliver_request" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:186:26" }
+edge: { sourcename: "Broker_deliver_request" targetname: "__indirect_call" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:187:5" }
+node: { title: "Broker_release_lock" label: "Broker_release_lock\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:55:13" shape : ellipse }
+edge: { sourcename: "Broker_deliver_request" targetname: "Broker_release_lock" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:189:5" }
+node: { title: "Broker_receive_packet" label: "Broker_receive_packet\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:193:1\n336 bytes (dynamic,bounded)\n0 dynamic objects" }
+node: { title: "__asan_stack_malloc_2" label: "__asan_stack_malloc_2\n<built-in>" shape : ellipse }
+edge: { sourcename: "Broker_receive_packet" targetname: "__asan_stack_malloc_2" }
+edge: { sourcename: "Broker_receive_packet" targetname: "Broker_acquire_lock" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:195:5" }
+edge: { sourcename: "Broker_receive_packet" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:210:24" }
+edge: { sourcename: "Broker_receive_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:211:37" }
+edge: { sourcename: "Broker_receive_packet" targetname: "__indirect_call" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:212:26" }
+edge: { sourcename: "Broker_receive_packet" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:224:45" }
+edge: { sourcename: "Broker_receive_packet" targetname: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:Broker_packetizer_error_to_broker_error" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:224:45" }
+edge: { sourcename: "Broker_receive_packet" targetname: "__indirect_call" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:225:13" }
+edge: { sourcename: "Broker_receive_packet" targetname: "Broker_release_lock" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:227:9" }
+node: { title: "__asan_report_load2" label: "__builtin___asan_report_load2\n<built-in>" shape : ellipse }
+edge: { sourcename: "Broker_receive_packet" targetname: "__asan_report_load2" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:231:56" }
+edge: { sourcename: "Broker_receive_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:231:22" }
+edge: { sourcename: "Broker_receive_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:234:5" }
+edge: { sourcename: "Broker_receive_packet" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:234:5" }
+edge: { sourcename: "Broker_receive_packet" targetname: "__asan_report_load2" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:234:5" }
+edge: { sourcename: "Broker_receive_packet" targetname: "__indirect_call" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:234:5" }
+edge: { sourcename: "Broker_receive_packet" targetname: "Broker_release_lock" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:239:5" }
+edge: { sourcename: "Broker_receive_packet" targetname: "__stack_chk_fail" }
+node: { title: "Broker_register_error_callback" label: "Broker_register_error_callback\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:243:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:246:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "__builtin___asan_unregister_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:246:1" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:246:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:246:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:246:1" }
+node: { title: "__asan_register_globals" label: "__builtin___asan_register_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Broker/Broker.c:246:1" }
+}

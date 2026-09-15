@@ -1,0 +1,57 @@
+graph: { title: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb"
+node: { title: "tcmanager__to_t_runtime_error_selection" label: "To_T_Runtime_Error_Selection\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.ads:31:4\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "tcmanager_datamodel__asn1scctcmanager_t_runtime_error_selectionRP" label: "Asn1scctcmanager_T_Runtime_Error_Selectionrp\n/home/jorge/sctre/work/dataview/Ada/src/tcmanager_datamodel.ads:92:6" shape : ellipse }
+edge: { sourcename: "tcmanager__to_t_runtime_error_selection" targetname: "tcmanager_datamodel__asn1scctcmanager_t_runtime_error_selectionRP" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.ads:31:236" }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+edge: { sourcename: "tcmanager__to_t_runtime_error_selection" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.ads:31:236" }
+node: { title: "*tcmanager_state" label: "Get_State\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.ads:32:4\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "__gnat_rcheck_CE_Invalid_Data" label: "gnat_rcheck_CE_Invalid_Data\n<built-in>" shape : ellipse }
+edge: { sourcename: "*tcmanager_state" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.ads:32:106" }
+node: { title: "tcmanager_ri__to_c_pointer" label: "To_C_Pointer\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager_ri.ads:48:13" shape : ellipse }
+edge: { sourcename: "*tcmanager_state" targetname: "tcmanager_ri__to_c_pointer" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.ads:32:56" }
+node: { title: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:tcmanager__p_0_dohandletc" label: "P_0_Dohandletc\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:12:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "tcmanager_ri__handletc" label: "Handletc\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager_ri.ads:12:14" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:tcmanager__p_0_dohandletc" targetname: "tcmanager_ri__handletc" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:15:10" }
+node: { title: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:tcmanager__p_0_doreboot" label: "P_0_Doreboot\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:21:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "tcmanager_ri__reboot" label: "Reboot\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager_ri.ads:27:14" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:tcmanager__p_0_doreboot" targetname: "tcmanager_ri__reboot" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:24:10" }
+node: { title: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:tcmanager__p_0_donewevaction" label: "P_0_Donewevaction\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:30:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "tcmanager_ri__newevaction" label: "Newevaction\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager_ri.ads:18:14" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:tcmanager__p_0_donewevaction" targetname: "tcmanager_ri__newevaction" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:33:10" }
+node: { title: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:tcmanager__p_0_donewrxtc" label: "P_0_Donewrxtc\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:39:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "tcmanager_ri__newrxtc" label: "Newrxtc\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager_ri.ads:21:14" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:tcmanager__p_0_donewrxtc" targetname: "tcmanager_ri__newrxtc" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:42:10" }
+node: { title: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:tcmanager__p_0_doinit" label: "P_0_Doinit\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:48:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "tcmanager_ri__init" label: "Init\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager_ri.ads:15:14" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:tcmanager__p_0_doinit" targetname: "tcmanager_ri__init" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:51:10" }
+node: { title: "tcmanager_PI_SEvAction" label: "Sevaction\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:57:4\n16 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_PI_SEvAction" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:59:19" }
+edge: { sourcename: "tcmanager_PI_SEvAction" targetname: "tcmanager__execute_transition" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:61:16" }
+edge: { sourcename: "tcmanager_PI_SEvAction" targetname: "tcmanager__execute_transition" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:63:16" }
+node: { title: "tcmanager_PI_poll" label: "Poll\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:68:4\n16 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "tcmanager_PI_poll" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:70:19" }
+edge: { sourcename: "tcmanager_PI_poll" targetname: "tcmanager__execute_transition" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:72:16" }
+edge: { sourcename: "tcmanager_PI_poll" targetname: "tcmanager__execute_transition" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:74:16" }
+node: { title: "tcmanager__execute_transition" label: "Execute_Transition\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:79:4\n80 bytes (static)\n0 dynamic objects" }
+node: { title: "ada__text_io__put__4" label: "Put\n/usr/lib/gcc/x86_64-linux-gnu/13/adainclude/a-textio.ads:519:14" shape : ellipse }
+edge: { sourcename: "tcmanager__execute_transition" targetname: "ada__text_io__put__4" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:90:19" }
+node: { title: "ada__text_io__new_line__2" label: "New_Line\n/usr/lib/gcc/x86_64-linux-gnu/13/adainclude/a-textio.ads:282:14" shape : ellipse }
+edge: { sourcename: "tcmanager__execute_transition" targetname: "ada__text_io__new_line__2" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:91:19" }
+edge: { sourcename: "tcmanager__execute_transition" targetname: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:tcmanager__p_0_doinit" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:93:19" }
+node: { title: "*tcmanager_get_sender" label: "Get_Sender\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager_ri.ads:38:14" shape : ellipse }
+edge: { sourcename: "tcmanager__execute_transition" targetname: "*tcmanager_get_sender" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:100:19" }
+node: { title: "tcmanager_ri__polltc" label: "Polltc\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager_ri.ads:24:14" shape : ellipse }
+edge: { sourcename: "tcmanager__execute_transition" targetname: "tcmanager_ri__polltc" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:102:19" }
+edge: { sourcename: "tcmanager__execute_transition" targetname: "*tcmanager_get_sender" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:119:19" }
+edge: { sourcename: "tcmanager__execute_transition" targetname: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:tcmanager__p_0_donewevaction" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:121:19" }
+edge: { sourcename: "tcmanager__execute_transition" targetname: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:tcmanager__p_0_dohandletc" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:128:19" }
+node: { title: "tcmanager_ri__shkfdirtc" label: "Shkfdirtc\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager_ri.ads:33:14" shape : ellipse }
+edge: { sourcename: "tcmanager__execute_transition" targetname: "tcmanager_ri__shkfdirtc" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:146:22" }
+node: { title: "tcmanager_ri__sbkgtc" label: "Sbkgtc\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager_ri.ads:30:14" shape : ellipse }
+edge: { sourcename: "tcmanager__execute_transition" targetname: "tcmanager_ri__sbkgtc" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:150:22" }
+edge: { sourcename: "tcmanager__execute_transition" targetname: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:tcmanager__p_0_doreboot" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:158:19" }
+node: { title: "*tcmanager_check_queue" label: "Check_Queue\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.ads:62:14" shape : ellipse }
+edge: { sourcename: "tcmanager__execute_transition" targetname: "*tcmanager_check_queue" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:168:16" }
+node: { title: "*tcmanager_startup" label: "Startup\n/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:194:4\n16 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "*tcmanager_startup" targetname: "tcmanager__execute_transition" label: "/home/jorge/sctre/work/tcmanager/SDL/code/tcmanager.adb:196:10" }
+}

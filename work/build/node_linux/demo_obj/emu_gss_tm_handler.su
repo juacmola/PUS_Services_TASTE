@@ -1,0 +1,11 @@
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tm_handler.cc:39:9:static uint8_t GSSTMHandler::GetPUSType(const tm_mem_descriptor*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tm_handler.cc:49:9:static uint8_t GSSTMHandler::GetPUSSubtype(const tm_mem_descriptor*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tm_handler.cc:60:1:GSSTMHandler::GSSTMHandler(const uint8_t*)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tm_handler.cc:76:9:uint8_t GSSTMHandler::GetNextUInt8AppDataField()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tm_handler.cc:84:10:uint16_t GSSTMHandler::GetNextUInt16AppDataField()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tm_handler.cc:92:10:uint32_t GSSTMHandler::GetNextUInt32AppDataField()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tm_handler.cc:101:10:uint64_t GSSTMHandler::GetNextUInt64AppDataField()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tm_handler.cc:110:8:int8_t GSSTMHandler::GetNextInt8AppDataField()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tm_handler.cc:118:9:int16_t GSSTMHandler::GetNextInt16AppDataField()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tm_handler.cc:127:9:int32_t GSSTMHandler::GetNextInt32AppDataField()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tm_handler.cc:136:9:int64_t GSSTMHandler::GetNextInt64AppDataField()	16	static

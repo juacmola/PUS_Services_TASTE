@@ -1,0 +1,4 @@
+graph: { title: "/home/jorge/sctre/work/dataview/Ada/boards/x86/board_config.ads"
+node: { title: "board_config__Tasn1int_array_0_19BIP" label: "Tasn1int_array_0_19BIP\n<built-in>\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "board_config__get_number_of_digits" label: "Get_Number_Of_Digits\n/home/jorge/sctre/work/dataview/Ada/boards/x86/board_config.ads:20:4\n16 bytes (static)\n0 dynamic objects" }
+}

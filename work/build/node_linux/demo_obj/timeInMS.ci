@@ -1,0 +1,22 @@
+graph: { title: "/home/jorge/sctre/work/dataview/C/timeInMS.c"
+node: { title: "getTimeInMilliseconds" label: "getTimeInMilliseconds\n/home/jorge/sctre/work/dataview/C/timeInMS.c:3:11\n160 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_stack_malloc_0" label: "__asan_stack_malloc_0\n<built-in>" shape : ellipse }
+edge: { sourcename: "getTimeInMilliseconds" targetname: "__asan_stack_malloc_0" }
+node: { title: "clock_gettime" label: "clock_gettime\n/usr/include/time.h:289:12" shape : ellipse }
+edge: { sourcename: "getTimeInMilliseconds" targetname: "clock_gettime" label: "/home/jorge/sctre/work/dataview/C/timeInMS.c:8:5" }
+node: { title: "__asan_report_load8" label: "__builtin___asan_report_load8\n<built-in>" shape : ellipse }
+edge: { sourcename: "getTimeInMilliseconds" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/dataview/C/timeInMS.c:9:41" }
+edge: { sourcename: "getTimeInMilliseconds" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/dataview/C/timeInMS.c:9:64" }
+node: { title: "__stack_chk_fail" label: "__stack_chk_fail\n<built-in>" shape : ellipse }
+edge: { sourcename: "getTimeInMilliseconds" targetname: "__stack_chk_fail" }
+node: { title: "/home/jorge/sctre/work/dataview/C/timeInMS.c:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/dataview/C/timeInMS.c:17:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "__builtin___asan_unregister_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/dataview/C/timeInMS.c:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/dataview/C/timeInMS.c:17:1" }
+node: { title: "/home/jorge/sctre/work/dataview/C/timeInMS.c:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/dataview/C/timeInMS.c:17:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/dataview/C/timeInMS.c:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/dataview/C/timeInMS.c:17:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/dataview/C/timeInMS.c:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/dataview/C/timeInMS.c:17:1" }
+node: { title: "__asan_register_globals" label: "__builtin___asan_register_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/dataview/C/timeInMS.c:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/dataview/C/timeInMS.c:17:1" }
+}

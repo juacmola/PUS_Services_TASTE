@@ -1,0 +1,274 @@
+V "GNAT Lib v13"
+A -Wall
+A -Wextra
+A -gnatwa
+A -gnatA
+A -gnatd.E
+A -fstack-check=specific
+A -fstack-usage
+A -fcallgraph-info=su,da
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U tcmanager%b		tcmanager.adb		08688279 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U tcmanager%s		tcmanager.ads		827a8709 EB NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W adaasn1rtl%s		adaasn1rtl.adb		adaasn1rtl.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W sctre_dataview%s	sctre_dataview.adb	sctre_dataview.ali
+W system_dataview%s	system_dataview.adb	system_dataview.ali
+W taste_basictypes%s	taste_basictypes.adb	taste_basictypes.ali
+W tcmanager_datamodel%s	tcmanager_datamodel.adb	tcmanager_datamodel.ali
+W tcmanager_ri%s	tcmanager_ri.adb	tcmanager_ri.ali
+
+D ada.ads		20240521074738 76789da1 ada%s
+D a-charac.ads		20240521074737 2d3ec45b ada.characters%s
+D a-chahan.ads		20240521074737 278246c0 ada.characters.handling%s
+D a-chlat1.ads		20240521074737 e0d72e76 ada.characters.latin_1%s
+D a-except.ads		20240521074738 2a7d8d70 ada.exceptions%s
+D a-ioexce.ads		20240521074738 40018c65 ada.io_exceptions%s
+D a-stream.ads		20240521074738 119b8fb3 ada.streams%s
+D a-string.ads		20240521074738 90ac6797 ada.strings%s
+D a-sttebu.ads		20240521074738 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20240521074738 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240521074738 9eaa38c6 ada.tags%s
+D a-textio.ads		20240521074738 5c2c6153 ada.text_io%s
+D a-unccon.ads		20240521074738 0e9b276f ada.unchecked_conversion%s
+D adaasn1rtl.ads	20260913085857 2efce9f1 adaasn1rtl%s
+D board_config.ads	20260913085857 ff248fc1 board_config%s
+D interfac.ads		20240521074738 15f799c2 interfaces%s
+D i-c.ads		20240521074738 5c5a6c17 interfaces.c%s
+D i-cstrin.ads		20240521074738 f40c8db4 interfaces.c.strings%s
+D i-cstrea.ads		20240521074738 e53d8b8e interfaces.c_streams%s
+D sctre_dataview.ads	20260913085857 b51d3bcd sctre_dataview%s
+D system.ads		20240521074738 426dafb8 system%s
+D s-bitops.ads		20240521074738 cdf3ac3c system.bit_ops%s
+D s-bituti.ads		20240521074738 797cbcce system.bitfield_utils%s
+D s-bitfie.ads		20240521074738 8e9b6290 system.bitfields%s
+D s-crtl.ads		20240521074738 8a0692f8 system.crtl%s
+D s-exctab.ads		20240521074738 91bef6ef system.exception_table%s
+D s-ficobl.ads		20240521074738 dc5161d4 system.file_control_block%s
+D s-parame.ads		20251218205951 1f39ba92 system.parameters%s
+D s-putima.ads		20240521074738 17291fe4 system.put_images%s
+D s-secsta.ads		20240521074738 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240521074738 df77073e system.soft_links%s
+D s-stache.ads		20240521074738 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240521074738 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240521074738 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20240521074738 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20240521074738 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240521074738 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20240521074738 d9032363 system.wch_con%s
+D system_dataview.ads	20260913085857 b89ed9d5 system_dataview%s
+D taste_basictypes.ads	20260913085857 38c2c5f6 taste_basictypes%s
+D tcmanager.ads		20260913085856 cec155eb tcmanager%s
+D tcmanager.adb		20260913085856 e71b1f0a tcmanager%b
+D tcmanager_datamodel.ads  20260913085857 f4fd7c5f tcmanager_datamodel%s
+D tcmanager_ri.ads	20260913085851 65823214 tcmanager_ri%s
+D text_io.ads		20240521074738 21b2c898 text_io%s
+G a e
+G c Z s s [to_t_runtime_error_selection tcmanager 31 13 none]
+G c Z s s [get_state tcmanager 32 13 none]
+G c Z s b [startup tcmanager 33 14 none]
+G c Z s b [sevaction tcmanager 35 14 none]
+G c Z s b [poll tcmanager 38 14 none]
+G c Z s b [execute_transition tcmanager 60 14 none]
+G c Z s s [check_queue tcmanager 62 14 none]
+G c Z b b [p_0_dohandletc tcmanager 7 14 none]
+G c Z b b [p_0_doreboot tcmanager 8 14 none]
+G c Z b b [p_0_donewevaction tcmanager 9 14 none]
+G c Z b b [p_0_donewrxtc tcmanager 10 14 none]
+G c Z b b [p_0_doinit tcmanager 11 14 none]
+G r c none [get_state tcmanager 32 13 none] [to_c_pointer tcmanager_ri 48 13 none]
+G r c none [startup tcmanager 33 14 none] [init tcmanager_ri 15 14 none]
+G r c none [startup tcmanager 33 14 none] [get_sender tcmanager_ri 38 14 none]
+G r c none [startup tcmanager 33 14 none] [polltc tcmanager_ri 24 14 none]
+G r c none [startup tcmanager 33 14 none] [newevaction tcmanager_ri 18 14 none]
+G r c none [startup tcmanager 33 14 none] [handletc tcmanager_ri 12 14 none]
+G r c none [startup tcmanager 33 14 none] [shkfdirtc tcmanager_ri 33 14 none]
+G r c none [startup tcmanager 33 14 none] [sbkgtc tcmanager_ri 30 14 none]
+G r c none [startup tcmanager 33 14 none] [reboot tcmanager_ri 27 14 none]
+G r c none [sevaction tcmanager 35 14 none] [init tcmanager_ri 15 14 none]
+G r c none [sevaction tcmanager 35 14 none] [get_sender tcmanager_ri 38 14 none]
+G r c none [sevaction tcmanager 35 14 none] [polltc tcmanager_ri 24 14 none]
+G r c none [sevaction tcmanager 35 14 none] [newevaction tcmanager_ri 18 14 none]
+G r c none [sevaction tcmanager 35 14 none] [handletc tcmanager_ri 12 14 none]
+G r c none [sevaction tcmanager 35 14 none] [shkfdirtc tcmanager_ri 33 14 none]
+G r c none [sevaction tcmanager 35 14 none] [sbkgtc tcmanager_ri 30 14 none]
+G r c none [sevaction tcmanager 35 14 none] [reboot tcmanager_ri 27 14 none]
+G r c none [poll tcmanager 38 14 none] [init tcmanager_ri 15 14 none]
+G r c none [poll tcmanager 38 14 none] [get_sender tcmanager_ri 38 14 none]
+G r c none [poll tcmanager 38 14 none] [polltc tcmanager_ri 24 14 none]
+G r c none [poll tcmanager 38 14 none] [newevaction tcmanager_ri 18 14 none]
+G r c none [poll tcmanager 38 14 none] [handletc tcmanager_ri 12 14 none]
+G r c none [poll tcmanager 38 14 none] [shkfdirtc tcmanager_ri 33 14 none]
+G r c none [poll tcmanager 38 14 none] [sbkgtc tcmanager_ri 30 14 none]
+G r c none [poll tcmanager 38 14 none] [reboot tcmanager_ri 27 14 none]
+G r c none [execute_transition tcmanager 60 14 none] [init tcmanager_ri 15 14 none]
+G r c none [execute_transition tcmanager 60 14 none] [get_sender tcmanager_ri 38 14 none]
+G r c none [execute_transition tcmanager 60 14 none] [polltc tcmanager_ri 24 14 none]
+G r c none [execute_transition tcmanager 60 14 none] [newevaction tcmanager_ri 18 14 none]
+G r c none [execute_transition tcmanager 60 14 none] [handletc tcmanager_ri 12 14 none]
+G r c none [execute_transition tcmanager 60 14 none] [shkfdirtc tcmanager_ri 33 14 none]
+G r c none [execute_transition tcmanager 60 14 none] [sbkgtc tcmanager_ri 30 14 none]
+G r c none [execute_transition tcmanager 60 14 none] [reboot tcmanager_ri 27 14 none]
+G r c none [p_0_dohandletc tcmanager 7 14 none] [handletc tcmanager_ri 12 14 none]
+G r c none [p_0_doreboot tcmanager 8 14 none] [reboot tcmanager_ri 27 14 none]
+G r c none [p_0_donewevaction tcmanager 9 14 none] [newevaction tcmanager_ri 18 14 none]
+G r c none [p_0_donewrxtc tcmanager 10 14 none] [newrxtc tcmanager_ri 21 14 none]
+G r c none [p_0_doinit tcmanager 11 14 none] [init tcmanager_ri 15 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 41|5r6 9r5
+X 2 a-charac.ads
+16K13*Characters 18e19 41|5r10 9r9
+X 3 a-chahan.ads
+43K24*Handling 455e28 41|5w21 9r20
+X 12 a-textio.ads
+282U14*New_Line 42|91s19
+519U14*Put 42|90s19
+X 14 adaasn1rtl.ads
+5K9*adaasn1rtl 128e15 41|17w6 18r5
+19B12*Asn1Boolean{boolean} 41|62r37 42|81r25
+X 16 interfac.ads
+38K9*Interfaces 232e15 41|3w6 4r6 7r5 8r5
+X 17 i-c.ads
+29K20*C 597e17 41|4r17 8r16
+X 18 i-cstrin.ads
+44K22*Strings 156e25 41|4w19 8r18
+59P9*chars_ptr 41|32r30
+X 20 sctre_dataview.ads
+34K9*SCTRE_DATAVIEW 179e19 41|11w6 12r5
+41R6*asn1SccRawTC 44e11 41|41r42 43r45 45r73
+54E6*asn1SccRxTC 54e60 41|49r47 51r75 53r42
+54n22*asn1Sccnot_accepted{54E6} 42|111r45
+54n43*asn1Sccaccepted{54E6} 42|105r42
+66E6*asn1SccFwdCommand 66e106 41|45r41
+66n28*asn1Sccto_reboot{66E6} 42|138r42
+66n46*asn1Sccexec_prio_tc{66E6} 42|132r39
+66n67*asn1Sccfwdhk_fdir_tc{66E6} 42|144r42
+66n89*asn1Sccfwdbkgtc{66E6} 42|148r42
+128R6*asn1SccTelecommand 132e11 41|51r40
+X 39 system_dataview.ads
+34K9*System_Dataview 66e20 41|15w6 16r5
+49E6*asn1SccPID 49e102 41|24r20 41r67 43r70 45r98 47r36 49r71 51r99 53r66
+. 55r38 57r44 57r67 59r80
+49n72*asn1Scctcmanager{49E6} 41|24r34
+49n90*asn1Sccenv{49E6} 41|27r18 28r21 41r81 43r84 45r112 47r50 49r85 51r113
+. 53r80 55r52 57r81 59r94
+X 40 taste_basictypes.ads
+34K9*TASTE_BasicTypes 144e21 41|13w6 14r5 31r49
+62E6*asn1SccT_Runtime_Error_selection 62e101 41|31r66
+67R6*asn1SccT_Runtime_Error 77e11 41|59r45
+X 41 tcmanager.ads
+22K9*Tcmanager 64l5 64e14 42|6b14 199l5 199t14
+24e4*self{39|49E6}
+25r4*Default_Context{43|64R6} 30r47
+30r4*ctxt{43|64R6} 32r102 42|15m24 15r24 15m38 15r38 33m27 33r27 42m23 42r23
+. 42m32 42r32 59r15 70r15 83r17 96m19 100m35 100r35 102m31 102r31 105r23
+. 108m22 111r26 114m22 119m35 119r35 124m19 132r23 135m22 138r26 141m22 144r26
+. 146m37 146r37 148r26 150m34 150r34 154m19 167r16 173r16 181r16 197m10
+31V13*To_T_Runtime_Error_Selection{43|92E6} 31>43
+31e43 Src{40|62E6} 31r247
+32V13*Get_State{18|59P9}
+33U14*Startup 42|194b14 198l11 198t18
+35U14*SEvAction 36i<c,tcmanager_PI_SEvAction>21 42|57b14 65l11 65t20
+38U14*poll 39i<c,tcmanager_PI_poll>21 42|68b14 76l11 76t15
+41U14*RI_0_SBKGTC=41:114 42|150s22
+41r26 packet{20|41R6}
+41e56 Dest_PID{39|49E6}
+43U14*RI_0_SHKFDIRTC=43:117 42|146s22
+43r29 packet{20|41R6}
+43e59 Dest_PID{39|49E6}
+45U14*RI_0_HandleTC=45:145 42|15s10
+45e29 Route{20|66E6}
+45r60 Packet{20|41R6}
+45e87 Dest_PID{39|49E6}
+47U14*RI_0_Init=47:83 42|51s10
+47e25 Dest_PID{39|49E6}
+49U14*RI_0_NewEvAction=49:118 42|33s10
+49e32 Accepted{20|54E6}
+49e60 Dest_PID{39|49E6}
+51U14*RI_0_NewRxTC=51:146 42|42s10
+51r28 Tc{20|128R6}
+51e60 Accepted{20|54E6}
+51e88 Dest_PID{39|49E6}
+53U14*RI_0_PollTC=53:113 42|102s19
+53e27 Accepted{20|54E6}
+53e55 Dest_PID{39|49E6}
+55U14*RI_0_Reboot=55:85 42|24s10
+55e27 Dest_PID{39|49E6}
+57U14*RI_0_get_sender=57:114 42|100s19 119s19
+57e31 sender{39|49E6}
+57e56 Dest_PID{39|49E6}
+59U14*RI_0_get_last_error=59:127
+59r35 err{40|67R6}
+59e69 Dest_PID{39|49E6}
+60U14*Execute_Transition 60>34 42|61s16 63s16 72s16 74s16 79b14 191l11 191t29
+. 196s10
+60i34 Id{integer} 42|79b34 80r25
+61N4*CS_Only 42|63r36 74r36 159r21
+62U14*Check_Queue 62<27 42|168s16
+62b27 Res{14|19E12}
+X 42 tcmanager.adb
+7U14 p_0_doHandleTC 12b14 18l11 18t25 128s19
+8U14 p_0_doReboot 21b14 27l11 27t23 158s19
+9U14 p_0_doNewEvAction 30b14 36l11 36t28 121s19
+10U14 p_0_doNewRxTC 39b14 45l11 45t24
+11U14 p_0_doInit 48b14 54l11 54t21 93s19
+80i7 trId{integer} 83r36 86r17 87r18 95m19 107m22 113m22 123m19 134m22 140m22
+. 153m19 160m19 170r35 178m19 186m19
+81b7 Message_Pending{14|19E12} 168m29 170r16
+165L15 Continuous_Signals 97r24 109r27 115r27 125r24 136r27 142r27 155r24
+. 161r24
+189L15 Next_Transition 171r21
+X 43 tcmanager_datamodel.ads
+46K9*Tcmanager_Datamodel 41|19w6 19r31 31r107 31r174 43|109e24
+51E6*asn1SccTcmanager_States 41|32r71 43|51e79
+51n34*asn1Sccreboot{51E6} 42|141r36 173r29
+51n49*asn1Sccready{51E6} 42|60r18 71r18 96r33 114r36 135r36 154r33
+51n63*asn1Sccvalidtc{51E6} 42|108r36 124r33 181r29
+64R6*asn1SccTcmanager_Context 41|25r30 30r19 43|73e11
+65e5*state{51E6} 41|32r107 42|59r20 70r20 96m24 108m27 114m27 124m24 135m27
+. 141m27 154m24 173r21 181r21
+66b5*init_done{14|19E12} 41|26m8 42|83r22 167r21 197m15
+67e5*sender{39|49E6} 41|27m8 42|100m40 119m40
+68e5*offspring{39|49E6} 41|28m8
+69e5*acceptance{20|54E6} 42|33m32 42m37 102m36 105r28 111r31
+70r5*packet{20|41R6} 42|15m43 146m42 150m39
+71e5*fwdcomm{20|66E6} 42|15m29 132r28 138r31 144r31 148r31
+72r5*tc{20|128R6} 42|42m28
+92E6*asn1SccTcmanager_T_Runtime_Error_Selection 41|31r127 31r194 43|92e133
+X 44 tcmanager_ri.ads
+10K9*Tcmanager_RI 41|21w6 32r44 41r101 43r104 45r132 47r70 49r105 51r133
+. 53r100 55r72 57r101 59r114 44|50e17
+12U14*Handletc 41|45r145
+15U14*Init 41|47r83
+18U14*Newevaction 41|49r118
+21U14*Newrxtc 41|51r146
+24U14*Polltc 41|53r113
+27U14*Reboot 41|55r85
+30U14*Sbkgtc 41|41r114
+33U14*Shkfdirtc 41|43r117
+38U14*Get_Sender 41|57r114
+41U14*Get_Last_Error 41|59r127
+48V13*To_C_Pointer{18|59P9} 41|32s57
+X 45 text_io.ads
+24K9*Text_IO=24:29 42|3w6 3r19
+

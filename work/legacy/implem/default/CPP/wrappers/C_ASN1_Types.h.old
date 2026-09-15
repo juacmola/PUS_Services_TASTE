@@ -1,0 +1,452 @@
+#ifndef __C_DATAVIEW_UNIQ_H__
+#define __C_DATAVIEW_UNIQ_H__
+
+#if defined( __unix__ ) || defined( __MSP430__ )
+#include <stdlib.h> /* for size_t */
+#else
+typedef unsigned size_t;
+#endif
+
+#ifndef STATIC
+#define STATIC
+#endif
+
+
+#include "dataview-uniq.h" // Space certified compiler generated
+
+#include "../../system_config.h" // Choose ASN.1 Types to use
+
+#ifdef __NEED_RawTC_UPER
+int Encode_UPER_RawTC(void *pBuffer, size_t iMaxBufferSize, const asn1SccRawTC *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_RawTC_ACN
+int Encode_ACN_RawTC(void *pBuffer, size_t iMaxBufferSize, asn1SccRawTC *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_RawTC_NATIVE
+int Encode_NATIVE_RawTC(void *pBuffer, size_t iMaxBufferSize, const asn1SccRawTC *pSrc);
+#endif
+
+#ifdef __NEED_RawTC_UPER
+int Decode_UPER_RawTC(asn1SccRawTC *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_RawTC_ACN
+int Decode_ACN_RawTC(asn1SccRawTC *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_RawTC_NATIVE
+int Decode_NATIVE_RawTC(asn1SccRawTC *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_RxTC_UPER
+int Encode_UPER_RxTC(void *pBuffer, size_t iMaxBufferSize, const asn1SccRxTC *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_RxTC_ACN
+int Encode_ACN_RxTC(void *pBuffer, size_t iMaxBufferSize, asn1SccRxTC *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_RxTC_NATIVE
+int Encode_NATIVE_RxTC(void *pBuffer, size_t iMaxBufferSize, const asn1SccRxTC *pSrc);
+#endif
+
+#ifdef __NEED_RxTC_UPER
+int Decode_UPER_RxTC(asn1SccRxTC *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_RxTC_ACN
+int Decode_ACN_RxTC(asn1SccRxTC *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_RxTC_NATIVE
+int Decode_NATIVE_RxTC(asn1SccRxTC *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_FwdCommand_UPER
+int Encode_UPER_FwdCommand(void *pBuffer, size_t iMaxBufferSize, const asn1SccFwdCommand *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_FwdCommand_ACN
+int Encode_ACN_FwdCommand(void *pBuffer, size_t iMaxBufferSize, asn1SccFwdCommand *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_FwdCommand_NATIVE
+int Encode_NATIVE_FwdCommand(void *pBuffer, size_t iMaxBufferSize, const asn1SccFwdCommand *pSrc);
+#endif
+
+#ifdef __NEED_FwdCommand_UPER
+int Decode_UPER_FwdCommand(asn1SccFwdCommand *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_FwdCommand_ACN
+int Decode_ACN_FwdCommand(asn1SccFwdCommand *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_FwdCommand_NATIVE
+int Decode_NATIVE_FwdCommand(asn1SccFwdCommand *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_GPendingEvAction_UPER
+int Encode_UPER_GPendingEvAction(void *pBuffer, size_t iMaxBufferSize, const asn1SccGPendingEvAction *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_GPendingEvAction_ACN
+int Encode_ACN_GPendingEvAction(void *pBuffer, size_t iMaxBufferSize, asn1SccGPendingEvAction *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_GPendingEvAction_NATIVE
+int Encode_NATIVE_GPendingEvAction(void *pBuffer, size_t iMaxBufferSize, const asn1SccGPendingEvAction *pSrc);
+#endif
+
+#ifdef __NEED_GPendingEvAction_UPER
+int Decode_UPER_GPendingEvAction(asn1SccGPendingEvAction *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_GPendingEvAction_ACN
+int Decode_ACN_GPendingEvAction(asn1SccGPendingEvAction *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_GPendingEvAction_NATIVE
+int Decode_NATIVE_GPendingEvAction(asn1SccGPendingEvAction *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_GToReboot_UPER
+int Encode_UPER_GToReboot(void *pBuffer, size_t iMaxBufferSize, const asn1SccGToReboot *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_GToReboot_ACN
+int Encode_ACN_GToReboot(void *pBuffer, size_t iMaxBufferSize, asn1SccGToReboot *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_GToReboot_NATIVE
+int Encode_NATIVE_GToReboot(void *pBuffer, size_t iMaxBufferSize, const asn1SccGToReboot *pSrc);
+#endif
+
+#ifdef __NEED_GToReboot_UPER
+int Decode_UPER_GToReboot(asn1SccGToReboot *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_GToReboot_ACN
+int Decode_ACN_GToReboot(asn1SccGToReboot *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_GToReboot_NATIVE
+int Decode_NATIVE_GToReboot(asn1SccGToReboot *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_GFwToHK_FDIR_UPER
+int Encode_UPER_GFwToHK_FDIR(void *pBuffer, size_t iMaxBufferSize, const asn1SccGFwToHK_FDIR *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_GFwToHK_FDIR_ACN
+int Encode_ACN_GFwToHK_FDIR(void *pBuffer, size_t iMaxBufferSize, asn1SccGFwToHK_FDIR *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_GFwToHK_FDIR_NATIVE
+int Encode_NATIVE_GFwToHK_FDIR(void *pBuffer, size_t iMaxBufferSize, const asn1SccGFwToHK_FDIR *pSrc);
+#endif
+
+#ifdef __NEED_GFwToHK_FDIR_UPER
+int Decode_UPER_GFwToHK_FDIR(asn1SccGFwToHK_FDIR *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_GFwToHK_FDIR_ACN
+int Decode_ACN_GFwToHK_FDIR(asn1SccGFwToHK_FDIR *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_GFwToHK_FDIR_NATIVE
+int Decode_NATIVE_GFwToHK_FDIR(asn1SccGFwToHK_FDIR *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_GFwToBKG_UPER
+int Encode_UPER_GFwToBKG(void *pBuffer, size_t iMaxBufferSize, const asn1SccGFwToBKG *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_GFwToBKG_ACN
+int Encode_ACN_GFwToBKG(void *pBuffer, size_t iMaxBufferSize, asn1SccGFwToBKG *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_GFwToBKG_NATIVE
+int Encode_NATIVE_GFwToBKG(void *pBuffer, size_t iMaxBufferSize, const asn1SccGFwToBKG *pSrc);
+#endif
+
+#ifdef __NEED_GFwToBKG_UPER
+int Decode_UPER_GFwToBKG(asn1SccGFwToBKG *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_GFwToBKG_ACN
+int Decode_ACN_GFwToBKG(asn1SccGFwToBKG *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_GFwToBKG_NATIVE
+int Decode_NATIVE_GFwToBKG(asn1SccGFwToBKG *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_Telecommand_UPER
+int Encode_UPER_Telecommand(void *pBuffer, size_t iMaxBufferSize, const asn1SccTelecommand *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_Telecommand_ACN
+int Encode_ACN_Telecommand(void *pBuffer, size_t iMaxBufferSize, asn1SccTelecommand *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_Telecommand_NATIVE
+int Encode_NATIVE_Telecommand(void *pBuffer, size_t iMaxBufferSize, const asn1SccTelecommand *pSrc);
+#endif
+
+#ifdef __NEED_Telecommand_UPER
+int Decode_UPER_Telecommand(asn1SccTelecommand *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_Telecommand_ACN
+int Decode_ACN_Telecommand(asn1SccTelecommand *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_Telecommand_NATIVE
+int Decode_NATIVE_Telecommand(asn1SccTelecommand *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_Pr_time_UPER
+int Encode_UPER_Pr_time(void *pBuffer, size_t iMaxBufferSize, const asn1SccPr_time *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_Pr_time_ACN
+int Encode_ACN_Pr_time(void *pBuffer, size_t iMaxBufferSize, asn1SccPr_time *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_Pr_time_NATIVE
+int Encode_NATIVE_Pr_time(void *pBuffer, size_t iMaxBufferSize, const asn1SccPr_time *pSrc);
+#endif
+
+#ifdef __NEED_Pr_time_UPER
+int Decode_UPER_Pr_time(asn1SccPr_time *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_Pr_time_ACN
+int Decode_ACN_Pr_time(asn1SccPr_time *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_Pr_time_NATIVE
+int Decode_NATIVE_Pr_time(asn1SccPr_time *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_T_Int32_UPER
+int Encode_UPER_T_Int32(void *pBuffer, size_t iMaxBufferSize, const asn1SccT_Int32 *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Int32_ACN
+int Encode_ACN_T_Int32(void *pBuffer, size_t iMaxBufferSize, asn1SccT_Int32 *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Int32_NATIVE
+int Encode_NATIVE_T_Int32(void *pBuffer, size_t iMaxBufferSize, const asn1SccT_Int32 *pSrc);
+#endif
+
+#ifdef __NEED_T_Int32_UPER
+int Decode_UPER_T_Int32(asn1SccT_Int32 *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Int32_ACN
+int Decode_ACN_T_Int32(asn1SccT_Int32 *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Int32_NATIVE
+int Decode_NATIVE_T_Int32(asn1SccT_Int32 *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_T_UInt32_UPER
+int Encode_UPER_T_UInt32(void *pBuffer, size_t iMaxBufferSize, const asn1SccT_UInt32 *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_T_UInt32_ACN
+int Encode_ACN_T_UInt32(void *pBuffer, size_t iMaxBufferSize, asn1SccT_UInt32 *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_T_UInt32_NATIVE
+int Encode_NATIVE_T_UInt32(void *pBuffer, size_t iMaxBufferSize, const asn1SccT_UInt32 *pSrc);
+#endif
+
+#ifdef __NEED_T_UInt32_UPER
+int Decode_UPER_T_UInt32(asn1SccT_UInt32 *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_T_UInt32_ACN
+int Decode_ACN_T_UInt32(asn1SccT_UInt32 *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_T_UInt32_NATIVE
+int Decode_NATIVE_T_UInt32(asn1SccT_UInt32 *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_T_Runtime_Error_UPER
+int Encode_UPER_T_Runtime_Error(void *pBuffer, size_t iMaxBufferSize, const asn1SccT_Runtime_Error *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Runtime_Error_ACN
+int Encode_ACN_T_Runtime_Error(void *pBuffer, size_t iMaxBufferSize, asn1SccT_Runtime_Error *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Runtime_Error_NATIVE
+int Encode_NATIVE_T_Runtime_Error(void *pBuffer, size_t iMaxBufferSize, const asn1SccT_Runtime_Error *pSrc);
+#endif
+
+#ifdef __NEED_T_Runtime_Error_UPER
+int Decode_UPER_T_Runtime_Error(asn1SccT_Runtime_Error *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Runtime_Error_ACN
+int Decode_ACN_T_Runtime_Error(asn1SccT_Runtime_Error *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Runtime_Error_NATIVE
+int Decode_NATIVE_T_Runtime_Error(asn1SccT_Runtime_Error *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_T_Int8_UPER
+int Encode_UPER_T_Int8(void *pBuffer, size_t iMaxBufferSize, const asn1SccT_Int8 *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Int8_ACN
+int Encode_ACN_T_Int8(void *pBuffer, size_t iMaxBufferSize, asn1SccT_Int8 *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Int8_NATIVE
+int Encode_NATIVE_T_Int8(void *pBuffer, size_t iMaxBufferSize, const asn1SccT_Int8 *pSrc);
+#endif
+
+#ifdef __NEED_T_Int8_UPER
+int Decode_UPER_T_Int8(asn1SccT_Int8 *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Int8_ACN
+int Decode_ACN_T_Int8(asn1SccT_Int8 *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Int8_NATIVE
+int Decode_NATIVE_T_Int8(asn1SccT_Int8 *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_T_UInt8_UPER
+int Encode_UPER_T_UInt8(void *pBuffer, size_t iMaxBufferSize, const asn1SccT_UInt8 *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_T_UInt8_ACN
+int Encode_ACN_T_UInt8(void *pBuffer, size_t iMaxBufferSize, asn1SccT_UInt8 *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_T_UInt8_NATIVE
+int Encode_NATIVE_T_UInt8(void *pBuffer, size_t iMaxBufferSize, const asn1SccT_UInt8 *pSrc);
+#endif
+
+#ifdef __NEED_T_UInt8_UPER
+int Decode_UPER_T_UInt8(asn1SccT_UInt8 *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_T_UInt8_ACN
+int Decode_ACN_T_UInt8(asn1SccT_UInt8 *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_T_UInt8_NATIVE
+int Decode_NATIVE_T_UInt8(asn1SccT_UInt8 *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_T_Boolean_UPER
+int Encode_UPER_T_Boolean(void *pBuffer, size_t iMaxBufferSize, const asn1SccT_Boolean *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Boolean_ACN
+int Encode_ACN_T_Boolean(void *pBuffer, size_t iMaxBufferSize, asn1SccT_Boolean *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Boolean_NATIVE
+int Encode_NATIVE_T_Boolean(void *pBuffer, size_t iMaxBufferSize, const asn1SccT_Boolean *pSrc);
+#endif
+
+#ifdef __NEED_T_Boolean_UPER
+int Decode_UPER_T_Boolean(asn1SccT_Boolean *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Boolean_ACN
+int Decode_ACN_T_Boolean(asn1SccT_Boolean *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Boolean_NATIVE
+int Decode_NATIVE_T_Boolean(asn1SccT_Boolean *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_T_Null_Record_UPER
+int Encode_UPER_T_Null_Record(void *pBuffer, size_t iMaxBufferSize, const asn1SccT_Null_Record *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Null_Record_ACN
+int Encode_ACN_T_Null_Record(void *pBuffer, size_t iMaxBufferSize, asn1SccT_Null_Record *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Null_Record_NATIVE
+int Encode_NATIVE_T_Null_Record(void *pBuffer, size_t iMaxBufferSize, const asn1SccT_Null_Record *pSrc);
+#endif
+
+#ifdef __NEED_T_Null_Record_UPER
+int Decode_UPER_T_Null_Record(asn1SccT_Null_Record *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Null_Record_ACN
+int Decode_ACN_T_Null_Record(asn1SccT_Null_Record *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_T_Null_Record_NATIVE
+int Decode_NATIVE_T_Null_Record(asn1SccT_Null_Record *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_PID_Range_UPER
+int Encode_UPER_PID_Range(void *pBuffer, size_t iMaxBufferSize, const asn1SccPID_Range *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_PID_Range_ACN
+int Encode_ACN_PID_Range(void *pBuffer, size_t iMaxBufferSize, asn1SccPID_Range *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_PID_Range_NATIVE
+int Encode_NATIVE_PID_Range(void *pBuffer, size_t iMaxBufferSize, const asn1SccPID_Range *pSrc);
+#endif
+
+#ifdef __NEED_PID_Range_UPER
+int Decode_UPER_PID_Range(asn1SccPID_Range *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_PID_Range_ACN
+int Decode_ACN_PID_Range(asn1SccPID_Range *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_PID_Range_NATIVE
+int Decode_NATIVE_PID_Range(asn1SccPID_Range *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+#ifdef __NEED_PID_UPER
+int Encode_UPER_PID(void *pBuffer, size_t iMaxBufferSize, const asn1SccPID *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_PID_ACN
+int Encode_ACN_PID(void *pBuffer, size_t iMaxBufferSize, asn1SccPID *pSrc, int *errorCode);
+#endif
+
+#ifdef __NEED_PID_NATIVE
+int Encode_NATIVE_PID(void *pBuffer, size_t iMaxBufferSize, const asn1SccPID *pSrc);
+#endif
+
+#ifdef __NEED_PID_UPER
+int Decode_UPER_PID(asn1SccPID *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_PID_ACN
+int Decode_ACN_PID(asn1SccPID *pDst, void *pBuffer, size_t iBufferSize, int *errorCode);
+#endif
+
+#ifdef __NEED_PID_NATIVE
+int Decode_NATIVE_PID(asn1SccPID *pDst, void *pBuffer, size_t iBufferSize);
+#endif
+
+
+#endif

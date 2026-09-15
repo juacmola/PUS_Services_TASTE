@@ -1,0 +1,7 @@
+/usr/include/c++/13/bits/locale_facets.h:1092:7:virtual std::ctype<char>::char_type std::ctype<char>::do_widen(char) const	8	static
+/usr/include/c++/13/mutex:836:16:static constexpr void std::once_flag::_Prepare_execution::_Prepare_execution<std::call_once<function<void()>&>(once_flag&, function<void()>&)::<lambda()> >(std::call_once<function<void()>&>(once_flag&, function<void()>&)::<lambda()>&)::<lambda()>::_FUN()	16	static
+/usr/include/c++/13/ostream:735:5:std::basic_ostream<_CharT, _Traits>& std::endl(basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = char_traits<char>]	32	static
+/usr/include/c++/13/bits/std_function.h:334:11:std::function<void()>::~function()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:28:1:static void taste::StartBarrier::initialize(size_t, InitCallback)	80	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:40:1:static void taste::StartBarrier::wait()	48	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/StartBarrier.cc:54:1:cc)	8	static

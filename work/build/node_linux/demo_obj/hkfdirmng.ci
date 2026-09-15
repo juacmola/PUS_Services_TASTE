@@ -1,0 +1,40 @@
+graph: { title: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb"
+node: { title: "hkfdirmng__to_t_runtime_error_selection" label: "To_T_Runtime_Error_Selection\n/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.ads:31:4\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "hkfdirmng_datamodel__asn1scchkfdirmng_t_runtime_error_selectionRP" label: "Asn1scchkfdirmng_T_Runtime_Error_Selectionrp\n/home/jorge/sctre/work/dataview/Ada/src/hkfdirmng_datamodel.ads:88:6" shape : ellipse }
+edge: { sourcename: "hkfdirmng__to_t_runtime_error_selection" targetname: "hkfdirmng_datamodel__asn1scchkfdirmng_t_runtime_error_selectionRP" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.ads:31:236" }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+edge: { sourcename: "hkfdirmng__to_t_runtime_error_selection" targetname: "__gnat_rcheck_CE_Range_Check" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.ads:31:236" }
+node: { title: "*hkfdirmng_state" label: "Get_State\n/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.ads:32:4\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "__gnat_rcheck_CE_Invalid_Data" label: "gnat_rcheck_CE_Invalid_Data\n<built-in>" shape : ellipse }
+edge: { sourcename: "*hkfdirmng_state" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.ads:32:106" }
+node: { title: "hkfdirmng_ri__to_c_pointer" label: "To_C_Pointer\n/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng_ri.ads:33:13" shape : ellipse }
+edge: { sourcename: "*hkfdirmng_state" targetname: "hkfdirmng_ri__to_c_pointer" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.ads:32:56" }
+node: { title: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:hkfdirmng__p_0_exectc" label: "P_0_Exectc\n/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:9:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "hkfdirmng_ri__exechkfdirtc" label: "Exechkfdirtc\n/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng_ri.ads:15:14" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:hkfdirmng__p_0_exectc" targetname: "hkfdirmng_ri__exechkfdirtc" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:12:10" }
+node: { title: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:hkfdirmng__p_0_evtceventaction" label: "P_0_Evtceventaction\n/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:18:4\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "hkfdirmng_ri__sevaction" label: "Sevaction\n/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng_ri.ads:18:14" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:hkfdirmng__p_0_evtceventaction" targetname: "hkfdirmng_ri__sevaction" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:21:10" }
+node: { title: "hkfdirmng_PI_SHKFDIRTC" label: "Shkfdirtc\n/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:27:4\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_PI_SHKFDIRTC" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:29:19" }
+edge: { sourcename: "hkfdirmng_PI_SHKFDIRTC" targetname: "hkfdirmng__execute_transition" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:32:16" }
+edge: { sourcename: "hkfdirmng_PI_SHKFDIRTC" targetname: "hkfdirmng__execute_transition" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:34:16" }
+node: { title: "hkfdirmng_PI_trigger" label: "Trigger\n/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:39:4\n16 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_PI_trigger" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:41:19" }
+edge: { sourcename: "hkfdirmng_PI_trigger" targetname: "hkfdirmng__execute_transition" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:43:16" }
+edge: { sourcename: "hkfdirmng_PI_trigger" targetname: "hkfdirmng__execute_transition" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:45:16" }
+node: { title: "hkfdirmng__execute_transition" label: "Execute_Transition\n/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:50:4\n80 bytes (static)\n0 dynamic objects" }
+node: { title: "ada__text_io__put__4" label: "Put\n/usr/lib/gcc/x86_64-linux-gnu/13/adainclude/a-textio.ads:519:14" shape : ellipse }
+edge: { sourcename: "hkfdirmng__execute_transition" targetname: "ada__text_io__put__4" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:60:19" }
+node: { title: "ada__text_io__new_line__2" label: "New_Line\n/usr/lib/gcc/x86_64-linux-gnu/13/adainclude/a-textio.ads:282:14" shape : ellipse }
+edge: { sourcename: "hkfdirmng__execute_transition" targetname: "ada__text_io__new_line__2" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:61:19" }
+node: { title: "*hkfdirmng_get_sender" label: "Get_Sender\n/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng_ri.ads:23:14" shape : ellipse }
+edge: { sourcename: "hkfdirmng__execute_transition" targetname: "*hkfdirmng_get_sender" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:68:19" }
+edge: { sourcename: "hkfdirmng__execute_transition" targetname: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:hkfdirmng__p_0_exectc" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:70:19" }
+edge: { sourcename: "hkfdirmng__execute_transition" targetname: "*hkfdirmng_get_sender" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:77:19" }
+node: { title: "hkfdirmng_ri__dohousekeeping" label: "Dohousekeeping\n/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng_ri.ads:12:14" shape : ellipse }
+edge: { sourcename: "hkfdirmng__execute_transition" targetname: "hkfdirmng_ri__dohousekeeping" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:79:19" }
+edge: { sourcename: "hkfdirmng__execute_transition" targetname: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:hkfdirmng__p_0_evtceventaction" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:81:19" }
+node: { title: "*hkfdirmng_startup" label: "Startup\n/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:98:4\n16 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "*hkfdirmng_startup" targetname: "hkfdirmng__execute_transition" label: "/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:100:10" }
+}

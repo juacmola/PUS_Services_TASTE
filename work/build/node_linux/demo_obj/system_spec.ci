@@ -1,0 +1,12 @@
+graph: { title: "/home/jorge/sctre/work/build/system_spec/system_spec.c"
+node: { title: "/home/jorge/sctre/work/build/system_spec/system_spec.c:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/build/system_spec/system_spec.c:23:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "__builtin___asan_unregister_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/system_spec/system_spec.c:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/build/system_spec/system_spec.c:23:1" }
+node: { title: "/home/jorge/sctre/work/build/system_spec/system_spec.c:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/build/system_spec/system_spec.c:23:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/system_spec/system_spec.c:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/build/system_spec/system_spec.c:23:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/system_spec/system_spec.c:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/build/system_spec/system_spec.c:23:1" }
+node: { title: "__asan_register_globals" label: "__builtin___asan_register_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/system_spec/system_spec.c:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/build/system_spec/system_spec.c:23:1" }
+}

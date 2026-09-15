@@ -1,0 +1,57 @@
+graph: { title: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c"
+node: { title: "tcmanager_get_sender" label: "tcmanager_get_sender\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:11:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_store4" label: "__builtin___asan_report_store4\n<built-in>" shape : ellipse }
+edge: { sourcename: "tcmanager_get_sender" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:13:19" }
+node: { title: "init_tcmanager" label: "init_tcmanager\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:23:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "getTimeInMilliseconds" label: "getTimeInMilliseconds\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.h:22:18" shape : ellipse }
+edge: { sourcename: "init_tcmanager" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:27:50" }
+node: { title: "adainit" label: "adainit\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:18:13" shape : ellipse }
+edge: { sourcename: "init_tcmanager" targetname: "adainit" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:30:7" }
+node: { title: "tcmanager_startup" label: "tcmanager_startup\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:31:19" shape : ellipse }
+edge: { sourcename: "init_tcmanager" targetname: "tcmanager_startup" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:32:7" }
+node: { title: "puts" label: "puts\n/usr/include/stdio.h:724:12" shape : ellipse }
+edge: { sourcename: "init_tcmanager" targetname: "puts" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:33:7" }
+node: { title: "tcmanager_SEvAction" label: "tcmanager_SEvAction\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:37:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "tcmanager_sevaction_get_sender" label: "tcmanager_sevaction_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:252:12" shape : ellipse }
+edge: { sourcename: "tcmanager_SEvAction" targetname: "tcmanager_sevaction_get_sender" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:39:17" }
+node: { title: "getenv" label: "getenv\n/usr/include/stdlib.h:773:14" shape : ellipse }
+edge: { sourcename: "tcmanager_SEvAction" targetname: "getenv" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:43:26" }
+edge: { sourcename: "tcmanager_SEvAction" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:45:28" }
+node: { title: "printf" label: "printf\n/usr/include/stdio.h:363:12" shape : ellipse }
+edge: { sourcename: "tcmanager_SEvAction" targetname: "printf" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:46:7" }
+node: { title: "__asan_report_load8" label: "__builtin___asan_report_load8\n<built-in>" shape : ellipse }
+edge: { sourcename: "tcmanager_SEvAction" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:47:7" }
+node: { title: "fflush" label: "fflush\n/usr/include/stdio.h:236:12" shape : ellipse }
+edge: { sourcename: "tcmanager_SEvAction" targetname: "fflush" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:47:7" }
+node: { title: "tcmanager_PI_SEvAction" label: "tcmanager_PI_SEvAction\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:51:16" shape : ellipse }
+edge: { sourcename: "tcmanager_SEvAction" targetname: "tcmanager_PI_SEvAction" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:52:4" }
+node: { title: "tcmanager_state" label: "tcmanager_state\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:84:20" shape : ellipse }
+edge: { sourcename: "tcmanager_SEvAction" targetname: "tcmanager_state" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:57:7" }
+edge: { sourcename: "tcmanager_SEvAction" targetname: "printf" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:57:7" }
+edge: { sourcename: "tcmanager_SEvAction" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:58:7" }
+edge: { sourcename: "tcmanager_SEvAction" targetname: "fflush" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:58:7" }
+node: { title: "tcmanager_poll" label: "tcmanager_poll\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:65:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "tcmanager_poll_get_sender" label: "tcmanager_poll_get_sender\n/home/jorge/sctre/work/build/node_linux/demo/routing.h:246:12" shape : ellipse }
+edge: { sourcename: "tcmanager_poll" targetname: "tcmanager_poll_get_sender" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:67:17" }
+edge: { sourcename: "tcmanager_poll" targetname: "getenv" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:71:26" }
+edge: { sourcename: "tcmanager_poll" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:73:28" }
+edge: { sourcename: "tcmanager_poll" targetname: "printf" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:74:7" }
+edge: { sourcename: "tcmanager_poll" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:75:7" }
+edge: { sourcename: "tcmanager_poll" targetname: "fflush" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:75:7" }
+node: { title: "tcmanager_PI_poll" label: "tcmanager_PI_poll\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:79:16" shape : ellipse }
+edge: { sourcename: "tcmanager_poll" targetname: "tcmanager_PI_poll" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:80:4" }
+edge: { sourcename: "tcmanager_poll" targetname: "tcmanager_state" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:85:7" }
+edge: { sourcename: "tcmanager_poll" targetname: "printf" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:85:7" }
+edge: { sourcename: "tcmanager_poll" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:86:7" }
+edge: { sourcename: "tcmanager_poll" targetname: "fflush" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:86:7" }
+node: { title: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:88:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "__builtin___asan_unregister_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:88:1" }
+node: { title: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:88:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:88:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:88:1" }
+node: { title: "__asan_register_globals" label: "__builtin___asan_register_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/tcmanager/SDL/wrappers/tcmanager_vm_if.c:88:1" }
+}

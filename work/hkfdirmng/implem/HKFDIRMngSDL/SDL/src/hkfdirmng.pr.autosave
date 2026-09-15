@@ -1,0 +1,65 @@
+/* CIF PROCESS (250, 150), (150, 75) */
+
+process Hkfdirmng;
+    /* CIF Keep Specific Geode Partition 'default' */
+    /* CIF TEXT (642, 262), (266, 140) */
+    -- Text area for declarations and comments
+    dcl pending GpendingEvAction;
+    dcl time Pr_time;
+    /* CIF ENDTEXT */
+    /* CIF procedure (787, 114), (70, 35) */
+    /* CIF Keep Specific Geode Partition 'default' */
+    procedure ExecTC;
+        /* CIF START (383, 94), (70, 35) */
+        START;
+            /* CIF task (351, 149), (132, 35) */
+            task 'FExecHKFDIRTC()';
+            /* CIF return (400, 204), (35, 35) */
+            return ;
+    endprocedure;
+    /* CIF procedure (759, 43), (123, 35) */
+    /* CIF Keep Specific Geode Partition 'default' */
+    procedure evTCEventAction;
+        /* CIF START (456, 72), (70, 35) */
+        START;
+            /* CIF task (433, 127), (115, 35) */
+            task 'FwdEvAction()';
+            /* CIF output (450, 177), (81, 35) */
+            output SEvAction;
+            /* CIF return (473, 232), (35, 35) */
+            return ;
+    endprocedure;
+    /* CIF START (74, 8), (70, 35) */
+    START;
+        /* CIF PROCEDURECALL (0, 63), (218, 35) */
+        call writeln("[HK_FDIRMng] Startup");
+        /* CIF NEXTSTATE (74, 118), (70, 35) */
+        NEXTSTATE Ready;
+    /* CIF state (434, 1), (70, 35) */
+    /* CIF Keep Specific Geode Partition 'default' */
+    state Ready;
+        /* CIF input (540, 56), (90, 35) */
+        input SHKFDIRTC;
+            /* CIF PROCEDURECALL (550, 111), (70, 35) */
+            call ExecTC
+            /* CIF comment (640, 111), (126, 35) */
+            comment 'FExecHKFDIRTC()';
+            /* CIF NEXTSTATE (550, 165), (70, 35) */
+            NEXTSTATE Ready;
+        /* CIF input (298, 56), (70, 35) */
+        input trigger;
+            /* CIF decision (297, 111), (71, 50) */
+            decision pending
+            /* CIF comment (389, 118), (140, 35) */
+            comment 'GPendingEvAction()';
+                /* CIF ANSWER (361, 181), (70, 23) */
+                (false):
+                /* CIF ANSWER (253, 181), (70, 23) */
+                (true):
+                    /* CIF PROCEDURECALL (226, 224), (123, 35) */
+                    call evTCEventAction;
+            enddecision;
+            /* CIF NEXTSTATE (298, 275), (70, 35) */
+            NEXTSTATE Ready;
+    endstate;
+endprocess Hkfdirmng;

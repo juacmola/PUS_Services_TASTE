@@ -1,0 +1,179 @@
+V "GNAT Lib v13"
+A -Wall
+A -Wextra
+A -gnatwa
+A -gnatA
+A -gnatd.E
+A -fstack-check=specific
+A -fstack-usage
+A -fcallgraph-info=su,da
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U taste_basictypes%b	taste_basictypes.adb	181ee2f4 NE OO PK
+
+U taste_basictypes%s	taste_basictypes.ads	41a41a7d EE NE OO PK
+W adaasn1rtl%s		adaasn1rtl.adb		adaasn1rtl.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20240521074738 76789da1 ada%s
+D a-charac.ads		20240521074737 2d3ec45b ada.characters%s
+D a-chlat1.ads		20240521074737 e0d72e76 ada.characters.latin_1%s
+D adaasn1rtl.ads	20260913085857 2efce9f1 adaasn1rtl%s
+D board_config.ads	20260913085857 ff248fc1 board_config%s
+D interfac.ads		20240521074738 15f799c2 interfaces%s
+D system.ads		20240521074738 426dafb8 system%s
+D s-bitops.ads		20240521074738 cdf3ac3c system.bit_ops%s
+D s-bituti.ads		20240521074738 797cbcce system.bitfield_utils%s
+D s-bitfie.ads		20240521074738 8e9b6290 system.bitfields%s
+D s-stoele.ads		20240521074738 ab5468e4 system.storage_elements%s
+D s-unstyp.ads		20240521074738 fa2a7f59 system.unsigned_types%s
+D taste_basictypes.ads	20260913085857 38c2c5f6 taste_basictypes%s
+D taste_basictypes.adb	20260913085857 20dc2702 taste_basictypes%b
+G a e
+G c Z s b [asn1scct_int32_equal taste_basictypes 41 10 none]
+G c Z s b [asn1scct_int32_isconstraintvalid taste_basictypes 44 10 none]
+G c Z s s [asn1scct_int32_init taste_basictypes 46 10 none]
+G c Z s b [asn1scct_uint32_equal taste_basictypes 51 10 none]
+G c Z s b [asn1scct_uint32_isconstraintvalid taste_basictypes 54 10 none]
+G c Z s s [asn1scct_uint32_init taste_basictypes 56 10 none]
+G c Z s b [asn1scct_runtime_error_equal taste_basictypes 84 10 none]
+G c Z s b [asn1scct_runtime_error_isconstraintvalid taste_basictypes 90 10 none]
+G c Z s s [asn1scct_runtime_error_init taste_basictypes 92 10 none]
+G c Z s b [asn1scct_int8_equal taste_basictypes 97 10 none]
+G c Z s b [asn1scct_int8_isconstraintvalid taste_basictypes 100 10 none]
+G c Z s s [asn1scct_int8_init taste_basictypes 102 10 none]
+G c Z s b [asn1scct_uint8_equal taste_basictypes 107 10 none]
+G c Z s b [asn1scct_uint8_isconstraintvalid taste_basictypes 110 10 none]
+G c Z s s [asn1scct_uint8_init taste_basictypes 112 10 none]
+G c Z s b [asn1scct_boolean_equal taste_basictypes 117 10 none]
+G c Z s b [asn1scct_boolean_isconstraintvalid taste_basictypes 120 10 none]
+G c Z s s [asn1scct_boolean_init taste_basictypes 122 10 none]
+G c Z s b [asn1scct_null_record_equal taste_basictypes 131 10 none]
+G c Z s b [asn1scct_null_record_isconstraintvalid taste_basictypes 134 10 none]
+G c Z s s [asn1scct_null_record_init taste_basictypes 136 10 none]
+G c Z s s [asn1scct_runtime_errorIP taste_basictypes 67 6 none]
+G c Z s s [asn1scct_null_recordIP taste_basictypes 126 6 none]
+X 4 adaasn1rtl.ads
+5K9*adaasn1rtl 128e15 13|11w6 19r5 24r10 25r10 26r10 27r10 28r10 38r27 44r72
+. 48r28 54r74 90r88 94r26 100r70 104r27 110r72 114r29 120r76 134r84 14|24r72
+. 27r11 27r37 47r74 50r11 50r37 84r88 87r11 87r37 113r70 116r11 116r37 136r72
+. 139r11 139r37 159r76 163r11 163r37 166r12 184r84 188r11 188r37 191r12
+10M9*BIT 13|28r21
+12M12*Asn1Byte{6|69M9}
+14I12*Asn1Int{5|3I12} 13|27r21 38r38 94r37
+15M12*Asn1UInt{5|4M12} 13|26r21 48r39 104r38
+19B12*Asn1Boolean{boolean} 13|114r40
+22A9*BitArray(10M9)<integer> 13|25r21
+25A9*OctetBuffer(12M12)<integer> 13|24r21
+41R9*ASN1_RESULT 44e14 13|44r83 54r85 90r99 100r81 110r83 120r87 134r95 14|24r83
+. 27r22 27r48 47r85 50r22 50r48 84r99 87r22 87r48 113r81 116r22 116r48 136r83
+. 139r22 139r48 159r87 163r22 163r48 166r23 184r95 188r22 188r48 191r23
+42b7*Success{boolean} 14|27m61 30m9 31r30 50m61 53m9 54r30 87m61 116m61 119m9
+. 120r30 139m61 142m9 143r30 163m61 166m36 188m61 191m36
+43i7*ErrorCode{integer} 14|27m78 31m9 50m78 54m9 87m78 116m78 120m9 139m78
+. 143m9 163m78 166m53 188m78 191m53
+X 5 board_config.ads
+3I12*Asn1Int{6|56I9}
+4M12*Asn1UInt{6|83M9}
+X 6 interfac.ads
+38K9*Interfaces 232e15 13|4w6 8r5
+56I9*Integer_64<long_long_integer>
+69M9*Unsigned_8
+83M9*Unsigned_64
+X 7 system.ads
+37K9*System 153e11 13|15w6
+X 13 taste_basictypes.ads
+34K9*TASTE_BasicTypes 144l5 144e21 14|9b14 201l5 201t21
+38I9*asn1SccT_Int32{4|14I12} 41r44 44r49 46r38 73r26 75r26 14|16r46 24r49
+41V10*asn1SccT_Int32_Equal{boolean} 41>31 41>37 14|16b10 22l5 22t25
+41i31 val1{38I9} 14|16b32 20r16
+41i37 val2{38I9} 14|16b38 20r23
+43i1*ERR_T_INT32{integer} 14|31r50
+44V10*asn1SccT_Int32_IsConstraintValid{4|41R9} 44>43 14|24b10 33l5 33t37
+. 94s20 96s20
+44i43 val{38I9} 14|24b43 30r37 30r47
+46V10*asn1SccT_Int32_Init{38I9}
+48M9*asn1SccT_UInt32{4|15M12} 51r45 54r50 56r39 71r22 14|39r47 47r50
+51V10*asn1SccT_UInt32_Equal{boolean} 51>32 51>38 14|39b10 45l5 45t26
+51m32 val1{48M9} 14|39b33 43r16
+51m38 val2{48M9} 14|39b39 43r23
+53i1*ERR_T_UINT32{integer} 14|54r50
+54V10*asn1SccT_UInt32_IsConstraintValid{4|41R9} 54>44 14|47b10 56l5 56t38
+. 92s20
+54m44 val{48M9} 14|47b44 53r21
+56V10*asn1SccT_UInt32_Init{48M9}
+60I9*asn1SccT_Runtime_Error_index_range{integer}
+62E6*asn1SccT_Runtime_Error_selection 62e101 63r5 65r5 67r36
+62n43*noerror_PRESENT{62E6} 64r6 67r71 70r10 93r11 14|72r18 91r14
+62n60*encodeerror_PRESENT{62E6} 64r28 72r10 14|74r18 93r14
+62n81*decodeerror_PRESENT{62E6} 64r54 74r10 14|76r18 95r14
+67R6*asn1SccT_Runtime_Error 67d29 77e11 79r5 84r52 90r57 92r46 14|62r54 84r57
+67e29*kind{62E6} 69r10 81r5 93m3 14|69r17 69r29 71r19 90r14
+71m13*noerror{48M9} 93m28 14|73r30 73r45 92r58
+73i13*encodeerror{38I9} 14|75r30 75r49 94r57
+75i13*decodeerror{38I9} 14|77r30 77r49 96r57
+84V10*asn1SccT_Runtime_Error_Equal{boolean} 84>39 84>45 14|62b10 82l5 82t33
+84r39 val1{67R6} 14|62b40 69r12 71r14 73r25 75r25 77r25
+84r45 val2{67R6} 14|62b46 69r24 73r40 75r44 77r44
+86i1*ERR_T_RUNTIME_ERROR{integer}
+87i1*ERR_T_RUNTIME_ERROR_NOERROR_2{integer}
+88i1*ERR_T_RUNTIME_ERROR_ENCODEERROR_2{integer}
+89i1*ERR_T_RUNTIME_ERROR_DECODEERROR_2{integer}
+90V10*asn1SccT_Runtime_Error_IsConstraintValid{4|41R9} 90>51 14|84b10 99l5
+. 99t45
+90r51 val{67R6} 14|84b51 90r10 92r54 94r53 96r53
+92V10*asn1SccT_Runtime_Error_Init{67R6}
+94I9*asn1SccT_Int8{4|14I12} 97r43 100r48 102r37 14|105r45 113r48
+97V10*asn1SccT_Int8_Equal{boolean} 97>30 97>36 14|105b10 111l5 111t24
+97i30 val1{94I9} 14|105b31 109r16
+97i36 val2{94I9} 14|105b37 109r23
+99i1*ERR_T_INT8{integer} 14|120r50
+100V10*asn1SccT_Int8_IsConstraintValid{4|41R9} 100>42 14|113b10 122l5 122t36
+100i42 val{94I9} 14|113b42 119r30 119r40
+102V10*asn1SccT_Int8_Init{94I9}
+104M9*asn1SccT_UInt8{4|15M12} 107r44 110r49 112r38 14|128r46 136r49
+107V10*asn1SccT_UInt8_Equal{boolean} 107>31 107>37 14|128b10 134l5 134t25
+107m31 val1{104M9} 14|128b32 132r16
+107m37 val2{104M9} 14|128b38 132r23
+109i1*ERR_T_UINT8{integer} 14|143r50
+110V10*asn1SccT_UInt8_IsConstraintValid{4|41R9} 110>43 14|136b10 145l5 145t37
+110m43 val{104M9} 14|136b43 142r21
+112V10*asn1SccT_UInt8_Init{104M9}
+114B9*asn1SccT_Boolean{4|19E12} 117r46 120r51 122r40 14|151r48 159r51
+117V10*asn1SccT_Boolean_Equal{boolean} 117>33 117>39 14|151b10 157l5 157t27
+117b33 val1{114E9} 14|151b34 155r16
+117b39 val2{114E9} 14|151b40 155r23
+119i1*ERR_T_BOOLEAN{integer}
+120V10*asn1SccT_Boolean_IsConstraintValid{4|41R9} 120>45 14|159b10 168l5
+. 168t39
+120b45 val{114E9} 14|159b45 161r26
+122V10*asn1SccT_Boolean_Init{114E9}
+126R6*asn1SccT_Null_Record 128e11 131r50 134r55 136r44 14|174r52 184r55
+131V10*asn1SccT_Null_Record_Equal{boolean} 131>37 131>43 14|174b10 182l5
+. 182t31
+131r37 val1{126R6} 14|174b38 176r25
+131r43 val2{126R6} 14|174b44 177r25
+133i1*ERR_T_NULL_RECORD{integer}
+134V10*asn1SccT_Null_Record_IsConstraintValid{4|41R9} 134>49 14|184b10 193l5
+. 193t43
+134r49 val{126R6} 14|184b49 186r26
+136V10*asn1SccT_Null_Record_Init{126R6}
+X 14 taste_basictypes.adb
+27r5 ret{4|41R9} 30m5 31m5 31r26 32r12
+50r5 ret{4|41R9} 53m5 54m5 54r26 55r12
+65b5 ret{boolean} 69m5 70r8 73m17 75m17 77m17 80r16
+87r5 ret{4|41R9} 92m13 94m13 96m13 98r12
+116r5 ret{4|41R9} 119m5 120m5 120r26 121r12
+139r5 ret{4|41R9} 142m5 143m5 143r26 144r12
+163r5 ret{4|41R9} 166m5 167r12
+188r5 ret{4|41R9} 191m5 192r12
+

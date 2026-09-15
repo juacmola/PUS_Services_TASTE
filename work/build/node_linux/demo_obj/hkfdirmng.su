@@ -1,0 +1,8 @@
+/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.ads:31:4:To_T_Runtime_Error_Selection	32	static
+/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.ads:32:4:Get_State	48	static
+/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:9:4:P_0_Exectc	16	static
+/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:18:4:P_0_Evtceventaction	16	static
+/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:27:4:Shkfdirtc	32	static
+/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:39:4:Trigger	16	static
+/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:50:4:Execute_Transition	80	static
+/home/jorge/sctre/work/hkfdirmng/SDL/code/hkfdirmng.adb:98:4:Startup	16	static

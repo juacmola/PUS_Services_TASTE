@@ -1,0 +1,11 @@
+<built-in>:asn1sccbkgtcexec_t_runtime_error_selectionRP	32	static
+<built-in>:asn1sccbkgtcexec_contextIP	16	static
+/home/jorge/sctre/work/dataview/Ada/src/bkgtcexec_datamodel.ads:60:1:Asn1sccbkgtcexec_States_Init	16	static
+/home/jorge/sctre/work/dataview/Ada/src/bkgtcexec_datamodel.ads:83:1:Asn1sccbkgtcexec_Context_Init	200	static
+/home/jorge/sctre/work/dataview/Ada/src/bkgtcexec_datamodel.ads:95:1:Asn1sccbkgtcexec_T_Runtime_Error_Selection_Init	16	static
+/home/jorge/sctre/work/dataview/Ada/src/bkgtcexec_datamodel.adb:40:1:Asn1sccbkgtcexec_States_Equal	16	static
+/home/jorge/sctre/work/dataview/Ada/src/bkgtcexec_datamodel.adb:48:1:Asn1sccbkgtcexec_States_Isconstraintvalid	16	static
+/home/jorge/sctre/work/dataview/Ada/src/bkgtcexec_datamodel.adb:63:1:Asn1sccbkgtcexec_Context_Equal	48	static
+/home/jorge/sctre/work/dataview/Ada/src/bkgtcexec_datamodel.adb:92:1:Asn1sccbkgtcexec_Context_Isconstraintvalid	48	static
+/home/jorge/sctre/work/dataview/Ada/src/bkgtcexec_datamodel.adb:115:1:Asn1sccbkgtcexec_T_Runtime_Error_Selection_Equal	16	static
+/home/jorge/sctre/work/dataview/Ada/src/bkgtcexec_datamodel.adb:123:1:Asn1sccbkgtcexec_T_Runtime_Error_Selection_Isconstraintvalid	16	static

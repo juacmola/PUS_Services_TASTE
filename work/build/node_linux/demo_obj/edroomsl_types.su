@@ -1,0 +1,8 @@
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl_types/src/edroomsl_types.cc:4:6:void TEDROOMUInt64_Serialize(TEDROOMUInt64*, TEDROOMUInt64*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl_types/src/edroomsl_types.cc:9:6:void TEDROOMUInt64_Deserialize(TEDROOMUInt64*, TEDROOMUInt64*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl_types/src/edroomsl_types.cc:14:6:void TEDROOMUInt32_Serialize(TEDROOMUInt32*, TEDROOMUInt32*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl_types/src/edroomsl_types.cc:19:6:void TEDROOMUInt32_Deserialize(TEDROOMUInt32*, TEDROOMUInt32*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl_types/src/edroomsl_types.cc:24:6:void TEDROOMUInt16_Serialize(TEDROOMUInt16*, TEDROOMUInt16*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl_types/src/edroomsl_types.cc:29:6:void TEDROOMUInt8_Serialize(TEDROOMUInt8*, TEDROOMUInt8*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl_types/src/edroomsl_types.cc:34:6:void TEDROOMUInt8_Deserialize(TEDROOMUInt8*, TEDROOMUInt8*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/edroomsl/edroomsl_types/src/edroomsl_types.cc:39:6:void TEDROOMUInt16_Deserialize(TEDROOMUInt16*, TEDROOMUInt16*)	8	static

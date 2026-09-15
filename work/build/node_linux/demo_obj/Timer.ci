@@ -1,0 +1,5 @@
+graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc"
+node: { title: "_ZN5taste5Timer10initializeEv" label: "static void taste::Timer::initialize()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc:27:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "_ZNSt6chrono3_V212steady_clock3nowEv" label: "static std::chrono::_V2::steady_clock::time_point std::chrono::_V2::steady_clock::now()\n/usr/include/c++/13/bits/chrono.h:1277:7" shape : ellipse }
+edge: { sourcename: "_ZN5taste5Timer10initializeEv" targetname: "_ZNSt6chrono3_V212steady_clock3nowEv" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc:29:57" }
+}

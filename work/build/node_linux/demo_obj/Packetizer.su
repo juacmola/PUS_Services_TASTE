@@ -1,0 +1,11 @@
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:33:1:Packetizer_init	48	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:43:1:Packetizer_packetize	48	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:80:1:Packetizer_depacketize	96	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:158:1:writePacketId	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:173:1:writePacketSequenceControl	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:186:1:writePacketDataLength	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:202:1:writeCrc	48	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:211:1:writeSenderPid	48	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:218:1:readPacketDataLength	48	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:228:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Packetizer.c:228:1:_sub_I_00099_1	16	static

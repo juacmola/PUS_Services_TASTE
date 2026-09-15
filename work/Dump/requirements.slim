@@ -1,0 +1,123 @@
+-- =================
+-- REQUIREMENTS.SLIM
+-- =================
+-- ------
+-- SYNTAX
+-- ------
+-- system implementation <SLIM FUNCTION NAME>.others
+-- properties
+--   Requirements => (
+--     [
+--       PropertyId => "<NAME OF PROPERTY>";
+--       Description => "<REQUIREMENT DESCRIPTION>";
+--     ],
+--     ...
+--   );
+-- end <SLIM FUNCTION NAME>.others;
+-- -------
+-- EXAMPLE
+-- -------
+-- system implementation SystemBlock.others
+-- properties
+--   Requirements => (
+--     [
+--       PropertyId => "At least one sensor not working";
+--       Description => "[SystemBlock.others] At least one sensor not working";
+--     ],
+--     [
+--       PropertyId => "Both sensors not working";
+--       Description => "[SystemBlock.others] Both sensors not working";
+--     ],
+--     [
+--       PropertyId => "Generator 1 LOW";
+--       Description => "[SystemBlock.others] Generator 1 LOW";
+--     ]
+--   );
+-- end SystemBlock.others;
+-- ----------------------
+-- DUMP OF INTERFACE VIEW
+-- ----------------------
+-- Function (SDL): BKGTCExec
+---- PI (Sporadic): SBKGTC
+------ PARAM_IN (RawTC): SBKGTC.packet
+
+
+---- RI (Protected): ExecBKGTC
+------ PARAM_IN (RawTC): ExecBKGTC.packet
+
+
+-- Function (SDL): HKFDIRMng
+---- PI (Sporadic): SHKFDIRTC
+------ PARAM_IN (RawTC): SHKFDIRTC.packet
+
+
+
+---- RI (Protected): DoHousekeeping
+
+---- RI (Protected): ExecHKFDIRTC
+------ PARAM_IN (RawTC): ExecHKFDIRTC.packet
+
+---- RI (Sporadic): SEvAction
+
+
+-- Function (CPP): Legacy
+---- PI (Protected): DoHousekeeping
+
+---- PI (Protected): ExecBKGTC
+------ PARAM_IN (RawTC): ExecBKGTC.packet
+
+---- PI (Protected): ExecHKFDIRTC
+------ PARAM_IN (RawTC): ExecHKFDIRTC.packet
+
+---- PI (Protected): HandleTC
+------ PARAM_OUT (FwdCommand): HandleTC.route
+------ PARAM_OUT (RawTC): HandleTC.packet
+
+---- PI (Protected): Init
+
+---- PI (Protected): NewEvAction
+------ PARAM_OUT (RxTC): NewEvAction.accepted
+
+---- PI (Protected): NewRxTC
+------ PARAM_IN (Telecommand): NewRxTC.tc
+------ PARAM_OUT (RxTC): NewRxTC.accepted
+
+---- PI (Protected): PollTC
+------ PARAM_OUT (RxTC): PollTC.accepted
+
+---- PI (Protected): Reboot
+
+
+
+-- Function (SDL): TCManager
+---- PI (Sporadic): SEvAction
+
+
+
+---- RI (Protected): HandleTC
+------ PARAM_OUT (FwdCommand): HandleTC.route
+------ PARAM_OUT (RawTC): HandleTC.packet
+
+---- RI (Protected): Init
+
+---- RI (Protected): NewEvAction
+------ PARAM_OUT (RxTC): NewEvAction.accepted
+
+---- RI (Protected): NewRxTC
+------ PARAM_IN (Telecommand): NewRxTC.tc
+------ PARAM_OUT (RxTC): NewRxTC.accepted
+
+---- RI (Protected): PollTC
+------ PARAM_OUT (RxTC): PollTC.accepted
+
+---- RI (Protected): Reboot
+
+---- RI (Sporadic): SBKGTC
+------ PARAM_IN (RawTC): SBKGTC.packet
+
+---- RI (Sporadic): SHKFDIRTC
+------ PARAM_IN (RawTC): SHKFDIRTC.packet
+
+
+
+--

@@ -1,0 +1,11 @@
+<built-in>:asn1scctcmanager_t_runtime_error_selectionRP	32	static
+<built-in>:asn1scctcmanager_contextIP	16	static
+/home/jorge/sctre/work/dataview/Ada/src/tcmanager_datamodel.ads:60:1:Asn1scctcmanager_States_Init	16	static
+/home/jorge/sctre/work/dataview/Ada/src/tcmanager_datamodel.ads:89:1:Asn1scctcmanager_Context_Init	384	static
+/home/jorge/sctre/work/dataview/Ada/src/tcmanager_datamodel.ads:101:1:Asn1scctcmanager_T_Runtime_Error_Selection_Init	16	static
+/home/jorge/sctre/work/dataview/Ada/src/tcmanager_datamodel.adb:46:1:Asn1scctcmanager_States_Equal	16	static
+/home/jorge/sctre/work/dataview/Ada/src/tcmanager_datamodel.adb:54:1:Asn1scctcmanager_States_Isconstraintvalid	16	static
+/home/jorge/sctre/work/dataview/Ada/src/tcmanager_datamodel.adb:69:1:Asn1scctcmanager_Context_Equal	48	static
+/home/jorge/sctre/work/dataview/Ada/src/tcmanager_datamodel.adb:110:1:Asn1scctcmanager_Context_Isconstraintvalid	48	static
+/home/jorge/sctre/work/dataview/Ada/src/tcmanager_datamodel.adb:142:1:Asn1scctcmanager_T_Runtime_Error_Selection_Equal	16	static
+/home/jorge/sctre/work/dataview/Ada/src/tcmanager_datamodel.adb:150:1:Asn1scctcmanager_T_Runtime_Error_Selection_Isconstraintvalid	16	static

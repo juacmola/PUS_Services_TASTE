@@ -1,0 +1,7 @@
+/home/jorge/sctre/work/irq/GUI/wrappers/irq_invoke_ri.c:20:6:irq_RI_newTC	32	static
+/home/jorge/sctre/work/irq/GUI/wrappers/irq_invoke_ri.c:29:6:irq_RI_newTC_To_PID	48	static
+/home/jorge/sctre/work/irq/GUI/wrappers/irq_invoke_ri.c:60:6:irq_RI_get_sender	32	static
+/home/jorge/sctre/work/irq/GUI/wrappers/irq_invoke_ri.c:66:6:irq_RI_get_last_error	32	static
+/home/jorge/sctre/work/irq/GUI/wrappers/irq_invoke_ri.c:71:6:irq_get_last_error	32	static
+/home/jorge/sctre/work/irq/GUI/wrappers/irq_invoke_ri.c:74:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/irq/GUI/wrappers/irq_invoke_ri.c:74:1:_sub_I_00099_1	16	static

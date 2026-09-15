@@ -1,0 +1,11 @@
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service03.cc:50:6:virtual void EmuGSS_TCProgram3_5::BuildTCAppData(tc_mem_descriptor_t&)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service03.cc:66:6:virtual void EmuGSS_TCProgram3_6::BuildTCAppData(tc_mem_descriptor_t&)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service03.cc:84:6:virtual void EmuGSS_TCProgram3_31::BuildTCAppData(tc_mem_descriptor_t&)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service03.cc:41:1:EmuGSS_TCProgram3_5::EmuGSS_TCProgram3_5(uint32_t, const char*, uint16_t)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service03.cc:57:1:EmuGSS_TCProgram3_6::EmuGSS_TCProgram3_6(uint32_t, const char*, uint16_t)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service03.cc:73:1:EmuGSS_TCProgram3_31::EmuGSS_TCProgram3_31(uint32_t, const char*, uint16_t, uint8_t)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service03.cc:100:1:GSSServ3TMHandler::GSSServ3TMHandler(const uint8_t*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service03.cc:127:6:void GSSServ3TMHandler::ShowTM_3_25_SID(uint16_t)	96	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service03.cc:115:6:void GSSServ3TMHandler::ShowTM_3_25()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service03.cc:105:6:void GSSServ3TMHandler::ShowTM()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service03.cc:93:6:void EmuGSS_ShowServ3TM(const tm_mem_descriptor*)	80	static

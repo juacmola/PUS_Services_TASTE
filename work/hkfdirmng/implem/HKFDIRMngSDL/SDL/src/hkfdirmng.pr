@@ -1,0 +1,54 @@
+/* CIF PROCESS (250, 150), (150, 75) */
+
+process Hkfdirmng;
+    /* CIF Keep Specific Geode Partition 'default' */
+    /* CIF TEXT (642, 262), (266, 140) */
+    -- Text area for declarations and comments
+    dcl packet RawTC;
+    dcl time Pr_time;
+    /* CIF ENDTEXT */
+    /* CIF procedure (787, 114), (70, 35) */
+    /* CIF Keep Specific Geode Partition 'default' */
+    procedure ExecTC;
+        /* CIF START (383, 94), (70, 35) */
+        START;
+            /* CIF PROCEDURECALL (339, 149), (157, 35) */
+            call ExecHKFDIRTC(packet);
+            /* CIF return (400, 204), (35, 35) */
+            return ;
+    endprocedure;
+    /* CIF procedure (759, 43), (123, 35) */
+    /* CIF Keep Specific Geode Partition 'default' */
+    procedure evTCEventAction;
+        /* CIF START (456, 72), (70, 35) */
+        START;
+            /* CIF output (450, 177), (81, 35) */
+            output SEvAction;
+            /* CIF return (473, 232), (35, 35) */
+            return ;
+    endprocedure;
+    /* CIF START (74, 8), (70, 35) */
+    START;
+        /* CIF PROCEDURECALL (0, 63), (218, 35) */
+        call writeln("[HK_FDIRMng] Startup");
+        /* CIF NEXTSTATE (74, 118), (70, 35) */
+        NEXTSTATE Ready;
+    /* CIF state (434, 1), (70, 35) */
+    /* CIF Keep Specific Geode Partition 'default' */
+    state Ready;
+        /* CIF input (516, 56), (137, 35) */
+        input SHKFDIRTC(packet);
+            /* CIF PROCEDURECALL (550, 111), (70, 35) */
+            call ExecTC;
+            /* CIF NEXTSTATE (550, 165), (70, 35) */
+            NEXTSTATE Ready;
+        /* CIF input (298, 56), (70, 35) */
+        input trigger;
+            /* CIF PROCEDURECALL (271, 106), (124, 35) */
+            call DoHousekeeping;
+            /* CIF PROCEDURECALL (271, 156), (123, 35) */
+            call evTCEventAction;
+            /* CIF NEXTSTATE (298, 275), (70, 35) */
+            NEXTSTATE Ready;
+    endstate;
+endprocess Hkfdirmng;

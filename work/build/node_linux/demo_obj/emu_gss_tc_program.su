@@ -1,0 +1,19 @@
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:39:20:static EmuGSS_TCProgram* EmuGSS_TCProgram::GetCurrentTCProgramed()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:45:1:EmuGSS_TCProgram::EmuGSS_TCProgram(uint32_t, uint8_t, uint8_t, uint16_t, const char*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:58:6:static bool EmuGSS_TCProgram::SetCurrentTCProgramed(uint32_t)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:70:6:static void EmuGSS_TCProgram::NewProgram(EmuGSS_TCProgram*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:123:6:void EmuGSS_TCProgram::DisableAcceptACK()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:130:6:void EmuGSS_TCProgram::DisableExecStartACK()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:136:6:void EmuGSS_TCProgram::DisableExecProgACK()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:141:6:void EmuGSS_TCProgram::DisableExecCompletionACK()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:148:6:void EmuGSS_TCProgram::BuildTCPackHeader(tc_mem_descriptor_t&)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:104:6:void EmuGSS_TCProgram::BuildTC(tc_mem_descriptor_t&)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:172:6:void EmuGSS_TCProgram::BuildTCDFHeader(tc_mem_descriptor_t&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:182:6:void EmuGSS_TCProgram::SetNextUInt8(uint8_t)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:187:6:void EmuGSS_TCProgram::SetNextUInt16(uint16_t)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:192:6:void EmuGSS_TCProgram::SetNextUInt32(uint32_t)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:196:6:void EmuGSS_TCProgram::SetNextUInt64(uint64_t)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:201:6:void EmuGSS_TCProgram::SetNextInt8(int8_t)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:205:6:void EmuGSS_TCProgram::SetNextInt16(int16_t)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:210:6:void EmuGSS_TCProgram::SetNextInt32(int32_t)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_tc_program.cc:214:6:void EmuGSS_TCProgram::SetNextInt64(int64_t)	16	static

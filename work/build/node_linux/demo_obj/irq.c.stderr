@@ -1,0 +1,5 @@
+[01m[Kcc1:[m[K [01;35m[Kwarning: [m[K‘[01m[K-fstack-check=[m[K’ and ‘[01m[K-fstack-clash-protection[m[K’ are mutually exclusive; disabling ‘[01m[K-fstack-check=[m[K’
+[01m[K/home/jorge/sctre/work/irq/GUI/src/irq.c:[m[K In function ‘[01m[Kirq_startup[m[K’:
+[01m[K/home/jorge/sctre/work/irq/GUI/src/irq.c:33:20:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+   33 |    if (msgsize_max [01;35m[K<[m[K sizeof (PI_Messages) || msgsize_max < sizeof (RI_Messages)) {
+      |                    [01;35m[K^[m[K

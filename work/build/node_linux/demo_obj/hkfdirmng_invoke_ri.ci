@@ -1,0 +1,55 @@
+graph: { title: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c"
+node: { title: "hkfdirmng_RI_DoHousekeeping" label: "hkfdirmng_RI_DoHousekeeping\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:16:6\n16 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_RI_DoHousekeeping" targetname: "hkfdirmng_RI_DoHousekeeping_To_PID" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:19:4" }
+node: { title: "hkfdirmng_RI_DoHousekeeping_To_PID" label: "hkfdirmng_RI_DoHousekeeping_To_PID\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:22:6\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "getenv" label: "getenv\n/usr/include/stdlib.h:773:14" shape : ellipse }
+edge: { sourcename: "hkfdirmng_RI_DoHousekeeping_To_PID" targetname: "getenv" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:27:27" }
+node: { title: "getTimeInMilliseconds" label: "getTimeInMilliseconds\n/home/jorge/sctre/work/dataview/C/timeInMS.h:16:11" shape : ellipse }
+edge: { sourcename: "hkfdirmng_RI_DoHousekeeping_To_PID" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:29:28" }
+node: { title: "printf" label: "printf\n/usr/include/stdio.h:363:12" shape : ellipse }
+edge: { sourcename: "hkfdirmng_RI_DoHousekeeping_To_PID" targetname: "printf" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:31:7" }
+node: { title: "__asan_report_load8" label: "__builtin___asan_report_load8\n<built-in>" shape : ellipse }
+edge: { sourcename: "hkfdirmng_RI_DoHousekeeping_To_PID" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:32:7" }
+node: { title: "fflush" label: "fflush\n/usr/include/stdio.h:236:12" shape : ellipse }
+edge: { sourcename: "hkfdirmng_RI_DoHousekeeping_To_PID" targetname: "fflush" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:32:7" }
+node: { title: "vm_hkfdirmng_dohousekeeping" label: "vm_hkfdirmng_dohousekeeping\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:37:16" shape : ellipse }
+edge: { sourcename: "hkfdirmng_RI_DoHousekeeping_To_PID" targetname: "vm_hkfdirmng_dohousekeeping" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:38:4" }
+node: { title: "hkfdirmng_RI_ExecHKFDIRTC" label: "hkfdirmng_RI_ExecHKFDIRTC\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:51:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_RI_ExecHKFDIRTC" targetname: "hkfdirmng_RI_ExecHKFDIRTC_To_PID" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:56:4" }
+node: { title: "hkfdirmng_RI_ExecHKFDIRTC_To_PID" label: "hkfdirmng_RI_ExecHKFDIRTC_To_PID\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:60:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_RI_ExecHKFDIRTC_To_PID" targetname: "getenv" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:67:27" }
+edge: { sourcename: "hkfdirmng_RI_ExecHKFDIRTC_To_PID" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:69:28" }
+edge: { sourcename: "hkfdirmng_RI_ExecHKFDIRTC_To_PID" targetname: "printf" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:71:7" }
+edge: { sourcename: "hkfdirmng_RI_ExecHKFDIRTC_To_PID" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:72:7" }
+edge: { sourcename: "hkfdirmng_RI_ExecHKFDIRTC_To_PID" targetname: "fflush" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:72:7" }
+node: { title: "vm_hkfdirmng_exechkfdirtc" label: "vm_hkfdirmng_exechkfdirtc\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:77:16" shape : ellipse }
+edge: { sourcename: "hkfdirmng_RI_ExecHKFDIRTC_To_PID" targetname: "vm_hkfdirmng_exechkfdirtc" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:81:4" }
+node: { title: "hkfdirmng_RI_SEvAction" label: "hkfdirmng_RI_SEvAction\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:93:6\n16 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_RI_SEvAction" targetname: "hkfdirmng_RI_SEvAction_To_PID" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:96:4" }
+node: { title: "hkfdirmng_RI_SEvAction_To_PID" label: "hkfdirmng_RI_SEvAction_To_PID\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:99:6\n48 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_RI_SEvAction_To_PID" targetname: "getenv" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:104:27" }
+edge: { sourcename: "hkfdirmng_RI_SEvAction_To_PID" targetname: "getTimeInMilliseconds" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:106:28" }
+edge: { sourcename: "hkfdirmng_RI_SEvAction_To_PID" targetname: "printf" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:108:7" }
+edge: { sourcename: "hkfdirmng_RI_SEvAction_To_PID" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:109:7" }
+edge: { sourcename: "hkfdirmng_RI_SEvAction_To_PID" targetname: "fflush" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:109:7" }
+node: { title: "vm_hkfdirmng_sevaction" label: "vm_hkfdirmng_sevaction\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:114:16" shape : ellipse }
+edge: { sourcename: "hkfdirmng_RI_SEvAction_To_PID" targetname: "vm_hkfdirmng_sevaction" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:115:4" }
+node: { title: "hkfdirmng_RI_get_sender" label: "hkfdirmng_RI_get_sender\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:122:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "hkfdirmng_get_sender" label: "hkfdirmng_get_sender\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:124:15" shape : ellipse }
+edge: { sourcename: "hkfdirmng_RI_get_sender" targetname: "hkfdirmng_get_sender" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:125:3" }
+node: { title: "hkfdirmng_RI_get_last_error" label: "hkfdirmng_RI_get_last_error\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:128:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_store16" label: "__builtin___asan_report_store16\n<built-in>" shape : ellipse }
+edge: { sourcename: "hkfdirmng_RI_get_last_error" targetname: "__asan_report_store16" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:130:10" }
+node: { title: "hkfdirmng_get_last_error" label: "hkfdirmng_get_last_error\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:133:6\n32 bytes (static)\n0 dynamic objects" }
+edge: { sourcename: "hkfdirmng_get_last_error" targetname: "hkfdirmng_RI_get_last_error" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:135:5" }
+node: { title: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:136:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "__builtin___asan_unregister_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:136:1" }
+node: { title: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:136:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:136:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:136:1" }
+node: { title: "__asan_register_globals" label: "__builtin___asan_register_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/hkfdirmng/SDL/wrappers/hkfdirmng_invoke_ri.c:136:1" }
+}

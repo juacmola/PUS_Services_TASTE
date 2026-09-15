@@ -1,0 +1,4 @@
+/home/jorge/sctre/work/irq/GUI/src/irq.c:27:6:irq_startup	176	static
+/home/jorge/sctre/work/irq/GUI/src/irq.c:61:6:irq_PI_Poll	256	static
+/home/jorge/sctre/work/irq/GUI/src/irq.c:89:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/irq/GUI/src/irq.c:89:1:_sub_I_00099_1	16	static

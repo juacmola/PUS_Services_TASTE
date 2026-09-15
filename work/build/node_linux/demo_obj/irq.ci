@@ -1,0 +1,60 @@
+graph: { title: "/home/jorge/sctre/work/irq/GUI/src/irq.c"
+node: { title: "irq_startup" label: "irq_startup\n/home/jorge/sctre/work/irq/GUI/src/irq.c:27:6\n176 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_stack_malloc_0" label: "__asan_stack_malloc_0\n<built-in>" shape : ellipse }
+edge: { sourcename: "irq_startup" targetname: "__asan_stack_malloc_0" }
+node: { title: "__asan_report_store4" label: "__builtin___asan_report_store4\n<built-in>" shape : ellipse }
+edge: { sourcename: "irq_startup" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:29:13" }
+node: { title: "fopen" label: "fopen\n/usr/include/stdio.h:264:14" shape : ellipse }
+edge: { sourcename: "irq_startup" targetname: "fopen" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:30:14" }
+node: { title: "*__isoc99_fscanf" label: "fscanf\n/usr/include/stdio.h:463:12" shape : ellipse }
+edge: { sourcename: "irq_startup" targetname: "*__isoc99_fscanf" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:31:4" }
+node: { title: "__asan_report_load4" label: "__builtin___asan_report_load4\n<built-in>" shape : ellipse }
+edge: { sourcename: "irq_startup" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:33:43" }
+node: { title: "printf" label: "printf\n/usr/include/stdio.h:363:12" shape : ellipse }
+edge: { sourcename: "irq_startup" targetname: "printf" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:34:7" }
+node: { title: "__asan_handle_no_return" label: "__builtin___asan_handle_no_return\n<built-in>" shape : ellipse }
+edge: { sourcename: "irq_startup" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:42:7" }
+node: { title: "exit" label: "exit\n/usr/include/stdlib.h:756:13" shape : ellipse }
+edge: { sourcename: "irq_startup" targetname: "exit" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:42:7" }
+node: { title: "geteuid" label: "geteuid\n/usr/include/unistd.h:700:16" shape : ellipse }
+edge: { sourcename: "irq_startup" targetname: "geteuid" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:48:11" }
+node: { title: "snprintf" label: "snprintf\n/usr/include/stdio.h:385:12" shape : ellipse }
+edge: { sourcename: "irq_startup" targetname: "snprintf" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:48:11" }
+node: { title: "malloc" label: "malloc\n/usr/include/stdlib.h:672:14" shape : ellipse }
+edge: { sourcename: "irq_startup" targetname: "malloc" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:49:31" }
+edge: { sourcename: "irq_startup" targetname: "geteuid" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:51:8" }
+edge: { sourcename: "irq_startup" targetname: "snprintf" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:51:8" }
+node: { title: "create_exchange_queue" label: "create_exchange_queue\n/home/jorge/sctre/work/irq/GUI/src/queue_manager.h:55:5" shape : ellipse }
+edge: { sourcename: "irq_startup" targetname: "create_exchange_queue" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:53:8" }
+node: { title: "free" label: "free\n/usr/include/stdlib.h:687:13" shape : ellipse }
+edge: { sourcename: "irq_startup" targetname: "free" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:55:8" }
+node: { title: "__stack_chk_fail" label: "__stack_chk_fail\n<built-in>" shape : ellipse }
+edge: { sourcename: "irq_startup" targetname: "__stack_chk_fail" }
+node: { title: "irq_PI_Poll" label: "irq_PI_Poll\n/home/jorge/sctre/work/irq/GUI/src/irq.c:61:6\n256 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_stack_malloc_2" label: "__asan_stack_malloc_2\n<built-in>" shape : ellipse }
+edge: { sourcename: "irq_PI_Poll" targetname: "__asan_stack_malloc_2" }
+edge: { sourcename: "irq_PI_Poll" targetname: "malloc" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:68:29" }
+node: { title: "perror" label: "perror\n/usr/include/stdio.h:878:13" shape : ellipse }
+edge: { sourcename: "irq_PI_Poll" targetname: "perror" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:69:7" }
+edge: { sourcename: "irq_PI_Poll" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:70:7" }
+edge: { sourcename: "irq_PI_Poll" targetname: "exit" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:70:7" }
+node: { title: "mq_getattr" label: "mq_getattr\n/usr/include/mqueue.h:46:12" shape : ellipse }
+edge: { sourcename: "irq_PI_Poll" targetname: "mq_getattr" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:73:4" }
+edge: { sourcename: "irq_PI_Poll" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:79:7" }
+node: { title: "irq_RI_newTC" label: "irq_RI_newTC\n/home/jorge/sctre/work/irq/GUI/src/irq.h:23:13" shape : ellipse }
+edge: { sourcename: "irq_PI_Poll" targetname: "irq_RI_newTC" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:81:13" }
+node: { title: "retrieve_message_from_queue" label: "retrieve_message_from_queue\n/home/jorge/sctre/work/irq/GUI/src/queue_manager.h:74:5" shape : ellipse }
+edge: { sourcename: "irq_PI_Poll" targetname: "retrieve_message_from_queue" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:75:12" }
+edge: { sourcename: "irq_PI_Poll" targetname: "free" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:87:4" }
+edge: { sourcename: "irq_PI_Poll" targetname: "__stack_chk_fail" }
+node: { title: "/home/jorge/sctre/work/irq/GUI/src/irq.c:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/irq/GUI/src/irq.c:89:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "__builtin___asan_unregister_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/irq/GUI/src/irq.c:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:89:1" }
+node: { title: "/home/jorge/sctre/work/irq/GUI/src/irq.c:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/irq/GUI/src/irq.c:89:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "__builtin___asan_init\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/irq/GUI/src/irq.c:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:89:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "__builtin___asan_version_mismatch_check_v8\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/irq/GUI/src/irq.c:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:89:1" }
+node: { title: "__asan_register_globals" label: "__builtin___asan_register_globals\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/irq/GUI/src/irq.c:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/irq/GUI/src/irq.c:89:1" }
+}
