@@ -57,7 +57,7 @@ is
     ret : adaasn1rtl.ASN1_RESULT := adaasn1rtl.ASN1_RESULT'(Success => true, ErrorCode => 0);
     pragma Warnings (On, "initialization of ""ret"" has no effect");
 begin
-    ret.Success := (((((val = asn1Sccreboot)) OR ((val = asn1Sccready)))) OR ((val = asn1Sccvalidtc)));
+    ret.Success := (((((val = asn1Sccvalidtc)) OR ((val = asn1Sccreboot)))) OR ((val = asn1Sccready)));
     ret.ErrorCode := (if ret.Success then 0 else ERR_TCMANAGER_STATES);
     return ret;
 end asn1SccTcmanager_States_IsConstraintValid;

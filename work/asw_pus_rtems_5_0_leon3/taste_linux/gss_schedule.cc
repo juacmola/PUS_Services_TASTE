@@ -4,8 +4,7 @@
 #include "public/emu_gss_v1.h"
 #include "public/emu_hw_timecode_drv_v1.h"
 
-// Change this one define when testing another service.
-#define EMU_TC_PROGRAMMING_ST03
+#define EMU_TC_PROGRAMMING_FDIR
 
 #if defined(EMU_TC_PROGRAMMING_ST03)
 #include "../service_libraries/emu_tc_programming/src/emu_tc_programming_st03.cc"
@@ -18,7 +17,7 @@
 #elif defined(EMU_TC_PROGRAMMING_FDIR)
 #include "../service_libraries/emu_tc_programming/src/emu_tc_programming_FDIR.cc"
 #else
-#error "Select one EMU_TC_PROGRAMMING_* scenario in gss_schedule.cc"
+#error "Select one EMU_TC_PROGRAMMING_* scenario in gss_schedule_config.h"
 #endif
 
 extern "C" void TasteGSS_InitSchedule() {}

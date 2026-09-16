@@ -1,5 +1,7 @@
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service02.cc:63:6:virtual void EmuGSS_TCProgram2_1::BuildTCAppData(tc_mem_descriptor_t&)	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service02.cc:83:6:virtual void EmuGSS_TCProgram2_1_BadAddress::BuildTCAppData(tc_mem_descriptor_t&)	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service02.cc:34:1:EmuGSS_TCProgram2_1::EmuGSS_TCProgram2_1(uint32_t, const char*, DeviceCommandOnOff_t)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service02.cc:34:1:EmuGSS_TCProgram2_1::EmuGSS_TCProgram2_1(uint32_t, const char*, DeviceCommandOnOff_t)	48	static
 /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service02.cc:48:1:EmuGSS_TCProgram2_1::EmuGSS_TCProgram2_1(DeviceCommandOnOff_t)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service02.cc:73:1:EmuGSS_TCProgram2_1_BadAddress::EmuGSS_TCProgram2_1_BadAddress(uint32_t, const char*, uint32_t)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service02.cc:63:6:virtual void EmuGSS_TCProgram2_1::BuildTCAppData(tc_mem_descriptor_t&)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service02.cc:73:1:EmuGSS_TCProgram2_1_BadAddress::EmuGSS_TCProgram2_1_BadAddress(uint32_t, const char*, uint32_t)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service02.cc:83:6:virtual void EmuGSS_TCProgram2_1_BadAddress::BuildTCAppData(tc_mem_descriptor_t&)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service02.cc:90:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service02.cc:90:1:_sub_I_00099_1	16	static

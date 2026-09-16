@@ -1,7 +1,0 @@
-[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tm_handler/src/pus_tm_handler.cc:[m[K In function ‘[01m[Kerror_code_t[01;32m[K tm_handler_append_data_pool_item[m[K(tm_handler_t*, uint16_t, data_pool_item_t*)[m[K’:
-[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tm_handler/src/pus_tm_handler.cc:412:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kerror[m[K’ may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
-  412 |         return [01;35m[Kerror[m[K;
-      |                [01;35m[K^~~~~[m[K
-[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tm_handler/src/pus_tm_handler.cc:389:22:[m[K [01;36m[Knote: [m[K‘[01m[Kerror[m[K’ was declared here
-  389 |         error_code_t [01;36m[Kerror[m[K;
-      |                      [01;36m[K^~~~~[m[K

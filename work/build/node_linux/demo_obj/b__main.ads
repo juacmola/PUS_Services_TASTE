@@ -54,13 +54,13 @@ package ada_main is
    pragma Export (C, u00020, "taste_basictypesB");
    u00021 : constant Version_32 := 16#41a41a7d#;
    pragma Export (C, u00021, "taste_basictypesS");
-   u00022 : constant Version_32 := 16#08688279#;
+   u00022 : constant Version_32 := 16#3f472d82#;
    pragma Export (C, u00022, "tcmanagerB");
-   u00023 : constant Version_32 := 16#827a8709#;
+   u00023 : constant Version_32 := 16#db36892e#;
    pragma Export (C, u00023, "tcmanagerS");
-   u00024 : constant Version_32 := 16#f16040a8#;
+   u00024 : constant Version_32 := 16#7eef9239#;
    pragma Export (C, u00024, "tcmanager_datamodelB");
-   u00025 : constant Version_32 := 16#801841cc#;
+   u00025 : constant Version_32 := 16#d9544feb#;
    pragma Export (C, u00025, "tcmanager_datamodelS");
    u00026 : constant Version_32 := 16#cf7c6a50#;
    pragma Export (C, u00026, "tcmanager_riB");

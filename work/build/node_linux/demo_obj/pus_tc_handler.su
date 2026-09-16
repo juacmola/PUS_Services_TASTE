@@ -1,19 +1,20 @@
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:30:14:error_code_t tc_handler_build_from_descriptor(tc_handler_t*, tc_mem_descriptor_t)	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:55:8:bool_t tc_handler_is_tc_accept_ack_enabled(tc_handler_t*)	8	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:67:8:bool_t tc_handler_is_tc_start_exec_ack_enabled(tc_handler_t*)	8	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:79:8:bool_t tc_handler_is_tc_progress_exec_ack_enabled(tc_handler_t*)	8	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:91:8:bool_t tc_handler_is_tc_completion_exec_ack_enabled(tc_handler_t*)	8	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:102:14:error_code_t tc_handler_start_up_execution(tc_handler_t*)	8	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:123:14:error_code_t tc_handler_free_memory(tc_handler_t*)	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:149:8:bool_t tc_handler_is_valid_next_appdata_field(tc_handler_t*, uint16_t)	8	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:171:14:error_code_t tc_handler_get_uint8_appdata_field(tc_handler_t*, uint8_t*)	8	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:188:14:error_code_t tc_handler_get_uint16_appdata_field(tc_handler_t*, uint16_t*)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:206:14:error_code_t tc_handler_get_uint32_appdata_field(tc_handler_t*, uint32_t*)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:224:14:error_code_t tc_handler_get_uint64_appdata_field(tc_handler_t*, uint64_t*)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:242:14:error_code_t tc_handler_get_int8_appdata_field(tc_handler_t*, int8_t*)	8	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:260:14:error_code_t tc_handler_get_int16_appdata_field(tc_handler_t*, int16_t*)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:278:14:error_code_t tc_handler_get_int32_appdata_field(tc_handler_t*, int32_t*)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:296:14:error_code_t tc_handler_get_int64_appdata_field(tc_handler_t*, int64_t*)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:314:14:error_code_t tc_handler_get_float_appdata_field(tc_handler_t*, float*)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:333:14:error_code_t tc_handler_get_byte_array_appdata_field(tc_handler_t*, byte_t*, uint16_t)	8	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:358:14:error_code_t tc_handler_get_tc_mem_descriptor_from_remaining_appdata(tc_handler_t*, tc_mem_descriptor_t*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:30:14:error_code_t tc_handler_build_from_descriptor(tc_handler_t*, tc_mem_descriptor_t)	192	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:55:8:bool_t tc_handler_is_tc_accept_ack_enabled(tc_handler_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:67:8:bool_t tc_handler_is_tc_start_exec_ack_enabled(tc_handler_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:79:8:bool_t tc_handler_is_tc_progress_exec_ack_enabled(tc_handler_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:91:8:bool_t tc_handler_is_tc_completion_exec_ack_enabled(tc_handler_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:102:14:error_code_t tc_handler_start_up_execution(tc_handler_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:123:14:error_code_t tc_handler_free_memory(tc_handler_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:149:8:bool_t tc_handler_is_valid_next_appdata_field(tc_handler_t*, uint16_t)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:171:14:error_code_t tc_handler_get_uint8_appdata_field(tc_handler_t*, uint8_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:188:14:error_code_t tc_handler_get_uint16_appdata_field(tc_handler_t*, uint16_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:206:14:error_code_t tc_handler_get_uint32_appdata_field(tc_handler_t*, uint32_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:224:14:error_code_t tc_handler_get_uint64_appdata_field(tc_handler_t*, uint64_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:242:14:error_code_t tc_handler_get_int8_appdata_field(tc_handler_t*, int8_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:260:14:error_code_t tc_handler_get_int16_appdata_field(tc_handler_t*, int16_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:278:14:error_code_t tc_handler_get_int32_appdata_field(tc_handler_t*, int32_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:296:14:error_code_t tc_handler_get_int64_appdata_field(tc_handler_t*, int64_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:314:14:error_code_t tc_handler_get_float_appdata_field(tc_handler_t*, float*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:333:14:error_code_t tc_handler_get_byte_array_appdata_field(tc_handler_t*, byte_t*, uint16_t)	64	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:358:14:error_code_t tc_handler_get_tc_mem_descriptor_from_remaining_appdata(tc_handler_t*, tc_mem_descriptor_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_tc_handler/src/pus_tc_handler.cc:384:1:_sub_I_00099_0	16	static

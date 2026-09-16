@@ -1,7 +1,17 @@
 graph: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc"
-node: { title: "device_drv_on_off" label: "error_code_t device_drv_on_off(uint32_t)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:14:14\n16 bytes (static)\n0 dynamic objects" }
-node: { title: "__printf_chk" label: ")\n/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:52:12" shape : ellipse }
-edge: { sourcename: "device_drv_on_off" targetname: "__printf_chk" label: "/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:23" }
-edge: { sourcename: "device_drv_on_off" targetname: "__printf_chk" label: "/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:23" }
-node: { title: "device_drv_is_on_off_address_valid" label: "bool_t device_drv_is_on_off_address_valid(uint32_t)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:28:8\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "device_drv_on_off" label: "error_code_t device_drv_on_off(uint32_t)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:14:14\n48 bytes (static)\n0 dynamic objects" }
+node: { title: "puts" label: "int __builtin_puts(const char*)\n<built-in>" shape : ellipse }
+edge: { sourcename: "device_drv_on_off" targetname: "puts" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:19:9" }
+edge: { sourcename: "device_drv_on_off" targetname: "puts" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:21:9" }
+node: { title: "device_drv_is_on_off_address_valid" label: "bool_t device_drv_is_on_off_address_valid(uint32_t)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:28:8\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:39:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "void __builtin___asan_unregister_globals(void*, long int)\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:39:1" }
+node: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:39:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "void __builtin___asan_init()\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:39:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "void __builtin___asan_version_mismatch_check_v8()\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:39:1" }
+node: { title: "__asan_register_globals" label: "void __builtin___asan_register_globals(void*, long int)\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/device_drv/src/emu_device_drv.cc:39:1" }
 }

@@ -68,11 +68,11 @@ FEATURES
       Taste::Communication_Layer     => "default";      
       -- Unrecognized property: required_system_element => NO      
       -- Unrecognized property: is_simulink_interface => false      
-      Taste::Interface_Stack_Size    => 16384;      
-      Taste::Interface_Priority      => 1;      
-      Taste::RCMperiod               => 1000 ms;      
-      Taste::Interface_Cyclic_Offset => 1000;      
       Compute_Execution_Time => 0 ms .. 0 ms;      
+      Taste::Interface_Cyclic_Offset => 1000;      
+      Taste::Interface_Stack_Size    => 16384;      
+      Taste::RCMperiod               => 1000 ms;      
+      Taste::Interface_Priority      => 1;      
    };
    PI_SHKFDIRTC : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: HKFDIRMng:: PI_SHKFDIRTC.others {
       Taste::InterfaceName           => "SHKFDIRTC";            
@@ -81,11 +81,11 @@ FEATURES
       Taste::Communication_Layer     => "default";      
       -- Unrecognized property: required_system_element => NO      
       -- Unrecognized property: is_simulink_interface => false      
-      Taste::Interface_Stack_Size    => 1024;      
-      Taste::Associated_Queue_Size   => 1;      
-      Taste::Interface_Priority      => 1;      
       Compute_Execution_Time => 0 ms .. 0 ms;      
+      Taste::Associated_Queue_Size   => 1;      
+      Taste::Interface_Stack_Size    => 1024;      
       Taste::RCMperiod               => 0 ms;      
+      Taste::Interface_Priority      => 1;      
    };
    RI_SEvAction : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: TCManager:: PI_SEvAction.others {
       Taste::labelInheritance        => "true";
@@ -95,11 +95,11 @@ FEATURES
       Taste::Communication_Layer     => "default";      
       -- Unrecognized property: required_system_element => NO      
       -- Unrecognized property: is_simulink_interface => false      
-      Taste::Interface_Stack_Size    => 1024;      
-      Taste::Associated_Queue_Size   => 10;      
-      Taste::Interface_Priority      => 1;      
       Compute_Execution_Time => 0 ms .. 0 ms;      
+      Taste::Associated_Queue_Size   => 10;      
+      Taste::Interface_Stack_Size    => 1024;      
       Taste::RCMperiod               => 0 ms;      
+      Taste::Interface_Priority      => 1;      
    };
    RI_DoHousekeeping : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: Legacy:: PI_DoHousekeeping.others {
       Taste::labelInheritance        => "true";
@@ -128,9 +128,9 @@ PROPERTIES
    -- ignored property: default_implementation = HKFDIRMngSDL
    -- ignored property: fixed_system_element = NO
    -- ignored property: required_system_element = NO
+   Taste::Instances_Min => 1;
    Taste::Startup_Priority => 1;
    Taste::Instances_Max => 1;
-   Taste::Instances_Min => 1;
    TASTE_IV_Properties::Default_Codegen => Ada;
 
 END HKFDIRMng;
@@ -262,11 +262,11 @@ FEATURES
       Taste::Communication_Layer     => "default";      
       -- Unrecognized property: required_system_element => NO      
       -- Unrecognized property: is_simulink_interface => false      
-      Taste::Interface_Stack_Size    => 16384;      
-      Taste::Interface_Priority      => 1;      
-      Taste::RCMperiod               => 100 ms;      
-      Taste::Interface_Cyclic_Offset => 1000;      
       Compute_Execution_Time => 0 ms .. 0 ms;      
+      Taste::Interface_Cyclic_Offset => 1000;      
+      Taste::Interface_Stack_Size    => 16384;      
+      Taste::RCMperiod               => 100 ms;      
+      Taste::Interface_Priority      => 1;      
    };
    PI_SEvAction : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: TCManager:: PI_SEvAction.others {
       Taste::InterfaceName           => "SEvAction";            
@@ -275,11 +275,11 @@ FEATURES
       Taste::Communication_Layer     => "default";      
       -- Unrecognized property: required_system_element => NO      
       -- Unrecognized property: is_simulink_interface => false      
-      Taste::Interface_Stack_Size    => 1024;      
-      Taste::Associated_Queue_Size   => 10;      
-      Taste::Interface_Priority      => 1;      
       Compute_Execution_Time => 0 ms .. 0 ms;      
+      Taste::Associated_Queue_Size   => 10;      
+      Taste::Interface_Stack_Size    => 1024;      
       Taste::RCMperiod               => 0 ms;      
+      Taste::Interface_Priority      => 1;      
    };
    RI_PollTC : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: Legacy:: PI_PollTC.others {
       Taste::labelInheritance        => "true";
@@ -299,11 +299,11 @@ FEATURES
       Taste::Communication_Layer     => "default";      
       -- Unrecognized property: required_system_element => NO      
       -- Unrecognized property: is_simulink_interface => false      
-      Taste::Interface_Stack_Size    => 1024;      
-      Taste::Associated_Queue_Size   => 1;      
-      Taste::Interface_Priority      => 1;      
       Compute_Execution_Time => 0 ms .. 0 ms;      
+      Taste::Associated_Queue_Size   => 1;      
+      Taste::Interface_Stack_Size    => 1024;      
       Taste::RCMperiod               => 0 ms;      
+      Taste::Interface_Priority      => 1;      
    };
    RI_SBKGTC : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: BKGTCExec:: PI_SBKGTC.others {
       Taste::labelInheritance        => "true";
@@ -313,11 +313,11 @@ FEATURES
       Taste::Communication_Layer     => "default";      
       -- Unrecognized property: required_system_element => NO      
       -- Unrecognized property: is_simulink_interface => false      
-      Taste::Interface_Stack_Size    => 1024;      
-      Taste::Associated_Queue_Size   => 1;      
-      Taste::Interface_Priority      => 1;      
       Compute_Execution_Time => 0 ms .. 0 ms;      
+      Taste::Associated_Queue_Size   => 1;      
+      Taste::Interface_Stack_Size    => 1024;      
       Taste::RCMperiod               => 0 ms;      
+      Taste::Interface_Priority      => 1;      
    };
    RI_NewEvAction : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: Legacy:: PI_NewEvAction.others {
       Taste::labelInheritance        => "true";
@@ -376,9 +376,9 @@ PROPERTIES
    -- ignored property: default_implementation = TCManagerSDL
    -- ignored property: fixed_system_element = NO
    -- ignored property: required_system_element = NO
+   Taste::Instances_Min => 1;
    Taste::Startup_Priority => 1;
    Taste::Instances_Max => 1;
-   Taste::Instances_Min => 1;
    TASTE_IV_Properties::Default_Codegen => Ada;
 
 END TCManager;
@@ -387,6 +387,84 @@ SYSTEM IMPLEMENTATION TCManager.others
 END TCManager.others;
 
 END interfaceview::IV::TCManager;
+
+
+
+PACKAGE interfaceview::IV::BKGTCExec
+PUBLIC
+
+WITH Taste;
+WITH DataView;
+WITH TASTE_IV_Properties;
+WITH interfaceview::IV::Legacy;
+WITH interfaceview::IV::TCManager;
+
+SUBPROGRAM PI_SBKGTC
+FEATURES
+    packet : IN PARAMETER DataView::RawTC {
+       Taste::encoding => NATIVE;
+    };
+END PI_SBKGTC;
+
+SUBPROGRAM IMPLEMENTATION PI_SBKGTC.others
+END PI_SBKGTC.others;
+
+
+SUBPROGRAM RI_ExecBKGTC
+FEATURES
+    packet : IN PARAMETER DataView::RawTC {
+       Taste::encoding => NATIVE;
+    };
+END RI_ExecBKGTC;
+
+SUBPROGRAM IMPLEMENTATION RI_ExecBKGTC.others
+END RI_ExecBKGTC.others;
+
+
+
+SYSTEM BKGTCExec
+FEATURES
+   PI_SBKGTC : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: BKGTCExec:: PI_SBKGTC.others {
+      Taste::InterfaceName           => "SBKGTC";            
+      Taste::RCMoperationKind        => sporadic;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+      Taste::Associated_Queue_Size   => 1;      
+      Taste::Interface_Stack_Size    => 1024;      
+      Taste::RCMperiod               => 0 ms;      
+      Taste::Interface_Priority      => 1;      
+   };
+   RI_ExecBKGTC : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: Legacy:: PI_ExecBKGTC.others {
+      Taste::labelInheritance        => "true";
+      Taste::InterfaceName           => "ExecBKGTC";            
+      Taste::RCMoperationKind        => protected;      
+      -- Unrecognized property: enable_multicast => true      
+      Taste::Communication_Layer     => "default";      
+      -- Unrecognized property: required_system_element => NO      
+      -- Unrecognized property: is_simulink_interface => false      
+      Compute_Execution_Time => 0 ms .. 0 ms;      
+   };
+PROPERTIES
+   -- ignored property: name = BKGTCExec
+   -- ignored property: is_type = NO
+   Source_Language => (SDL);
+   -- ignored property: default_implementation = BKGTCExecSDL
+   -- ignored property: fixed_system_element = NO
+   -- ignored property: required_system_element = NO
+   Taste::Instances_Min => 1;
+   Taste::Startup_Priority => 1;
+   Taste::Instances_Max => 1;
+   TASTE_IV_Properties::Default_Codegen => Ada;
+
+END BKGTCExec;
+
+SYSTEM IMPLEMENTATION BKGTCExec.others
+END BKGTCExec.others;
+
+END interfaceview::IV::BKGTCExec;
 
 
 
@@ -584,9 +662,9 @@ PROPERTIES
    -- ignored property: default_implementation = default
    -- ignored property: fixed_system_element = NO
    -- ignored property: required_system_element = NO
+   Taste::Instances_Min => 1;
    Taste::Startup_Priority => 1;
    Taste::Instances_Max => 1;
-   Taste::Instances_Min => 1;
    TASTE_IV_Properties::Default_Codegen => Ada;
 
 END Legacy;
@@ -597,91 +675,13 @@ END Legacy.others;
 END interfaceview::IV::Legacy;
 
 
-
-PACKAGE interfaceview::IV::BKGTCExec
-PUBLIC
-
-WITH Taste;
-WITH DataView;
-WITH TASTE_IV_Properties;
-WITH interfaceview::IV::Legacy;
-WITH interfaceview::IV::TCManager;
-
-SUBPROGRAM PI_SBKGTC
-FEATURES
-    packet : IN PARAMETER DataView::RawTC {
-       Taste::encoding => NATIVE;
-    };
-END PI_SBKGTC;
-
-SUBPROGRAM IMPLEMENTATION PI_SBKGTC.others
-END PI_SBKGTC.others;
-
-
-SUBPROGRAM RI_ExecBKGTC
-FEATURES
-    packet : IN PARAMETER DataView::RawTC {
-       Taste::encoding => NATIVE;
-    };
-END RI_ExecBKGTC;
-
-SUBPROGRAM IMPLEMENTATION RI_ExecBKGTC.others
-END RI_ExecBKGTC.others;
-
-
-
-SYSTEM BKGTCExec
-FEATURES
-   PI_SBKGTC : PROVIDES SUBPROGRAM ACCESS interfaceview::IV:: BKGTCExec:: PI_SBKGTC.others {
-      Taste::InterfaceName           => "SBKGTC";            
-      Taste::RCMoperationKind        => sporadic;      
-      -- Unrecognized property: enable_multicast => true      
-      Taste::Communication_Layer     => "default";      
-      -- Unrecognized property: required_system_element => NO      
-      -- Unrecognized property: is_simulink_interface => false      
-      Taste::Interface_Stack_Size    => 1024;      
-      Taste::Associated_Queue_Size   => 1;      
-      Taste::Interface_Priority      => 1;      
-      Compute_Execution_Time => 0 ms .. 0 ms;      
-      Taste::RCMperiod               => 0 ms;      
-   };
-   RI_ExecBKGTC : REQUIRES SUBPROGRAM ACCESS interfaceview::IV:: Legacy:: PI_ExecBKGTC.others {
-      Taste::labelInheritance        => "true";
-      Taste::InterfaceName           => "ExecBKGTC";            
-      Taste::RCMoperationKind        => protected;      
-      -- Unrecognized property: enable_multicast => true      
-      Taste::Communication_Layer     => "default";      
-      -- Unrecognized property: required_system_element => NO      
-      -- Unrecognized property: is_simulink_interface => false      
-      Compute_Execution_Time => 0 ms .. 0 ms;      
-   };
-PROPERTIES
-   -- ignored property: name = BKGTCExec
-   -- ignored property: is_type = NO
-   Source_Language => (SDL);
-   -- ignored property: default_implementation = BKGTCExecSDL
-   -- ignored property: fixed_system_element = NO
-   -- ignored property: required_system_element = NO
-   Taste::Startup_Priority => 1;
-   Taste::Instances_Max => 1;
-   Taste::Instances_Min => 1;
-   TASTE_IV_Properties::Default_Codegen => Ada;
-
-END BKGTCExec;
-
-SYSTEM IMPLEMENTATION BKGTCExec.others
-END BKGTCExec.others;
-
-END interfaceview::IV::BKGTCExec;
-
-
 PACKAGE interfaceview::IV
 PUBLIC
 
 WITH interfaceview::IV::HKFDIRMng;
 WITH interfaceview::IV::TCManager;
-WITH interfaceview::IV::Legacy;
 WITH interfaceview::IV::BKGTCExec;
+WITH interfaceview::IV::Legacy;
 WITH Taste;
 WITH DataView;
 WITH TASTE_IV_Properties;
@@ -696,21 +696,21 @@ SYSTEM IMPLEMENTATION interfaceview.others
 SUBCOMPONENTS
   HKFDIRMng : SYSTEM interfaceview::IV::HKFDIRMng::HKFDIRMng.others;
   TCManager : SYSTEM interfaceview::IV::TCManager::TCManager.others;
-  Legacy : SYSTEM interfaceview::IV::Legacy::Legacy.others;
   BKGTCExec : SYSTEM interfaceview::IV::BKGTCExec::BKGTCExec.others;
+  Legacy : SYSTEM interfaceview::IV::Legacy::Legacy.others;
 CONNECTIONS
+   TCManager_RI_SHKFDIRTC_HKFDIRMng_PI_SHKFDIRTC : SUBPROGRAM ACCESS HKFDIRMng.PI_SHKFDIRTC -> TCManager.RI_SHKFDIRTC;
    TCManager_RI_SBKGTC_BKGTCExec_PI_SBKGTC : SUBPROGRAM ACCESS BKGTCExec.PI_SBKGTC -> TCManager.RI_SBKGTC;
    HKFDIRMng_RI_DoHousekeeping_Legacy_PI_DoHousekeeping : SUBPROGRAM ACCESS Legacy.PI_DoHousekeeping -> HKFDIRMng.RI_DoHousekeeping;
-   TCManager_RI_SHKFDIRTC_HKFDIRMng_PI_SHKFDIRTC : SUBPROGRAM ACCESS HKFDIRMng.PI_SHKFDIRTC -> TCManager.RI_SHKFDIRTC;
    HKFDIRMng_RI_ExecHKFDIRTC_Legacy_PI_ExecHKFDIRTC : SUBPROGRAM ACCESS Legacy.PI_ExecHKFDIRTC -> HKFDIRMng.RI_ExecHKFDIRTC;
    TCManager_RI_HandleTC_Legacy_PI_HandleTC : SUBPROGRAM ACCESS Legacy.PI_HandleTC -> TCManager.RI_HandleTC;
    HKFDIRMng_RI_SEvAction_TCManager_PI_SEvAction : SUBPROGRAM ACCESS TCManager.PI_SEvAction -> HKFDIRMng.RI_SEvAction;
-   TCManager_RI_Reboot_Legacy_PI_Reboot : SUBPROGRAM ACCESS Legacy.PI_Reboot -> TCManager.RI_Reboot;
    TCManager_RI_PollTC_Legacy_PI_PollTC : SUBPROGRAM ACCESS Legacy.PI_PollTC -> TCManager.RI_PollTC;
-   TCManager_RI_Init_Legacy_PI_Init : SUBPROGRAM ACCESS Legacy.PI_Init -> TCManager.RI_Init;
-   TCManager_RI_NewEvAction_Legacy_PI_NewEvAction : SUBPROGRAM ACCESS Legacy.PI_NewEvAction -> TCManager.RI_NewEvAction;
+   TCManager_RI_Reboot_Legacy_PI_Reboot : SUBPROGRAM ACCESS Legacy.PI_Reboot -> TCManager.RI_Reboot;
    TCManager_RI_NewRxTC_Legacy_PI_NewRxTC : SUBPROGRAM ACCESS Legacy.PI_NewRxTC -> TCManager.RI_NewRxTC;
    BKGTCExec_RI_ExecBKGTC_Legacy_PI_ExecBKGTC : SUBPROGRAM ACCESS Legacy.PI_ExecBKGTC -> BKGTCExec.RI_ExecBKGTC;
+   TCManager_RI_Init_Legacy_PI_Init : SUBPROGRAM ACCESS Legacy.PI_Init -> TCManager.RI_Init;
+   TCManager_RI_NewEvAction_Legacy_PI_NewEvAction : SUBPROGRAM ACCESS Legacy.PI_NewEvAction -> TCManager.RI_NewEvAction;
 END interfaceview.others;
 
 PROPERTIES

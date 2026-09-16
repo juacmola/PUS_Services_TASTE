@@ -1,1 +1,2 @@
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/crc/src/crc.cc:29:10:uint16_t cal_crc_16(uint8_t*, uint16_t)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/crc/src/crc.cc:29:10:uint16_t cal_crc_16(uint8_t*, uint16_t)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/crc/src/crc.cc:48:1:_sub_I_00099_0	16	static

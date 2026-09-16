@@ -1,1 +1,2 @@
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/aux_pus_service12_tx_tm.cc:32:14:error_code_t pus_service12_tx_TM_12_12(uint16_t)	96	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/aux_pus_service12_tx_tm.cc:32:14:error_code_t pus_service12_tx_TM_12_12(uint16_t)	240	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/aux_pus_service12_tx_tm.cc:128:1:_sub_I_00099_0	16	static

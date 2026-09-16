@@ -1,22 +1,37 @@
 graph: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc"
-node: { title: "_Z12TCQueue_InitPFvvES0_" label: "void TCQueue_Init(void (*)(), void (*)())\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:47:6\n8 bytes (static)\n0 dynamic objects" }
-node: { title: "_Z14TCQueue_IsFullv" label: "bool TCQueue_IsFull()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:56:6\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "_Z12TCQueue_InitPFvvES0_" label: "void TCQueue_Init(void (*)(), void (*)())\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:47:6\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "_Z14TCQueue_IsFullv" label: "bool TCQueue_IsFull()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:56:6\n32 bytes (static)\n0 dynamic objects" }
 node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
 edge: { sourcename: "_Z14TCQueue_IsFullv" targetname: "__indirect_call" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:61:14" }
 edge: { sourcename: "_Z14TCQueue_IsFullv" targetname: "__indirect_call" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:65:16" }
-node: { title: "_Z15TCQueue_IsEmptyv" label: "bool TCQueue_IsEmpty()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:72:6\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "_Z15TCQueue_IsEmptyv" label: "bool TCQueue_IsEmpty()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:72:6\n32 bytes (static)\n0 dynamic objects" }
 edge: { sourcename: "_Z15TCQueue_IsEmptyv" targetname: "__indirect_call" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:77:14" }
 edge: { sourcename: "_Z15TCQueue_IsEmptyv" targetname: "__indirect_call" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:81:16" }
-node: { title: "_Z23TCQueue_GetTailTCMemoryv" label: "uint8_t* TCQueue_GetTailTCMemory()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:88:10\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "_Z23TCQueue_GetTailTCMemoryv" label: "uint8_t* TCQueue_GetTailTCMemory()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:88:10\n32 bytes (static)\n0 dynamic objects" }
 edge: { sourcename: "_Z23TCQueue_GetTailTCMemoryv" targetname: "__indirect_call" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:94:14" }
 edge: { sourcename: "_Z23TCQueue_GetTailTCMemoryv" targetname: "__indirect_call" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:99:16" }
-node: { title: "_Z23TCQueue_TailTCCompletedt" label: "void TCQueue_TailTCCompleted(uint16_t)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:108:6\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "_Z23TCQueue_TailTCCompletedt" label: "void TCQueue_TailTCCompleted(uint16_t)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:108:6\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_report_store2" label: "void __builtin___asan_report_store2(void*)\n<built-in>" shape : ellipse }
+edge: { sourcename: "_Z23TCQueue_TailTCCompletedt" targetname: "__asan_report_store2" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:111:49" }
 edge: { sourcename: "_Z23TCQueue_TailTCCompletedt" targetname: "__indirect_call" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:115:14" }
 edge: { sourcename: "_Z23TCQueue_TailTCCompletedt" targetname: "__indirect_call" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:119:16" }
-node: { title: "_Z23TCQueue_GetHeadTCMemoryRt" label: "uint8_t* TCQueue_GetHeadTCMemory(uint16_t&)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:125:10\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "_Z23TCQueue_GetHeadTCMemoryRt" label: "uint8_t* TCQueue_GetHeadTCMemory(uint16_t&)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:125:10\n48 bytes (static)\n0 dynamic objects" }
 edge: { sourcename: "_Z23TCQueue_GetHeadTCMemoryRt" targetname: "__indirect_call" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:131:14" }
+node: { title: "__asan_report_load2" label: "void __builtin___asan_report_load2(void*)\n<built-in>" shape : ellipse }
+edge: { sourcename: "_Z23TCQueue_GetHeadTCMemoryRt" targetname: "__asan_report_load2" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:135:46" }
+edge: { sourcename: "_Z23TCQueue_GetHeadTCMemoryRt" targetname: "__asan_report_store2" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:135:11" }
 edge: { sourcename: "_Z23TCQueue_GetHeadTCMemoryRt" targetname: "__indirect_call" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:137:16" }
 node: { title: "_Z23TCQueue_HeadTCExtractedv" label: "void TCQueue_HeadTCExtracted()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:144:6\n16 bytes (static)\n0 dynamic objects" }
 edge: { sourcename: "_Z23TCQueue_HeadTCExtractedv" targetname: "__indirect_call" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:148:14" }
 edge: { sourcename: "_Z23TCQueue_HeadTCExtractedv" targetname: "__indirect_call" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:153:16" }
+node: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:157:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "void __builtin___asan_unregister_globals(void*, long int)\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:157:1" }
+node: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:157:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "void __builtin___asan_init()\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:157:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "void __builtin___asan_version_mismatch_check_v8()\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:157:1" }
+node: { title: "__asan_register_globals" label: "void __builtin___asan_register_globals(void*, long int)\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_queue_drv/src/tc_queue_drv.cc:157:1" }
 }

@@ -1,4 +1,4 @@
-/* CIF PROCESS (250, 150), (150, 75) */
+/* CIF PROCESS (249, 150), (150, 75) */
 
 process Tcmanager;
     /* CIF Keep Specific Geode Partition 'default' */
@@ -8,9 +8,6 @@ process Tcmanager;
     dcl packet RawTC;
     dcl fwdComm FwdCommand;
     dcl tc Telecommand;
-    dcl toReboot GToReboot;
-    dcl toFDIR GFwToHK_FDIR;
-    dcl toBKG GFwToBKG;
     /* CIF ENDTEXT */
     /* CIF procedure (48, 241), (70, 35) */
     /* CIF Keep Specific Geode Partition 'default' */
@@ -87,7 +84,7 @@ process Tcmanager;
             call doHandletc;
             /* CIF decision (869, 278), (83, 50) */
             decision fwdComm
-            /* CIF comment (975, 285), (79, 35) */
+            /* CIF comment (977, 285), (79, 35) */
             comment 'HandleTC';
                 /* CIF ANSWER (788, 348), (97, 23) */
                 (exec_prio_tc):

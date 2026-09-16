@@ -48,17 +48,17 @@ is
 
 
 subtype asn1SccTcmanager_States_index_range is Integer range 0..2;
-type asn1SccTcmanager_States is (asn1Sccreboot, asn1Sccready, asn1Sccvalidtc) with Size => adaasn1rtl.Enumerated_Size;
+type asn1SccTcmanager_States is (asn1Sccvalidtc, asn1Sccreboot, asn1Sccready) with Size => adaasn1rtl.Enumerated_Size;
 for asn1SccTcmanager_States use
-    (asn1Sccreboot => 0, asn1Sccready => 1, asn1Sccvalidtc => 2);
+    (asn1Sccvalidtc => 0, asn1Sccreboot => 1, asn1Sccready => 2);
 
 function asn1SccTcmanager_States_Equal(val1, val2 : asn1SccTcmanager_States) return Boolean;
 
-ERR_TCMANAGER_STATES:constant Integer := 21; -- reboot | ready | validtc
+ERR_TCMANAGER_STATES:constant Integer := 21; -- validtc | reboot | ready
 function asn1SccTcmanager_States_IsConstraintValid(val : asn1SccTcmanager_States) return adaasn1rtl.ASN1_RESULT;
 
 function asn1SccTcmanager_States_Init  return asn1SccTcmanager_States is
-(asn1Sccreboot);
+(asn1Sccvalidtc);
 -- asn1SccTcmanager_Context --------------------------------------------
 
 type asn1SccTcmanager_Context is record
@@ -87,7 +87,7 @@ ERR_TCMANAGER_CONTEXT_TC:constant Integer := 341; --
 function asn1SccTcmanager_Context_IsConstraintValid(val : asn1SccTcmanager_Context) return adaasn1rtl.ASN1_RESULT;
 
 function asn1SccTcmanager_Context_Init  return asn1SccTcmanager_Context is
-((state => asn1Sccreboot, init_done => False, sender => System_Dataview.asn1Sccbkgtcexec, offspring => System_Dataview.asn1Sccbkgtcexec, acceptance => SCTRE_DATAVIEW.asn1Sccnot_accepted, packet => (Length => 0, Data => (others => 0)), fwdcomm => SCTRE_DATAVIEW.asn1Sccto_reboot, tc => SCTRE_DATAVIEW.asn1SccTelecommand_Init));
+((state => asn1Sccvalidtc, init_done => False, sender => System_Dataview.asn1Sccbkgtcexec, offspring => System_Dataview.asn1Sccbkgtcexec, acceptance => SCTRE_DATAVIEW.asn1Sccnot_accepted, packet => (Length => 0, Data => (others => 0)), fwdcomm => SCTRE_DATAVIEW.asn1Sccto_reboot, tc => SCTRE_DATAVIEW.asn1SccTelecommand_Init));
 subtype asn1SccTcmanager_T_Runtime_Error_Selection_index_range is Integer range 0..2;
 type asn1SccTcmanager_T_Runtime_Error_Selection is (asn1Sccnoerror_present, asn1Sccencodeerror_present, asn1Sccdecodeerror_present) with Size => adaasn1rtl.Enumerated_Size;
 for asn1SccTcmanager_T_Runtime_Error_Selection use

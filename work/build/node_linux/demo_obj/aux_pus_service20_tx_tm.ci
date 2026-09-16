@@ -1,5 +1,7 @@
 graph: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service20/src/aux_pus_service20_tx_tm.cc"
-node: { title: "_Z24pus_service20_tx_TM_20_2t" label: "error_code_t pus_service20_tx_TM_20_2(uint16_t)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service20/src/aux_pus_service20_tx_tm.cc:36:14\n80 bytes (static)\n0 dynamic objects" }
+node: { title: "_Z24pus_service20_tx_TM_20_2t" label: "error_code_t pus_service20_tx_TM_20_2(uint16_t)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service20/src/aux_pus_service20_tx_tm.cc:36:14\n240 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_stack_malloc_1" label: "__asan_stack_malloc_1\n<built-in>" shape : ellipse }
+edge: { sourcename: "_Z24pus_service20_tx_TM_20_2t" targetname: "__asan_stack_malloc_1" }
 node: { title: "tm_handler_mem_alloc_and_startup" label: "error_code_t tm_handler_mem_alloc_and_startup(tm_handler_t*, uint8_t, uint8_t)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service20/src/../../pus_service01/include/public/../../../pus_tm_handler/include/public/pus_tm_handler.h:79:14" shape : ellipse }
 edge: { sourcename: "_Z24pus_service20_tx_TM_20_2t" targetname: "tm_handler_mem_alloc_and_startup" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service20/src/aux_pus_service20_tx_tm.cc:43:42" }
 node: { title: "tm_handler_append_uint8_appdata_field" label: "error_code_t tm_handler_append_uint8_appdata_field(tm_handler_t*, uint8_t)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service20/src/../../pus_service01/include/public/../../../pus_tm_handler/include/public/pus_tm_handler.h:108:14" shape : ellipse }
@@ -14,4 +16,9 @@ node: { title: "tm_handler_free_mem" label: "error_code_t tm_handler_free_mem(tm
 edge: { sourcename: "_Z24pus_service20_tx_TM_20_2t" targetname: "tm_handler_free_mem" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service20/src/aux_pus_service20_tx_tm.cc:62:22" }
 node: { title: "__stack_chk_fail" label: "__stack_chk_fail\n<built-in>" shape : ellipse }
 edge: { sourcename: "_Z24pus_service20_tx_TM_20_2t" targetname: "__stack_chk_fail" }
+node: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service20/src/aux_pus_service20_tx_tm.cc:_sub_I_00099_0" label: "_sub_I_00099_0\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service20/src/aux_pus_service20_tx_tm.cc:67:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "void __builtin___asan_init()\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service20/src/aux_pus_service20_tx_tm.cc:_sub_I_00099_0" targetname: "__asan_init" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service20/src/aux_pus_service20_tx_tm.cc:67:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "void __builtin___asan_version_mismatch_check_v8()\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service20/src/aux_pus_service20_tx_tm.cc:_sub_I_00099_0" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service20/src/aux_pus_service20_tx_tm.cc:67:1" }
 }

@@ -1,6 +1,33 @@
+/usr/include/c++/13/bits/chrono.h:822:7:constexpr bool std::chrono::operator<(const duration<_Rep1, _Period1>&, const duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1, 1000000000>; _Rep2 = long int; _Period2 = std::ratio<1, 1000000000>]	208	static
+/usr/include/c++/13/bits/chrono.h:673:2:static constexpr std::chrono::duration<_Rep, _Period> std::chrono::duration<_Rep, _Period>::zero() [with _Rep = long int; _Period = std::ratio<1, 1000000000>]	176	static
+/usr/include/c++/13/bits/chrono.h:573:23:constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = long int; <template-parameter-2-2> = void; _Rep = long int; _Period = std::ratio<1, 1000000000>]	32	static
+/usr/include/c++/13/bits/chrono.h:498:2:static constexpr _Rep std::chrono::duration_values<_Rep>::zero() [with _Rep = long int]	16	static
+/usr/include/c++/13/bits/chrono.h:589:2:constexpr std::chrono::duration<_Rep, _Period>::rep std::chrono::duration<_Rep, _Period>::count() const [with _Rep = long int; _Period = std::ratio<1, 1000000000>]	32	static
+/usr/include/c++/13/bits/chrono.h:573:23:constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = long int; <template-parameter-2-2> = void; _Rep = long int; _Period = std::ratio<1>]	32	static
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:300:1:int __gthread_active_p()	16	static
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:746:1:int __gthread_mutex_lock(__gthread_mutex_t*)	32	static
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:776:1:int __gthread_mutex_unlock(__gthread_mutex_t*)	32	static
+/usr/include/c++/13/bits/std_mutex.h:111:5:void std::mutex::lock()	48	static
+/usr/include/c++/13/bits/std_mutex.h:129:5:void std::mutex::unlock()	32	static
 /home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:36:1:static bool taste::Hal::init()	16	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:45:1:static uint64_t taste::Hal::getElapsedTimeInNs()	16	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:60:1:static bool taste::Hal::sleepNs(uint64_t)	48	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:67:1:static int32_t taste::Hal::semaphoreCreate()	8	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:79:1:static bool taste::Hal::semaphoreObtain(int32_t)	16	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:87:1:static bool taste::Hal::semaphoreRelease(int32_t)	16	static
+/usr/include/c++/13/bits/chrono.h:1141:7:constexpr typename std::common_type<_Duration1, _Duration2>::type std::chrono::operator-(const time_point<_Clock, _Duration1>&, const time_point<_Clock, _Duration2>&) [with _Clock = _V2::steady_clock; _Dur1 = duration<long int, std::ratio<1, 1000000000> >; _Dur2 = duration<long int, std::ratio<1, 1000000000> >]	192	static
+/usr/include/c++/13/bits/chrono.h:949:2:constexpr std::chrono::time_point<_Clock, _Dur>::duration std::chrono::time_point<_Clock, _Dur>::time_since_epoch() const [with _Clock = std::chrono::_V2::steady_clock; _Dur = std::chrono::duration<long int, std::ratio<1, 1000000000> >]	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:45:1:static uint64_t taste::Hal::getElapsedTimeInNs()	224	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:60:1:static bool taste::Hal::sleepNs(uint64_t)	192	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:67:1:static int32_t taste::Hal::semaphoreCreate()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:79:1:static bool taste::Hal::semaphoreObtain(int32_t)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:87:1:static bool taste::Hal::semaphoreRelease(int32_t)	32	static
+/usr/include/c++/13/bits/chrono.h:273:7:constexpr std::chrono::__enable_if_is_duration<_ToDur> std::chrono::duration_cast(const duration<_Rep, _Period>&) [with _ToDur = duration<long int>; _Rep = long int; _Period = std::ratio<1, 1000000000>]	32	static
+/usr/include/c++/13/bits/chrono.h:589:2:constexpr std::chrono::duration<_Rep, _Period>::rep std::chrono::duration<_Rep, _Period>::count() const [with _Rep = long int; _Period = std::ratio<1>]	32	static
+/usr/include/c++/13/bits/chrono.h:273:7:constexpr std::chrono::__enable_if_is_duration<_ToDur> std::chrono::duration_cast(const duration<_Rep, _Period>&) [with _ToDur = duration<long int, std::ratio<1, 1000000000> >; _Rep = long int; _Period = std::ratio<1, 1000000000>]	32	static
+/usr/include/c++/13/bits/chrono.h:710:7:constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator-(const duration<_Rep1, _Period1>&, const duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1, 1000000000>; _Rep2 = long int; _Period2 = std::ratio<1, 1000000000>]	272	static
+/usr/include/c++/13/bits/chrono.h:573:23:constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = long unsigned int; <template-parameter-2-2> = void; _Rep = long int; _Period = std::ratio<1, 1000000000>]	32	static
+/usr/include/c++/13/bits/this_thread_sleep.h:68:7:void std::this_thread::sleep_for(const std::chrono::duration<_Rep1, _Period1>&) [with _Rep = long int; _Period = std::ratio<1, 1000000000>]	288	static
+/usr/include/c++/13/bits/chrono.h:208:4:static constexpr _ToDur std::chrono::__duration_cast_impl<_ToDur, _CF, _CR, true, false>::__cast(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1, 1000000000>; _ToDur = std::chrono::duration<long int>; _CF = std::ratio<1, 1000000000>; _CR = long int]	192	static
+/usr/include/c++/13/bits/chrono.h:273:7:constexpr std::chrono::__enable_if_is_duration<_ToDur> std::chrono::duration_cast(const duration<_Rep, _Period>&) [with _ToDur = duration<long int, std::ratio<1, 1000000000> >; _Rep = long int; _Period = std::ratio<1>]	32	static
+/usr/include/c++/13/bits/chrono.h:855:7:constexpr bool std::chrono::operator<=(const duration<_Rep1, _Period1>&, const duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1, 1000000000>; _Rep2 = long int; _Period2 = std::ratio<1, 1000000000>]	32	static
+/usr/include/c++/13/bits/chrono.h:710:7:constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator-(const duration<_Rep1, _Period1>&, const duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1, 1000000000>; _Rep2 = long int; _Period2 = std::ratio<1>]	272	static
+/usr/include/c++/13/bits/chrono.h:221:4:static constexpr _ToDur std::chrono::__duration_cast_impl<_ToDur, _CF, _CR, false, true>::__cast(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1>; _ToDur = std::chrono::duration<long int, std::ratio<1, 1000000000> >; _CF = std::ratio<1000000000, 1>; _CR = long int]	192	static
+/usr/include/c++/13/bits/chrono.h:581:14:constexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep2 = long int; _Period2 = std::ratio<1>; <template-parameter-2-3> = void; _Rep = long int; _Period = std::ratio<1, 1000000000>]	160	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:94:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.cc:94:1:_sub_I_00099_1	16	static

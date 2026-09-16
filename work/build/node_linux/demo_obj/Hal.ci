@@ -1,20 +1,30 @@
 graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc"
-node: { title: "Hal_Init" label: "bool Hal_Init()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:28:10\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "Hal_Init" label: "bool Hal_Init()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:28:10\n16 bytes (static)\n0 dynamic objects" }
 node: { title: "_ZN5taste3Hal4initEv" label: "static bool taste::Hal::init()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.h:53:17" shape : ellipse }
 edge: { sourcename: "Hal_Init" targetname: "_ZN5taste3Hal4initEv" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:28:50" }
-node: { title: "Hal_GetElapsedTimeInNs" label: "uint64_t Hal_GetElapsedTimeInNs()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:30:14\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "Hal_GetElapsedTimeInNs" label: "uint64_t Hal_GetElapsedTimeInNs()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:30:14\n16 bytes (static)\n0 dynamic objects" }
 node: { title: "_ZN5taste3Hal18getElapsedTimeInNsEv" label: "static uint64_t taste::Hal::getElapsedTimeInNs()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.h:61:21" shape : ellipse }
 edge: { sourcename: "Hal_GetElapsedTimeInNs" targetname: "_ZN5taste3Hal18getElapsedTimeInNsEv" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:30:82" }
-node: { title: "Hal_SleepNs" label: "bool Hal_SleepNs(uint64_t)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:32:10\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "Hal_SleepNs" label: "bool Hal_SleepNs(uint64_t)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:32:10\n32 bytes (static)\n0 dynamic objects" }
 node: { title: "_ZN5taste3Hal7sleepNsEm" label: "static bool taste::Hal::sleepNs(uint64_t)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.h:70:17" shape : ellipse }
 edge: { sourcename: "Hal_SleepNs" targetname: "_ZN5taste3Hal7sleepNsEm" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:32:68" }
-node: { title: "Hal_SemaphoreCreate" label: "int32_t Hal_SemaphoreCreate()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:34:13\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "Hal_SemaphoreCreate" label: "int32_t Hal_SemaphoreCreate()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:34:13\n16 bytes (static)\n0 dynamic objects" }
 node: { title: "_ZN5taste3Hal15semaphoreCreateEv" label: "static int32_t taste::Hal::semaphoreCreate()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.h:79:20" shape : ellipse }
 edge: { sourcename: "Hal_SemaphoreCreate" targetname: "_ZN5taste3Hal15semaphoreCreateEv" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:34:75" }
-node: { title: "Hal_SemaphoreObtain" label: "bool Hal_SemaphoreObtain(int32_t)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:36:10\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "Hal_SemaphoreObtain" label: "bool Hal_SemaphoreObtain(int32_t)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:36:10\n32 bytes (static)\n0 dynamic objects" }
 node: { title: "_ZN5taste3Hal15semaphoreObtainEi" label: "static bool taste::Hal::semaphoreObtain(int32_t)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.h:89:17" shape : ellipse }
 edge: { sourcename: "Hal_SemaphoreObtain" targetname: "_ZN5taste3Hal15semaphoreObtainEi" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:36:78" }
-node: { title: "Hal_SemaphoreRelease" label: "bool Hal_SemaphoreRelease(int32_t)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:38:10\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "Hal_SemaphoreRelease" label: "bool Hal_SemaphoreRelease(int32_t)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:38:10\n32 bytes (static)\n0 dynamic objects" }
 node: { title: "_ZN5taste3Hal16semaphoreReleaseEi" label: "static bool taste::Hal::semaphoreRelease(int32_t)\n/home/jorge/sctre/work/build/node_linux/demo/runtime/HalInternal.h:99:17" shape : ellipse }
 edge: { sourcename: "Hal_SemaphoreRelease" targetname: "_ZN5taste3Hal16semaphoreReleaseEi" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:38:80" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:39:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_unregister_globals" label: "void __builtin___asan_unregister_globals(void*, long int)\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:39:1" }
+node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:39:1\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "__asan_init" label: "void __builtin___asan_init()\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:39:1" }
+node: { title: "__asan_version_mismatch_check_v8" label: "void __builtin___asan_version_mismatch_check_v8()\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:39:1" }
+node: { title: "__asan_register_globals" label: "void __builtin___asan_register_globals(void*, long int)\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:39:1" }
 }

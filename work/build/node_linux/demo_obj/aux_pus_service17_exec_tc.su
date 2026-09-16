@@ -1,1 +1,2 @@
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service17/src/aux_pus_service17_exec_tc.cc:39:6:void pus_service17_tx_TM_17_2(tc_handler_t*)	64	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service17/src/aux_pus_service17_exec_tc.cc:39:6:void pus_service17_tx_TM_17_2(tc_handler_t*)	240	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service17/src/aux_pus_service17_exec_tc.cc:56:1:_sub_I_00099_0	16	static

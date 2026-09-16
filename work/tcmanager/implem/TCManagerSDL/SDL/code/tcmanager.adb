@@ -170,20 +170,20 @@ package body Tcmanager is
             if Message_Pending or trId /= -1 then
                goto Next_Transition;
             end if;
-            if ctxt.State = asn1Sccreboot then
-               --  Priority: 1
-               --  DECISION true (-1,-1)
-               --  ANSWER true (None,None)
-               if (true) then
-                  trId := 4;
-               end if;
-            end if;
             if ctxt.State = asn1Sccvalidtc then
                --  Priority: 1
                --  DECISION true (-1,-1)
                --  ANSWER true (None,None)
                if (true) then
                   trId := 3;
+               end if;
+            end if;
+            if ctxt.State = asn1Sccreboot then
+               --  Priority: 1
+               --  DECISION true (-1,-1)
+               --  ANSWER true (None,None)
+               if (true) then
+                  trId := 4;
                end if;
             end if;
             <<Next_Transition>>

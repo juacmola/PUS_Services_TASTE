@@ -1,5 +1,10 @@
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss.cc:38:6:void EmuGSS_ShowTM(const tm_mem_descriptor*)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss.cc:82:6:void EmuGSS_PrintCurrentOBT()	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss.cc:98:6:void EmuGSS_RxCurrentTC(CDTCMemDescriptor*)	8	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss.cc:104:6:void EmuGSS_SendProgrammedTCs()	96	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss.cc:88:6:void EmuGSS_PassSecond()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/../include/public/../emu_gss/emu_gss_tc_program.h:48:11:uint8_t EmuGSS_TCProgram::GetType()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/../include/public/../emu_gss/emu_gss_tc_program.h:49:11:uint8_t EmuGSS_TCProgram::GetSubtype()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/../include/public/../emu_gss/emu_gss_tc_program.h:50:16:const char* EmuGSS_TCProgram::GetBrief()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss.cc:42:6:void EmuGSS_ShowTM(const tm_mem_descriptor*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss.cc:93:6:void EmuGSS_PrintCurrentOBT()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss.cc:99:6:void EmuGSS_PassSecond()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss.cc:109:6:void EmuGSS_RxCurrentTC(CDTCMemDescriptor*)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss.cc:115:6:void EmuGSS_SendProgrammedTCs()	176	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss.cc:157:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss.cc:157:1:_sub_I_00099_1	16	static

@@ -1,9 +1,9 @@
-/usr/include/c++/13/bits/locale_facets.h:1092:7:virtual std::ctype<char>::char_type std::ctype<char>::do_widen(char) const	8	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:113:1:static void* taste::Thread::method_wrapper(void*)	16	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:122:1:static void* taste::Thread::method_wrapper_with_parameter(void*)	16	static
-/usr/include/c++/13/ostream:735:5:std::basic_ostream<_CharT, _Traits>& std::endl(basic_ostream<_CharT, _Traits>&) [with _CharT = char; _Traits = char_traits<char>]	32	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:28:1:taste::Thread::Thread(int, size_t)	8	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:57:1:void taste::Thread::join()	8	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:63:1:void taste::Thread::create_thread(void* (*)(void*), void*)	144	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:35:1:void taste::Thread::start(void (*)())	8	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:45:1:void taste::Thread::start(void (*)(void*), void*)	8	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:28:1:taste::Thread::Thread(int, size_t)	48	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:35:1:void taste::Thread::start(void (*)())	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:45:1:void taste::Thread::start(void (*)(void*), void*)	48	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:57:1:void taste::Thread::join()	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:63:1:void taste::Thread::create_thread(void* (*)(void*), void*)	288	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:113:1:static void* taste::Thread::method_wrapper(void*)	48	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:122:1:static void* taste::Thread::method_wrapper_with_parameter(void*)	48	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:132:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Thread.cc:132:1:_sub_I_00099_1	16	static

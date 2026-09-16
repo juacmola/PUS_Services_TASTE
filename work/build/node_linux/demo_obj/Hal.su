@@ -1,6 +1,8 @@
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:28:10:bool Hal_Init()	8	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:30:14:uint64_t Hal_GetElapsedTimeInNs()	8	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:32:10:bool Hal_SleepNs(uint64_t)	8	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:34:13:int32_t Hal_SemaphoreCreate()	8	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:36:10:bool Hal_SemaphoreObtain(int32_t)	8	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:38:10:bool Hal_SemaphoreRelease(int32_t)	8	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:28:10:bool Hal_Init()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:30:14:uint64_t Hal_GetElapsedTimeInNs()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:32:10:bool Hal_SleepNs(uint64_t)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:34:13:int32_t Hal_SemaphoreCreate()	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:36:10:bool Hal_SemaphoreObtain(int32_t)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:38:10:bool Hal_SemaphoreRelease(int32_t)	32	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:39:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Hal.cc:39:1:_sub_I_00099_1	16	static

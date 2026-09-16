@@ -142,7 +142,10 @@ event-action notifications, not housekeeping telemetry. This change does not
 add periodic FDIR monitoring or change the ASN.1 model.
 
 The current model has no IRQ GUI. Use `make run-gss` (or build/run in TASTE)
-with `EMU_TC_PROGRAMMING_ST03` selected in `taste_linux/gss_schedule.cc`.
+with `EMU_TC_PROGRAMMING_ST03` selected in `taste_linux/gss_schedule_config.h`.
+Change the define in this shared header to select another service test.
+Only ST03 displays TM[3,25] on the terminal; the other scenarios hide these
+reports while housekeeping generation and telemetry delivery continue.
 This selects the existing emu_tc_programming_st03.cc file; it supersedes the
 original service-17 example described above. Initial SID 0 reports every two
 seconds (PIDs 0..4); SID 10 every four seconds (PIDs 5..7). The ST03 scenario

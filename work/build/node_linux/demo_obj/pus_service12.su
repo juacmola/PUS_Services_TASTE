@@ -1,7 +1,9 @@
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/pus_service12.cc:35:6:void pus_service12_startup()	8	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/pus_service12.cc:49:6:void pus_service12_exec_tc(tc_handler_t*)	8	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/pus_service12.cc:70:10:uint16_t pus_service12_get_PMON_COUNT()	8	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/pus_service12.cc:76:8:bool_t pus_service12_is_PMON_enabled(uint16_t)	8	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/pus_service12.cc:91:16:monitor_type_t pus_service12_get_PMON_type(uint16_t)	8	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/pus_service12.cc:104:8:bool_t pus_service12_do_param_limits_monitoring(uint16_t, uint16_t*, param_out_of_limits_info_t*)	96	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/pus_service12.cc:185:8:bool_t pus_service12_do_param_check_value_monitoring(uint16_t, uint16_t*, param_value_fault_info_t*)	96	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/pus_service12.cc:35:6:void pus_service12_startup()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/pus_service12.cc:49:6:void pus_service12_exec_tc(tc_handler_t*)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/pus_service12.cc:70:10:uint16_t pus_service12_get_PMON_COUNT()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/pus_service12.cc:76:8:bool_t pus_service12_is_PMON_enabled(uint16_t)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/pus_service12.cc:91:16:monitor_type_t pus_service12_get_PMON_type(uint16_t)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/pus_service12.cc:104:8:bool_t pus_service12_do_param_limits_monitoring(uint16_t, uint16_t*, param_out_of_limits_info_t*)	224	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/pus_service12.cc:185:8:bool_t pus_service12_do_param_check_value_monitoring(uint16_t, uint16_t*, param_value_fault_info_t*)	224	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/pus_service12.cc:238:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/pus_service12.cc:238:1:_sub_I_00099_1	16	static

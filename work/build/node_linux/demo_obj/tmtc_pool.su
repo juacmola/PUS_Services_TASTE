@@ -1,4 +1,7 @@
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:64:17:void init_tmtc_pool()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:64:17:void init_tmtc_pool()	32	static
 /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:76:22:uint8_t* tmtc_pool_alloc()	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:103:17:void tmtc_pool_free(uint8_t*)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:103:17:void tmtc_pool_free(uint8_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:118:1:void __static_initialization_and_destruction_0()	16	static
 /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:118:1:cc)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:118:1:_sub_D_00099_0	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tmtc_dyn_mem/src/tmtc_pool.cc:118:1:_sub_I_00099_1	16	static

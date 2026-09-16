@@ -34,6 +34,10 @@
 
 #include "../../../service_libraries/serialize/include/public/serialize.h"
 
+#ifdef GENERIC_LINUX_TARGET
+#include "../../../taste_linux/gss_schedule_config.h"
+#endif
+
 
 void EmuGSS_ShowTM(const struct tm_mem_descriptor *pTMDescriptor) {
 
@@ -41,6 +45,13 @@ void EmuGSS_ShowTM(const struct tm_mem_descriptor *pTMDescriptor) {
 
 	uint8_t tm_type = GSSTMHandler::GetPUSType(pTMDescriptor);
 	uint8_t tm_subtype = GSSTMHandler::GetPUSSubtype(pTMDescriptor);
+
+#if defined(GENERIC_LINUX_TARGET) && !defined(EMU_TC_PROGRAMMING_ST03)
+	// Housekeeping continues to run; only hide its reports on the terminal.
+	if (tm_type == 3 && tm_subtype == 25) {
+		return;
+	}
+#endif
 
 	printf("GSS Rx TM [%i,%i]", tm_type, tm_subtype);
 
