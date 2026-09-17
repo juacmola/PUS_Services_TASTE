@@ -1,6 +1,5 @@
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/pus_service01.cc:33:20:tc_accept_report_t pus_service1_tc_acceptation(tc_handler_t*)	176	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/pus_service01.cc:153:14:error_code_t pus_service1_tx_TM_1_1(tc_handler_t*)	48	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/pus_service01.cc:165:14:error_code_t pus_service1_tx_TM_1_2(tc_handler_t*, tc_accept_report_t)	272	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/pus_service01.cc:200:14:error_code_t pus_service1_tx_TM_1_3(tc_handler_t*)	48	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/pus_service01.cc:214:14:error_code_t pus_service1_tx_TM_1_7(tc_handler_t*)	48	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/pus_service01.cc:226:1:_sub_I_00099_0	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/pus_service01.cc:33:20:tc_accept_report_t pus_service1_tc_acceptation(tc_handler_t*)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/pus_service01.cc:153:14:error_code_t pus_service1_tx_TM_1_1(tc_handler_t*)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/pus_service01.cc:165:14:error_code_t pus_service1_tx_TM_1_2(tc_handler_t*, tc_accept_report_t)	96	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/pus_service01.cc:200:14:error_code_t pus_service1_tx_TM_1_3(tc_handler_t*)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/pus_service01.cc:214:14:error_code_t pus_service1_tx_TM_1_7(tc_handler_t*)	16	static

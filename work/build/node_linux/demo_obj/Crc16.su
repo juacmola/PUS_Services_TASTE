@@ -1,4 +1,1 @@
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Crc16.c:26:1:crc16	32	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Crc16.c:69:1:calculateCrc16	48	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Crc16.c:78:1:_sub_D_00099_0	16	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Crc16.c:78:1:_sub_I_00099_1	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/Packetizer/Crc16.c:69:1:calculateCrc16	8	static

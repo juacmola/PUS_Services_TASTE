@@ -1,86 +1,26 @@
-/usr/include/c++/13/bits/chrono.h:822:7:constexpr bool std::chrono::operator<(const duration<_Rep1, _Period1>&, const duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1, 1000000000>; _Rep2 = long int; _Period2 = std::ratio<1, 1000000000>]	208	static
-/usr/include/c++/13/bits/chrono.h:673:2:static constexpr std::chrono::duration<_Rep, _Period> std::chrono::duration<_Rep, _Period>::zero() [with _Rep = long int; _Period = std::ratio<1, 1000000000>]	176	static
-/usr/include/c++/13/bits/chrono.h:573:23:constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = long int; <template-parameter-2-2> = void; _Rep = long int; _Period = std::ratio<1, 1000000000>]	32	static
-/usr/include/c++/13/bits/chrono.h:498:2:static constexpr _Rep std::chrono::duration_values<_Rep>::zero() [with _Rep = long int]	16	static
-/usr/include/c++/13/bits/chrono.h:589:2:constexpr std::chrono::duration<_Rep, _Period>::rep std::chrono::duration<_Rep, _Period>::count() const [with _Rep = long int; _Period = std::ratio<1, 1000000000>]	32	static
-/usr/include/c++/13/bits/chrono.h:573:23:constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = long int; <template-parameter-2-2> = void; _Rep = long int; _Period = std::ratio<1>]	32	static
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:300:1:int __gthread_active_p()	16	static
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:746:1:int __gthread_mutex_lock(__gthread_mutex_t*)	32	static
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:755:1:int __gthread_mutex_trylock(__gthread_mutex_t*)	32	static
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:776:1:int __gthread_mutex_unlock(__gthread_mutex_t*)	32	static
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:809:1:int __gthread_recursive_mutex_lock(__gthread_recursive_mutex_t*)	32	static
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:815:1:int __gthread_recursive_mutex_trylock(__gthread_recursive_mutex_t*)	32	static
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:830:1:int __gthread_recursive_mutex_unlock(__gthread_recursive_mutex_t*)	32	static
-/usr/include/c++/13/mutex:118:5:void std::recursive_mutex::lock()	48	static
-/usr/include/c++/13/mutex:129:5:bool std::recursive_mutex::try_lock()	32	static
-/usr/include/c++/13/mutex:136:5:void std::recursive_mutex::unlock()	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/../service_libraries/edroomsl/edroombp/include/public/../edroombp_swr/rtemsapi_5_1/rtems_5_1/edroombp.h:143:5:Pr_Semaphore::~Pr_Semaphore()	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:12:46:const std::chrono::_V2::steady_clock::time_point& {anonymous}::epoch()	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:18:1:Pr_Semaphore::Pr_Semaphore(uint32_t)	16	static
-/usr/include/c++/13/mutex:81:5:constexpr std::__recursive_mutex_base::__recursive_mutex_base()	32	static
-/usr/include/c++/13/mutex:111:5:constexpr std::recursive_mutex::recursive_mutex()	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:19:1:Pr_SemaphoreRec::Pr_SemaphoreRec()	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:20:1:Pr_SemaphoreRec::Pr_SemaphoreRec(int32_t)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:22:1:Pr_SemaphoreRec::~Pr_SemaphoreRec()	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:23:6:void Pr_SemaphoreRec::Wait()	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:24:6:void Pr_SemaphoreRec::Signal()	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:25:9:int32_t Pr_SemaphoreRec::WaitCond()	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:84:1:Pr_Time::Pr_Time()	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:90:1:Pr_Time::Pr_Time(const Pr_Time&)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:96:1:Pr_Time::Pr_Time(EDROOMTimeSpec)	160	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:104:1:Pr_Time::Pr_Time(uint32_t, uint32_t)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:113:6:void Pr_Time::GetTime()	256	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:120:22:uint32_t Pr_Time::GetTicks()	160	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:129:6:void Pr_Time::RoudMicrosToTicks()	48	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:148:10:Pr_Time& Pr_Time::operator+=(const Pr_Time&)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:156:10:Pr_Time& Pr_Time::operator-=(const Pr_Time&)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:193:10:Pr_Time& Pr_Time::operator=(const Pr_Time&)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:202:5:int Pr_Time::operator==(const Pr_Time&)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:209:5:int Pr_Time::operator!=(const Pr_Time&)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:216:5:int Pr_Time::operator>(const Pr_Time&)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:222:5:int Pr_Time::operator<(const Pr_Time&)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:228:5:int Pr_Time::operator>=(const Pr_Time&)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:234:5:int Pr_Time::operator<=(const Pr_Time&)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:242:10:uint32_t Pr_Time::Ticks() const	48	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:253:6:void Pr_DelayIn(const Pr_Time&)	224	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:257:6:void Pr_DelayAt(const Pr_Time&)	256	static
-/usr/include/c++/13/bits/chrono.h:273:7:constexpr std::chrono::__enable_if_is_duration<_ToDur> std::chrono::duration_cast(const duration<_Rep, _Period>&) [with _ToDur = duration<long int>; _Rep = long int; _Period = std::ratio<1, 1000000000>]	32	static
-/usr/include/c++/13/bits/chrono.h:589:2:constexpr std::chrono::duration<_Rep, _Period>::rep std::chrono::duration<_Rep, _Period>::count() const [with _Rep = long int; _Period = std::ratio<1>]	32	static
-/usr/include/c++/13/bits/chrono.h:1141:7:constexpr typename std::common_type<_Duration1, _Duration2>::type std::chrono::operator-(const time_point<_Clock, _Duration1>&, const time_point<_Clock, _Duration2>&) [with _Clock = _V2::steady_clock; _Dur1 = duration<long int, std::ratio<1, 1000000000> >; _Dur2 = duration<long int, std::ratio<1, 1000000000> >]	192	static
-/usr/include/c++/13/bits/chrono.h:273:7:constexpr std::chrono::__enable_if_is_duration<_ToDur> std::chrono::duration_cast(const duration<_Rep, _Period>&) [with _ToDur = duration<long int, std::ratio<1, 1000000> >; _Rep = long int; _Period = std::ratio<1, 1000000000>]	32	static
-/usr/include/c++/13/bits/chrono.h:589:2:constexpr std::chrono::duration<_Rep, _Period>::rep std::chrono::duration<_Rep, _Period>::count() const [with _Rep = long int; _Period = std::ratio<1, 1000000>]	32	static
-/usr/include/c++/13/bits/chrono.h:573:23:constexpr std::chrono::duration<_Rep, _Period>::duration(const _Rep2&) [with _Rep2 = long int; <template-parameter-2-2> = void; _Rep = long int; _Period = std::ratio<1, 1000000>]	32	static
-/usr/include/c++/13/bits/chrono.h:696:7:constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator+(const duration<_Rep1, _Period1>&, const duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1>; _Rep2 = long int; _Period2 = std::ratio<1, 1000000>]	272	static
-/usr/include/c++/13/bits/this_thread_sleep.h:68:7:void std::this_thread::sleep_for(const std::chrono::duration<_Rep1, _Period1>&) [with _Rep = long int; _Period = std::ratio<1, 1000000>]	288	static
-/usr/include/c++/13/bits/chrono.h:1101:7:constexpr std::chrono::time_point<_Clock, typename std::common_type<_Dur1, std::chrono::duration<_Rep2, _Period2> >::type> std::chrono::operator+(const time_point<_Clock, _Duration1>&, const duration<_Rep2, _Period2>&) [with _Clock = _V2::steady_clock; _Dur1 = duration<long int, std::ratio<1, 1000000000> >; _Rep2 = long int; _Period2 = std::ratio<1>]	224	static
-/usr/include/c++/13/bits/chrono.h:1101:7:constexpr std::chrono::time_point<_Clock, typename std::common_type<_Dur1, std::chrono::duration<_Rep2, _Period2> >::type> std::chrono::operator+(const time_point<_Clock, _Duration1>&, const duration<_Rep2, _Period2>&) [with _Clock = _V2::steady_clock; _Dur1 = duration<long int, std::ratio<1, 1000000000> >; _Rep2 = long int; _Period2 = std::ratio<1, 1000000>]	224	static
-/usr/include/c++/13/bits/this_thread_sleep.h:90:7:void std::this_thread::sleep_until(const std::chrono::time_point<_Clock, _Duration1>&) [with _Clock = std::chrono::_V2::steady_clock; _Duration = std::chrono::duration<long int, std::ratio<1, 1000000000> >]	192	static
-/usr/include/c++/13/bits/chrono.h:208:4:static constexpr _ToDur std::chrono::__duration_cast_impl<_ToDur, _CF, _CR, true, false>::__cast(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1, 1000000000>; _ToDur = std::chrono::duration<long int>; _CF = std::ratio<1, 1000000000>; _CR = long int]	192	static
-/usr/include/c++/13/bits/chrono.h:273:7:constexpr std::chrono::__enable_if_is_duration<_ToDur> std::chrono::duration_cast(const duration<_Rep, _Period>&) [with _ToDur = duration<long int, std::ratio<1, 1000000000> >; _Rep = long int; _Period = std::ratio<1>]	32	static
-/usr/include/c++/13/bits/chrono.h:949:2:constexpr std::chrono::time_point<_Clock, _Dur>::duration std::chrono::time_point<_Clock, _Dur>::time_since_epoch() const [with _Clock = std::chrono::_V2::steady_clock; _Dur = std::chrono::duration<long int, std::ratio<1, 1000000000> >]	32	static
-/usr/include/c++/13/bits/chrono.h:710:7:constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator-(const duration<_Rep1, _Period1>&, const duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1, 1000000000>; _Rep2 = long int; _Period2 = std::ratio<1, 1000000000>]	272	static
-/usr/include/c++/13/bits/chrono.h:208:4:static constexpr _ToDur std::chrono::__duration_cast_impl<_ToDur, _CF, _CR, true, false>::__cast(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1, 1000000000>; _ToDur = std::chrono::duration<long int, std::ratio<1, 1000000> >; _CF = std::ratio<1, 1000>; _CR = long int]	192	static
-/usr/include/c++/13/bits/chrono.h:581:14:constexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep2 = long int; _Period2 = std::ratio<1>; <template-parameter-2-3> = void; _Rep = long int; _Period = std::ratio<1, 1000000>]	160	static
-/usr/include/c++/13/bits/chrono.h:673:2:static constexpr std::chrono::duration<_Rep, _Period> std::chrono::duration<_Rep, _Period>::zero() [with _Rep = long int; _Period = std::ratio<1, 1000000>]	176	static
-/usr/include/c++/13/bits/chrono.h:855:7:constexpr bool std::chrono::operator<=(const duration<_Rep1, _Period1>&, const duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1, 1000000>; _Rep2 = long int; _Period2 = std::ratio<1, 1000000>]	32	static
-/usr/include/c++/13/bits/chrono.h:273:7:constexpr std::chrono::__enable_if_is_duration<_ToDur> std::chrono::duration_cast(const duration<_Rep, _Period>&) [with _ToDur = duration<long int>; _Rep = long int; _Period = std::ratio<1, 1000000>]	32	static
-/usr/include/c++/13/bits/chrono.h:710:7:constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator-(const duration<_Rep1, _Period1>&, const duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1, 1000000>; _Rep2 = long int; _Period2 = std::ratio<1>]	272	static
-/usr/include/c++/13/bits/chrono.h:273:7:constexpr std::chrono::__enable_if_is_duration<_ToDur> std::chrono::duration_cast(const duration<_Rep, _Period>&) [with _ToDur = duration<long int, std::ratio<1, 1000000000> >; _Rep = long int; _Period = std::ratio<1, 1000000>]	32	static
-/usr/include/c++/13/bits/chrono.h:696:7:constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator+(const duration<_Rep1, _Period1>&, const duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1, 1000000000>; _Rep2 = long int; _Period2 = std::ratio<1>]	272	static
-/usr/include/c++/13/bits/chrono.h:936:21:constexpr std::chrono::time_point<_Clock, _Dur>::time_point(const duration&) [with _Clock = std::chrono::_V2::steady_clock; _Dur = std::chrono::duration<long int, std::ratio<1, 1000000000> >]	32	static
-/usr/include/c++/13/bits/chrono.h:696:7:constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator+(const duration<_Rep1, _Period1>&, const duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1, 1000000000>; _Rep2 = long int; _Period2 = std::ratio<1, 1000000>]	272	static
-/usr/include/c++/13/bits/chrono.h:1174:7:constexpr bool std::chrono::operator<(const time_point<_Clock, _Duration1>&, const time_point<_Clock, _Duration2>&) [with _Clock = _V2::steady_clock; _Dur1 = duration<long int, std::ratio<1, 1000000000> >; _Dur2 = duration<long int, std::ratio<1, 1000000000> >]	192	static
-/usr/include/c++/13/bits/this_thread_sleep.h:68:7:void std::this_thread::sleep_for(const std::chrono::duration<_Rep1, _Period1>&) [with _Rep = long int; _Period = std::ratio<1, 1000000000>]	288	static
-/usr/include/c++/13/bits/chrono.h:221:4:static constexpr _ToDur std::chrono::__duration_cast_impl<_ToDur, _CF, _CR, false, true>::__cast(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1>; _ToDur = std::chrono::duration<long int, std::ratio<1, 1000000000> >; _CF = std::ratio<1000000000, 1>; _CR = long int]	192	static
-/usr/include/c++/13/bits/chrono.h:710:7:constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator-(const duration<_Rep1, _Period1>&, const duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1, 1000000000>; _Rep2 = long int; _Period2 = std::ratio<1>]	272	static
-/usr/include/c++/13/bits/chrono.h:273:7:constexpr std::chrono::__enable_if_is_duration<_ToDur> std::chrono::duration_cast(const duration<_Rep, _Period>&) [with _ToDur = duration<long int, std::ratio<1, 1000000> >; _Rep = long int; _Period = std::ratio<1>]	32	static
-/usr/include/c++/13/bits/chrono.h:822:7:constexpr bool std::chrono::operator<(const duration<_Rep1, _Period1>&, const duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1, 1000000>; _Rep2 = long int; _Period2 = std::ratio<1, 1000000>]	208	static
-/usr/include/c++/13/bits/chrono.h:208:4:static constexpr _ToDur std::chrono::__duration_cast_impl<_ToDur, _CF, _CR, true, false>::__cast(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1, 1000000>; _ToDur = std::chrono::duration<long int>; _CF = std::ratio<1, 1000000>; _CR = long int]	192	static
-/usr/include/c++/13/bits/chrono.h:221:4:static constexpr _ToDur std::chrono::__duration_cast_impl<_ToDur, _CF, _CR, false, true>::__cast(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1, 1000000>; _ToDur = std::chrono::duration<long int, std::ratio<1, 1000000000> >; _CF = std::ratio<1000, 1>; _CR = long int]	192	static
-/usr/include/c++/13/bits/chrono.h:581:14:constexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep2 = long int; _Period2 = std::ratio<1>; <template-parameter-2-3> = void; _Rep = long int; _Period = std::ratio<1, 1000000000>]	160	static
-/usr/include/c++/13/bits/chrono.h:581:14:constexpr std::chrono::duration<_Rep, _Period>::duration(const std::chrono::duration<_Rep, _Period>&) [with _Rep2 = long int; _Period2 = std::ratio<1, 1000000>; <template-parameter-2-3> = void; _Rep = long int; _Period = std::ratio<1, 1000000000>]	160	static
-/usr/include/c++/13/bits/chrono.h:855:7:constexpr bool std::chrono::operator<=(const duration<_Rep1, _Period1>&, const duration<_Rep2, _Period2>&) [with _Rep1 = long int; _Period1 = std::ratio<1, 1000000000>; _Rep2 = long int; _Period2 = std::ratio<1, 1000000000>]	32	static
-/usr/include/c++/13/bits/chrono.h:273:7:constexpr std::chrono::__enable_if_is_duration<_ToDur> std::chrono::duration_cast(const duration<_Rep, _Period>&) [with _ToDur = duration<long int, std::ratio<1, 1000000000> >; _Rep = long int; _Period = std::ratio<1, 1000000000>]	32	static
-/usr/include/c++/13/bits/chrono.h:221:4:static constexpr _ToDur std::chrono::__duration_cast_impl<_ToDur, _CF, _CR, false, true>::__cast(const std::chrono::duration<_Rep, _Period>&) [with _Rep = long int; _Period = std::ratio<1>; _ToDur = std::chrono::duration<long int, std::ratio<1, 1000000> >; _CF = std::ratio<1000000, 1>; _CR = long int]	192	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:260:1:_sub_D_00099_0	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:260:1:_sub_I_00099_1	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:18:1:Pr_Semaphore::Pr_Semaphore(uint32_t)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:19:1:Pr_SemaphoreRec::Pr_SemaphoreRec()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:20:1:Pr_SemaphoreRec::Pr_SemaphoreRec(int32_t)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:22:1:Pr_SemaphoreRec::~Pr_SemaphoreRec()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:23:6:void Pr_SemaphoreRec::Wait()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:24:6:void Pr_SemaphoreRec::Signal()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:25:9:int32_t Pr_SemaphoreRec::WaitCond()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:84:1:Pr_Time::Pr_Time()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:90:1:Pr_Time::Pr_Time(const Pr_Time&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:96:1:Pr_Time::Pr_Time(EDROOMTimeSpec)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:104:1:Pr_Time::Pr_Time(uint32_t, uint32_t)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:113:6:void Pr_Time::GetTime()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:120:22:uint32_t Pr_Time::GetTicks()	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:129:6:void Pr_Time::RoudMicrosToTicks()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:148:10:Pr_Time& Pr_Time::operator+=(const Pr_Time&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:156:10:Pr_Time& Pr_Time::operator-=(const Pr_Time&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:193:10:Pr_Time& Pr_Time::operator=(const Pr_Time&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:202:5:int Pr_Time::operator==(const Pr_Time&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:209:5:int Pr_Time::operator!=(const Pr_Time&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:216:5:int Pr_Time::operator>(const Pr_Time&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:222:5:int Pr_Time::operator<(const Pr_Time&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:228:5:int Pr_Time::operator>=(const Pr_Time&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:234:5:int Pr_Time::operator<=(const Pr_Time&)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:242:10:uint32_t Pr_Time::Ticks() const	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:253:6:void Pr_DelayIn(const Pr_Time&)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/legacy_primitives.cc:257:6:void Pr_DelayAt(const Pr_Time&)	64	static

@@ -1,4 +1,2 @@
 /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service03/src/pus_service03.cc:62:6:void pus_service3_do_HK()	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service03/src/pus_service03.cc:81:6:void pus_service3_exec_tc(tc_handler_t*)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service03/src/pus_service03.cc:99:1:_sub_D_00099_0	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service03/src/pus_service03.cc:99:1:_sub_I_00099_1	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service03/src/pus_service03.cc:81:6:void pus_service3_exec_tc(tc_handler_t*)	8	static

@@ -7,6 +7,16 @@
 #include <cstring>
 #include <vector>
 #include <memory>
+#include <cstdio>
+#include "service_libraries/edroomsl/edroombp/include/public/edroombp.h"
+#include "public/tc_rate_ctrl.h"
+
+// Override only the limiter's monotonic clock; the GSS schedule keeps real time.
+// This lets the queue-wrap regression cover 205 commands without a 102 s wait.
+static uint64_t rate_time_us = 0;
+extern "C" void __wrap__ZN7Pr_Time7GetTimeEv(Pr_Time *time) {
+    *time = Pr_Time(rate_time_us / 1000000, rate_time_us % 1000000);
+}
 #include "public/emu_gss_v1.h"
 #include "public/emu_hw_timecode_drv_v1.h"
 #include "public/tc_queue_drv.h"
@@ -31,12 +41,43 @@ int main() {
     legacy_PI_HandleTC(&route, &empty);
     assert(empty.nCount == 0);
 
+    // Ten connection tests: two at a time, with no dequeue while rate limited.
+    std::vector<std::unique_ptr<EmuGSS_TCProgram17_1>> burst;
+    for (int i = 0; i < 10; ++i)
+        burst.emplace_back(new EmuGSS_TCProgram17_1(
+            EmuHwTimeCodeGetCurrentOBT(), "rate test"));
+    std::puts("RATE_BURST_BEGIN");
+    for (int pair = 0; pair < 5; ++pair) {
+        rate_time_us = pair * 1000000;
+        for (int j = 0; j < 2; ++j) {
+            legacy_PI_PollTC(&accepted);
+            assert(accepted == asn1SccRxTC_accepted);
+            legacy_PI_HandleTC(&route, &empty);
+            assert(route == asn1SccFwdCommand_exec_prio_tc);
+        }
+        if (pair < 4) {
+            for (int attempt = 0; attempt < 3; ++attempt) {
+                if (attempt == 2) rate_time_us += 999999;
+                legacy_PI_PollTC(&accepted);
+                assert(accepted == asn1SccRxTC_not_accepted);
+                assert(!TCQueue_IsEmpty());
+            }
+            assert(RxTC_TCRateExceeded());
+            assert(!RxTC_TCRateExceeded());
+            // Housekeeping remains callable while incoming commands wait.
+            legacy_PI_DoHousekeeping();
+        }
+    }
+    assert(TCQueue_IsEmpty());
+    std::puts("RATE_BURST_END");
+
     // More than two queue capacities: full queues defer programs and wrap safely.
     std::vector<std::unique_ptr<EmuGSS_TCProgram3_5>> programs;
     for (int i = 0; i < 205; ++i)
         programs.emplace_back(new EmuGSS_TCProgram3_5(
             EmuHwTimeCodeGetCurrentOBT(), "burst HK", 0));
     for (int i = 0; i < 205; ++i) {
+        rate_time_us = 5000000 + (i / 2) * 1000000;
         legacy_PI_PollTC(&accepted);
         assert(accepted == asn1SccRxTC_accepted);
         legacy_PI_HandleTC(&route, &hk);

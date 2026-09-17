@@ -1,10 +1,5 @@
 graph: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCMemDescriptor/src/cdtcmemdescriptor.cc"
-node: { title: "_ZN17CDTCMemDescriptor9HandleIRQEv" label: "bool CDTCMemDescriptor::HandleIRQ()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCMemDescriptor/src/cdtcmemdescriptor.cc:12:7\n32 bytes (static)\n0 dynamic objects" }
+node: { title: "_ZN17CDTCMemDescriptor9HandleIRQEv" label: "bool CDTCMemDescriptor::HandleIRQ()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCMemDescriptor/src/cdtcmemdescriptor.cc:12:7\n8 bytes (static)\n0 dynamic objects" }
 node: { title: "_Z17SC_Channel_RxDatav" label: "bool_t SC_Channel_RxData()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCMemDescriptor/src/../../../../llsw/sc_channel_drv/include/public/sc_channel_drv_v1.h:47:8" shape : ellipse }
 edge: { sourcename: "_ZN17CDTCMemDescriptor9HandleIRQEv" targetname: "_Z17SC_Channel_RxDatav" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCMemDescriptor/src/cdtcmemdescriptor.cc:14:27" }
-node: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCMemDescriptor/src/cdtcmemdescriptor.cc:_sub_I_00099_0" label: "_sub_I_00099_0\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCMemDescriptor/src/cdtcmemdescriptor.cc:16:2\n16 bytes (static)\n0 dynamic objects" }
-node: { title: "__asan_init" label: "void __builtin___asan_init()\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCMemDescriptor/src/cdtcmemdescriptor.cc:_sub_I_00099_0" targetname: "__asan_init" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCMemDescriptor/src/cdtcmemdescriptor.cc:16:2" }
-node: { title: "__asan_version_mismatch_check_v8" label: "void __builtin___asan_version_mismatch_check_v8()\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCMemDescriptor/src/cdtcmemdescriptor.cc:_sub_I_00099_0" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/asw/dataclasses/CDTCMemDescriptor/src/cdtcmemdescriptor.cc:16:2" }
 }

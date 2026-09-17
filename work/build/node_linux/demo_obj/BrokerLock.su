@@ -1,4 +1,2 @@
-/home/jorge/sctre/work/build/node_linux/demo/runtime/BrokerLock.cc:33:10:void Broker_acquire_lock()	16	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/BrokerLock.cc:35:10:void Broker_release_lock()	16	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/BrokerLock.cc:36:1:_sub_D_00099_0	16	static
-/home/jorge/sctre/work/build/node_linux/demo/runtime/BrokerLock.cc:36:1:_sub_I_00099_1	16	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/BrokerLock.cc:33:10:void Broker_acquire_lock()	8	static
+/home/jorge/sctre/work/build/node_linux/demo/runtime/BrokerLock.cc:35:10:void Broker_release_lock()	8	static

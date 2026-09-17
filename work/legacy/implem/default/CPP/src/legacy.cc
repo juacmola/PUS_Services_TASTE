@@ -9,6 +9,7 @@
 #include "public/emu_gss_v1.h"
 #include "public/emu_hw_timecode_drv_v1.h"
 #include "public/tc_queue_drv.h"
+#include "public/tc_rate_ctrl.h"
 
 legacy_state ctxt_legacy;
 
@@ -106,6 +107,7 @@ void legacy_PI_DoHousekeeping(void)
 #endif
     pus_services_update_params();
     pus_service3_do_HK();
+    pus_services_do_FDIR();
 }
 
 
@@ -254,6 +256,14 @@ void legacy_PI_PollTC(asn1SccRxTC *accepted)
     std::memcpy(packet.arr, bytes, size);
     // Leave the queue entry pending if the packet pool is exhausted.
     if (!ctxt_legacy.VCurrentTC.Load(packet)) return;
+#ifdef TC_RATE_CTRL
+    // Legacy is protected and shared with housekeeping: never sleep here.
+    // Count received packets before acceptance, including rejected commands.
+    if (!RxTC_TryRateCtrl()) {
+        ctxt_legacy.VCurrentTC.Reset();
+        return;
+    }
+#endif
     TCQueue_HeadTCExtracted();
     ctxt_legacy.VAcceptReport = ctxt_legacy.VCurrentTC.DoAcceptation();
     if (GAcceptTC()) {

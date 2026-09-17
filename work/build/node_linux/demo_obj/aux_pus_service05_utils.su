@@ -1,5 +1,3 @@
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service05/src/aux_pus_service05_utils.cc:35:9:uint8_t pus_service5_cal_EvID_TM_5_X_subtype(uint16_t)	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service05/src/aux_pus_service05_utils.cc:41:8:bool_t pus_service5_check_EvID_enable_flag(uint16_t)	48	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service05/src/aux_pus_service05_utils.cc:88:6:void pus_service5_set_EvID_enable_flag(uint16_t, bool_t)	48	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service05/src/aux_pus_service05_utils.cc:136:1:_sub_D_00099_0	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service05/src/aux_pus_service05_utils.cc:136:1:_sub_I_00099_1	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service05/src/aux_pus_service05_utils.cc:35:9:uint8_t pus_service5_cal_EvID_TM_5_X_subtype(uint16_t)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service05/src/aux_pus_service05_utils.cc:41:8:bool_t pus_service5_check_EvID_enable_flag(uint16_t)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service05/src/aux_pus_service05_utils.cc:88:6:void pus_service5_set_EvID_enable_flag(uint16_t, bool_t)	32	static

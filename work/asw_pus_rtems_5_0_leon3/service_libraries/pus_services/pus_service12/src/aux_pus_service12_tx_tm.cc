@@ -80,7 +80,7 @@ error_code_t pus_service12_tx_TM_12_12(uint16_t trans_counter) {
 
 					aux_prev_status=monitoring_transitions[i].prev_status.limit_status;
 
-					aux_new_status=monitoring_transitions[i].new_status.value_status;
+					aux_new_status=monitoring_transitions[i].new_status.limit_status;
 
 				}
 

@@ -1,0 +1,42 @@
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:[m[K In function ‘[01m[Kuint8_t[01;32m[K pus_service1_failure_tc_subtype[m[K(tc_verif_stage_t)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:189:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktc_subtype[m[K’ may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+  189 |         return [01;35m[Ktc_subtype[m[K;
+      |                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:168:17:[m[K [01;36m[Knote: [m[K‘[01m[Ktc_subtype[m[K’ was declared here
+  168 |         uint8_t [01;36m[Ktc_subtype[m[K;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:[m[K In function ‘[01m[Kerror_code_t[01;32m[K pus_service1_tx_TM_1_X_no_failure_data[m[K(tc_handler_t*, tc_verif_stage_t, uint8_t)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:205:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktc_subtype[m[K’ may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+  205 |         error = [01;35m[Ktm_handler_mem_alloc_and_startup(&tm_handler,1, tc_subtype)[m[K;
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:168:17:[m[K [01;36m[Knote: [m[K‘[01m[Ktc_subtype[m[K’ was declared here
+  168 |         uint8_t [01;36m[Ktc_subtype[m[K;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:[m[K In function ‘[01m[Kerror_code_t[01;32m[K pus_service1_tx_TM_1_X_uint8_failure_data[m[K(tc_handler_t*, tc_verif_stage_t, uint8_t, uint8_t)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:239:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktc_subtype[m[K’ may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+  239 |         error = [01;35m[Ktm_handler_mem_alloc_and_startup(&tm_handler,1,tc_subtype)[m[K;
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:168:17:[m[K [01;36m[Knote: [m[K‘[01m[Ktc_subtype[m[K’ was declared here
+  168 |         uint8_t [01;36m[Ktc_subtype[m[K;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:[m[K In function ‘[01m[Kerror_code_t[01;32m[K pus_service1_tx_TM_1_X_uint16_failure_data[m[K(tc_handler_t*, tc_verif_stage_t, uint8_t, uint16_t)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:280:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktc_subtype[m[K’ may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+  280 |         error = [01;35m[Ktm_handler_mem_alloc_and_startup(&tm_handler, 1,tc_subtype)[m[K;
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:168:17:[m[K [01;36m[Knote: [m[K‘[01m[Ktc_subtype[m[K’ was declared here
+  168 |         uint8_t [01;36m[Ktc_subtype[m[K;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:[m[K In function ‘[01m[Kerror_code_t[01;32m[K pus_service1_tx_TM_1_X_uint32_failure_data[m[K(tc_handler_t*, tc_verif_stage_t, uint8_t, uint32_t)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:320:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktc_subtype[m[K’ may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+  320 |         error = [01;35m[Ktm_handler_mem_alloc_and_startup(&tm_handler, 1,tc_subtype)[m[K;
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:168:17:[m[K [01;36m[Knote: [m[K‘[01m[Ktc_subtype[m[K’ was declared here
+  168 |         uint8_t [01;36m[Ktc_subtype[m[K;
+      |                 [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:[m[K In function ‘[01m[Kerror_code_t[01;32m[K pus_service1_tx_TM_1_X_uint8_uint32_failure_data[m[K(tc_handler_t*, tc_verif_stage_t, uint8_t, uint8_t, uint32_t)[m[K’:
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:360:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktc_subtype[m[K’ may be used uninitialized [[01;35m[K-Wmaybe-uninitialized[m[K]
+  360 |         error = [01;35m[Ktm_handler_mem_alloc_and_startup(&tm_handler, 1,tc_subtype)[m[K;
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service01/src/aux_pus_service01_x_utils.cc:168:17:[m[K [01;36m[Knote: [m[K‘[01m[Ktc_subtype[m[K’ was declared here
+  168 |         uint8_t [01;36m[Ktc_subtype[m[K;
+      |                 [01;36m[K^~~~~~~~~~[m[K

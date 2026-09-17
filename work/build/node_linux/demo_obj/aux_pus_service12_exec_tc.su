@@ -1,6 +1,4 @@
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/aux_pus_service12_exec_tc.cc:46:6:void pus_service12_exec_TC_12_1(tc_handler_t*)	208	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/aux_pus_service12_exec_tc.cc:99:6:void pus_service12_exec_TC_12_2(tc_handler_t*)	208	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/aux_pus_service12_exec_tc.cc:153:6:void pus_service12_exec_TC_12_5(tc_handler_t*)	272	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/aux_pus_service12_exec_tc.cc:262:6:void pus_service12_exec_TC_12_6(tc_handler_t*)	208	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/aux_pus_service12_exec_tc.cc:309:1:_sub_D_00099_0	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/aux_pus_service12_exec_tc.cc:309:1:_sub_I_00099_1	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/aux_pus_service12_exec_tc.cc:46:6:void pus_service12_exec_TC_12_1(tc_handler_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/aux_pus_service12_exec_tc.cc:99:6:void pus_service12_exec_TC_12_2(tc_handler_t*)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/aux_pus_service12_exec_tc.cc:153:6:void pus_service12_exec_TC_12_5(tc_handler_t*)	112	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/pus_services/pus_service12/src/aux_pus_service12_exec_tc.cc:262:6:void pus_service12_exec_TC_12_6(tc_handler_t*)	48	static

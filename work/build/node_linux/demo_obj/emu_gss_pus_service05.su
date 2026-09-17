@@ -1,13 +1,11 @@
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:37:1:EmuGSS_TCProgram5_5::EmuGSS_TCProgram5_5(uint32_t, const char*, uint16_t)	48	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:46:6:virtual void EmuGSS_TCProgram5_5::BuildTCAppData(tc_mem_descriptor_t&)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:53:1:EmuGSS_TCProgram5_6::EmuGSS_TCProgram5_6(uint32_t, const char*, uint16_t)	48	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:62:6:virtual void EmuGSS_TCProgram5_6::BuildTCAppData(tc_mem_descriptor_t&)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:70:6:void EmuGSS_ShowServ5TM(const tm_mem_descriptor*)	192	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:77:1:GSSServ5TMHandler::GSSServ5TMHandler(const uint8_t*)	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:82:6:void GSSServ5TMHandler::ShowTM()	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:101:6:void GSSServ5TMHandler::ShowTM_5_1()	48	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:129:6:void GSSServ5TMHandler::ShowTM_5_2()	48	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:137:6:void GSSServ5TMHandler::ShowTM_5_3()	48	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:145:6:void GSSServ5TMHandler::ShowTM_5_4()	208	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:193:1:_sub_D_00099_0	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:193:1:_sub_I_00099_1	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:46:6:virtual void EmuGSS_TCProgram5_5::BuildTCAppData(tc_mem_descriptor_t&)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:62:6:virtual void EmuGSS_TCProgram5_6::BuildTCAppData(tc_mem_descriptor_t&)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:37:1:EmuGSS_TCProgram5_5::EmuGSS_TCProgram5_5(uint32_t, const char*, uint16_t)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:53:1:EmuGSS_TCProgram5_6::EmuGSS_TCProgram5_6(uint32_t, const char*, uint16_t)	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:77:1:GSSServ5TMHandler::GSSServ5TMHandler(const uint8_t*)	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:101:6:void GSSServ5TMHandler::ShowTM_5_1()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:129:6:void GSSServ5TMHandler::ShowTM_5_2()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:137:6:void GSSServ5TMHandler::ShowTM_5_3()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:145:6:void GSSServ5TMHandler::ShowTM_5_4()	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:82:6:void GSSServ5TMHandler::ShowTM()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_gss/src/emu_gss_pus_service05.cc:70:6:void EmuGSS_ShowServ5TM(const tm_mem_descriptor*)	64	static

@@ -1,9 +1,7 @@
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_rate_ctrl/src/tc_rate_ctrl.cc:49:6:void ExtractHead()	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_rate_ctrl/src/tc_rate_ctrl.cc:55:6:bool IsFull()	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_rate_ctrl/src/tc_rate_ctrl.cc:63:6:void AddElement(Pr_Time, bool)	48	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_rate_ctrl/src/tc_rate_ctrl.cc:76:6:void RxTC_RateCtrl()	256	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_rate_ctrl/src/tc_rate_ctrl.cc:122:6:bool RxTC_TCRateExceeded()	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_rate_ctrl/src/tc_rate_ctrl.cc:133:1:void __static_initialization_and_destruction_0()	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_rate_ctrl/src/tc_rate_ctrl.cc:133:1:cc)	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_rate_ctrl/src/tc_rate_ctrl.cc:133:1:_sub_D_00099_0	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_rate_ctrl/src/tc_rate_ctrl.cc:133:1:_sub_I_00099_1	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_rate_ctrl/src/tc_rate_ctrl.cc:49:6:void ExtractHead()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_rate_ctrl/src/tc_rate_ctrl.cc:55:6:bool IsFull()	8	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_rate_ctrl/src/tc_rate_ctrl.cc:63:6:void AddElement(Pr_Time, bool)	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_rate_ctrl/src/tc_rate_ctrl.cc:76:6:bool RxTC_TryRateCtrl()	112	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_rate_ctrl/src/tc_rate_ctrl.cc:96:6:void RxTC_RateCtrl()	112	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_rate_ctrl/src/tc_rate_ctrl.cc:142:6:bool RxTC_TCRateExceeded()	32	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/tc_rate_ctrl/src/tc_rate_ctrl.cc:153:1:cc)	16	static

@@ -1,6 +1,4 @@
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_adc_drv/src/emu_adc_drv.cc:62:10:uint32_t get_noise()	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_adc_drv/src/emu_adc_drv.cc:71:10:uint32_t sample_adc_channel(uint8_t)	48	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_adc_drv/src/emu_adc_drv.cc:62:10:uint32_t get_noise()	16	static
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_adc_drv/src/emu_adc_drv.cc:71:10:uint32_t sample_adc_channel(uint8_t)	16	static
 /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_adc_drv/src/emu_adc_drv.cc:88:6:void sample_sys_data_pool_params()	32	static
 /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_adc_drv/src/emu_adc_drv.cc:98:6:void init_adc_channel()	32	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_adc_drv/src/emu_adc_drv.cc:120:1:_sub_D_00099_0	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_adc_drv/src/emu_adc_drv.cc:120:1:_sub_I_00099_1	16	static

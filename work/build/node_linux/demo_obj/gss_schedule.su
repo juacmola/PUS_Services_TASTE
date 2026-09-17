@@ -1,5 +1,2 @@
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/gss_schedule.cc:23:17:void TasteGSS_InitSchedule()	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/gss_schedule.cc:23:42:void __static_initialization_and_destruction_0()	64	dynamic,bounded
+/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/gss_schedule.cc:23:17:void TasteGSS_InitSchedule()	8	static
 /home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/gss_schedule.cc:23:42:cc)	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/gss_schedule.cc:23:42:_sub_D_00099_0	16	static
-/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/taste_linux/gss_schedule.cc:23:42:_sub_I_00099_1	16	static

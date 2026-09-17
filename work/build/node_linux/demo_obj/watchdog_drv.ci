@@ -1,21 +1,9 @@
 graph: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc"
-node: { title: "watchdog_drv_startup" label: "void watchdog_drv_startup(uint16_t)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:13:6\n16 bytes (static)\n0 dynamic objects" }
+node: { title: "watchdog_drv_startup" label: "void watchdog_drv_startup(uint16_t)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:13:6\n8 bytes (static)\n0 dynamic objects" }
 node: { title: "watchdog_drv_disable_signal" label: "void watchdog_drv_disable_signal()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:19:6\n16 bytes (static)\n0 dynamic objects" }
-node: { title: "printf" label: ")\n/usr/include/stdio.h:363:12" shape : ellipse }
-edge: { sourcename: "watchdog_drv_disable_signal" targetname: "printf" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:21:8" }
-node: { title: "__asan_handle_no_return" label: "void __builtin___asan_handle_no_return()\n<built-in>" shape : ellipse }
-edge: { sourcename: "watchdog_drv_disable_signal" targetname: "__asan_handle_no_return" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:22:6" }
+node: { title: "__printf_chk" label: ")\n/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:52:12" shape : ellipse }
+edge: { sourcename: "watchdog_drv_disable_signal" targetname: "__printf_chk" label: "/usr/include/x86_64-linux-gnu/bits/stdio2.h:86:23" }
 node: { title: "exit" label: "void exit(int)\n/usr/include/stdlib.h:756:13" shape : ellipse }
 edge: { sourcename: "watchdog_drv_disable_signal" targetname: "exit" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:22:6" }
-node: { title: "watchdog_drv_signal" label: "void watchdog_drv_signal()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:25:6\n16 bytes (static)\n0 dynamic objects" }
-node: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:29:1\n16 bytes (static)\n0 dynamic objects" }
-node: { title: "__asan_unregister_globals" label: "void __builtin___asan_unregister_globals(void*, long int)\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:29:1" }
-node: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:29:1\n16 bytes (static)\n0 dynamic objects" }
-node: { title: "__asan_init" label: "void __builtin___asan_init()\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:29:1" }
-node: { title: "__asan_version_mismatch_check_v8" label: "void __builtin___asan_version_mismatch_check_v8()\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:29:1" }
-node: { title: "__asan_register_globals" label: "void __builtin___asan_register_globals(void*, long int)\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:29:1" }
+node: { title: "watchdog_drv_signal" label: "void watchdog_drv_signal()\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/llsw/emu_watchdog_drv/src/watchdog_drv.cc:25:6\n8 bytes (static)\n0 dynamic objects" }
 }

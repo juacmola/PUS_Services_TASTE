@@ -38,6 +38,12 @@
  */
 void RxTC_RateCtrl();
 
+/**
+ * Reserve one reception slot without waiting. If false, leave the TC queued
+ * and retry later. Shares the rate limit with RxTC_RateCtrl().
+ */
+bool RxTC_TryRateCtrl();
+
 
 /**
  * \brief	return true if Max Number of TC per seconds has been

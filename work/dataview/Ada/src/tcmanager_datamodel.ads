@@ -48,13 +48,13 @@ is
 
 
 subtype asn1SccTcmanager_States_index_range is Integer range 0..2;
-type asn1SccTcmanager_States is (asn1Sccvalidtc, asn1Sccreboot, asn1Sccready) with Size => adaasn1rtl.Enumerated_Size;
+type asn1SccTcmanager_States is (asn1Sccvalidtc, asn1Sccready, asn1Sccreboot) with Size => adaasn1rtl.Enumerated_Size;
 for asn1SccTcmanager_States use
-    (asn1Sccvalidtc => 0, asn1Sccreboot => 1, asn1Sccready => 2);
+    (asn1Sccvalidtc => 0, asn1Sccready => 1, asn1Sccreboot => 2);
 
 function asn1SccTcmanager_States_Equal(val1, val2 : asn1SccTcmanager_States) return Boolean;
 
-ERR_TCMANAGER_STATES:constant Integer := 21; -- validtc | reboot | ready
+ERR_TCMANAGER_STATES:constant Integer := 21; -- validtc | ready | reboot
 function asn1SccTcmanager_States_IsConstraintValid(val : asn1SccTcmanager_States) return adaasn1rtl.ASN1_RESULT;
 
 function asn1SccTcmanager_States_Init  return asn1SccTcmanager_States is

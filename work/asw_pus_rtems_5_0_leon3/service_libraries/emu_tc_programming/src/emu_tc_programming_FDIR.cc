@@ -44,10 +44,10 @@
 #define FT_0080_TIME_step6 (OBT_START_FT_ST19 + 20)
 
 EmuGSS_TCProgram20_3_uint8 prog_FT_0080_step_0A(FT_0080_TIME_step0,
-		"FT_UAH_ASW_ICU_Monitoring_0110 step 0, Set PID 15 to 5",15,5);
+		"FT_UAH_ASW_FDIR_0080 step 0, Set PID 15 to 5",15,5);
 
 EmuGSS_TCProgram12_5_Limit_UINT8 prog_FT_0080_step_1(FT_0080_TIME_step1,
-		"FT_UAH_ASW_ICU_Monitoring_0110 step 1, Config PMODID 0 for monitoring PID 15",
+		"FT_UAH_ASW_FDIR_0080 step 1, Configure PMONID 0 for monitoring PID 15",
 		0, 15, 1, 2, 1, 0x4001, 20, 0x4002);
 
 EmuGSS_TCProgram19_1_Action_2_1 prog_FT_0080_step_2(FT_0080_TIME_step2,
@@ -62,17 +62,17 @@ EmuGSS_TCProgram5_5 prog_FT_0080_step_3B(FT_0080_TIME_step3,
 		0x4002);
 
 EmuGSS_TCProgram19_4 prog_FT_0080_step_4(FT_0080_TIME_step4,
-					"FT_UAH_ASWFDIR_0080 step 4, 0x4002 Action enabled",
+					"FT_UAH_ASW_FDIR_0080 step 4, 0x4002 Action enabled",
 					0x4002);
 
 
 EmuGSS_TCProgram12_1 prog_FT_0080_step_5(FT_0080_TIME_step5,
-		"FT_UAH_ASW_FDIR_0080 step 3, 	", 0);
+		"FT_UAH_ASW_FDIR_0080 step 5, Enable PMONID 0", 0);
 
 
 
 EmuGSS_TCProgram20_3_uint8 prog_FT_0080_step_6(FT_0080_TIME_step6,
-		"FT_UAH_ASW_Monitoring_0110 step 5, Update PID 15 to 99",15,99);
+		"FT_UAH_ASW_FDIR_0080 step 6, Update PID 15 to 99",15,99);
 
 
 #endif

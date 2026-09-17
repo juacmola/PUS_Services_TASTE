@@ -2,14 +2,4 @@ graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc"
 node: { title: "_ZN5taste5Timer10initializeEv" label: "static void taste::Timer::initialize()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc:27:1\n16 bytes (static)\n0 dynamic objects" }
 node: { title: "_ZNSt6chrono3_V212steady_clock3nowEv" label: "static std::chrono::_V2::steady_clock::time_point std::chrono::_V2::steady_clock::now()\n/usr/include/c++/13/bits/chrono.h:1277:7" shape : ellipse }
 edge: { sourcename: "_ZN5taste5Timer10initializeEv" targetname: "_ZNSt6chrono3_V212steady_clock3nowEv" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc:29:57" }
-node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc:33:1\n16 bytes (static)\n0 dynamic objects" }
-node: { title: "__asan_unregister_globals" label: "void __builtin___asan_unregister_globals(void*, long int)\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc:33:1" }
-node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc:33:1\n16 bytes (static)\n0 dynamic objects" }
-node: { title: "__asan_init" label: "void __builtin___asan_init()\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc:33:1" }
-node: { title: "__asan_version_mismatch_check_v8" label: "void __builtin___asan_version_mismatch_check_v8()\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc:33:1" }
-node: { title: "__asan_register_globals" label: "void __builtin___asan_register_globals(void*, long int)\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Timer.cc:33:1" }
 }

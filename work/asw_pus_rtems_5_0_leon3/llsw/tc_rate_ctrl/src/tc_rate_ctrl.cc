@@ -73,6 +73,26 @@ void AddElement(Pr_Time time, bool isAction) {
 
 }
 
+bool RxTC_TryRateCtrl() {
+
+	mutex.Wait();
+	Pr_Time now;
+	now.GetTime();
+	if (IsFull()) {
+		Pr_Time next = TCDispatchTimeQueueElements[TCDispatchTimeHead];
+		next += Pr_Time(1, 0);
+		if (now < next) {
+			TCRateExceeded = true;
+			mutex.Signal();
+			return false;
+		}
+		ExtractHead();
+	}
+	AddElement(now, false);
+	mutex.Signal();
+	return true;
+}
+
 void RxTC_RateCtrl() {
 
 	Pr_Time time;

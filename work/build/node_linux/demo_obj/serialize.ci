@@ -1,101 +1,21 @@
 graph: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc"
-node: { title: "deserialize_int16" label: "uint16_t deserialize_int16(const uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:29:10\n160 bytes (static)\n0 dynamic objects" }
-node: { title: "__asan_stack_malloc_0" label: "__asan_stack_malloc_0\n<built-in>" shape : ellipse }
-edge: { sourcename: "deserialize_int16" targetname: "__asan_stack_malloc_0" }
-node: { title: "__asan_report_load1" label: "void __builtin___asan_report_load1(void*)\n<built-in>" shape : ellipse }
-edge: { sourcename: "deserialize_int16" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:41:37" }
-node: { title: "__asan_report_store1" label: "void __builtin___asan_report_store1(void*)\n<built-in>" shape : ellipse }
-edge: { sourcename: "deserialize_int16" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:41:24" }
-node: { title: "__asan_report_load2" label: "void __builtin___asan_report_load2(void*)\n<built-in>" shape : ellipse }
-edge: { sourcename: "deserialize_int16" targetname: "__asan_report_load2" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:46:20" }
+node: { title: "deserialize_int16" label: "uint16_t deserialize_int16(const uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:29:10\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "deserialize_uint16" label: "uint16_t deserialize_uint16(const uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:50:10\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "deserialize_int32" label: "int32_t deserialize_int32(const uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:71:9\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "deserialize_uint32" label: "uint32_t deserialize_uint32(const uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:92:10\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "deserialize_int64" label: "int64_t deserialize_int64(const uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:113:9\n32 bytes (static)\n0 dynamic objects" }
 node: { title: "__stack_chk_fail" label: "__stack_chk_fail\n<built-in>" shape : ellipse }
-edge: { sourcename: "deserialize_int16" targetname: "__stack_chk_fail" }
-node: { title: "deserialize_uint16" label: "uint16_t deserialize_uint16(const uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:50:10\n160 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "deserialize_uint16" targetname: "__asan_stack_malloc_0" }
-edge: { sourcename: "deserialize_uint16" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:62:37" }
-edge: { sourcename: "deserialize_uint16" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:62:24" }
-edge: { sourcename: "deserialize_uint16" targetname: "__asan_report_load2" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:67:20" }
-edge: { sourcename: "deserialize_uint16" targetname: "__stack_chk_fail" }
-node: { title: "deserialize_int32" label: "int32_t deserialize_int32(const uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:71:9\n160 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "deserialize_int32" targetname: "__asan_stack_malloc_0" }
-edge: { sourcename: "deserialize_int32" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:83:37" }
-edge: { sourcename: "deserialize_int32" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:83:24" }
-node: { title: "__asan_report_load4" label: "void __builtin___asan_report_load4(void*)\n<built-in>" shape : ellipse }
-edge: { sourcename: "deserialize_int32" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:88:20" }
-edge: { sourcename: "deserialize_int32" targetname: "__stack_chk_fail" }
-node: { title: "deserialize_uint32" label: "uint32_t deserialize_uint32(const uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:92:10\n160 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "deserialize_uint32" targetname: "__asan_stack_malloc_0" }
-edge: { sourcename: "deserialize_uint32" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:104:37" }
-edge: { sourcename: "deserialize_uint32" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:104:24" }
-edge: { sourcename: "deserialize_uint32" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:109:20" }
-edge: { sourcename: "deserialize_uint32" targetname: "__stack_chk_fail" }
-node: { title: "deserialize_int64" label: "int64_t deserialize_int64(const uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:113:9\n160 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "deserialize_int64" targetname: "__asan_stack_malloc_0" }
-edge: { sourcename: "deserialize_int64" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:125:37" }
-edge: { sourcename: "deserialize_int64" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:125:24" }
-node: { title: "__asan_report_load8" label: "void __builtin___asan_report_load8(void*)\n<built-in>" shape : ellipse }
-edge: { sourcename: "deserialize_int64" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:130:20" }
 edge: { sourcename: "deserialize_int64" targetname: "__stack_chk_fail" }
-node: { title: "deserialize_uint64" label: "uint64_t deserialize_uint64(const uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:134:10\n160 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "deserialize_uint64" targetname: "__asan_stack_malloc_0" }
-edge: { sourcename: "deserialize_uint64" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:146:37" }
-edge: { sourcename: "deserialize_uint64" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:146:24" }
-edge: { sourcename: "deserialize_uint64" targetname: "__asan_report_load8" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:151:20" }
+node: { title: "deserialize_uint64" label: "uint64_t deserialize_uint64(const uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:134:10\n32 bytes (static)\n0 dynamic objects" }
 edge: { sourcename: "deserialize_uint64" targetname: "__stack_chk_fail" }
-node: { title: "deserialize_float" label: "float deserialize_float(const uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:155:7\n160 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "deserialize_float" targetname: "__asan_stack_malloc_0" }
-edge: { sourcename: "deserialize_float" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:167:37" }
-edge: { sourcename: "deserialize_float" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:167:24" }
-edge: { sourcename: "deserialize_float" targetname: "__asan_report_load4" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:172:20" }
-edge: { sourcename: "deserialize_float" targetname: "__stack_chk_fail" }
-node: { title: "serialize_int16" label: "void serialize_int16(int16_t, uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:178:6\n160 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "serialize_int16" targetname: "__asan_stack_malloc_0" }
-node: { title: "__asan_report_store2" label: "void __builtin___asan_report_store2(void*)\n<built-in>" shape : ellipse }
-edge: { sourcename: "serialize_int16" targetname: "__asan_report_store2" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:185:18" }
-edge: { sourcename: "serialize_int16" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:197:41" }
-edge: { sourcename: "serialize_int16" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:197:17" }
-edge: { sourcename: "serialize_int16" targetname: "__stack_chk_fail" }
-node: { title: "serialize_uint16" label: "void serialize_uint16(uint16_t, uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:203:6\n160 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "serialize_uint16" targetname: "__asan_stack_malloc_0" }
-edge: { sourcename: "serialize_uint16" targetname: "__asan_report_store2" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:210:18" }
-edge: { sourcename: "serialize_uint16" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:217:41" }
-edge: { sourcename: "serialize_uint16" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:217:17" }
-edge: { sourcename: "serialize_uint16" targetname: "__stack_chk_fail" }
-node: { title: "serialize_int32" label: "void serialize_int32(int32_t, uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:222:6\n160 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "serialize_int32" targetname: "__asan_stack_malloc_0" }
-node: { title: "__asan_report_store4" label: "void __builtin___asan_report_store4(void*)\n<built-in>" shape : ellipse }
-edge: { sourcename: "serialize_int32" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:229:18" }
-edge: { sourcename: "serialize_int32" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:237:41" }
-edge: { sourcename: "serialize_int32" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:237:17" }
-edge: { sourcename: "serialize_int32" targetname: "__stack_chk_fail" }
-node: { title: "serialize_uint32" label: "void serialize_uint32(uint32_t, uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:243:6\n160 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "serialize_uint32" targetname: "__asan_stack_malloc_0" }
-edge: { sourcename: "serialize_uint32" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:249:18" }
-edge: { sourcename: "serialize_uint32" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:256:41" }
-edge: { sourcename: "serialize_uint32" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:256:17" }
-edge: { sourcename: "serialize_uint32" targetname: "__stack_chk_fail" }
-node: { title: "serialize_int64" label: "void serialize_int64(int64_t, uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:262:6\n160 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "serialize_int64" targetname: "__asan_stack_malloc_0" }
-node: { title: "__asan_report_store8" label: "void __builtin___asan_report_store8(void*)\n<built-in>" shape : ellipse }
-edge: { sourcename: "serialize_int64" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:269:17" }
-edge: { sourcename: "serialize_int64" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:277:41" }
-edge: { sourcename: "serialize_int64" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:277:17" }
+node: { title: "deserialize_float" label: "float deserialize_float(const uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:155:7\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "serialize_int16" label: "void serialize_int16(int16_t, uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:178:6\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "serialize_uint16" label: "void serialize_uint16(uint16_t, uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:203:6\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "serialize_int32" label: "void serialize_int32(int32_t, uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:222:6\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "serialize_uint32" label: "void serialize_uint32(uint32_t, uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:243:6\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "serialize_int64" label: "void serialize_int64(int64_t, uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:262:6\n32 bytes (static)\n0 dynamic objects" }
 edge: { sourcename: "serialize_int64" targetname: "__stack_chk_fail" }
-node: { title: "serialize_uint64" label: "void serialize_uint64(uint64_t, uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:283:6\n160 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "serialize_uint64" targetname: "__asan_stack_malloc_0" }
-edge: { sourcename: "serialize_uint64" targetname: "__asan_report_store8" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:290:17" }
-edge: { sourcename: "serialize_uint64" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:298:41" }
-edge: { sourcename: "serialize_uint64" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:298:17" }
+node: { title: "serialize_uint64" label: "void serialize_uint64(uint64_t, uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:283:6\n32 bytes (static)\n0 dynamic objects" }
 edge: { sourcename: "serialize_uint64" targetname: "__stack_chk_fail" }
-node: { title: "serialize_float" label: "void serialize_float(float, uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:304:6\n160 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "serialize_float" targetname: "__asan_stack_malloc_0" }
-edge: { sourcename: "serialize_float" targetname: "__asan_report_store4" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:310:18" }
-edge: { sourcename: "serialize_float" targetname: "__asan_report_load1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:317:41" }
-edge: { sourcename: "serialize_float" targetname: "__asan_report_store1" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:317:17" }
-edge: { sourcename: "serialize_float" targetname: "__stack_chk_fail" }
-node: { title: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:_sub_I_00099_0" label: "_sub_I_00099_0\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:321:1\n16 bytes (static)\n0 dynamic objects" }
-node: { title: "__asan_init" label: "void __builtin___asan_init()\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:_sub_I_00099_0" targetname: "__asan_init" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:321:1" }
-node: { title: "__asan_version_mismatch_check_v8" label: "void __builtin___asan_version_mismatch_check_v8()\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:_sub_I_00099_0" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:321:1" }
+node: { title: "serialize_float" label: "void serialize_float(float, uint8_t*)\n/home/jorge/sctre/work/asw_pus_rtems_5_0_leon3/service_libraries/serialize/src/serialize.cc:304:6\n8 bytes (static)\n0 dynamic objects" }
 }

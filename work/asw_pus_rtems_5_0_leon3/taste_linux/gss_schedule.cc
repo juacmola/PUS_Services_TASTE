@@ -4,7 +4,7 @@
 #include "public/emu_gss_v1.h"
 #include "public/emu_hw_timecode_drv_v1.h"
 
-#define EMU_TC_PROGRAMMING_FDIR
+#define EMU_TC_PROGRAMMING_ST01_ST17
 
 #if defined(EMU_TC_PROGRAMMING_ST03)
 #include "../service_libraries/emu_tc_programming/src/emu_tc_programming_st03.cc"

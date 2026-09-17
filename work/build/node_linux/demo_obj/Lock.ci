@@ -1,33 +1,10 @@
 graph: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc"
-node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZL18__gthread_active_pv" label: "int __gthread_active_p()\n/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:300:1\n16 bytes (static)\n0 dynamic objects" }
-node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZL20__gthread_mutex_lockP15pthread_mutex_t" label: "int __gthread_mutex_lock(__gthread_mutex_t*)\n/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:746:1\n32 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZL20__gthread_mutex_lockP15pthread_mutex_t" targetname: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZL18__gthread_active_pv" label: "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:748:26" }
+node: { title: "_ZN5taste4Lock4lockEv" label: "void taste::Lock::lock()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:27:1\n16 bytes (static)\n0 dynamic objects" }
 node: { title: "pthread_mutex_lock" label: "int pthread_mutex_lock(pthread_mutex_t*)\n/usr/include/pthread.h:794:12" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZL20__gthread_mutex_lockP15pthread_mutex_t" targetname: "pthread_mutex_lock" label: "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:749:41" }
-node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZL22__gthread_mutex_unlockP15pthread_mutex_t" label: "int __gthread_mutex_unlock(__gthread_mutex_t*)\n/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:776:1\n32 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZL22__gthread_mutex_unlockP15pthread_mutex_t" targetname: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZL18__gthread_active_pv" label: "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:778:26" }
-node: { title: "pthread_mutex_unlock" label: "int pthread_mutex_unlock(pthread_mutex_t*)\n/usr/include/pthread.h:835:12" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZL22__gthread_mutex_unlockP15pthread_mutex_t" targetname: "pthread_mutex_unlock" label: "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:779:43" }
-node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZNSt5mutex4lockEv" label: "void std::mutex::lock()\n/usr/include/c++/13/bits/std_mutex.h:111:5\n48 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZNSt5mutex4lockEv" targetname: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZL20__gthread_mutex_lockP15pthread_mutex_t" label: "/usr/include/c++/13/bits/std_mutex.h:113:37" }
-node: { title: "__asan_handle_no_return" label: "void __builtin___asan_handle_no_return()\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZNSt5mutex4lockEv" targetname: "__asan_handle_no_return" label: "/usr/include/c++/13/bits/std_mutex.h:117:22" }
+edge: { sourcename: "_ZN5taste4Lock4lockEv" targetname: "pthread_mutex_lock" label: "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:749:41" }
 node: { title: "_ZSt20__throw_system_errori" label: "void std::__throw_system_error(int)\n/usr/include/c++/13/bits/functexcept.h:106:3" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZNSt5mutex4lockEv" targetname: "_ZSt20__throw_system_errori" label: "/usr/include/c++/13/bits/std_mutex.h:117:22" }
-node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZNSt5mutex6unlockEv" label: "void std::mutex::unlock()\n/usr/include/c++/13/bits/std_mutex.h:129:5\n32 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZNSt5mutex6unlockEv" targetname: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZL22__gthread_mutex_unlockP15pthread_mutex_t" label: "/usr/include/c++/13/bits/std_mutex.h:132:29" }
-node: { title: "_ZN5taste4Lock4lockEv" label: "void taste::Lock::lock()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:27:1\n32 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "_ZN5taste4Lock4lockEv" targetname: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZNSt5mutex4lockEv" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:29:17" }
-node: { title: "_ZN5taste4Lock6unlockEv" label: "void taste::Lock::unlock()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:33:1\n32 bytes (static)\n0 dynamic objects" }
-edge: { sourcename: "_ZN5taste4Lock6unlockEv" targetname: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_ZNSt5mutex6unlockEv" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:35:19" }
-node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_sub_D_00099_0" label: "_sub_D_00099_0\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:37:1\n16 bytes (static)\n0 dynamic objects" }
-node: { title: "__asan_unregister_globals" label: "void __builtin___asan_unregister_globals(void*, long int)\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_sub_D_00099_0" targetname: "__asan_unregister_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:37:1" }
-node: { title: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_sub_I_00099_1" label: "_sub_I_00099_1\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:37:1\n16 bytes (static)\n0 dynamic objects" }
-node: { title: "__asan_init" label: "void __builtin___asan_init()\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_sub_I_00099_1" targetname: "__asan_init" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:37:1" }
-node: { title: "__asan_version_mismatch_check_v8" label: "void __builtin___asan_version_mismatch_check_v8()\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_sub_I_00099_1" targetname: "__asan_version_mismatch_check_v8" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:37:1" }
-node: { title: "__asan_register_globals" label: "void __builtin___asan_register_globals(void*, long int)\n<built-in>" shape : ellipse }
-edge: { sourcename: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:_sub_I_00099_1" targetname: "__asan_register_globals" label: "/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:37:1" }
+edge: { sourcename: "_ZN5taste4Lock4lockEv" targetname: "_ZSt20__throw_system_errori" label: "/usr/include/c++/13/bits/std_mutex.h:117:22" }
+node: { title: "_ZN5taste4Lock6unlockEv" label: "void taste::Lock::unlock()\n/home/jorge/sctre/work/build/node_linux/demo/runtime/Lock.cc:33:1\n8 bytes (static)\n0 dynamic objects" }
+node: { title: "pthread_mutex_unlock" label: "int pthread_mutex_unlock(pthread_mutex_t*)\n/usr/include/pthread.h:835:12" shape : ellipse }
+edge: { sourcename: "_ZN5taste4Lock6unlockEv" targetname: "pthread_mutex_unlock" label: "/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:779:43" }
 }
