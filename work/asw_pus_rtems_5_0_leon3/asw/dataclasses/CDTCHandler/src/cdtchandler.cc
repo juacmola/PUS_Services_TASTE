@@ -71,7 +71,7 @@ CDTCExecCtrl CDTCHandler::GetExecCtrl() {
 		execCtrl.mExecCtrl = ExecCtrlBKGTC;
 		break;
 	default:
-		execCtrl.mExecCtrl = ExecCtrlPrioTC;
+		execCtrl.mExecCtrl = ExecCtrlReboot;
 		break;
 	}
 
