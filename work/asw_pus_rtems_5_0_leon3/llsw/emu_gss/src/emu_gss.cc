@@ -34,9 +34,9 @@
 
 #include "../../../service_libraries/serialize/include/public/serialize.h"
 
-#ifdef GENERIC_LINUX_TARGET
-#include "../../../taste_linux/gss_schedule_config.h"
-#endif
+//#ifdef GENERIC_LINUX_TARGET
+//#include "../../../taste_linux/gss_schedule_config.h"
+//#endif
 
 
 void EmuGSS_ShowTM(const struct tm_mem_descriptor *pTMDescriptor) {
